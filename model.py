@@ -493,10 +493,12 @@ class NGCTransformer:
 
             EFE = L4 + block_errors + L1
             print("it gona enter to evolve but not yet  ")
+            print("does evolve work before ",self.output.W_out.weights.value)
             if bool(adapt_synapses):
                 self.circuit.evolve()
                 self.circuit.evolve_embedding()
                 print("i have updated the weight ")
+            print("does evolve work after check",self.output.W_out.weights.value)
         ## skip E/M steps if just doing test-time inference
         return y_mu_inf, y_mu, EFE
 
