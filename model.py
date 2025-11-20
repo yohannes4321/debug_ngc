@@ -476,30 +476,43 @@ class NGCTransformer:
         EFE = 0. ## expected free energy
         y_mu = 0.
         if bool(adapt_synapses):
-            for ts in range(0, self.T):
-                self.circuit.clamp_input(obs) ## clamp input data to z_embed & q_embed input compartments
-                self.circuit.clamp_target(_lab) ## clamp target data to z_target
+            for ts in range(self.T):
+                self.circuit.clamp_input(obs)   # clamp input data
+                self.circuit.clamp_target(_lab)  # clamp target data
                 self.circuit.advance(t=ts, dt=1.)
-                print(f"ts={ts}, L1={self.embedding.e_embed.L.value}, L4={self.output.e_out.L.value}")
-            y_mu = self.output.e_out.mu.value ## get settled prediction
 
+                # Print all relevant L-values at this timestep
+                print(f"ts={ts}:")
+                print(f"  L_embed (L1) = {self.embedding.e_embed.L.value}")
+                print(f"  L_out   (L4) = {self.output.e_out.L.value}")
+                for i, block in enumerate(self.blocks):
+                    print(f"  Block {i} attention error = {block.attention.e_attn.L.value}")
+                    print(f"  Block {i} mlp error 1   = {block.mlp.e_mlp.L.value}")
+                    print(f"  Block {i} mlp error 2   = {block.mlp.e_mlp1.L.value}")
+
+            y_mu = self.output.e_out.mu.value  # settled prediction
+
+            # Sum errors for expected free energy
             L1 = self.embedding.e_embed.L.value
             L4 = self.output.e_out.L.value
-            # Sum errors from ALL blocks
-            block_errors = 0.
-            for i in range(self.n_layers):
-                block = self.blocks[i]
-                block_errors += block.attention.e_attn.L.value + block.mlp.e_mlp.L.value + block.mlp.e_mlp1.L.value
+            block_errors = sum(
+                block.attention.e_attn.L.value +
+                block.mlp.e_mlp.L.value +
+                block.mlp.e_mlp1.L.value
+                for block in self.blocks
+            )
+            EFE = L1 + L4 + block_errors
 
-            EFE = L4 + block_errors + L1
-            print("it gona enter to evolve but not yet  ")
-            print("does evolve work before ",self.output.W_out.weights.value)
+            print("\nBefore evolve():")
+            print(f"  Output weights = {self.output.W_out.weights.value}")
+
             if bool(adapt_synapses):
                 self.circuit.evolve()
                 self.circuit.evolve_embedding()
-                print("i have updated the weight ")
-            print("does evolve work after check",self.output.W_out.weights.value)
-        ## skip E/M steps if just doing test-time inference
+                print("\nAfter evolve():")
+                print(f"  Output weights = {self.output.W_out.weights.value}")
+                print("  Weights updated ✅")
+                ## skip E/M steps if just doing test-time inference
         return y_mu_inf, y_mu, EFE
 
     def get_latents(self):
