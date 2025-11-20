@@ -424,8 +424,10 @@ class NGCTransformer:
         if self.embedding.W_embed.pos_learnable:
            self.Q_embed.pos_weights.set(self.embedding.W_embed.pos_weights.value)
         for i in range(self.n_layers):
+            
             block_proj= self.projection.blocks[i]
             block= self.blocks[i]
+            print(f"Block {i} errors: attn={block.attention.e_attn.L.value}, mlp={block.mlp.e_mlp.L.value}")
             block_proj.Q_q.weights.set(block.attention.W_q.weights.value)
             block_proj.Q_q.biases.set(block.attention.W_q.biases.value)
             block_proj.Q_k.weights.set(block.attention.W_k.weights.value)
@@ -473,12 +475,12 @@ class NGCTransformer:
 
         EFE = 0. ## expected free energy
         y_mu = 0.
-        if adapt_synapses:
+        if bool(adapt_synapses):
             for ts in range(0, self.T):
                 self.circuit.clamp_input(obs) ## clamp input data to z_embed & q_embed input compartments
                 self.circuit.clamp_target(_lab) ## clamp target data to z_target
                 self.circuit.advance(t=ts, dt=1.)
-
+                print(f"ts={ts}, L1={self.embedding.e_embed.L.value}, L4={self.output.e_out.L.value}")
             y_mu = self.output.e_out.mu.value ## get settled prediction
 
             L1 = self.embedding.e_embed.L.value
@@ -490,10 +492,11 @@ class NGCTransformer:
                 block_errors += block.attention.e_attn.L.value + block.mlp.e_mlp.L.value + block.mlp.e_mlp1.L.value
 
             EFE = L4 + block_errors + L1
-
-            if adapt_synapses == True:
+            print("it gona enter to evolve but not yet  ")
+            if bool(adapt_synapses):
                 self.circuit.evolve()
                 self.circuit.evolve_embedding()
+                print("i have updated the weight ")
         ## skip E/M steps if just doing test-time inference
         return y_mu_inf, y_mu, EFE
 
