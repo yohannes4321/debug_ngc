@@ -17,13 +17,6 @@ from layers.mlp import MLP
 from layers.output import Output
 from utils.model_util import ReshapeComponent
 from projection.projection import Projection
-import logging
-# logging.basicConfig(
-#     filename="debug_full_log.txt",
-#     filemode="w",            # overwrite file each run; use "a" to append
-#     level=logging.DEBUG,
-#     format="%(asctime)s\n%(message)s\n"
-# )
 
 class NGCTransformer:
     """
@@ -420,161 +413,88 @@ class NGCTransformer:
                 self.circuit.evolve_process, self.circuit.project_process
             )
             self._dynamic(processes)
-    # 
-
-
-
-   
-
-    # =======================================================
 
     def process(self, obs, lab, adapt_synapses=True):
         eps = 0.001
         _lab = jnp.clip(lab, eps, 1. - eps)
         self.circuit.reset()
 
-        # *** EMBEDDING DEBUG START ***
-        # print("W_embed.word_weights BEFORE", self.embedding.W_embed.word_weights.value)
+        ## pin/tie inference synapses to be exactly equal to the forward ones
         self.Q_embed.word_weights.set(self.embedding.W_embed.word_weights.value)
-        # print("Q_embed.word_weights AFTER", self.Q_embed.word_weights.value)
-
         if self.embedding.W_embed.pos_learnable:
-            # print("W_embed.pos_weights BEFORE", self.embedding.W_embed.pos_weights.value)
-            self.Q_embed.pos_weights.set(self.embedding.W_embed.pos_weights.value)
-            # print("Q_embed.pos_weights AFTER", self.Q_embed.pos_weights.value)
-
-        # *** LAYERS ***
+           self.Q_embed.pos_weights.set(self.embedding.W_embed.pos_weights.value)
         for i in range(self.n_layers):
-
-            # logging.print(f"\n******* DEBUG BLOCK {i} *******\n")
-
-            block_proj = self.projection.blocks[i]
-            block = self.blocks[i]
-
-            # Q
-            # print("W_q BEFORE", block.attention.W_q.weights.value)
+            block_proj= self.projection.blocks[i]
+            block= self.blocks[i]
             block_proj.Q_q.weights.set(block.attention.W_q.weights.value)
-            # print("Q_q AFTER", block_proj.Q_q.weights.value)
-
-            # print("W_q.biases BEFORE", block.attention.W_q.biases.value)
             block_proj.Q_q.biases.set(block.attention.W_q.biases.value)
-            # print("Q_q.biases AFTER", block_proj.Q_q.biases.value)
-
-            # K
-            # print("W_k BEFORE", block.attention.W_k.weights.value)
             block_proj.Q_k.weights.set(block.attention.W_k.weights.value)
-            # print("Q_k AFTER", block_proj.Q_k.weights.value)
-
-            # print("W_k.biases BEFORE", block.attention.W_k.biases.value)
             block_proj.Q_k.biases.set(block.attention.W_k.biases.value)
-            # print("Q_k.biases AFTER", block_proj.Q_k.biases.value)
-
-            # V
-            # print("W_v BEFORE", block.attention.W_v.weights.value)
             block_proj.Q_v.weights.set(block.attention.W_v.weights.value)
-            # print("Q_v AFTER", block_proj.Q_v.weights.value)
-
-            # print("W_v.biases BEFORE", block.attention.W_v.biases.value)
             block_proj.Q_v.biases.set(block.attention.W_v.biases.value)
-            # print("Q_v.biases AFTER", block_proj.Q_v.biases.value)
-
-            # Attn Output
-            # print("W_attn_out BEFORE", block.attention.W_attn_out.weights.value)
             block_proj.Q_attn_out.weights.set(block.attention.W_attn_out.weights.value)
-            # print("Q_attn_out AFTER", block_proj.Q_attn_out.weights.value)
-
-            # Inputs
-            # print("Inputs Q BEFORE", block.attention.attn_block.inputs_q.value)
-            # print("Inputs k BEFORE", block.attention.attn_block.inputs_k.value)
-            # print("Inputs V BEFORE", block.attention.attn_block.inputs_v.value)
             block_proj.q_attn_block.inputs_q.set(block.attention.attn_block.inputs_q.value)
             block_proj.q_attn_block.inputs_k.set(block.attention.attn_block.inputs_k.value)
             block_proj.q_attn_block.inputs_v.set(block.attention.attn_block.inputs_v.value)
-            # print("Inputs QKV AFTER", block_proj.q_attn_block.inputs_q.value)
-
-            # MLP1
-            # print("W_mlp1 BEFORE", block.mlp.W_mlp1.weights.value)
+            block_proj.Q_attn_out.biases.set(block.attention.W_attn_out.biases.value)
             block_proj.Q_mlp1.weights.set(block.mlp.W_mlp1.weights.value)
-            # print("Q_mlp1 AFTER", block_proj.Q_mlp1.weights.value)
-
-            # print("W_mlp1.bias BEFORE", block.mlp.W_mlp1.biases.value)
             block_proj.Q_mlp1.biases.set(block.mlp.W_mlp1.biases.value)
-            # print("Q_mlp1.bias AFTER", block_proj.Q_mlp1.biases.value)
-
-            # MLP2
-            # print("W_mlp2 BEFORE", block.mlp.W_mlp2.weights.value)
             block_proj.Q_mlp2.weights.set(block.mlp.W_mlp2.weights.value)
-            # print("Q_mlp2 AFTER", block_proj.Q_mlp2.weights.value)
-
-            # print("W_mlp2.bias BEFORE", block.mlp.W_mlp2.biases.value)
             block_proj.Q_mlp2.biases.set(block.mlp.W_mlp2.biases.value)
-            # print("Q_mlp2.bias AFTER", block_proj.Q_mlp2.biases.value)
+            
+            ## pin/tie feedback synapses to transpose of forward ones
 
-            # Feedbacks
-            # print("E_attn BEFORE", block.attention.E_attn.weights.value)
             block.attention.E_attn.weights.set(jnp.transpose(block.attention.W_attn_out.weights.value))
-            # print("E_attn AFTER", block.attention.E_attn.weights.value)
-
-            # print("E_mlp BEFORE", block.mlp.E_mlp.weights.value)
-            block.mlp.E_mlp.weights.set(jnp.transpose(block.mlp.W_mlp2.weights.value))
-            # print("E_mlp AFTER", block.mlp.E_mlp.weights.value)
-
-        # Output
-        # print("W_out BEFORE", self.output.W_out.weights.value)
+            block.mlp.E_mlp.weights.set(jnp.transpose(block.mlp.W_mlp2.weights.value))  
+            block.mlp.E_mlp1.weights.set(jnp.transpose(block.mlp.W_mlp1.weights.value))
+  
         self.projection.Q_out.weights.set(self.output.W_out.weights.value)
-        # print("Q_out AFTER", self.projection.Q_out.weights.value)
-
-
-        # TODO CHEACK THIS 
-        # print("Init z_qkv BEFORE", self.projection.blocks[0].q_qkv.z.value)
-        # self.blocks[0].attention.z_qkv.z.set(self.projection.blocks[0].q_qkv.z.value)
-        # print("z_qkv AFTER", self.blocks[0].attention.z_qkv.z.value)
-
-        # --- PROJECTION ---
+        self.projection.Q_out.biases.set(self.output.W_out.biases.value)
+        self.projection.q_target.j_td.set(jnp.zeros((config.batch_size * config.seq_len, config.vocab_size)))
+        
+        ## pin/tie feedback synapses to transpose of forward ones
+       
+        self.output.E_out.weights.set(jnp.transpose(self.output.W_out.weights.value))
+        
+        ## Perform P-step (projection step)
         self.circuit.clamp_input(obs)
         self.circuit.clamp_infer_target(_lab)
-        self.circuit.project(t=0., dt=1.)
-        # print("Projected y_mu_inf", self.q_target.z.value)
+        self.circuit.project(t=0., dt=1.) 
+        ## initialize dynamics of generative model latents to projected states for the errors it's 0
+        self.blocks[0].attention.z_qkv.z.set(self.projection.blocks[0].q_qkv.z.value)
+        self.blocks[0].mlp.z_mlp.z.set(self.projection.blocks[0].q_mlp.z.value)
+        self.blocks[0].mlp.z_mlp2.z.set(self.projection.blocks[0].q_mlp2.z.value)
+        self.output.e_out.dmu.set(self.projection.eq_target.dmu.value)
+        self.output.e_out.dtarget.set(self.projection.eq_target.dtarget.value)
+        
+        
+        ## get projected prediction (from the P-step)
+        y_mu_inf = self.q_target.z.value
 
+        EFE = 0. ## expected free energy
         y_mu = 0.
-        EFE = 0.
-
         if adapt_synapses:
             for ts in range(0, self.T):
-                self.circuit.clamp_input(obs)
-                self.circuit.clamp_target(_lab)
+                self.circuit.clamp_input(obs) ## clamp input data to z_embed & q_embed input compartments
+                self.circuit.clamp_target(_lab) ## clamp target data to z_target
                 self.circuit.advance(t=ts, dt=1.)
-                self.circuit.evolve_embedding(t=self.T, dt=1.)
-                self.circuit.evolve(t=self.T, dt=1.)
-                
-                # print("W_q AFTER", block.attention.W_q.weights.value)
-                # print("W_k After ", block.attention.W_k.weights.value)
-                # print("W_v After ", block.attention.W_v.weights.value)
-                # print("Inputs Q After ", block.attention.attn_block.inputs_q.value)
-                # print("Inputs k After ", block.attention.attn_block.inputs_k.value)
-                # print("Inputs V After ", block.attention.attn_block.inputs_v.value)
-                    
 
-
-            y_mu = self.output.e_out.mu.value
-            # print("y_mu AFTER settle", y_mu)
+            y_mu = self.output.e_out.mu.value ## get settled prediction
 
             L1 = self.embedding.e_embed.L.value
             L4 = self.output.e_out.L.value
+            # Sum errors from ALL blocks
             block_errors = 0.
-
             for i in range(self.n_layers):
                 block = self.blocks[i]
                 block_errors += block.attention.e_attn.L.value + block.mlp.e_mlp.L.value + block.mlp.e_mlp1.L.value
 
             EFE = L4 + block_errors + L1
-            print("EFE FINAL", EFE)
 
-            # if adapt_synapses is True:
-            #     print("EVOLVE CALLED", "updating synapses")
-            #     
-        # return 0,0,0
-        return self.q_target.z.value, y_mu, EFE
+            if adapt_synapses == True:
+                
+        ## skip E/M steps if just doing test-time inference
+        return y_mu_inf, y_mu, EFE
 
     def get_latents(self):
         return self.q_out.z.value
