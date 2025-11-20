@@ -1,35 +1,659 @@
-Missing configuration file. Attempted to locate file at "json_files/config.json". Default Config will be used. 
-See https://ngc-learn.readthedocs.io/en/latest/tutorials/model_basics/configuration.html for additional information
+Streaming output truncated to the last 5000 lines.
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.714919219215517e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.698825255720294e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.6828349746210733e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.6669467843021266e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.6511620490055066e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.6354809961048886e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.619899532874115e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.6044178866868606e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.5890374217851786e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
 
- iter 0:
+Before evolve():
+  Output weights = [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
+   0.00226022]
+ [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
+  -0.00536946]
+ [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
+  -0.00946642]
+ ...
+ [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
+   0.00013707]
+ [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
+   0.00044256]
+ [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
+   0.00403732]]
+
+After evolve():
+  Output weights = [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
+   0.00226022]
+ [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
+  -0.00536946]
+ [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
+  -0.00946642]
+ ...
+ [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
+   0.00013707]
+ [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
+   0.00044256]
+ [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
+   0.00403732]]
+  Weights updated ✅
 Block 0 errors: attn=0.0, mlp=0.0
 Block 1 errors: attn=0.0, mlp=0.0
 Block 2 errors: attn=0.0, mlp=0.0
 Block 3 errors: attn=0.0, mlp=0.0
 Block 4 errors: attn=0.0, mlp=0.0
 Block 5 errors: attn=0.0, mlp=0.0
-ts=0, L1=-0.644756019115448, L4=-0.0
-ts=1, L1=-0.5772591829299927, L4=-0.0
-ts=2, L1=-4.5947981530680693e-10, L4=-0.0
-ts=3, L1=-9.054769711802635e-10, L4=-0.0
-ts=4, L1=-4.585227571503943e-19, L4=-0.0
-ts=5, L1=-2.400941358771916e-19, L4=-0.0
-ts=6, L1=-0.0, L4=-0.0
-ts=7, L1=-0.0, L4=-0.0
-ts=8, L1=-0.0, L4=-0.0
-ts=9, L1=-0.0, L4=-0.0
-ts=10, L1=-0.0, L4=-0.0
-ts=11, L1=-0.0, L4=-0.0
-ts=12, L1=-0.0, L4=-0.0
-ts=13, L1=-0.0, L4=-0.0
-ts=14, L1=-0.0, L4=-0.0
-ts=15, L1=-0.0, L4=-0.0
-ts=16, L1=-0.0, L4=-0.0
-ts=17, L1=-0.0, L4=-0.0
-ts=18, L1=-0.0, L4=-0.0
-ts=19, L1=-0.0, L4=-0.0
-it gona enter to evolve but not yet  
-does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
+ts=0:
+  L_embed (L1) = -0.6785379648208618
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.0849751106434269e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=1:
+  L_embed (L1) = -0.5772592425346375
+  L_out   (L4) = -0.0
+  Block 0 attention error = -2.460237453760783e-07
+  Block 0 mlp error 1   = -1.0787759947561426e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=2:
+  L_embed (L1) = -4.647719986650145e-10
+  L_out   (L4) = -0.0
+  Block 0 attention error = -4.965442030879785e-07
+  Block 0 mlp error 1   = -1.072618260877789e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=3:
+  L_embed (L1) = -9.054765270910536e-10
+  L_out   (L4) = -0.0
+  Block 0 attention error = -2.079105049473777e-15
+  Block 0 mlp error 1   = -1.0665005447663134e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=4:
+  L_embed (L1) = -4.537515793771884e-19
+  L_out   (L4) = -0.0
+  Block 0 attention error = -1.0600852386530432e-15
+  Block 0 mlp error 1   = -1.060423983290093e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=5:
+  L_embed (L1) = -2.400941358771916e-19
+  L_out   (L4) = -0.0
+  Block 0 attention error = -1.3273663892061866e-22
+  Block 0 mlp error 1   = -1.0543869848333998e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -6.961241842516574e-23
+  Block 0 mlp error 1   = -1.0483893220225582e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.0424307674838929e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.0365113212174037e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.0306323474651435e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.0247897535009542e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.0189864951826166e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.0132221177627798e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.0074950296257157e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.0018050033977488e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -9.961527211999055e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -9.905379556585103e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -9.849586604104843e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -9.794164270715555e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -9.739105735206977e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+
+Before evolve():
+  Output weights = [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
    0.00226022]
  [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
   -0.00536946]
@@ -42,8 +666,9 @@ does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  
    0.00044256]
  [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
    0.00403732]]
-i have updated the weight 
-does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
+
+After evolve():
+  Output weights = [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
    0.00226022]
  [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
   -0.00536946]
@@ -56,35 +681,436 @@ does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.006356
    0.00044256]
  [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
    0.00403732]]
-  Batch 0: EFE = 0.0000, CE = 16.1181, PPL = 10000055.0000
+  Weights updated ✅
 Block 0 errors: attn=0.0, mlp=0.0
 Block 1 errors: attn=0.0, mlp=0.0
 Block 2 errors: attn=0.0, mlp=0.0
 Block 3 errors: attn=0.0, mlp=0.0
 Block 4 errors: attn=0.0, mlp=0.0
 Block 5 errors: attn=0.0, mlp=0.0
-ts=0, L1=-0.6703848838806152, L4=-0.0
-ts=1, L1=-0.5772591829299927, L4=-0.0
-ts=2, L1=-4.354038796172688e-10, L4=-0.0
-ts=3, L1=-9.054911265238275e-10, L4=-0.0
-ts=4, L1=-4.90994559276776e-19, L4=-0.0
-ts=5, L1=-2.400941358771916e-19, L4=-0.0
-ts=6, L1=-0.0, L4=-0.0
-ts=7, L1=-0.0, L4=-0.0
-ts=8, L1=-0.0, L4=-0.0
-ts=9, L1=-0.0, L4=-0.0
-ts=10, L1=-0.0, L4=-0.0
-ts=11, L1=-0.0, L4=-0.0
-ts=12, L1=-0.0, L4=-0.0
-ts=13, L1=-0.0, L4=-0.0
-ts=14, L1=-0.0, L4=-0.0
-ts=15, L1=-0.0, L4=-0.0
-ts=16, L1=-0.0, L4=-0.0
-ts=17, L1=-0.0, L4=-0.0
-ts=18, L1=-0.0, L4=-0.0
-ts=19, L1=-0.0, L4=-0.0
-it gona enter to evolve but not yet  
-does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
+ts=0:
+  L_embed (L1) = -0.6863865256309509
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.2362455947823037e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -0.0
+  Block 0 attention error = -2.6738234737422317e-07
+  Block 0 mlp error 1   = -1.2315477704305522e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=2:
+  L_embed (L1) = -5.20661846969972e-10
+  L_out   (L4) = -0.0
+  Block 0 attention error = -4.965436914972088e-07
+  Block 0 mlp error 1   = -1.2268714044694207e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=3:
+  L_embed (L1) = -9.054829663845965e-10
+  L_out   (L4) = -0.0
+  Block 0 attention error = -2.1500377060592202e-15
+  Block 0 mlp error 1   = -1.2222177758758335e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=4:
+  L_embed (L1) = -4.558691617453242e-19
+  L_out   (L4) = -0.0
+  Block 0 attention error = -1.0601265315092218e-15
+  Block 0 mlp error 1   = -1.2175864583241491e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=5:
+  L_embed (L1) = -2.400941358771916e-19
+  L_out   (L4) = -0.0
+  Block 0 attention error = -1.3273663892061866e-22
+  Block 0 mlp error 1   = -1.212976883380179e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -6.961241842516574e-23
+  Block 0 mlp error 1   = -1.2083893352610175e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.203822250772646e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.1992776194347243e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.1947543043788755e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.1902535135277503e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.1857723336561321e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.1813121147952188e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.176874775410397e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.1724569759508086e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.1680600664476515e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.1636834784667371e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.159328135713622e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.1549929013199289e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.1506768515801014e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+
+Before evolve():
+  Output weights = [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
    0.00226022]
  [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
   -0.00536946]
@@ -97,8 +1123,9 @@ does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  
    0.00044256]
  [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
    0.00403732]]
-i have updated the weight 
-does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
+
+After evolve():
+  Output weights = [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
    0.00226022]
  [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
   -0.00536946]
@@ -111,34 +1138,436 @@ does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.006356
    0.00044256]
  [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
    0.00403732]]
+  Weights updated ✅
 Block 0 errors: attn=0.0, mlp=0.0
 Block 1 errors: attn=0.0, mlp=0.0
 Block 2 errors: attn=0.0, mlp=0.0
 Block 3 errors: attn=0.0, mlp=0.0
 Block 4 errors: attn=0.0, mlp=0.0
 Block 5 errors: attn=0.0, mlp=0.0
-ts=0, L1=-0.6809466481208801, L4=-0.0
-ts=1, L1=-0.5772591829299927, L4=-0.0
-ts=2, L1=-5.435629724104274e-10, L4=-0.0
-ts=3, L1=-9.054816341169669e-10, L4=-0.0
-ts=4, L1=-4.951106100048398e-19, L4=-0.0
-ts=5, L1=-2.400941358771916e-19, L4=-0.0
-ts=6, L1=-0.0, L4=-0.0
-ts=7, L1=-0.0, L4=-0.0
-ts=8, L1=-0.0, L4=-0.0
-ts=9, L1=-0.0, L4=-0.0
-ts=10, L1=-0.0, L4=-0.0
-ts=11, L1=-0.0, L4=-0.0
-ts=12, L1=-0.0, L4=-0.0
-ts=13, L1=-0.0, L4=-0.0
-ts=14, L1=-0.0, L4=-0.0
-ts=15, L1=-0.0, L4=-0.0
-ts=16, L1=-0.0, L4=-0.0
-ts=17, L1=-0.0, L4=-0.0
-ts=18, L1=-0.0, L4=-0.0
-ts=19, L1=-0.0, L4=-0.0
-it gona enter to evolve but not yet  
-does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
+ts=0:
+  L_embed (L1) = -0.6879978179931641
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.988038757706818e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=1:
+  L_embed (L1) = -0.5772592425346375
+  L_out   (L4) = -0.0
+  Block 0 attention error = -2.2237185248741298e-07
+  Block 0 mlp error 1   = -8.921241487769294e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=2:
+  L_embed (L1) = -4.0548517321603583e-10
+  L_out   (L4) = -0.0
+  Block 0 attention error = -4.965471589457593e-07
+  Block 0 mlp error 1   = -8.854964335114346e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=3:
+  L_embed (L1) = -9.054889060777782e-10
+  L_out   (L4) = -0.0
+  Block 0 attention error = -1.952363509576116e-15
+  Block 0 mlp error 1   = -8.789214689386426e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=4:
+  L_embed (L1) = -4.1998275805032364e-19
+  L_out   (L4) = -0.0
+  Block 0 attention error = -1.0600553807416525e-15
+  Block 0 mlp error 1   = -8.72398231877014e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=5:
+  L_embed (L1) = -2.400941358771916e-19
+  L_out   (L4) = -0.0
+  Block 0 attention error = -1.3273663892061866e-22
+  Block 0 mlp error 1   = -8.659261538923602e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -6.961241842516574e-23
+  Block 0 mlp error 1   = -8.595054055149376e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.5313530462372e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.46814771193749e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.405446578763076e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.343241688635317e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.281508598884102e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.220270046876976e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.159524327311374e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.099240176306921e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.039437489060219e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.980104896887497e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.921235010144301e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.862824986659689e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.804881079209736e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+
+Before evolve():
+  Output weights = [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
    0.00226022]
  [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
   -0.00536946]
@@ -151,8 +1580,9 @@ does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  
    0.00044256]
  [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
    0.00403732]]
-i have updated the weight 
-does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
+
+After evolve():
+  Output weights = [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
    0.00226022]
  [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
   -0.00536946]
@@ -165,34 +1595,436 @@ does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.006356
    0.00044256]
  [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
    0.00403732]]
+  Weights updated ✅
 Block 0 errors: attn=0.0, mlp=0.0
 Block 1 errors: attn=0.0, mlp=0.0
 Block 2 errors: attn=0.0, mlp=0.0
 Block 3 errors: attn=0.0, mlp=0.0
 Block 4 errors: attn=0.0, mlp=0.0
 Block 5 errors: attn=0.0, mlp=0.0
-ts=0, L1=-0.6759093999862671, L4=-0.0
-ts=1, L1=-0.5772592425346375, L4=-0.0
-ts=2, L1=-4.54637744118358e-10, L4=-0.0
-ts=3, L1=-9.054815230946645e-10, L4=-0.0
-ts=4, L1=-5.219972886352634e-19, L4=-0.0
-ts=5, L1=-2.400941358771916e-19, L4=-0.0
-ts=6, L1=-0.0, L4=-0.0
-ts=7, L1=-0.0, L4=-0.0
-ts=8, L1=-0.0, L4=-0.0
-ts=9, L1=-0.0, L4=-0.0
-ts=10, L1=-0.0, L4=-0.0
-ts=11, L1=-0.0, L4=-0.0
-ts=12, L1=-0.0, L4=-0.0
-ts=13, L1=-0.0, L4=-0.0
-ts=14, L1=-0.0, L4=-0.0
-ts=15, L1=-0.0, L4=-0.0
-ts=16, L1=-0.0, L4=-0.0
-ts=17, L1=-0.0, L4=-0.0
-ts=18, L1=-0.0, L4=-0.0
-ts=19, L1=-0.0, L4=-0.0
-it gona enter to evolve but not yet  
-does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
+ts=0:
+  L_embed (L1) = -0.6579845547676086
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.6899609818210592e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -0.0
+  Block 0 attention error = -2.762831741165428e-07
+  Block 0 mlp error 1   = -1.677280806688941e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=2:
+  L_embed (L1) = -5.1218218555249e-10
+  L_out   (L4) = -0.0
+  Block 0 attention error = -4.965470452589216e-07
+  Block 0 mlp error 1   = -1.664702267589746e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=3:
+  L_embed (L1) = -9.05485741942158e-10
+  L_out   (L4) = -0.0
+  Block 0 attention error = -2.24336972541833e-15
+  Block 0 mlp error 1   = -1.6522285477549303e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=4:
+  L_embed (L1) = -4.615667818045894e-19
+  L_out   (L4) = -0.0
+  Block 0 attention error = -1.0602065761227374e-15
+  Block 0 mlp error 1   = -1.6398552133978228e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=5:
+  L_embed (L1) = -2.400941358771916e-19
+  L_out   (L4) = -0.0
+  Block 0 attention error = -1.252920134076414e-22
+  Block 0 mlp error 1   = -1.6275835150736384e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -6.961241842516574e-23
+  Block 0 mlp error 1   = -1.615413907529728e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.6033420706662582e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.5913690276647685e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.5794937553437194e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.5677154578952468e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.5560341353193508e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.544446604384575e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.5329544567066478e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.5215553048619768e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.5102505130926147e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.4990368981671054e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.4879146874591243e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.4768820619792677e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.4659416365248035e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+
+Before evolve():
+  Output weights = [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
    0.00226022]
  [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
   -0.00536946]
@@ -205,8 +2037,9 @@ does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  
    0.00044256]
  [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
    0.00403732]]
-i have updated the weight 
-does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
+
+After evolve():
+  Output weights = [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
    0.00226022]
  [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
   -0.00536946]
@@ -219,34 +2052,442 @@ does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.006356
    0.00044256]
  [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
    0.00403732]]
+  Weights updated ✅
 Block 0 errors: attn=0.0, mlp=0.0
 Block 1 errors: attn=0.0, mlp=0.0
 Block 2 errors: attn=0.0, mlp=0.0
 Block 3 errors: attn=0.0, mlp=0.0
 Block 4 errors: attn=0.0, mlp=0.0
 Block 5 errors: attn=0.0, mlp=0.0
-ts=0, L1=-0.6743913888931274, L4=-0.0
-ts=1, L1=-0.5772591829299927, L4=-0.0
-ts=2, L1=-4.727553348793379e-10, L4=-0.0
-ts=3, L1=-9.054885730108708e-10, L4=-0.0
-ts=4, L1=-5.388519207966439e-19, L4=-0.0
-ts=5, L1=-2.400941358771916e-19, L4=-0.0
-ts=6, L1=-0.0, L4=-0.0
-ts=7, L1=-0.0, L4=-0.0
-ts=8, L1=-0.0, L4=-0.0
-ts=9, L1=-0.0, L4=-0.0
-ts=10, L1=-0.0, L4=-0.0
-ts=11, L1=-0.0, L4=-0.0
-ts=12, L1=-0.0, L4=-0.0
-ts=13, L1=-0.0, L4=-0.0
-ts=14, L1=-0.0, L4=-0.0
-ts=15, L1=-0.0, L4=-0.0
-ts=16, L1=-0.0, L4=-0.0
-ts=17, L1=-0.0, L4=-0.0
-ts=18, L1=-0.0, L4=-0.0
-ts=19, L1=-0.0, L4=-0.0
-it gona enter to evolve but not yet  
-does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
+ts=0:
+  L_embed (L1) = -0.6676607131958008
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.2711871022474952e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=1:
+  L_embed (L1) = -0.5772592425346375
+  L_out   (L4) = -0.0
+  Block 0 attention error = -2.6877293635152455e-07
+  Block 0 mlp error 1   = -1.261731085833162e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=2:
+  L_embed (L1) = -4.787210072798587e-10
+  L_out   (L4) = -0.0
+  Block 0 attention error = -4.965473863194347e-07
+  Block 0 mlp error 1   = -1.2523520354079665e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=3:
+  L_embed (L1) = -9.054887395443245e-10
+  L_out   (L4) = -0.0
+  Block 0 attention error = -2.1835188008818146e-15
+  Block 0 mlp error 1   = -1.2430537026375532e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=4:
+  L_embed (L1) = -4.796787284970505e-19
+  L_out   (L4) = -0.0
+  Block 0 attention error = -1.0601362723881153e-15
+  Block 0 mlp error 1   = -1.2338337000983302e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=5:
+  L_embed (L1) = -2.400941358771916e-19
+  L_out   (L4) = -0.0
+  Block 0 attention error = -1.3273663892061866e-22
+  Block 0 mlp error 1   = -1.2246920277902973e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -6.961241842516574e-23
+  Block 0 mlp error 1   = -1.2156262982898625e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.2066376484654029e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.1977236908933264e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.1888841981999576e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.1801207620010246e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.1714291758835316e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.1628114862105576e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.1542668971742387e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.1457927939773072e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.1373895176802762e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+Exception ignored in: <function _xla_gc_callback at 0x7e681c25c7c0>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/jax/_src/lib/__init__.py", line 96, in _xla_gc_callback
+    def _xla_gc_callback(*args):
+    
+KeyboardInterrupt: 
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.1290576367173344e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.1207952184122405e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.1126021490781568e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.1044776329072192e-06
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+
+Before evolve():
+  Output weights = [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
    0.00226022]
  [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
   -0.00536946]
@@ -259,8 +2500,9 @@ does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  
    0.00044256]
  [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
    0.00403732]]
-i have updated the weight 
-does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
+
+After evolve():
+  Output weights = [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
    0.00226022]
  [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
   -0.00536946]
@@ -273,330 +2515,7 @@ does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.006356
    0.00044256]
  [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
    0.00403732]]
-Block 0 errors: attn=0.0, mlp=0.0
-Block 1 errors: attn=0.0, mlp=0.0
-Block 2 errors: attn=0.0, mlp=0.0
-Block 3 errors: attn=0.0, mlp=0.0
-Block 4 errors: attn=0.0, mlp=0.0
-Block 5 errors: attn=0.0, mlp=0.0
-ts=0, L1=-0.6622147560119629, L4=-0.0
-ts=1, L1=-0.5772591829299927, L4=-0.0
-ts=2, L1=-4.749350912547357e-10, L4=-0.0
-ts=3, L1=-9.054847982525871e-10, L4=-0.0
-ts=4, L1=-5.115152559129915e-19, L4=-0.0
-ts=5, L1=-2.400941358771916e-19, L4=-0.0
-ts=6, L1=-0.0, L4=-0.0
-ts=7, L1=-0.0, L4=-0.0
-ts=8, L1=-0.0, L4=-0.0
-ts=9, L1=-0.0, L4=-0.0
-ts=10, L1=-0.0, L4=-0.0
-ts=11, L1=-0.0, L4=-0.0
-ts=12, L1=-0.0, L4=-0.0
-ts=13, L1=-0.0, L4=-0.0
-ts=14, L1=-0.0, L4=-0.0
-ts=15, L1=-0.0, L4=-0.0
-ts=16, L1=-0.0, L4=-0.0
-ts=17, L1=-0.0, L4=-0.0
-ts=18, L1=-0.0, L4=-0.0
-ts=19, L1=-0.0, L4=-0.0
-it gona enter to evolve but not yet  
-does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-i have updated the weight 
-does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-Block 0 errors: attn=0.0, mlp=0.0
-Block 1 errors: attn=0.0, mlp=0.0
-Block 2 errors: attn=0.0, mlp=0.0
-Block 3 errors: attn=0.0, mlp=0.0
-Block 4 errors: attn=0.0, mlp=0.0
-Block 5 errors: attn=0.0, mlp=0.0
-ts=0, L1=-0.7062607407569885, L4=-0.0
-ts=1, L1=-0.5772591829299927, L4=-0.0
-ts=2, L1=-5.454356966083651e-10, L4=-0.0
-ts=3, L1=-9.054789140705566e-10, L4=-0.0
-ts=4, L1=-4.902666403377293e-19, L4=-0.0
-ts=5, L1=-2.400941358771916e-19, L4=-0.0
-ts=6, L1=-0.0, L4=-0.0
-ts=7, L1=-0.0, L4=-0.0
-ts=8, L1=-0.0, L4=-0.0
-ts=9, L1=-0.0, L4=-0.0
-ts=10, L1=-0.0, L4=-0.0
-ts=11, L1=-0.0, L4=-0.0
-ts=12, L1=-0.0, L4=-0.0
-ts=13, L1=-0.0, L4=-0.0
-ts=14, L1=-0.0, L4=-0.0
-ts=15, L1=-0.0, L4=-0.0
-ts=16, L1=-0.0, L4=-0.0
-ts=17, L1=-0.0, L4=-0.0
-ts=18, L1=-0.0, L4=-0.0
-ts=19, L1=-0.0, L4=-0.0
-it gona enter to evolve but not yet  
-does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-i have updated the weight 
-does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-Block 0 errors: attn=0.0, mlp=0.0
-Block 1 errors: attn=0.0, mlp=0.0
-Block 2 errors: attn=0.0, mlp=0.0
-Block 3 errors: attn=0.0, mlp=0.0
-Block 4 errors: attn=0.0, mlp=0.0
-Block 5 errors: attn=0.0, mlp=0.0
-ts=0, L1=-0.6995213627815247, L4=-0.0
-ts=1, L1=-0.5772592425346375, L4=-0.0
-ts=2, L1=-5.114354495461271e-10, L4=-0.0
-ts=3, L1=-9.054862415425191e-10, L4=-0.0
-ts=4, L1=-4.730612835966263e-19, L4=-0.0
-ts=5, L1=-2.400941358771916e-19, L4=-0.0
-ts=6, L1=-0.0, L4=-0.0
-ts=7, L1=-0.0, L4=-0.0
-ts=8, L1=-0.0, L4=-0.0
-ts=9, L1=-0.0, L4=-0.0
-ts=10, L1=-0.0, L4=-0.0
-ts=11, L1=-0.0, L4=-0.0
-ts=12, L1=-0.0, L4=-0.0
-ts=13, L1=-0.0, L4=-0.0
-ts=14, L1=-0.0, L4=-0.0
-ts=15, L1=-0.0, L4=-0.0
-ts=16, L1=-0.0, L4=-0.0
-ts=17, L1=-0.0, L4=-0.0
-ts=18, L1=-0.0, L4=-0.0
-ts=19, L1=-0.0, L4=-0.0
-it gona enter to evolve but not yet  
-does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-i have updated the weight 
-does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-Block 0 errors: attn=0.0, mlp=0.0
-Block 1 errors: attn=0.0, mlp=0.0
-Block 2 errors: attn=0.0, mlp=0.0
-Block 3 errors: attn=0.0, mlp=0.0
-Block 4 errors: attn=0.0, mlp=0.0
-Block 5 errors: attn=0.0, mlp=0.0
-ts=0, L1=-0.6829602718353271, L4=-0.0
-ts=1, L1=-0.5772591829299927, L4=-0.0
-ts=2, L1=-4.629195360372762e-10, L4=-0.0
-ts=3, L1=-9.054773597583221e-10, L4=-0.0
-ts=4, L1=-4.919077666730345e-19, L4=-0.0
-ts=5, L1=-2.400941358771916e-19, L4=-0.0
-ts=6, L1=-0.0, L4=-0.0
-ts=7, L1=-0.0, L4=-0.0
-ts=8, L1=-0.0, L4=-0.0
-ts=9, L1=-0.0, L4=-0.0
-ts=10, L1=-0.0, L4=-0.0
-ts=11, L1=-0.0, L4=-0.0
-ts=12, L1=-0.0, L4=-0.0
-ts=13, L1=-0.0, L4=-0.0
-ts=14, L1=-0.0, L4=-0.0
-ts=15, L1=-0.0, L4=-0.0
-ts=16, L1=-0.0, L4=-0.0
-ts=17, L1=-0.0, L4=-0.0
-ts=18, L1=-0.0, L4=-0.0
-ts=19, L1=-0.0, L4=-0.0
-it gona enter to evolve but not yet  
-does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-i have updated the weight 
-does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-Block 0 errors: attn=0.0, mlp=0.0
-Block 1 errors: attn=0.0, mlp=0.0
-Block 2 errors: attn=0.0, mlp=0.0
-Block 3 errors: attn=0.0, mlp=0.0
-Block 4 errors: attn=0.0, mlp=0.0
-Block 5 errors: attn=0.0, mlp=0.0
-ts=0, L1=-0.6831982731819153, L4=-0.0
-ts=1, L1=-0.5772591829299927, L4=-0.0
-ts=2, L1=-4.763626160197987e-10, L4=-0.0
-ts=3, L1=-9.054811345166058e-10, L4=-0.0
-ts=4, L1=-4.540692167324088e-19, L4=-0.0
-ts=5, L1=-2.400941358771916e-19, L4=-0.0
-ts=6, L1=-0.0, L4=-0.0
-ts=7, L1=-0.0, L4=-0.0
-ts=8, L1=-0.0, L4=-0.0
-ts=9, L1=-0.0, L4=-0.0
-ts=10, L1=-0.0, L4=-0.0
-ts=11, L1=-0.0, L4=-0.0
-ts=12, L1=-0.0, L4=-0.0
-ts=13, L1=-0.0, L4=-0.0
-ts=14, L1=-0.0, L4=-0.0
-ts=15, L1=-0.0, L4=-0.0
-ts=16, L1=-0.0, L4=-0.0
-ts=17, L1=-0.0, L4=-0.0
-ts=18, L1=-0.0, L4=-0.0
-ts=19, L1=-0.0, L4=-0.0
-it gona enter to evolve but not yet  
-does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-i have updated the weight 
-does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-Block 0 errors: attn=0.0, mlp=0.0
-Block 1 errors: attn=0.0, mlp=0.0
-Block 2 errors: attn=0.0, mlp=0.0
-Block 3 errors: attn=0.0, mlp=0.0
-Block 4 errors: attn=0.0, mlp=0.0
-Block 5 errors: attn=0.0, mlp=0.0
-ts=0, L1=-0.674775242805481, L4=-0.0
-ts=1, L1=-0.5772591829299927, L4=-0.0
-ts=2, L1=-3.780669666220149e-10, L4=-0.0
-ts=3, L1=-9.05485741942158e-10, L4=-0.0
-ts=4, L1=-4.250848080685507e-19, L4=-0.0
-ts=5, L1=-2.400941358771916e-19, L4=-0.0
-ts=6, L1=-0.0, L4=-0.0
-ts=7, L1=-0.0, L4=-0.0
-ts=8, L1=-0.0, L4=-0.0
-ts=9, L1=-0.0, L4=-0.0
-ts=10, L1=-0.0, L4=-0.0
-ts=11, L1=-0.0, L4=-0.0
-ts=12, L1=-0.0, L4=-0.0
-ts=13, L1=-0.0, L4=-0.0
-ts=14, L1=-0.0, L4=-0.0
-ts=15, L1=-0.0, L4=-0.0
-ts=16, L1=-0.0, L4=-0.0
-ts=17, L1=-0.0, L4=-0.0
-ts=18, L1=-0.0, L4=-0.0
-ts=19, L1=-0.0, L4=-0.0
-it gona enter to evolve but not yet  
-does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-i have updated the weight 
-does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
+  Weights updated ✅
   Batch 10: EFE = -0.0000, CE = 16.1181, PPL = 10000055.0000
 Block 0 errors: attn=0.0, mlp=0.0
 Block 1 errors: attn=0.0, mlp=0.0
@@ -604,28 +2523,429 @@ Block 2 errors: attn=0.0, mlp=0.0
 Block 3 errors: attn=0.0, mlp=0.0
 Block 4 errors: attn=0.0, mlp=0.0
 Block 5 errors: attn=0.0, mlp=0.0
-ts=0, L1=-0.6657663583755493, L4=-0.0
-ts=1, L1=-0.5772591829299927, L4=-0.0
-ts=2, L1=-4.325286795392458e-10, L4=-0.0
-ts=3, L1=-9.054849092748896e-10, L4=-0.0
-ts=4, L1=-4.453143371291476e-19, L4=-0.0
-ts=5, L1=-2.400941358771916e-19, L4=-0.0
-ts=6, L1=-0.0, L4=-0.0
-ts=7, L1=-0.0, L4=-0.0
-ts=8, L1=-0.0, L4=-0.0
-ts=9, L1=-0.0, L4=-0.0
-ts=10, L1=-0.0, L4=-0.0
-ts=11, L1=-0.0, L4=-0.0
-ts=12, L1=-0.0, L4=-0.0
-ts=13, L1=-0.0, L4=-0.0
-ts=14, L1=-0.0, L4=-0.0
-ts=15, L1=-0.0, L4=-0.0
-ts=16, L1=-0.0, L4=-0.0
-ts=17, L1=-0.0, L4=-0.0
-ts=18, L1=-0.0, L4=-0.0
-ts=19, L1=-0.0, L4=-0.0
-it gona enter to evolve but not yet  
-does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
+ts=0:
+  L_embed (L1) = -0.6837690472602844
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.578397524961474e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -0.0
+  Block 0 attention error = -2.8809134278162674e-07
+  Block 0 mlp error 1   = -3.5544266552278714e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=2:
+  L_embed (L1) = -5.488205445658423e-10
+  L_out   (L4) = -0.0
+  Block 0 attention error = -4.965435209669522e-07
+  Block 0 mlp error 1   = -3.530650758420961e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=3:
+  L_embed (L1) = -9.054819116727231e-10
+  L_out   (L4) = -0.0
+  Block 0 attention error = -2.25707768312022e-15
+  Block 0 mlp error 1   = -3.507074097797158e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=4:
+  L_embed (L1) = -4.550816858021737e-19
+  L_out   (L4) = -0.0
+  Block 0 attention error = -1.0601267432674586e-15
+  Block 0 mlp error 1   = -3.4836932627513306e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=5:
+  L_embed (L1) = -2.400941358771916e-19
+  L_out   (L4) = -0.0
+  Block 0 attention error = -1.3273663892061866e-22
+  Block 0 mlp error 1   = -3.46050569532963e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -6.961241842516574e-23
+  Block 0 mlp error 1   = -3.43750770070983e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.4146989946748363e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.392076735053706e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.369641206063534e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.3473907024017535e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.3253238029828935e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.303437665636011e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.281731437709823e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.260200287513726e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.238849330955418e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.217669473087881e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.1966632718649635e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.17583101150376e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.1551667234452907e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+
+Before evolve():
+  Output weights = [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
    0.00226022]
  [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
   -0.00536946]
@@ -638,8 +2958,9 @@ does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  
    0.00044256]
  [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
    0.00403732]]
-i have updated the weight 
-does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
+
+After evolve():
+  Output weights = [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
    0.00226022]
  [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
   -0.00536946]
@@ -652,34 +2973,436 @@ does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.006356
    0.00044256]
  [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
    0.00403732]]
+  Weights updated ✅
 Block 0 errors: attn=0.0, mlp=0.0
 Block 1 errors: attn=0.0, mlp=0.0
 Block 2 errors: attn=0.0, mlp=0.0
 Block 3 errors: attn=0.0, mlp=0.0
 Block 4 errors: attn=0.0, mlp=0.0
 Block 5 errors: attn=0.0, mlp=0.0
-ts=0, L1=-0.656358003616333, L4=-0.0
-ts=1, L1=-0.5772591829299927, L4=-0.0
-ts=2, L1=-4.346354665063501e-10, L4=-0.0
-ts=3, L1=-9.054818561615718e-10, L4=-0.0
-ts=4, L1=-5.127328657746695e-19, L4=-0.0
-ts=5, L1=-2.400941358771916e-19, L4=-0.0
-ts=6, L1=-0.0, L4=-0.0
-ts=7, L1=-0.0, L4=-0.0
-ts=8, L1=-0.0, L4=-0.0
-ts=9, L1=-0.0, L4=-0.0
-ts=10, L1=-0.0, L4=-0.0
-ts=11, L1=-0.0, L4=-0.0
-ts=12, L1=-0.0, L4=-0.0
-ts=13, L1=-0.0, L4=-0.0
-ts=14, L1=-0.0, L4=-0.0
-ts=15, L1=-0.0, L4=-0.0
-ts=16, L1=-0.0, L4=-0.0
-ts=17, L1=-0.0, L4=-0.0
-ts=18, L1=-0.0, L4=-0.0
-ts=19, L1=-0.0, L4=-0.0
-it gona enter to evolve but not yet  
-does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
+ts=0:
+  L_embed (L1) = -0.6674622893333435
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.786950106947188e-08
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -0.0
+  Block 0 attention error = -2.1944396166873048e-07
+  Block 0 mlp error 1   = -7.738279350633093e-08
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=2:
+  L_embed (L1) = -3.8670047719513434e-10
+  L_out   (L4) = -0.0
+  Block 0 attention error = -4.965478979102045e-07
+  Block 0 mlp error 1   = -7.689978076541593e-08
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=3:
+  L_embed (L1) = -9.054830774068989e-10
+  L_out   (L4) = -0.0
+  Block 0 attention error = -2.0362566172874973e-15
+  Block 0 mlp error 1   = -7.642055521728253e-08
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=4:
+  L_embed (L1) = -4.599719775835872e-19
+  L_out   (L4) = -0.0
+  Block 0 attention error = -1.0602013880459354e-15
+  Block 0 mlp error 1   = -7.594501028052036e-08
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=5:
+  L_embed (L1) = -2.400941358771916e-19
+  L_out   (L4) = -0.0
+  Block 0 attention error = -1.3273663892061866e-22
+  Block 0 mlp error 1   = -7.547303226829172e-08
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -6.961241842516574e-23
+  Block 0 mlp error 1   = -7.500479171085317e-08
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.454008255081135e-08
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.407901136957662e-08
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.362146448031126e-08
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.316734951245962e-08
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.271681567999622e-08
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.226965692552767e-08
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.182596561960963e-08
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.138562807540438e-08
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.094865850376664e-08
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.051507111555111e-08
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.008470959135593e-08
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -6.965763077459997e-08
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -6.923384887613793e-08
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+
+Before evolve():
+  Output weights = [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
    0.00226022]
  [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
   -0.00536946]
@@ -692,8 +3415,9 @@ does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  
    0.00044256]
  [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
    0.00403732]]
-i have updated the weight 
-does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
+
+After evolve():
+  Output weights = [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
    0.00226022]
  [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
   -0.00536946]
@@ -706,34 +3430,436 @@ does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.006356
    0.00044256]
  [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
    0.00403732]]
+  Weights updated ✅
 Block 0 errors: attn=0.0, mlp=0.0
 Block 1 errors: attn=0.0, mlp=0.0
 Block 2 errors: attn=0.0, mlp=0.0
 Block 3 errors: attn=0.0, mlp=0.0
 Block 4 errors: attn=0.0, mlp=0.0
 Block 5 errors: attn=0.0, mlp=0.0
-ts=0, L1=-0.6582117080688477, L4=-0.0
-ts=1, L1=-0.5772591829299927, L4=-0.0
-ts=2, L1=-5.235672451142648e-10, L4=-0.0
-ts=3, L1=-9.054795802043714e-10, L4=-0.0
-ts=4, L1=-4.904519287949412e-19, L4=-0.0
-ts=5, L1=-2.400941358771916e-19, L4=-0.0
-ts=6, L1=-0.0, L4=-0.0
-ts=7, L1=-0.0, L4=-0.0
-ts=8, L1=-0.0, L4=-0.0
-ts=9, L1=-0.0, L4=-0.0
-ts=10, L1=-0.0, L4=-0.0
-ts=11, L1=-0.0, L4=-0.0
-ts=12, L1=-0.0, L4=-0.0
-ts=13, L1=-0.0, L4=-0.0
-ts=14, L1=-0.0, L4=-0.0
-ts=15, L1=-0.0, L4=-0.0
-ts=16, L1=-0.0, L4=-0.0
-ts=17, L1=-0.0, L4=-0.0
-ts=18, L1=-0.0, L4=-0.0
-ts=19, L1=-0.0, L4=-0.0
-it gona enter to evolve but not yet  
-does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
+ts=0:
+  L_embed (L1) = -0.6794319748878479
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -5.650592811434763e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -0.0
+  Block 0 attention error = -2.4557434130656475e-07
+  Block 0 mlp error 1   = -5.599805490419385e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=2:
+  L_embed (L1) = -4.637332740031752e-10
+  L_out   (L4) = -0.0
+  Block 0 attention error = -4.965466473549895e-07
+  Block 0 mlp error 1   = -5.549511570279719e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=3:
+  L_embed (L1) = -9.054811345166058e-10
+  L_out   (L4) = -0.0
+  Block 0 attention error = -2.045570168059032e-15
+  Block 0 mlp error 1   = -5.499721851265349e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=4:
+  L_embed (L1) = -4.875402530387545e-19
+  L_out   (L4) = -0.0
+  Block 0 attention error = -1.0600912737627924e-15
+  Block 0 mlp error 1   = -5.450422122521559e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=5:
+  L_embed (L1) = -2.400941358771916e-19
+  L_out   (L4) = -0.0
+  Block 0 attention error = -1.3273663892061866e-22
+  Block 0 mlp error 1   = -5.401610678745783e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -6.961241842516574e-23
+  Block 0 mlp error 1   = -5.353277288122626e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -5.305421382217901e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -5.258032160782022e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -5.211114739722689e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -5.164653202882619e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -5.11865664520883e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -5.073106308373099e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -5.028006171414745e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -4.983349981557694e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -4.939134896631003e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -4.895348411082523e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -4.851992798649007e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -4.809062943422759e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -4.7665548663644586e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+
+Before evolve():
+  Output weights = [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
    0.00226022]
  [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
   -0.00536946]
@@ -746,8 +3872,9 @@ does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  
    0.00044256]
  [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
    0.00403732]]
-i have updated the weight 
-does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
+
+After evolve():
+  Output weights = [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
    0.00226022]
  [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
   -0.00536946]
@@ -760,34 +3887,436 @@ does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.006356
    0.00044256]
  [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
    0.00403732]]
+  Weights updated ✅
 Block 0 errors: attn=0.0, mlp=0.0
 Block 1 errors: attn=0.0, mlp=0.0
 Block 2 errors: attn=0.0, mlp=0.0
 Block 3 errors: attn=0.0, mlp=0.0
 Block 4 errors: attn=0.0, mlp=0.0
 Block 5 errors: attn=0.0, mlp=0.0
-ts=0, L1=-0.6507672667503357, L4=-0.0
-ts=1, L1=-0.5772591829299927, L4=-0.0
-ts=2, L1=-4.660341001994084e-10, L4=-0.0
-ts=3, L1=-9.054849092748896e-10, L4=-0.0
-ts=4, L1=-4.657622418714584e-19, L4=-0.0
-ts=5, L1=-2.400941358771916e-19, L4=-0.0
-ts=6, L1=-0.0, L4=-0.0
-ts=7, L1=-0.0, L4=-0.0
-ts=8, L1=-0.0, L4=-0.0
-ts=9, L1=-0.0, L4=-0.0
-ts=10, L1=-0.0, L4=-0.0
-ts=11, L1=-0.0, L4=-0.0
-ts=12, L1=-0.0, L4=-0.0
-ts=13, L1=-0.0, L4=-0.0
-ts=14, L1=-0.0, L4=-0.0
-ts=15, L1=-0.0, L4=-0.0
-ts=16, L1=-0.0, L4=-0.0
-ts=17, L1=-0.0, L4=-0.0
-ts=18, L1=-0.0, L4=-0.0
-ts=19, L1=-0.0, L4=-0.0
-it gona enter to evolve but not yet  
-does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
+ts=0:
+  L_embed (L1) = -0.6922733783721924
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -9.767185247255838e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -0.0
+  Block 0 attention error = -2.3933051807034644e-07
+  Block 0 mlp error 1   = -9.676563195171184e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=2:
+  L_embed (L1) = -4.298932876345418e-10
+  L_out   (L4) = -0.0
+  Block 0 attention error = -4.965494326825137e-07
+  Block 0 mlp error 1   = -9.586865417077206e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=3:
+  L_embed (L1) = -9.054899607896516e-10
+  L_out   (L4) = -0.0
+  Block 0 attention error = -2.1095677423888307e-15
+  Block 0 mlp error 1   = -9.498103850091866e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=4:
+  L_embed (L1) = -5.009869010764165e-19
+  L_out   (L4) = -0.0
+  Block 0 attention error = -1.0601932353538181e-15
+  Block 0 mlp error 1   = -9.410246661900601e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=5:
+  L_embed (L1) = -2.400941358771916e-19
+  L_out   (L4) = -0.0
+  Block 0 attention error = -1.3232304861434215e-22
+  Block 0 mlp error 1   = -9.323299536845298e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -6.961241842516574e-23
+  Block 0 mlp error 1   = -9.2372403059926e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -9.152072948381829e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -9.067770747606119e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.984344503915054e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.901764658730826e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.820042580737208e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.739151553527336e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.659091577101208e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.579852988077619e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.501428965246305e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.423803024015797e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.346976301254472e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.270935722975992e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.195670488930773e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+
+Before evolve():
+  Output weights = [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
    0.00226022]
  [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
   -0.00536946]
@@ -800,8 +4329,9 @@ does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  
    0.00044256]
  [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
    0.00403732]]
-i have updated the weight 
-does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
+
+After evolve():
+  Output weights = [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
    0.00226022]
  [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
   -0.00536946]
@@ -814,34 +4344,436 @@ does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.006356
    0.00044256]
  [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
    0.00403732]]
+  Weights updated ✅
 Block 0 errors: attn=0.0, mlp=0.0
 Block 1 errors: attn=0.0, mlp=0.0
 Block 2 errors: attn=0.0, mlp=0.0
 Block 3 errors: attn=0.0, mlp=0.0
 Block 4 errors: attn=0.0, mlp=0.0
 Block 5 errors: attn=0.0, mlp=0.0
-ts=0, L1=-0.6517328023910522, L4=-0.0
-ts=1, L1=-0.5772592425346375, L4=-0.0
-ts=2, L1=-4.5018683225706013e-10, L4=-0.0
-ts=3, L1=-9.054838545630162e-10, L4=-0.0
-ts=4, L1=-4.669666168433356e-19, L4=-0.0
-ts=5, L1=-2.400941358771916e-19, L4=-0.0
-ts=6, L1=-0.0, L4=-0.0
-ts=7, L1=-0.0, L4=-0.0
-ts=8, L1=-0.0, L4=-0.0
-ts=9, L1=-0.0, L4=-0.0
-ts=10, L1=-0.0, L4=-0.0
-ts=11, L1=-0.0, L4=-0.0
-ts=12, L1=-0.0, L4=-0.0
-ts=13, L1=-0.0, L4=-0.0
-ts=14, L1=-0.0, L4=-0.0
-ts=15, L1=-0.0, L4=-0.0
-ts=16, L1=-0.0, L4=-0.0
-ts=17, L1=-0.0, L4=-0.0
-ts=18, L1=-0.0, L4=-0.0
-ts=19, L1=-0.0, L4=-0.0
-it gona enter to evolve but not yet  
-does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
+ts=0:
+  L_embed (L1) = -0.6607427597045898
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.563543249489157e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -0.0
+  Block 0 attention error = -2.734140878146718e-07
+  Block 0 mlp error 1   = -7.491264568670886e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=2:
+  L_embed (L1) = -4.8829484899926e-10
+  L_out   (L4) = -0.0
+  Block 0 attention error = -4.965478410667856e-07
+  Block 0 mlp error 1   = -7.419762368954252e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=3:
+  L_embed (L1) = -9.054868521651827e-10
+  L_out   (L4) = -0.0
+  Block 0 attention error = -2.2004990586171847e-15
+  Block 0 mlp error 1   = -7.349028692260617e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=4:
+  L_embed (L1) = -4.815249956242689e-19
+  L_out   (L4) = -0.0
+  Block 0 attention error = -1.0602072113974478e-15
+  Block 0 mlp error 1   = -7.279048759301077e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=5:
+  L_embed (L1) = -2.400941358771916e-19
+  L_out   (L4) = -0.0
+  Block 0 attention error = -1.3273663892061866e-22
+  Block 0 mlp error 1   = -7.209822001641442e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -6.961241842516574e-23
+  Block 0 mlp error 1   = -7.141330797821865e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.07357457940816e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.006543683019117e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -6.940224466234213e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -6.874616929053445e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -6.809717660871684e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -6.74549710311112e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -6.681962076982018e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -6.619118266826263e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -6.55693497719767e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -6.495410502793675e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -6.434552801692917e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -6.374328904712456e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -6.3147484752335e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+
+Before evolve():
+  Output weights = [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
    0.00226022]
  [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
   -0.00536946]
@@ -854,8 +4786,9 @@ does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  
    0.00044256]
  [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
    0.00403732]]
-i have updated the weight 
-does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
+
+After evolve():
+  Output weights = [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
    0.00226022]
  [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
   -0.00536946]
@@ -868,462 +4801,201 @@ does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.006356
    0.00044256]
  [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
    0.00403732]]
+  Weights updated ✅
 Block 0 errors: attn=0.0, mlp=0.0
 Block 1 errors: attn=0.0, mlp=0.0
 Block 2 errors: attn=0.0, mlp=0.0
 Block 3 errors: attn=0.0, mlp=0.0
 Block 4 errors: attn=0.0, mlp=0.0
 Block 5 errors: attn=0.0, mlp=0.0
-ts=0, L1=-0.6301108598709106, L4=-0.0
-ts=1, L1=-0.5772591829299927, L4=-0.0
-ts=2, L1=-4.0121622690847403e-10, L4=-0.0
-ts=3, L1=-9.054885730108708e-10, L4=-0.0
-ts=4, L1=-4.798706343991628e-19, L4=-0.0
-ts=5, L1=-2.400941358771916e-19, L4=-0.0
-ts=6, L1=-0.0, L4=-0.0
-ts=7, L1=-0.0, L4=-0.0
-ts=8, L1=-0.0, L4=-0.0
-ts=9, L1=-0.0, L4=-0.0
-ts=10, L1=-0.0, L4=-0.0
-ts=11, L1=-0.0, L4=-0.0
-ts=12, L1=-0.0, L4=-0.0
-ts=13, L1=-0.0, L4=-0.0
-ts=14, L1=-0.0, L4=-0.0
-ts=15, L1=-0.0, L4=-0.0
-ts=16, L1=-0.0, L4=-0.0
-ts=17, L1=-0.0, L4=-0.0
-ts=18, L1=-0.0, L4=-0.0
-ts=19, L1=-0.0, L4=-0.0
-it gona enter to evolve but not yet  
-does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-i have updated the weight 
-does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-Block 0 errors: attn=0.0, mlp=0.0
-Block 1 errors: attn=0.0, mlp=0.0
-Block 2 errors: attn=0.0, mlp=0.0
-Block 3 errors: attn=0.0, mlp=0.0
-Block 4 errors: attn=0.0, mlp=0.0
-Block 5 errors: attn=0.0, mlp=0.0
-ts=0, L1=-0.6713297963142395, L4=-0.0
-ts=1, L1=-0.5772591829299927, L4=-0.0
-ts=2, L1=-5.686831561213523e-10, L4=-0.0
-ts=3, L1=-9.054796912266738e-10, L4=-0.0
-ts=4, L1=-4.849925367520912e-19, L4=-0.0
-ts=5, L1=-2.400941358771916e-19, L4=-0.0
-ts=6, L1=-0.0, L4=-0.0
-ts=7, L1=-0.0, L4=-0.0
-ts=8, L1=-0.0, L4=-0.0
-ts=9, L1=-0.0, L4=-0.0
-ts=10, L1=-0.0, L4=-0.0
-ts=11, L1=-0.0, L4=-0.0
-ts=12, L1=-0.0, L4=-0.0
-ts=13, L1=-0.0, L4=-0.0
-ts=14, L1=-0.0, L4=-0.0
-ts=15, L1=-0.0, L4=-0.0
-ts=16, L1=-0.0, L4=-0.0
-ts=17, L1=-0.0, L4=-0.0
-ts=18, L1=-0.0, L4=-0.0
-ts=19, L1=-0.0, L4=-0.0
-it gona enter to evolve but not yet  
-does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-i have updated the weight 
-does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-Block 0 errors: attn=0.0, mlp=0.0
-Block 1 errors: attn=0.0, mlp=0.0
-Block 2 errors: attn=0.0, mlp=0.0
-Block 3 errors: attn=0.0, mlp=0.0
-Block 4 errors: attn=0.0, mlp=0.0
-Block 5 errors: attn=0.0, mlp=0.0
-ts=0, L1=-0.6379539370536804, L4=-0.0
-ts=1, L1=-0.5772591829299927, L4=-0.0
-ts=2, L1=-4.664260089271011e-10, L4=-0.0
-ts=3, L1=-9.054867966540314e-10, L4=-0.0
-ts=4, L1=-4.793280039173281e-19, L4=-0.0
-ts=5, L1=-2.400941358771916e-19, L4=-0.0
-ts=6, L1=-0.0, L4=-0.0
-ts=7, L1=-0.0, L4=-0.0
-ts=8, L1=-0.0, L4=-0.0
-ts=9, L1=-0.0, L4=-0.0
-ts=10, L1=-0.0, L4=-0.0
-ts=11, L1=-0.0, L4=-0.0
-ts=12, L1=-0.0, L4=-0.0
-ts=13, L1=-0.0, L4=-0.0
-ts=14, L1=-0.0, L4=-0.0
-ts=15, L1=-0.0, L4=-0.0
-ts=16, L1=-0.0, L4=-0.0
-ts=17, L1=-0.0, L4=-0.0
-ts=18, L1=-0.0, L4=-0.0
-ts=19, L1=-0.0, L4=-0.0
-it gona enter to evolve but not yet  
-does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-i have updated the weight 
-does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-Block 0 errors: attn=0.0, mlp=0.0
-Block 1 errors: attn=0.0, mlp=0.0
-Block 2 errors: attn=0.0, mlp=0.0
-Block 3 errors: attn=0.0, mlp=0.0
-Block 4 errors: attn=0.0, mlp=0.0
-Block 5 errors: attn=0.0, mlp=0.0
-ts=0, L1=-0.66202712059021, L4=-0.0
-ts=1, L1=-0.5772591829299927, L4=-0.0
-ts=2, L1=-4.24977192325926e-10, L4=-0.0
-ts=3, L1=-9.054843541633772e-10, L4=-0.0
-ts=4, L1=-4.428394127363889e-19, L4=-0.0
-ts=5, L1=-2.400941358771916e-19, L4=-0.0
-ts=6, L1=-0.0, L4=-0.0
-ts=7, L1=-0.0, L4=-0.0
-ts=8, L1=-0.0, L4=-0.0
-ts=9, L1=-0.0, L4=-0.0
-ts=10, L1=-0.0, L4=-0.0
-ts=11, L1=-0.0, L4=-0.0
-ts=12, L1=-0.0, L4=-0.0
-ts=13, L1=-0.0, L4=-0.0
-ts=14, L1=-0.0, L4=-0.0
-ts=15, L1=-0.0, L4=-0.0
-ts=16, L1=-0.0, L4=-0.0
-ts=17, L1=-0.0, L4=-0.0
-ts=18, L1=-0.0, L4=-0.0
-ts=19, L1=-0.0, L4=-0.0
-it gona enter to evolve but not yet  
-does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-i have updated the weight 
-does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-Block 0 errors: attn=0.0, mlp=0.0
-Block 1 errors: attn=0.0, mlp=0.0
-Block 2 errors: attn=0.0, mlp=0.0
-Block 3 errors: attn=0.0, mlp=0.0
-Block 4 errors: attn=0.0, mlp=0.0
-Block 5 errors: attn=0.0, mlp=0.0
-ts=0, L1=-0.6805113554000854, L4=-0.0
-ts=1, L1=-0.5772591829299927, L4=-0.0
-ts=2, L1=-5.27645815928679e-10, L4=-0.0
-ts=3, L1=-9.054780814032881e-10, L4=-0.0
-ts=4, L1=-4.979891985365244e-19, L4=-0.0
-ts=5, L1=-2.400941358771916e-19, L4=-0.0
-ts=6, L1=-0.0, L4=-0.0
-ts=7, L1=-0.0, L4=-0.0
-ts=8, L1=-0.0, L4=-0.0
-ts=9, L1=-0.0, L4=-0.0
-ts=10, L1=-0.0, L4=-0.0
-ts=11, L1=-0.0, L4=-0.0
-ts=12, L1=-0.0, L4=-0.0
-ts=13, L1=-0.0, L4=-0.0
-ts=14, L1=-0.0, L4=-0.0
-ts=15, L1=-0.0, L4=-0.0
-ts=16, L1=-0.0, L4=-0.0
-ts=17, L1=-0.0, L4=-0.0
-ts=18, L1=-0.0, L4=-0.0
-ts=19, L1=-0.0, L4=-0.0
-it gona enter to evolve but not yet  
-does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-i have updated the weight 
-does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-  Batch 20: EFE = -0.0000, CE = 16.1181, PPL = 10000055.0000
-Block 0 errors: attn=0.0, mlp=0.0
-Block 1 errors: attn=0.0, mlp=0.0
-Block 2 errors: attn=0.0, mlp=0.0
-Block 3 errors: attn=0.0, mlp=0.0
-Block 4 errors: attn=0.0, mlp=0.0
-Block 5 errors: attn=0.0, mlp=0.0
-ts=0, L1=-0.63576740026474, L4=-0.0
-ts=1, L1=-0.5772591829299927, L4=-0.0
-ts=2, L1=-3.8430320037363686e-10, L4=-0.0
-ts=3, L1=-9.054822447396305e-10, L4=-0.0
-ts=4, L1=-4.662188455695877e-19, L4=-0.0
-ts=5, L1=-2.400941358771916e-19, L4=-0.0
-ts=6, L1=-0.0, L4=-0.0
-ts=7, L1=-0.0, L4=-0.0
-ts=8, L1=-0.0, L4=-0.0
-ts=9, L1=-0.0, L4=-0.0
-ts=10, L1=-0.0, L4=-0.0
-ts=11, L1=-0.0, L4=-0.0
-ts=12, L1=-0.0, L4=-0.0
-ts=13, L1=-0.0, L4=-0.0
-ts=14, L1=-0.0, L4=-0.0
-ts=15, L1=-0.0, L4=-0.0
-ts=16, L1=-0.0, L4=-0.0
-ts=17, L1=-0.0, L4=-0.0
-ts=18, L1=-0.0, L4=-0.0
-ts=19, L1=-0.0, L4=-0.0
-it gona enter to evolve but not yet  
-does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-i have updated the weight 
-does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-Block 0 errors: attn=0.0, mlp=0.0
-Block 1 errors: attn=0.0, mlp=0.0
-Block 2 errors: attn=0.0, mlp=0.0
-Block 3 errors: attn=0.0, mlp=0.0
-Block 4 errors: attn=0.0, mlp=0.0
-Block 5 errors: attn=0.0, mlp=0.0
-ts=0, L1=-0.6667003631591797, L4=-0.0
-ts=1, L1=-0.5772591829299927, L4=-0.0
-ts=2, L1=-4.247402429768954e-10, L4=-0.0
-ts=3, L1=-9.054842431410748e-10, L4=-0.0
-ts=4, L1=-4.487487910324677e-19, L4=-0.0
-ts=5, L1=-2.400941358771916e-19, L4=-0.0
-ts=6, L1=-0.0, L4=-0.0
-ts=7, L1=-0.0, L4=-0.0
-ts=8, L1=-0.0, L4=-0.0
-ts=9, L1=-0.0, L4=-0.0
-ts=10, L1=-0.0, L4=-0.0
-ts=11, L1=-0.0, L4=-0.0
-ts=12, L1=-0.0, L4=-0.0
-ts=13, L1=-0.0, L4=-0.0
-ts=14, L1=-0.0, L4=-0.0
-ts=15, L1=-0.0, L4=-0.0
-ts=16, L1=-0.0, L4=-0.0
-ts=17, L1=-0.0, L4=-0.0
-ts=18, L1=-0.0, L4=-0.0
-ts=19, L1=-0.0, L4=-0.0
-it gona enter to evolve but not yet  
-does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-i have updated the weight 
-does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-Block 0 errors: attn=0.0, mlp=0.0
-Block 1 errors: attn=0.0, mlp=0.0
-Block 2 errors: attn=0.0, mlp=0.0
-Block 3 errors: attn=0.0, mlp=0.0
-Block 4 errors: attn=0.0, mlp=0.0
-Block 5 errors: attn=0.0, mlp=0.0
-ts=0, L1=-0.6843668222427368, L4=-0.0
-ts=1, L1=-0.5772592425346375, L4=-0.0
-ts=2, L1=-5.314061413130844e-10, L4=-0.0
-ts=3, L1=-9.054894611892905e-10, L4=-0.0
-ts=4, L1=-5.348417491869868e-19, L4=-0.0
-ts=5, L1=-2.400941358771916e-19, L4=-0.0
-ts=6, L1=-0.0, L4=-0.0
-ts=7, L1=-0.0, L4=-0.0
-ts=8, L1=-0.0, L4=-0.0
-ts=9, L1=-0.0, L4=-0.0
-ts=10, L1=-0.0, L4=-0.0
-ts=11, L1=-0.0, L4=-0.0
-ts=12, L1=-0.0, L4=-0.0
-ts=13, L1=-0.0, L4=-0.0
-ts=14, L1=-0.0, L4=-0.0
-ts=15, L1=-0.0, L4=-0.0
-ts=16, L1=-0.0, L4=-0.0
-ts=17, L1=-0.0, L4=-0.0
-ts=18, L1=-0.0, L4=-0.0
-ts=19, L1=-0.0, L4=-0.0
-it gona enter to evolve but not yet  
-does evolve work before  [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-i have updated the weight 
-does evolve work after check [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
- ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
-Block 0 errors: attn=0.0, mlp=0.0
-Block 1 errors: attn=0.0, mlp=0.0
-Block 2 errors: attn=0.0, mlp=0.0
-Block 3 errors: attn=0.0, mlp=0.0
-Block 4 errors: attn=0.0, mlp=0.0
-Block 5 errors: attn=0.0, mlp=0.0
-Traceback (most recent call last):
-  File "/content/debug_ngc/debug_ngc/debug_ngc/debug_ngc/train.py", line 79, in <module>
-    main()
-  File "/content/debug_ngc/debug_ngc/debug_ngc/debug_ngc/train.py", line 55, in main
-    yMu_inf, _, _EFE = model.process(obs=inputs, lab=targets, adapt_synapses=True)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/content/debug_ngc/debug_ngc/debug_ngc/debug_ngc/model.py", line 483, in process
-    print(f"ts={ts}, L1={self.embedding.e_embed.L.value}, L4={self.output.e_out.L.value}")
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/dist-packages/jax/_src/array.py", line 381, in __format__
-    return format(self._value[()], format_spec)
-                  ^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/dist-packages/jax/_src/profiler.py", line 334, in wrapper
-    return func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/dist-packages/jax/_src/array.py", line 689, in _value
-    npy_value, did_copy = self._single_device_array_to_np_array_did_copy()
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-KeyboardInterrupt
+ts=0:
+  L_embed (L1) = -0.6751242280006409
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.4912264962040354e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -0.0
+  Block 0 attention error = -2.2713035718879837e-07
+  Block 0 mlp error 1   = -2.4681474997123587e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=2:
+  L_embed (L1) = -4.3102338365130777e-10
+  L_out   (L4) = -0.0
+  Block 0 attention error = -4.965481252838799e-07
+  Block 0 mlp error 1   = -2.445319182697858e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=3:
+  L_embed (L1) = -9.05482133717328e-10
+  L_out   (L4) = -0.0
+  Block 0 attention error = -1.8228763123799303e-15
+  Block 0 mlp error 1   = -2.4227392714237794e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=4:
+  L_embed (L1) = -4.647696251363948e-19
+  L_out   (L4) = -0.0
+  Block 0 attention error = -1.0601949294197126e-15
+  Block 0 mlp error 1   = -2.400404639502085e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=5:
+  L_embed (L1) = -2.400941358771916e-19
+  L_out   (L4) = -0.0
+  Block 0 attention error = -1.2984150677668306e-22
+  Block 0 mlp error 1   = -2.3783108815678133e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -6.961241842516574e-23
+  Block 0 mlp error 1   = -2.3564581397295115e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.334843145490595e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.3134600724006305e-07
+  Block 0 mlp error 2   = 0.0
+  Block 1 attention error = -0.0
+  Block 1 mlp error 1   = -0.0
+  Block 1 mlp error 2   = 0.0
+  Block 2 attention error = -0.0
+  Block 2 mlp error 1   = -0.0
+  Block 2 mlp error 2   = 0.0
+  Block 3 attention error = -0.0
+  Block 3 mlp error 1   = -0.0
+  Block 3 mlp error 2   = 0.0
+  Block 4 attention error = -0.0
+  Block 4 mlp error 1   = -0.0
+  Block 4 mlp error 2   = 0.0
+  Block 5 attention error = -0.0
+  Block 5 mlp error 1   = -0.0
+  Block 5 mlp error 2   = 0.0
+ts=9:
 ^C

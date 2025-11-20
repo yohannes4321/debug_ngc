@@ -11,4 +11,5 @@ dist/
 .ipynb_checkpoints/
 outputs/
 logs/
-*.log   
+*.log  
+tryyyyyy.py

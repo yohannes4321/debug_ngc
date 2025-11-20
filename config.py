@@ -5,7 +5,7 @@ class Config:
     batch_size = 5
     vocab_size = 11710 # data vocab size + special tokens = 11706 + 4
     n_heads = 2
-    n_layers = 6
+    n_layers = 1
     dropout_rate = 0.1
     eta = 0.0001
     exp_dir = "exp" 
