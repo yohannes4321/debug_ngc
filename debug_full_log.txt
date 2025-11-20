@@ -1,0 +1,265 @@
+2025-11-20 13:57:11,219
+Finished tracing + transforming convert_element_type for pjit in 0.000392675 sec
+
+2025-11-20 13:57:11,220
+Discovered path based JAX plugin: jax_plugins.xla_cuda12
+
+2025-11-20 13:57:11,229
+Discovered entry-point based JAX plugin: jax_plugins.xla_cuda12
+
+2025-11-20 13:57:11,230
+Loading plugin module jax_plugins.xla_cuda12
+
+2025-11-20 13:57:13,292
+Jax plugin configuration error: Exception when calling jax_plugins.xla_cuda12.initialize()
+Traceback (most recent call last):
+  File "/home/yohannes/miniconda3/envs/ngc_new/lib/python3.10/site-packages/jax/_src/xla_bridge.py", line 442, in discover_pjrt_plugins
+    plugin_module.initialize()
+  File "/home/yohannes/miniconda3/envs/ngc_new/lib/python3.10/site-packages/jax_plugins/xla_cuda12/__init__.py", line 324, in initialize
+    _check_cuda_versions(raise_on_first_error=True)
+  File "/home/yohannes/miniconda3/envs/ngc_new/lib/python3.10/site-packages/jax_plugins/xla_cuda12/__init__.py", line 281, in _check_cuda_versions
+    local_device_count = cuda_versions.cuda_device_count()
+RuntimeError: jaxlib/cuda/versions_helpers.cc:113: operation cuInit(0) failed: Unknown CUDA error 303; cuGetErrorName failed. This probably means that JAX was unable to load the CUDA libraries.
+2025-11-20 13:57:13,294
+Initializing backend 'cpu'
+
+2025-11-20 13:57:13,317
+Backend 'cpu' initialized
+
+2025-11-20 13:57:13,318
+Initializing backend 'tpu'
+
+2025-11-20 13:57:13,325
+Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+
+2025-11-20 13:57:13,326
+An NVIDIA GPU may be present on this machine, but a CUDA-enabled jaxlib is not installed. Falling back to cpu.
+
+2025-11-20 13:57:13,326
+Compiling convert_element_type with global shapes and types [ShapedArray(int32[])]. Argument mapping: (UnspecifiedValue,).
+
+2025-11-20 13:57:13,435
+Finished jaxpr to MLIR module conversion jit(convert_element_type) in 0.108165264 sec
+
+2025-11-20 13:57:13,438
+get_compile_options: num_replicas=1 num_partitions=1 device_assignment=[[CpuDevice(id=0)]]
+
+2025-11-20 13:57:13,438
+get_compile_options XLA-AutoFDO profile: using XLA-AutoFDO profile version -1
+
+2025-11-20 13:57:13,453
+get_cache_key hash of serialized computation: 8b288c102471b43891c5ac8e8b9f6b4e26a3d9d6ee477fe937a3b200158483a1
+
+2025-11-20 13:57:13,453
+get_cache_key hash after serializing computation: 8b288c102471b43891c5ac8e8b9f6b4e26a3d9d6ee477fe937a3b200158483a1
+
+2025-11-20 13:57:13,453
+get_cache_key hash of serialized jax_lib version: 276ac86581d06a6a2089de6284a136fe303d490a711d879f275cc9a55f1cd807
+
+2025-11-20 13:57:13,454
+get_cache_key hash after serializing jax_lib version: d574c432c0fb9ea38257f51ddd8201638df48ffa261ce8aa8af50ea98a4bb829
+
+2025-11-20 13:57:13,454
+get_cache_key hash of serialized backend version: d01711a267aea6695c681e4e75ed43f0e973d36f19b2f3c261d517b8c32285b2
+
+2025-11-20 13:57:13,454
+get_cache_key hash after serializing backend version: 73f6d5318272ff16cf44135a489cbf6ae2cbe0f9e719f109fae85b6405d99a97
+
+2025-11-20 13:57:13,454
+get_cache_key hash of serialized XLA flags: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
+2025-11-20 13:57:13,454
+get_cache_key hash after serializing XLA flags: 73f6d5318272ff16cf44135a489cbf6ae2cbe0f9e719f109fae85b6405d99a97
+
+2025-11-20 13:57:13,457
+get_cache_key hash of serialized compile_options: 7293f326154e018f43b0a5f3343e67eb41a4a021ebab00717250b19abb661d1d
+
+2025-11-20 13:57:13,458
+get_cache_key hash after serializing compile_options: f70986f2d5e3ffbaea65d9f2c7695e44bd4238ea85d2cc0d5de3f55589f4708f
+
+2025-11-20 13:57:13,458
+get_cache_key hash of serialized accelerator_config: 6f5b13e2cd071ba50d757a00f8dfcaa54c025b557a518b76f85fe7bf4e4e2679
+
+2025-11-20 13:57:13,458
+get_cache_key hash after serializing accelerator_config: 0a4b2b5fbb985ae764aac669e1aa9af1e660f790aa2f8f6c4560b66c42822367
+
+2025-11-20 13:57:13,458
+get_cache_key hash of serialized compression: 0ea55c28f8014d8886b6248fe3da5d588f55c0823847a6b4579f1131b051b5e2
+
+2025-11-20 13:57:13,458
+get_cache_key hash after serializing compression: fadd969d0cef65c4506acb6ecce7503e9b0bb1b185513f0f0ae6e70009feaac3
+
+2025-11-20 13:57:13,459
+get_cache_key hash of serialized custom_hook: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
+2025-11-20 13:57:13,459
+get_cache_key hash after serializing custom_hook: fadd969d0cef65c4506acb6ecce7503e9b0bb1b185513f0f0ae6e70009feaac3
+
+2025-11-20 13:57:13,459
+get_executable_and_time: cache is disabled/not initialized
+
+2025-11-20 13:57:13,459
+PERSISTENT COMPILATION CACHE MISS for 'jit_convert_element_type' with key 'jit_convert_element_type-fadd969d0cef65c4506acb6ecce7503e9b0bb1b185513f0f0ae6e70009feaac3'
+
+2025-11-20 13:57:13,665
+Not writing persistent cache entry for 'jit_convert_element_type' because it took < 1.00 seconds to compile (0.21s)
+
+2025-11-20 13:57:13,665
+Finished XLA compilation of jit(convert_element_type) in 0.226995707 sec
+
+2025-11-20 13:57:13,668
+Finished tracing + transforming bitwise_and for pjit in 0.000533342 sec
+
+2025-11-20 13:57:13,669
+Finished tracing + transforming _threefry_seed for pjit in 0.002630711 sec
+
+2025-11-20 13:57:13,670
+Compiling _threefry_seed with global shapes and types [ShapedArray(int32[])]. Argument mapping: (UnspecifiedValue,).
+
+2025-11-20 13:57:13,680
+Finished jaxpr to MLIR module conversion jit(_threefry_seed) in 0.009240389 sec
+
+2025-11-20 13:57:13,680
+get_compile_options: num_replicas=1 num_partitions=1 device_assignment=[[CpuDevice(id=0)]]
+
+2025-11-20 13:57:13,681
+get_compile_options XLA-AutoFDO profile: using XLA-AutoFDO profile version -1
+
+2025-11-20 13:57:13,682
+get_cache_key hash of serialized computation: e736bdff56083644db58dc1dc564b44aa8c57748b5e7f02b4bf8fb92cdd1ac4d
+
+2025-11-20 13:57:13,682
+get_cache_key hash after serializing computation: e736bdff56083644db58dc1dc564b44aa8c57748b5e7f02b4bf8fb92cdd1ac4d
+
+2025-11-20 13:57:13,683
+get_cache_key hash of serialized jax_lib version: 276ac86581d06a6a2089de6284a136fe303d490a711d879f275cc9a55f1cd807
+
+2025-11-20 13:57:13,683
+get_cache_key hash after serializing jax_lib version: 95c9746d5c15fd44092adbe535461444c9f9f663f39e8c14224a3028bdd16ab0
+
+2025-11-20 13:57:13,683
+get_cache_key hash of serialized backend version: d01711a267aea6695c681e4e75ed43f0e973d36f19b2f3c261d517b8c32285b2
+
+2025-11-20 13:57:13,683
+get_cache_key hash after serializing backend version: 8d2f1750529f710f64b1fe2bd984a39aa250fbdc83c8865941e412539c9b25dd
+
+2025-11-20 13:57:13,684
+get_cache_key hash of serialized XLA flags: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
+2025-11-20 13:57:13,684
+get_cache_key hash after serializing XLA flags: 8d2f1750529f710f64b1fe2bd984a39aa250fbdc83c8865941e412539c9b25dd
+
+2025-11-20 13:57:13,685
+get_cache_key hash of serialized compile_options: 9b81636de2167cbeceff1bd4f547c16c7f39ebd4548fbf4fed6b1b00f63ce597
+
+2025-11-20 13:57:13,686
+get_cache_key hash after serializing compile_options: c371f6f97c4159bc66d55a281e8dc3616b0b606b807d80999129ed2c62371fdc
+
+2025-11-20 13:57:13,687
+get_cache_key hash of serialized accelerator_config: 6f5b13e2cd071ba50d757a00f8dfcaa54c025b557a518b76f85fe7bf4e4e2679
+
+2025-11-20 13:57:13,687
+get_cache_key hash after serializing accelerator_config: 51a35d6ec109a2e87b5015d1aaa54e4cf2bd31dca642732adf6835d58aa47f50
+
+2025-11-20 13:57:13,687
+get_cache_key hash of serialized compression: 0ea55c28f8014d8886b6248fe3da5d588f55c0823847a6b4579f1131b051b5e2
+
+2025-11-20 13:57:13,687
+get_cache_key hash after serializing compression: 39b9fceac8d5a8568aea52fb05ac08247b408f8967a9737486a83212a8dab09c
+
+2025-11-20 13:57:13,687
+get_cache_key hash of serialized custom_hook: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
+2025-11-20 13:57:13,688
+get_cache_key hash after serializing custom_hook: 39b9fceac8d5a8568aea52fb05ac08247b408f8967a9737486a83212a8dab09c
+
+2025-11-20 13:57:13,688
+get_executable_and_time: cache is disabled/not initialized
+
+2025-11-20 13:57:13,688
+PERSISTENT COMPILATION CACHE MISS for 'jit__threefry_seed' with key 'jit__threefry_seed-39b9fceac8d5a8568aea52fb05ac08247b408f8967a9737486a83212a8dab09c'
+
+2025-11-20 13:57:13,839
+Not writing persistent cache entry for 'jit__threefry_seed' because it took < 1.00 seconds to compile (0.15s)
+
+2025-11-20 13:57:13,839
+Finished XLA compilation of jit(_threefry_seed) in 0.158086777 sec
+
+2025-11-20 13:57:13,857
+Finished tracing + transforming dynamic_slice for pjit in 0.000463247 sec
+
+2025-11-20 13:57:13,858
+Compiling dynamic_slice with global shapes and types [ShapedArray(int32[214621]), ShapedArray(int32[], weak_type=True)]. Argument mapping: (UnspecifiedValue, UnspecifiedValue).
+
+2025-11-20 13:57:13,867
+Finished jaxpr to MLIR module conversion jit(dynamic_slice) in 0.007900953 sec
+
+2025-11-20 13:57:13,868
+get_compile_options: num_replicas=1 num_partitions=1 device_assignment=[[CpuDevice(id=0)]]
+
+2025-11-20 13:57:13,869
+get_compile_options XLA-AutoFDO profile: using XLA-AutoFDO profile version -1
+
+2025-11-20 13:57:13,870
+get_cache_key hash of serialized computation: edcd17cd0b1e17e7cc62241479bb359359b5c8ef808bcd0081942f5333ccba99
+
+2025-11-20 13:57:13,870
+get_cache_key hash after serializing computation: edcd17cd0b1e17e7cc62241479bb359359b5c8ef808bcd0081942f5333ccba99
+
+2025-11-20 13:57:13,870
+get_cache_key hash of serialized jax_lib version: 276ac86581d06a6a2089de6284a136fe303d490a711d879f275cc9a55f1cd807
+
+2025-11-20 13:57:13,870
+get_cache_key hash after serializing jax_lib version: 882890467852938d9340457254d3b4e8dd5c6a062a5b7df31254e02fdd74fcf8
+
+2025-11-20 13:57:13,870
+get_cache_key hash of serialized backend version: d01711a267aea6695c681e4e75ed43f0e973d36f19b2f3c261d517b8c32285b2
+
+2025-11-20 13:57:13,870
+get_cache_key hash after serializing backend version: 60220a3b62048684ecc222f414d364cee81056eae42a194f771a7d0c2d70fa7c
+
+2025-11-20 13:57:13,870
+get_cache_key hash of serialized XLA flags: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
+2025-11-20 13:57:13,870
+get_cache_key hash after serializing XLA flags: 60220a3b62048684ecc222f414d364cee81056eae42a194f771a7d0c2d70fa7c
+
+2025-11-20 13:57:13,871
+get_cache_key hash of serialized compile_options: 74feed591061bf7000606f7d534a05a4c69546ca0b79950ab67fb14700f5ade2
+
+2025-11-20 13:57:13,871
+get_cache_key hash after serializing compile_options: 750db388637e5837fa4e7eb2a131b07c090ed200e29e3ae3f294e269285cea26
+
+2025-11-20 13:57:13,871
+get_cache_key hash of serialized accelerator_config: 6f5b13e2cd071ba50d757a00f8dfcaa54c025b557a518b76f85fe7bf4e4e2679
+
+2025-11-20 13:57:13,871
+get_cache_key hash after serializing accelerator_config: 2101bbe0550d5109739628049f5748f88bd8b9daa98cf2b0deee53b04c6ea840
+
+2025-11-20 13:57:13,871
+get_cache_key hash of serialized compression: 0ea55c28f8014d8886b6248fe3da5d588f55c0823847a6b4579f1131b051b5e2
+
+2025-11-20 13:57:13,871
+get_cache_key hash after serializing compression: a85ea0c644c3d174b26a4479ff14357cc621d8f93f45f70f91f16fd37071d8a2
+
+2025-11-20 13:57:13,871
+get_cache_key hash of serialized custom_hook: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
+2025-11-20 13:57:13,871
+get_cache_key hash after serializing custom_hook: a85ea0c644c3d174b26a4479ff14357cc621d8f93f45f70f91f16fd37071d8a2
+
+2025-11-20 13:57:13,872
+get_executable_and_time: cache is disabled/not initialized
+
+2025-11-20 13:57:13,872
+PERSISTENT COMPILATION CACHE MISS for 'jit_dynamic_slice' with key 'jit_dynamic_slice-a85ea0c644c3d174b26a4479ff14357cc621d8f93f45f70f91f16fd37071d8a2'
+
+2025-11-20 13:57:13,910
+Not writing persistent cache entry for 'jit_dynamic_slice' because it took < 1.00 seconds to compile (0.04s)
+
+2025-11-20 13:57:13,911
+Finished XLA compilation of jit(dynamic_slice) in 0.041527987 sec
+
+2025-11-20 13:57:17,032
+Clearing JAX backend caches.
+
