@@ -1,4996 +1,4996 @@
 Streaming output truncated to the last 5000 lines.
-ts=14:
-  L_embed (L1) = -4.690861060469555e+16
-  L_out   (L4) = nan
-  Block 0 attention error = -3.402495769318523e+17
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[ -8984.931     -595.63324   1172.079   ...   5722.3887    9482.711
-    1057.8307 ]
- [-10419.755     -669.86975   2289.9365  ...   6153.707    11742.409
-    1234.9843 ]
- [-11701.761     -752.0645    1610.6011  ...   7459.55     12454.861
-    1310.3065 ]
+ [-4.7294197e-05  1.5136359e-04 -6.7832836e-05 ...  1.1360586e-04
+   7.2162802e-05  7.4444717e-05]
+ [-4.7771751e-05  1.5134778e-04 -6.8140995e-05 ...  1.1346790e-04
+   7.2164534e-05  7.4895237e-05]
  ...
- [ 12936.017     1164.6747   -4013.6257  ...  -7520.419   -16240.275
-   -2318.5046 ]
- [ 14217.502     1319.7156   -4499.259   ...  -8054.9263  -17817.916
-   -2668.6575 ]
- [ 12088.722     1131.488    -2943.2297  ...  -7171.42    -14324.247
-   -2318.1758 ]]
-wmlpq outputs value  [[ -8984.931     -595.63324   1172.079   ...   5722.3887    9482.711
-    1057.8307 ]
- [-10419.755     -669.86975   2289.9365  ...   6153.707    11742.409
-    1234.9843 ]
- [-11701.761     -752.0645    1610.6011  ...   7459.55     12454.861
-    1310.3065 ]
+ [-4.7812191e-05  1.5159465e-04 -6.7716042e-05 ...  1.1356513e-04
+   7.1746086e-05  7.5062453e-05]
+ [-4.7940266e-05  1.5129092e-04 -6.7520989e-05 ...  1.1397178e-04
+   7.2108000e-05  7.5093194e-05]
+ [-4.7842270e-05  1.5192687e-04 -6.7607689e-05 ...  1.1361906e-04
+   7.1547096e-05  7.5526681e-05]]
+zmplp2 value  [[-4.7895617e-05  1.5184800e-04 -6.7031040e-05 ...  1.1390056e-04
+   7.1215843e-05  7.5124473e-05]
+ [-4.7294197e-05  1.5136359e-04 -6.7832836e-05 ...  1.1360586e-04
+   7.2162802e-05  7.4444717e-05]
+ [-4.7771751e-05  1.5134778e-04 -6.8140995e-05 ...  1.1346790e-04
+   7.2164534e-05  7.4895237e-05]
  ...
- [ 12936.017     1164.6747   -4013.6257  ...  -7520.419   -16240.275
-   -2318.5046 ]
- [ 14217.502     1319.7156   -4499.259   ...  -8054.9263  -17817.916
-   -2668.6575 ]
- [ 12088.722     1131.488    -2943.2297  ...  -7171.42    -14324.247
-   -2318.1758 ]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-4.7812191e-05  1.5159465e-04 -6.7716042e-05 ...  1.1356513e-04
+   7.1746086e-05  7.5062453e-05]
+ [-4.7940266e-05  1.5129092e-04 -6.7520989e-05 ...  1.1397178e-04
+   7.2108000e-05  7.5093194e-05]
+ [-4.7842270e-05  1.5192687e-04 -6.7607689e-05 ...  1.1361906e-04
+   7.1547096e-05  7.5526681e-05]]
+check the surrounding 
+z_mlp2 [[-2.3946832e-05  7.5933807e-05 -3.3513610e-05 ...  5.6955800e-05
+   3.5610079e-05  3.7564638e-05]
+ [-2.3646146e-05  7.5691547e-05 -3.3914461e-05 ...  5.6808425e-05
+   3.6083617e-05  3.7224720e-05]
+ [-2.3884904e-05  7.5683631e-05 -3.4068522e-05 ...  5.6739427e-05
+   3.6084482e-05  3.7450005e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.3905121e-05  7.5807104e-05 -3.3856068e-05 ...  5.6788056e-05
+   3.5875233e-05  3.7533624e-05]
+ [-2.3969156e-05  7.5655204e-05 -3.3758555e-05 ...  5.6991419e-05
+   3.6056212e-05  3.7548994e-05]
+ [-2.3920160e-05  7.5973257e-05 -3.3801902e-05 ...  5.6815024e-05
+   3.5775727e-05  3.7765767e-05]]
+cheack w_mlp2 [[-2.3946832e-05  7.5933807e-05 -3.3513610e-05 ...  5.6955800e-05
+   3.5610079e-05  3.7564638e-05]
+ [-2.3646146e-05  7.5691547e-05 -3.3914461e-05 ...  5.6808425e-05
+   3.6083617e-05  3.7224720e-05]
+ [-2.3884904e-05  7.5683631e-05 -3.4068522e-05 ...  5.6739427e-05
+   3.6084482e-05  3.7450005e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=15:
-  L_embed (L1) = -1.3837032228409836e+18
-  L_out   (L4) = nan
-  Block 0 attention error = -1.0012367287295672e+19
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[ 48995.59     4586.8853  -5020.1484 ... -30733.979  -48771.344
-   -6248.271 ]
- [ 56889.746    5115.4854 -11199.001  ... -32838.32   -60957.15
-   -7029.3105]
- [ 63779.227    5798.608   -7034.226  ... -39974.855  -64086.35
-   -7683.7573]
+ [-2.3905121e-05  7.5807104e-05 -3.3856068e-05 ...  5.6788056e-05
+   3.5875233e-05  3.7533624e-05]
+ [-2.3969156e-05  7.5655204e-05 -3.3758555e-05 ...  5.6991419e-05
+   3.6056212e-05  3.7548994e-05]
+ [-2.3920160e-05  7.5973257e-05 -3.3801902e-05 ...  5.6815024e-05
+   3.5775727e-05  3.7765767e-05]]
+block.mlp.e_mlp.mu [[-2.1327169e-05 -1.8513449e-04 -2.6918140e-05 ...  3.2852869e-05
+   3.2835873e-05 -2.4247101e-05]
+ [-2.1302712e-05 -1.8513328e-04 -2.6919392e-05 ...  3.2846827e-05
+   3.2854285e-05 -2.4257286e-05]
+ [-2.1317555e-05 -1.8512693e-04 -2.6920790e-05 ...  3.2849399e-05
+   3.2852404e-05 -2.4253155e-05]
  ...
- [-68677.17    -5188.755   26796.256  ...  43517.008   89612.79
-    9130.553 ]
- [-75473.73    -5872.6064  29879.246  ...  46615.45    98243.2
-   10703.391 ]
- [-64223.69    -5030.961   20790.602  ...  41485.863   79454.54
-    9138.625 ]]
-wmlpq outputs value  [[ 48995.59     4586.8853  -5020.1484 ... -30733.979  -48771.344
-   -6248.271 ]
- [ 56889.746    5115.4854 -11199.001  ... -32838.32   -60957.15
-   -7029.3105]
- [ 63779.227    5798.608   -7034.226  ... -39974.855  -64086.35
-   -7683.7573]
+ [-2.1315511e-05 -1.8512056e-04 -2.6910993e-05 ...  3.2841730e-05
+   3.2845004e-05 -2.4243949e-05]
+ [-2.1321883e-05 -1.8512536e-04 -2.6922537e-05 ...  3.2847591e-05
+   3.2845848e-05 -2.4242170e-05]
+ [-2.1321486e-05 -1.8512391e-04 -2.6901387e-05 ...  3.2839409e-05
+   3.2850858e-05 -2.4249570e-05]]
+block.mlp.W_mlp2.outputs [[-2.1327169e-05 -1.8513449e-04 -2.6918140e-05 ...  3.2852869e-05
+   3.2835873e-05 -2.4247101e-05]
+ [-2.1302712e-05 -1.8513328e-04 -2.6919392e-05 ...  3.2846827e-05
+   3.2854285e-05 -2.4257286e-05]
+ [-2.1317555e-05 -1.8512693e-04 -2.6920790e-05 ...  3.2849399e-05
+   3.2852404e-05 -2.4253155e-05]
  ...
- [-68677.17    -5188.755   26796.256  ...  43517.008   89612.79
-    9130.553 ]
- [-75473.73    -5872.6064  29879.246  ...  46615.45    98243.2
-   10703.391 ]
- [-64223.69    -5030.961   20790.602  ...  41485.863   79454.54
-    9138.625 ]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=16:
-  L_embed (L1) = -4.065100756269243e+19
-  L_out   (L4) = nan
-  Block 0 attention error = -2.935408941685675e+20
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[-275805.8    -28478.121   18213.908 ...  165370.58   279821.7
-    42037.57 ]
- [-320176.     -32172.162   51248.21  ...  177551.14   349765.78
-    47352.992]
- [-359034.47   -36133.566   26537.717 ...  215479.42   367805.2
-    52246.742]
- ...
- [ 382380.3     25582.678 -144394.88  ... -230219.7   -492062.94
-   -35526.156]
- [ 419871.88    29054.238 -161200.97  ... -246954.11  -539285.44
-   -42760.812]
- [ 357879.34    24920.877 -111839.75  ... -220479.6   -437336.6
-   -36416.047]]
-wmlpq outputs value  [[-275805.8    -28478.121   18213.908 ...  165370.58   279821.7
-    42037.57 ]
- [-320176.     -32172.162   51248.21  ...  177551.14   349765.78
-    47352.992]
- [-359034.47   -36133.566   26537.717 ...  215479.42   367805.2
-    52246.742]
- ...
- [ 382380.3     25582.678 -144394.88  ... -230219.7   -492062.94
-   -35526.156]
- [ 419871.88    29054.238 -161200.97  ... -246954.11  -539285.44
-   -42760.812]
- [ 357879.34    24920.877 -111839.75  ... -220479.6   -437336.6
-   -36416.047]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=17:
-  L_embed (L1) = -1.191780673254125e+21
-  L_out   (L4) = nan
-  Block 0 attention error = -8.603281537261294e+21
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[ 1469611.1    153546.16  -151566.75 ...  -945643.94 -1498397.5
-   -237293.34]
- [ 1709294.5    172156.92  -338906.22 ... -1014870.75 -1879999.9
-   -269063.2 ]
- [ 1912416.4    194401.25  -212684.56 ... -1232238.1  -1970114.4
-   -295338.94]
- ...
- [-2176967.5   -147171.95   695039.2  ...  1193989.2   2738749.
-    213885.98]
- [-2388571.8   -167395.61   778748.   ...  1281282.    3001405.8
-    254943.77]
- [-2038567.6   -143076.03   521688.22 ...  1144753.    2435141.8
-    219515.53]]
-wmlpq outputs value  [[ 1469611.1    153546.16  -151566.75 ...  -945643.94 -1498397.5
-   -237293.34]
- [ 1709294.5    172156.92  -338906.22 ... -1014870.75 -1879999.9
-   -269063.2 ]
- [ 1912416.4    194401.25  -212684.56 ... -1232238.1  -1970114.4
-   -295338.94]
- ...
- [-2176967.5   -147171.95   695039.2  ...  1193989.2   2738749.
-    213885.98]
- [-2388571.8   -167395.61   778748.   ...  1281282.    3001405.8
-    254943.77]
- [-2038567.6   -143076.03   521688.22 ...  1144753.    2435141.8
-    219515.53]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=18:
-  L_embed (L1) = -3.495236915402801e+22
-  L_out   (L4) = nan
-  Block 0 attention error = -2.5255453524274406e+23
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[ -7942333.5    -824641.6    1000642.8  ...   5310935.5    8273919.5
-    1136845.5 ]
- [ -9241865.     -923719.06   2050633.6  ...   5698258.5   10365258.
-    1297550.8 ]
- [-10334829.    -1044863.94   1386303.2  ...   6920557.    10877721.
-    1406681.1 ]
- ...
- [ 11962168.      853060.2   -3627845.5  ...  -6482656.   -14865915.
-   -1418220.5 ]
- [ 13126114.      969988.    -4068866.5  ...  -6955180.5  -16295738.
-   -1665335.8 ]
- [ 11198012.      829835.44  -2688688.8  ...  -6210833.   -13197781.
-   -1439860.5 ]]
-wmlpq outputs value  [[ -7942333.5    -824641.6    1000642.8  ...   5310935.5    8273919.5
-    1136845.5 ]
- [ -9241865.     -923719.06   2050633.6  ...   5698258.5   10365258.
-    1297550.8 ]
- [-10334829.    -1044863.94   1386303.2  ...   6920557.    10877721.
-    1406681.1 ]
- ...
- [ 11962168.      853060.2   -3627845.5  ...  -6482656.   -14865915.
-   -1418220.5 ]
- [ 13126114.      969988.    -4068866.5  ...  -6955180.5  -16295738.
-   -1665335.8 ]
- [ 11198012.      829835.44  -2688688.8  ...  -6210833.   -13197781.
-   -1439860.5 ]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=19:
-  L_embed (L1) = -1.0264340539908656e+24
-  L_out   (L4) = nan
-  Block 0 attention error = -7.421698142841142e+24
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[ 44356392.    4322183.5  -5383893.5 ... -28947592.  -46343288.
-   -5882304. ]
- [ 51560356.    4853763.  -11182287.  ... -31040184.  -57931120.
-   -6711000. ]
- [ 57723152.    5472994.   -7472417.5 ... -37712720.  -60918132.
-   -7253264.5]
- ...
- [-64360436.   -4815362.5  20435580.  ...  36129064.   80327776.
-    8091916.5]
- [-70646360.   -5463276.   22892164.  ...  38750460.   88064896.
-    9474385. ]
- [-60226004.   -4681512.   15284359.  ...  34576436.   71261936.
-    8176025. ]]
-wmlpq outputs value  [[ 44356392.    4322183.5  -5383893.5 ... -28947592.  -46343288.
-   -5882304. ]
- [ 51560356.    4853763.  -11182287.  ... -31040184.  -57931120.
-   -6711000. ]
- [ 57723152.    5472994.   -7472417.5 ... -37712720.  -60918132.
-   -7253264.5]
- ...
- [-64360436.   -4815362.5  20435580.  ...  36129064.   80327776.
-    8091916.5]
- [-70646360.   -5463276.   22892164.  ...  38750460.   88064896.
-    9474385. ]
- [-60226004.   -4681512.   15284359.  ...  34576436.   71261936.
-    8176025. ]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [-2.1315511e-05 -1.8512056e-04 -2.6910993e-05 ...  3.2841730e-05
+   3.2845004e-05 -2.4243949e-05]
+ [-2.1321883e-05 -1.8512536e-04 -2.6922537e-05 ...  3.2847591e-05
+   3.2845848e-05 -2.4242170e-05]
+ [-2.1321486e-05 -1.8512391e-04 -2.6901387e-05 ...  3.2839409e-05
+   3.2850858e-05 -2.4249570e-05]]
 
 Before evolve():
-  Output weights = [[-0.00222527 -0.00571952 -0.0042124  ...  0.00635672  0.00199251
-   0.00226022]
- [ 0.00024776 -0.00632495  0.00358022 ...  0.0086359   0.00166039
-  -0.00536946]
- [-0.00813434  0.00999535  0.00049554 ...  0.00439545  0.00011394
-  -0.00946642]
+  Output weights = [[-0.00249881 -0.00544919 -0.00393455 ...  0.00607947  0.00171654
+   0.00198149]
+ [ 0.00050715 -0.00657838  0.00331661 ...  0.00889897  0.00192333
+  -0.0051082 ]
+ [-0.00840921  0.01026729  0.00077369 ...  0.00411759 -0.00016279
+  -0.00974483]
  ...
- [-0.00523814 -0.00110285 -0.00756929 ...  0.00349132 -0.00259611
-   0.00013707]
- [-0.00440763  0.00689207 -0.00498886 ... -0.00676526 -0.00314038
-   0.00044256]
- [-0.00933929  0.00613931 -0.00708451 ... -0.00854874 -0.00028957
-   0.00403732]]
+ [-0.00496371 -0.00137471 -0.00784636 ...  0.00376827 -0.00232027
+   0.00041421]
+ [-0.00413331  0.00662019 -0.00526558 ... -0.0064886  -0.00286482
+   0.0007193 ]
+ [-0.00961358  0.00640952 -0.00680795 ... -0.00882533 -0.00056582
+   0.00376275]]
 
 After evolve():
-  Output weights = [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-  Weights updated ✅
-  Batch 0: EFE = nan, CE = 16.1181, PPL = 10000055.0000
-Block 0 errors: attn=0.0, mlp=0.0
-ts=0:
-  L_embed (L1) = -0.6353918313980103
-  L_out   (L4) = nan
-  Block 0 attention error = -0.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=1:
-  L_embed (L1) = -0.5767757892608643
-  L_out   (L4) = nan
-  Block 0 attention error = -0.789976179599762
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=2:
-  L_embed (L1) = -2.58799409866333
-  L_out   (L4) = nan
-  Block 0 attention error = -10.012659072875977
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=3:
-  L_embed (L1) = -35.13644790649414
-  L_out   (L4) = nan
-  Block 0 attention error = -164.92837524414062
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=4:
-  L_embed (L1) = -662.0424194335938
-  L_out   (L4) = nan
-  Block 0 attention error = -3512.779052734375
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=5:
-  L_embed (L1) = -14886.138671875
-  L_out   (L4) = nan
-  Block 0 attention error = -87742.9375
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=6:
-  L_embed (L1) = -349068.375
-  L_out   (L4) = nan
-  Block 0 attention error = -2600150.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=7:
-  L_embed (L1) = -10427812.0
-  L_out   (L4) = nan
-  Block 0 attention error = -76862608.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=8:
-  L_embed (L1) = -313190016.0
-  L_out   (L4) = nan
-  Block 0 attention error = -2285773056.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=9:
-  L_embed (L1) = -9197149184.0
-  L_out   (L4) = nan
-  Block 0 attention error = -67045662720.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=10:
-  L_embed (L1) = -272537550848.0
-  L_out   (L4) = nan
-  Block 0 attention error = -1964139610112.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=11:
-  L_embed (L1) = -7989830352896.0
-  L_out   (L4) = nan
-  Block 0 attention error = -58107531100160.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=12:
-  L_embed (L1) = -236973092503552.0
-  L_out   (L4) = nan
-  Block 0 attention error = -1728551329988608.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=13:
-  L_embed (L1) = -7050872789925888.0
-  L_out   (L4) = nan
-  Block 0 attention error = -5.150773889466368e+16
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=14:
-  L_embed (L1) = -2.0978365748373094e+17
-  L_out   (L4) = nan
-  Block 0 attention error = -1.5318991108843766e+18
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=15:
-  L_embed (L1) = -6.236496473198952e+18
-  L_out   (L4) = nan
-  Block 0 attention error = -4.550151190471927e+19
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=16:
-  L_embed (L1) = -1.852246963853774e+20
-  L_out   (L4) = nan
-  Block 0 attention error = -1.3519804673991345e+21
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=17:
-  L_embed (L1) = -5.505233398544946e+21
-  L_out   (L4) = nan
-  Block 0 attention error = -4.021107832372046e+22
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=18:
-  L_embed (L1) = -1.6377156298068012e+23
-  L_out   (L4) = nan
-  Block 0 attention error = -1.1970119611315862e+24
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=19:
-  L_embed (L1) = -4.875277885564899e+24
-  L_out   (L4) = nan
-  Block 0 attention error = -3.5650394346093946e+25
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-
-Before evolve():
-  Output weights = [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-
-After evolve():
-  Output weights = [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+  Output weights = [[-0.0025796  -0.00536817 -0.00385617 ...  0.00600005  0.00163745
+   0.00190573]
+ [ 0.00058702 -0.00665626  0.00323455 ...  0.00898084  0.00200509
+  -0.00502799]
+ [-0.00849051  0.01034883  0.00085245 ...  0.00403775 -0.00024235
+  -0.00982084]
+ ...
+ [-0.00488323 -0.00145556 -0.00792412 ...  0.00384715 -0.00224172
+   0.00048926]
+ [-0.00405312  0.00653957 -0.00534301 ... -0.00641004 -0.0027866
+   0.00079404]
+ [-0.0096973   0.00649236 -0.00672544 ... -0.00890862 -0.00064916
+   0.0036834 ]]
   Weights updated ✅
 Block 0 errors: attn=0.0, mlp=0.0
 ts=0:
-  L_embed (L1) = -0.6639191508293152
-  L_out   (L4) = nan
+  L_embed (L1) = -0.6807945966720581
+  L_out   (L4) = -0.0001678115368122235
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  Block 0 mlp error 1   = -6.867627234896645e-06
+  Block 0 mlp error 2   = -5.246090495347744e-06
+block.mlp.e_mlp1.mu: [[-2.4053545e-05  1.6427366e-04 -4.1886706e-05 ...  9.6698554e-05
+   4.8809074e-05  4.9894148e-05]
+ [-2.2653567e-05  1.6379007e-04 -4.2108364e-05 ...  9.6049305e-05
+   5.0143226e-05  4.8338330e-05]
+ [-2.3285938e-05  1.6370983e-04 -4.1955187e-05 ...  9.6415621e-05
+   4.9709975e-05  4.9098253e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.3659151e-05  1.6420164e-04 -4.1672902e-05 ...  9.6700867e-05
+   4.9394639e-05  4.9372335e-05]
+ [-2.3820854e-05  1.6441531e-04 -4.1286959e-05 ...  9.6805728e-05
+   4.9831739e-05  4.9033890e-05]
+ [-2.3757355e-05  1.6460019e-04 -4.1768802e-05 ...  9.6449890e-05
+   4.9773542e-05  4.9559938e-05]]
+wmlpq outputs value  [[-2.4053545e-05  1.6427366e-04 -4.1886706e-05 ...  9.6698554e-05
+   4.8809074e-05  4.9894148e-05]
+ [-2.2653567e-05  1.6379007e-04 -4.2108364e-05 ...  9.6049305e-05
+   5.0143226e-05  4.8338330e-05]
+ [-2.3285938e-05  1.6370983e-04 -4.1955187e-05 ...  9.6415621e-05
+   4.9709975e-05  4.9098253e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.3659151e-05  1.6420164e-04 -4.1672902e-05 ...  9.6700867e-05
+   4.9394639e-05  4.9372335e-05]
+ [-2.3820854e-05  1.6441531e-04 -4.1286959e-05 ...  9.6805728e-05
+   4.9831739e-05  4.9033890e-05]
+ [-2.3757355e-05  1.6460019e-04 -4.1768802e-05 ...  9.6449890e-05
+   4.9773542e-05  4.9559938e-05]]
+block.mlp.e_mlp1.target: [[-5.94246994e-05  1.52350069e-04 -7.21489851e-05 ...  1.15013725e-04
+   7.69172329e-05  8.01916249e-05]
+ [-5.88523617e-05  1.51382992e-04 -7.29006206e-05 ...  1.14541974e-04
+   7.75611989e-05  7.97589746e-05]
+ [-5.92544457e-05  1.51168264e-04 -7.26487051e-05 ...  1.14488495e-04
+   7.72454441e-05  8.03193470e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-5.97350881e-05  1.52312627e-04 -7.29537351e-05 ...  1.15668176e-04
+   7.75643930e-05  7.90581544e-05]
+ [-5.97529142e-05  1.52570268e-04 -7.26494836e-05 ...  1.16740412e-04
+   7.72961284e-05  7.95710439e-05]
+ [-5.91965545e-05  1.53029818e-04 -7.31051114e-05 ...  1.16761272e-04
+   7.69166436e-05  7.97622051e-05]]
+zmplp2 value  [[-5.94246994e-05  1.52350069e-04 -7.21489851e-05 ...  1.15013725e-04
+   7.69172329e-05  8.01916249e-05]
+ [-5.88523617e-05  1.51382992e-04 -7.29006206e-05 ...  1.14541974e-04
+   7.75611989e-05  7.97589746e-05]
+ [-5.92544457e-05  1.51168264e-04 -7.26487051e-05 ...  1.14488495e-04
+   7.72454441e-05  8.03193470e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [-5.97350881e-05  1.52312627e-04 -7.29537351e-05 ...  1.15668176e-04
+   7.75643930e-05  7.90581544e-05]
+ [-5.97529142e-05  1.52570268e-04 -7.26494836e-05 ...  1.16740412e-04
+   7.72961284e-05  7.95710439e-05]
+ [-5.91965545e-05  1.53029818e-04 -7.31051114e-05 ...  1.16761272e-04
+   7.69166436e-05  7.97622051e-05]]
+check the surrounding 
+z_mlp2 [[-2.9710847e-05  7.6184915e-05 -3.6072277e-05 ...  5.7512490e-05
+   3.8461134e-05  4.0098552e-05]
+ [-2.9424707e-05  7.5701253e-05 -3.6448051e-05 ...  5.7276571e-05
+   3.8783161e-05  3.9882194e-05]
+ [-2.9625729e-05  7.5593853e-05 -3.6322108e-05 ...  5.7249825e-05
+   3.8625265e-05  4.0162417e-05]
+ ...
+ [-2.9866027e-05  7.6166179e-05 -3.6474601e-05 ...  5.7839781e-05
+   3.8784758e-05  3.9531737e-05]
+ [-2.9874940e-05  7.6295037e-05 -3.6322497e-05 ...  5.8376001e-05
+   3.8650607e-05  3.9788214e-05]
+ [-2.9596787e-05  7.6524870e-05 -3.6550282e-05 ...  5.8386438e-05
+   3.8460839e-05  3.9883809e-05]]
+cheack w_mlp2 [[-2.9710847e-05  7.6184915e-05 -3.6072277e-05 ...  5.7512490e-05
+   3.8461134e-05  4.0098552e-05]
+ [-2.9424707e-05  7.5701253e-05 -3.6448051e-05 ...  5.7276571e-05
+   3.8783161e-05  3.9882194e-05]
+ [-2.9625729e-05  7.5593853e-05 -3.6322108e-05 ...  5.7249825e-05
+   3.8625265e-05  4.0162417e-05]
+ ...
+ [-2.9866027e-05  7.6166179e-05 -3.6474601e-05 ...  5.7839781e-05
+   3.8784758e-05  3.9531737e-05]
+ [-2.9874940e-05  7.6295037e-05 -3.6322497e-05 ...  5.8376001e-05
+   3.8650607e-05  3.9788214e-05]
+ [-2.9596787e-05  7.6524870e-05 -3.6550282e-05 ...  5.8386438e-05
+   3.8460839e-05  3.9883809e-05]]
+block.mlp.e_mlp.mu [[ 2.2448497e-05 -2.4335050e-04  1.6856462e-05 ... -8.7208900e-06
+  -8.5126985e-06  2.7034172e-05]
+ [ 2.2482893e-05 -2.4334688e-04  1.6852346e-05 ... -8.7363569e-06
+  -8.5049078e-06  2.7036971e-05]
+ [ 2.2468648e-05 -2.4332800e-04  1.6856731e-05 ... -8.7403841e-06
+  -8.5042857e-06  2.7041384e-05]
+ ...
+ [ 2.2402734e-05 -2.4332371e-04  1.6831318e-05 ... -8.7037306e-06
+  -8.5232532e-06  2.7015307e-05]
+ [ 2.2379079e-05 -2.4334295e-04  1.6824639e-05 ... -8.6957925e-06
+  -8.5367301e-06  2.7025795e-05]
+ [ 2.2388038e-05 -2.4334027e-04  1.6858930e-05 ... -8.6930477e-06
+  -8.5470238e-06  2.7017577e-05]]
+block.mlp.W_mlp2.outputs [[ 2.2448497e-05 -2.4335050e-04  1.6856462e-05 ... -8.7208900e-06
+  -8.5126985e-06  2.7034172e-05]
+ [ 2.2482893e-05 -2.4334688e-04  1.6852346e-05 ... -8.7363569e-06
+  -8.5049078e-06  2.7036971e-05]
+ [ 2.2468648e-05 -2.4332800e-04  1.6856731e-05 ... -8.7403841e-06
+  -8.5042857e-06  2.7041384e-05]
+ ...
+ [ 2.2402734e-05 -2.4332371e-04  1.6831318e-05 ... -8.7037306e-06
+  -8.5232532e-06  2.7015307e-05]
+ [ 2.2379079e-05 -2.4334295e-04  1.6824639e-05 ... -8.6957925e-06
+  -8.5367301e-06  2.7025795e-05]
+ [ 2.2388038e-05 -2.4334027e-04  1.6858930e-05 ... -8.6930477e-06
+  -8.5470238e-06  2.7017577e-05]]
 ts=1:
-  L_embed (L1) = -0.5763621926307678
-  L_out   (L4) = nan
-  Block 0 attention error = -0.7682318687438965
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -8.935632649809122e-05
+  Block 0 attention error = -2.6120198981516296e-06
+  Block 0 mlp error 1   = -2.968722823126768e-09
+  Block 0 mlp error 2   = -1.918457748217861e-08
+block.mlp.e_mlp1.mu: [[-2.4053545e-05  1.6427366e-04 -4.1886706e-05 ...  9.6698554e-05
+   4.8809074e-05  4.9894148e-05]
+ [-2.2653567e-05  1.6379007e-04 -4.2108364e-05 ...  9.6049305e-05
+   5.0143226e-05  4.8338330e-05]
+ [-2.3285938e-05  1.6370983e-04 -4.1955187e-05 ...  9.6415621e-05
+   4.9709975e-05  4.9098253e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.3659151e-05  1.6420164e-04 -4.1672902e-05 ...  9.6700867e-05
+   4.9394639e-05  4.9372335e-05]
+ [-2.3820854e-05  1.6441531e-04 -4.1286959e-05 ...  9.6805728e-05
+   4.9831739e-05  4.9033890e-05]
+ [-2.3757355e-05  1.6460019e-04 -4.1768802e-05 ...  9.6449890e-05
+   4.9773542e-05  4.9559938e-05]]
+wmlpq outputs value  [[-2.4053545e-05  1.6427366e-04 -4.1886706e-05 ...  9.6698554e-05
+   4.8809074e-05  4.9894148e-05]
+ [-2.2653567e-05  1.6379007e-04 -4.2108364e-05 ...  9.6049305e-05
+   5.0143226e-05  4.8338330e-05]
+ [-2.3285938e-05  1.6370983e-04 -4.1955187e-05 ...  9.6415621e-05
+   4.9709975e-05  4.9098253e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.3659151e-05  1.6420164e-04 -4.1672902e-05 ...  9.6700867e-05
+   4.9394639e-05  4.9372335e-05]
+ [-2.3820854e-05  1.6441531e-04 -4.1286959e-05 ...  9.6805728e-05
+   4.9831739e-05  4.9033890e-05]
+ [-2.3757355e-05  1.6460019e-04 -4.1768802e-05 ...  9.6449890e-05
+   4.9773542e-05  4.9559938e-05]]
+block.mlp.e_mlp1.target: [[-2.8885366e-05  1.6536402e-04 -4.0750772e-05 ...  9.6498625e-05
+   5.2640029e-05  5.1425635e-05]
+ [-2.7485818e-05  1.6488061e-04 -4.0972107e-05 ...  9.5849602e-05
+   5.3973628e-05  4.9870046e-05]
+ [-2.8117785e-05  1.6480056e-04 -4.0819225e-05 ...  9.6216419e-05
+   5.3540374e-05  5.0629315e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.8491249e-05  1.6529296e-04 -4.0536455e-05 ...  9.6500946e-05
+   5.3225100e-05  5.0903800e-05]
+ [-2.8653027e-05  1.6550627e-04 -4.0150542e-05 ...  9.6604796e-05
+   5.3662799e-05  5.0566043e-05]
+ [-2.8590028e-05  1.6569083e-04 -4.0631814e-05 ...  9.6248928e-05
+   5.3605407e-05  5.1091840e-05]]
+zmplp2 value  [[-2.8885366e-05  1.6536402e-04 -4.0750772e-05 ...  9.6498625e-05
+   5.2640029e-05  5.1425635e-05]
+ [-2.7485818e-05  1.6488061e-04 -4.0972107e-05 ...  9.5849602e-05
+   5.3973628e-05  4.9870046e-05]
+ [-2.8117785e-05  1.6480056e-04 -4.0819225e-05 ...  9.6216419e-05
+   5.3540374e-05  5.0629315e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [-2.8491249e-05  1.6529296e-04 -4.0536455e-05 ...  9.6500946e-05
+   5.3225100e-05  5.0903800e-05]
+ [-2.8653027e-05  1.6550627e-04 -4.0150542e-05 ...  9.6604796e-05
+   5.3662799e-05  5.0566043e-05]
+ [-2.8590028e-05  1.6569083e-04 -4.0631814e-05 ...  9.6248928e-05
+   5.3605407e-05  5.1091840e-05]]
+check the surrounding 
+z_mlp2 [[-1.44423284e-05  8.26936448e-05 -2.03746786e-05 ...  4.82532741e-05
+   2.63211950e-05  2.57139418e-05]
+ [-1.37425877e-05  8.24518720e-05 -2.04853404e-05 ...  4.79287082e-05
+   2.69880529e-05  2.49360819e-05]
+ [-1.40585571e-05  8.24118324e-05 -2.04089010e-05 ...  4.81121497e-05
+   2.67714058e-05  2.53157505e-05]
+ ...
+ [-1.42452782e-05  8.26581090e-05 -2.02675274e-05 ...  4.82544347e-05
+   2.66137558e-05  2.54530005e-05]
+ [-1.43261650e-05  8.27647818e-05 -2.00745872e-05 ...  4.83063704e-05
+   2.68326239e-05  2.52841091e-05]
+ [-1.42946665e-05  8.28570992e-05 -2.03152049e-05 ...  4.81284042e-05
+   2.68039275e-05  2.55470313e-05]]
+cheack w_mlp2 [[-1.44423284e-05  8.26936448e-05 -2.03746786e-05 ...  4.82532741e-05
+   2.63211950e-05  2.57139418e-05]
+ [-1.37425877e-05  8.24518720e-05 -2.04853404e-05 ...  4.79287082e-05
+   2.69880529e-05  2.49360819e-05]
+ [-1.40585571e-05  8.24118324e-05 -2.04089010e-05 ...  4.81121497e-05
+   2.67714058e-05  2.53157505e-05]
+ ...
+ [-1.42452782e-05  8.26581090e-05 -2.02675274e-05 ...  4.82544347e-05
+   2.66137558e-05  2.54530005e-05]
+ [-1.43261650e-05  8.27647818e-05 -2.00745872e-05 ...  4.83063704e-05
+   2.68326239e-05  2.52841091e-05]
+ [-1.42946665e-05  8.28570992e-05 -2.03152049e-05 ...  4.81284042e-05
+   2.68039275e-05  2.55470313e-05]]
+block.mlp.e_mlp.mu [[ 2.3160736e-05 -2.4439275e-04  1.8866807e-05 ... -1.0426925e-05
+  -8.4517606e-06  2.8510207e-05]
+ [ 2.3198038e-05 -2.4438641e-04  1.8866274e-05 ... -1.0431592e-05
+  -8.4201411e-06  2.8480528e-05]
+ [ 2.3182020e-05 -2.4437474e-04  1.8869281e-05 ... -1.0432034e-05
+  -8.4324438e-06  2.8483530e-05]
+ ...
+ [ 2.3188644e-05 -2.4437354e-04  1.8870278e-05 ... -1.0469732e-05
+  -8.4391113e-06  2.8516393e-05]
+ [ 2.3172584e-05 -2.4439843e-04  1.8835723e-05 ... -1.0452092e-05
+  -8.4308358e-06  2.8533725e-05]
+ [ 2.3172444e-05 -2.4439406e-04  1.8864945e-05 ... -1.0456901e-05
+  -8.4297753e-06  2.8522680e-05]]
+block.mlp.W_mlp2.outputs [[ 2.3160736e-05 -2.4439275e-04  1.8866807e-05 ... -1.0426925e-05
+  -8.4517606e-06  2.8510207e-05]
+ [ 2.3198038e-05 -2.4438641e-04  1.8866274e-05 ... -1.0431592e-05
+  -8.4201411e-06  2.8480528e-05]
+ [ 2.3182020e-05 -2.4437474e-04  1.8869281e-05 ... -1.0432034e-05
+  -8.4324438e-06  2.8483530e-05]
+ ...
+ [ 2.3188644e-05 -2.4437354e-04  1.8870278e-05 ... -1.0469732e-05
+  -8.4391113e-06  2.8516393e-05]
+ [ 2.3172584e-05 -2.4439843e-04  1.8835723e-05 ... -1.0452092e-05
+  -8.4308358e-06  2.8533725e-05]
+ [ 2.3172444e-05 -2.4439406e-04  1.8864945e-05 ... -1.0456901e-05
+  -8.4297753e-06  2.8522680e-05]]
 ts=2:
-  L_embed (L1) = -2.561870813369751
-  L_out   (L4) = nan
-  Block 0 attention error = -8.023889541625977
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -1.4479494936381343e-08
+  L_out   (L4) = -0.00012841711577493697
+  Block 0 attention error = -4.14806891058106e-06
+  Block 0 mlp error 1   = -5.597365816356614e-05
+  Block 0 mlp error 2   = -1.1898018570377644e-08
+block.mlp.e_mlp1.mu: [[-2.2092401e-05  1.6406775e-04 -3.9963579e-05 ...  9.5247960e-05
+   4.8991715e-05  4.8430033e-05]
+ [-2.1120388e-05  1.6353696e-04 -4.0139606e-05 ...  9.4521500e-05
+   4.9586604e-05  4.7456244e-05]
+ [-2.1272817e-05  1.6374094e-04 -3.9783270e-05 ...  9.4249539e-05
+   4.9207232e-05  4.7726171e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.1732139e-05  1.6360606e-04 -4.0257553e-05 ...  9.4426068e-05
+   4.9306862e-05  4.8096968e-05]
+ [-2.1628315e-05  1.6336031e-04 -3.9632072e-05 ...  9.4644136e-05
+   4.9424252e-05  4.7969254e-05]
+ [-2.1900887e-05  1.6404250e-04 -4.0344828e-05 ...  9.4723116e-05
+   4.9215490e-05  4.8696787e-05]]
+wmlpq outputs value  [[-2.2092401e-05  1.6406775e-04 -3.9963579e-05 ...  9.5247960e-05
+   4.8991715e-05  4.8430033e-05]
+ [-2.1120388e-05  1.6353696e-04 -4.0139606e-05 ...  9.4521500e-05
+   4.9586604e-05  4.7456244e-05]
+ [-2.1272817e-05  1.6374094e-04 -3.9783270e-05 ...  9.4249539e-05
+   4.9207232e-05  4.7726171e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.1732139e-05  1.6360606e-04 -4.0257553e-05 ...  9.4426068e-05
+   4.9306862e-05  4.8096968e-05]
+ [-2.1628315e-05  1.6336031e-04 -3.9632072e-05 ...  9.4644136e-05
+   4.9424252e-05  4.7969254e-05]
+ [-2.1900887e-05  1.6404250e-04 -4.0344828e-05 ...  9.4723116e-05
+   4.9215490e-05  4.8696787e-05]]
+block.mlp.e_mlp1.target: [[-2.4086570e-05  1.6424546e-04 -4.1979267e-05 ...  9.6713062e-05
+   4.8820188e-05  4.9950318e-05]
+ [-2.2686190e-05  1.6376239e-04 -4.2201220e-05 ...  9.6064054e-05
+   5.0154187e-05  4.8394704e-05]
+ [-2.3318771e-05  1.6368194e-04 -4.2048094e-05 ...  9.6429816e-05
+   4.9721355e-05  4.9154973e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.3691910e-05  1.6417392e-04 -4.1764557e-05 ...  9.6715696e-05
+   4.9405455e-05  4.9428145e-05]
+ [-2.3853539e-05  1.6438747e-04 -4.1379713e-05 ...  9.6821408e-05
+   4.9841437e-05  4.9090078e-05]
+ [-2.3789780e-05  1.6457266e-04 -4.1861560e-05 ...  9.6465847e-05
+   4.9782644e-05  4.9615799e-05]]
+zmplp2 value  [[-2.4086570e-05  1.6424546e-04 -4.1979267e-05 ...  9.6713062e-05
+   4.8820188e-05  4.9950318e-05]
+ [-2.2686190e-05  1.6376239e-04 -4.2201220e-05 ...  9.6064054e-05
+   5.0154187e-05  4.8394704e-05]
+ [-2.3318771e-05  1.6368194e-04 -4.2048094e-05 ...  9.6429816e-05
+   4.9721355e-05  4.9154973e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [-2.3691910e-05  1.6417392e-04 -4.1764557e-05 ...  9.6715696e-05
+   4.9405455e-05  4.9428145e-05]
+ [-2.3853539e-05  1.6438747e-04 -4.1379713e-05 ...  9.6821408e-05
+   4.9841437e-05  4.9090078e-05]
+ [-2.3789780e-05  1.6457266e-04 -4.1861560e-05 ...  9.6465847e-05
+   4.9782644e-05  4.9615799e-05]]
+check the surrounding 
+z_mlp2 [[-1.20430377e-05  8.21342037e-05 -2.09888822e-05 ...  4.83605072e-05
+   2.44111088e-05  2.49762215e-05]
+ [-1.13428760e-05  8.18926055e-05 -2.10998496e-05 ...  4.80359558e-05
+   2.50781632e-05  2.41983507e-05]
+ [-1.16591546e-05  8.18523622e-05 -2.10232956e-05 ...  4.82188625e-05
+   2.48617289e-05  2.45785141e-05]
+ ...
+ [-1.18457165e-05  8.20984278e-05 -2.08815363e-05 ...  4.83618242e-05
+   2.47037660e-05  2.47151129e-05]
+ [-1.19265278e-05  8.22052316e-05 -2.06891273e-05 ...  4.84146913e-05
+   2.49217755e-05  2.45460669e-05]
+ [-1.18946491e-05  8.22978545e-05 -2.09300342e-05 ...  4.82368850e-05
+   2.48923752e-05  2.48089473e-05]]
+cheack w_mlp2 [[-1.20430377e-05  8.21342037e-05 -2.09888822e-05 ...  4.83605072e-05
+   2.44111088e-05  2.49762215e-05]
+ [-1.13428760e-05  8.18926055e-05 -2.10998496e-05 ...  4.80359558e-05
+   2.50781632e-05  2.41983507e-05]
+ [-1.16591546e-05  8.18523622e-05 -2.10232956e-05 ...  4.82188625e-05
+   2.48617289e-05  2.45785141e-05]
+ ...
+ [-1.18457165e-05  8.20984278e-05 -2.08815363e-05 ...  4.83618242e-05
+   2.47037660e-05  2.47151129e-05]
+ [-1.19265278e-05  8.22052316e-05 -2.06891273e-05 ...  4.84146913e-05
+   2.49217755e-05  2.45460669e-05]
+ [-1.18946491e-05  8.22978545e-05 -2.09300342e-05 ...  4.82368850e-05
+   2.48923752e-05  2.48089473e-05]]
+block.mlp.e_mlp.mu [[ 2.32471011e-05 -2.44855124e-04  1.90086848e-05 ... -1.03690236e-05
+  -8.55601684e-06  2.84696180e-05]
+ [ 2.32844704e-05 -2.44848809e-04  1.90081773e-05 ... -1.03737120e-05
+  -8.52443736e-06  2.84399939e-05]
+ [ 2.32684106e-05 -2.44837080e-04  1.90111896e-05 ... -1.03742059e-05
+  -8.53669826e-06  2.84430298e-05]
+ ...
+ [ 2.32747443e-05 -2.44835886e-04  1.90120772e-05 ... -1.04116543e-05
+  -8.54346581e-06  2.84756679e-05]
+ [ 2.32586171e-05 -2.44860828e-04  1.89776147e-05 ... -1.03940220e-05
+  -8.53526126e-06  2.84929829e-05]
+ [ 2.32585135e-05 -2.44856492e-04  1.90069040e-05 ... -1.03987795e-05
+  -8.53424626e-06  2.84819180e-05]]
+block.mlp.W_mlp2.outputs [[ 2.32471011e-05 -2.44855124e-04  1.90086848e-05 ... -1.03690236e-05
+  -8.55601684e-06  2.84696180e-05]
+ [ 2.32844704e-05 -2.44848809e-04  1.90081773e-05 ... -1.03737120e-05
+  -8.52443736e-06  2.84399939e-05]
+ [ 2.32684106e-05 -2.44837080e-04  1.90111896e-05 ... -1.03742059e-05
+  -8.53669826e-06  2.84430298e-05]
+ ...
+ [ 2.32747443e-05 -2.44835886e-04  1.90120772e-05 ... -1.04116543e-05
+  -8.54346581e-06  2.84756679e-05]
+ [ 2.32586171e-05 -2.44860828e-04  1.89776147e-05 ... -1.03940220e-05
+  -8.53526126e-06  2.84929829e-05]
+ [ 2.32585135e-05 -2.44856492e-04  1.90069040e-05 ... -1.03987795e-05
+  -8.53424626e-06  2.84819180e-05]]
 ts=3:
-  L_embed (L1) = -26.246112823486328
-  L_out   (L4) = nan
-  Block 0 attention error = -100.45484924316406
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -1.9846826404545936e-08
+  L_out   (L4) = -0.00010166406718781218
+  Block 0 attention error = -4.557694282744662e-13
+  Block 0 mlp error 1   = -8.775738933763932e-06
+  Block 0 mlp error 2   = -1.7223082693362812e-07
+block.mlp.e_mlp1.mu: [[-2.4148721e-05  1.6355130e-04 -4.3810465e-05 ...  9.6935459e-05
+   5.1169030e-05  4.9832644e-05]
+ [-2.3541288e-05  1.6306747e-04 -4.4607736e-05 ...  9.6639058e-05
+   5.2111747e-05  4.9148781e-05]
+ [-2.4014580e-05  1.6305235e-04 -4.4912464e-05 ...  9.6499549e-05
+   5.2110285e-05  4.9596340e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060797e-05  1.6329827e-04 -4.4491888e-05 ...  9.6598531e-05
+   5.1696072e-05  4.9767739e-05]
+ [-2.4185474e-05  1.6299514e-04 -4.4293833e-05 ...  9.7004100e-05
+   5.2055384e-05  4.9795883e-05]
+ [-2.4093442e-05  1.6363038e-04 -4.4385397e-05 ...  9.6653064e-05
+   5.1498759e-05  5.0233513e-05]]
+wmlpq outputs value  [[-2.4148721e-05  1.6355130e-04 -4.3810465e-05 ...  9.6935459e-05
+   5.1169030e-05  4.9832644e-05]
+ [-2.3541288e-05  1.6306747e-04 -4.4607736e-05 ...  9.6639058e-05
+   5.2111747e-05  4.9148781e-05]
+ [-2.4014580e-05  1.6305235e-04 -4.4912464e-05 ...  9.6499549e-05
+   5.2110285e-05  4.9596340e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060797e-05  1.6329827e-04 -4.4491888e-05 ...  9.6598531e-05
+   5.1696072e-05  4.9767739e-05]
+ [-2.4185474e-05  1.6299514e-04 -4.4293833e-05 ...  9.7004100e-05
+   5.2055384e-05  4.9795883e-05]
+ [-2.4093442e-05  1.6363038e-04 -4.4385397e-05 ...  9.6653064e-05
+   5.1498759e-05  5.0233513e-05]]
+block.mlp.e_mlp1.target: [[-1.5399430e-05  1.6493401e-04 -3.6443536e-05 ...  9.4342671e-05
+   4.5168381e-05  4.6784760e-05]
+ [-1.4427575e-05  1.6440329e-04 -3.6619451e-05 ...  9.3616291e-05
+   4.5763059e-05  4.5811074e-05]
+ [-1.4579851e-05  1.6460735e-04 -3.6263224e-05 ...  9.3344534e-05
+   4.5383680e-05  4.6080735e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-1.5039257e-05  1.6447270e-04 -3.6737292e-05 ...  9.3520779e-05
+   4.5483328e-05  4.6451682e-05]
+ [-1.4935455e-05  1.6422680e-04 -3.6111807e-05 ...  9.3738447e-05
+   4.5600951e-05  4.6324229e-05]
+ [-1.5208254e-05  1.6490888e-04 -3.6824356e-05 ...  9.3817427e-05
+   4.5392517e-05  4.7051675e-05]]
+zmplp2 value  [[-1.5399430e-05  1.6493401e-04 -3.6443536e-05 ...  9.4342671e-05
+   4.5168381e-05  4.6784760e-05]
+ [-1.4427575e-05  1.6440329e-04 -3.6619451e-05 ...  9.3616291e-05
+   4.5763059e-05  4.5811074e-05]
+ [-1.4579851e-05  1.6460735e-04 -3.6263224e-05 ...  9.3344534e-05
+   4.5383680e-05  4.6080735e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [-1.5039257e-05  1.6447270e-04 -3.6737292e-05 ...  9.3520779e-05
+   4.5483328e-05  4.6451682e-05]
+ [-1.4935455e-05  1.6422680e-04 -3.6111807e-05 ...  9.3738447e-05
+   4.5600951e-05  4.6324229e-05]
+ [-1.5208254e-05  1.6490888e-04 -3.6824356e-05 ...  9.3817427e-05
+   4.5392517e-05  4.7051675e-05]]
+check the surrounding 
+z_mlp2 [[-7.6996139e-06  8.2478575e-05 -1.8221204e-05 ...  4.7175126e-05
+   2.2585060e-05  2.3393311e-05]
+ [-7.2136986e-06  8.2213148e-05 -1.8309154e-05 ...  4.6811874e-05
+   2.2882421e-05  2.2906430e-05]
+ [-7.2898351e-06  8.2315200e-05 -1.8131052e-05 ...  4.6675974e-05
+   2.2692717e-05  2.3041272e-05]
+ ...
+ [-7.5195317e-06  8.2247861e-05 -1.8368073e-05 ...  4.6764115e-05
+   2.2742544e-05  2.3226759e-05]
+ [-7.4676327e-06  8.2124876e-05 -1.8055349e-05 ...  4.6872960e-05
+   2.2801361e-05  2.3163027e-05]
+ [-7.6040292e-06  8.2466009e-05 -1.8411602e-05 ...  4.6912461e-05
+   2.2697135e-05  2.3526780e-05]]
+cheack w_mlp2 [[-7.6996139e-06  8.2478575e-05 -1.8221204e-05 ...  4.7175126e-05
+   2.2585060e-05  2.3393311e-05]
+ [-7.2136986e-06  8.2213148e-05 -1.8309154e-05 ...  4.6811874e-05
+   2.2882421e-05  2.2906430e-05]
+ [-7.2898351e-06  8.2315200e-05 -1.8131052e-05 ...  4.6675974e-05
+   2.2692717e-05  2.3041272e-05]
+ ...
+ [-7.5195317e-06  8.2247861e-05 -1.8368073e-05 ...  4.6764115e-05
+   2.2742544e-05  2.3226759e-05]
+ [-7.4676327e-06  8.2124876e-05 -1.8055349e-05 ...  4.6872960e-05
+   2.2801361e-05  2.3163027e-05]
+ [-7.6040292e-06  8.2466009e-05 -1.8411602e-05 ...  4.6912461e-05
+   2.2697135e-05  2.3526780e-05]]
+block.mlp.e_mlp.mu [[ 2.32690982e-05 -2.44843570e-04  1.93018259e-05 ... -1.08312415e-05
+  -8.78743413e-06  2.86653267e-05]
+ [ 2.32986968e-05 -2.44836352e-04  1.93087144e-05 ... -1.08374343e-05
+  -8.76888953e-06  2.86539598e-05]
+ [ 2.32941256e-05 -2.44827708e-04  1.93208307e-05 ... -1.08345675e-05
+  -8.77238926e-06  2.86577015e-05]
+ ...
+ [ 2.32807706e-05 -2.44823197e-04  1.93107498e-05 ... -1.08427157e-05
+  -8.77696675e-06  2.86671166e-05]
+ [ 2.32797320e-05 -2.44825264e-04  1.93065953e-05 ... -1.08369950e-05
+  -8.77678121e-06  2.86685481e-05]
+ [ 2.32747589e-05 -2.44829745e-04  1.93193791e-05 ... -1.08448148e-05
+  -8.77167713e-06  2.86621216e-05]]
+block.mlp.W_mlp2.outputs [[ 2.32690982e-05 -2.44843570e-04  1.93018259e-05 ... -1.08312415e-05
+  -8.78743413e-06  2.86653267e-05]
+ [ 2.32986968e-05 -2.44836352e-04  1.93087144e-05 ... -1.08374343e-05
+  -8.76888953e-06  2.86539598e-05]
+ [ 2.32941256e-05 -2.44827708e-04  1.93208307e-05 ... -1.08345675e-05
+  -8.77238926e-06  2.86577015e-05]
+ ...
+ [ 2.32807706e-05 -2.44823197e-04  1.93107498e-05 ... -1.08427157e-05
+  -8.77696675e-06  2.86671166e-05]
+ [ 2.32797320e-05 -2.44825264e-04  1.93065953e-05 ... -1.08369950e-05
+  -8.77678121e-06  2.86685481e-05]
+ [ 2.32747589e-05 -2.44829745e-04  1.93193791e-05 ... -1.08448148e-05
+  -8.77167713e-06  2.86621216e-05]]
 ts=4:
-  L_embed (L1) = -393.0494689941406
-  L_out   (L4) = nan
-  Block 0 attention error = -1533.386474609375
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -3.4096383790644617e-15
+  L_out   (L4) = -0.00011692114640027285
+  Block 0 attention error = -1.7016203441959366e-13
+  Block 0 mlp error 1   = -3.2588963222224265e-05
+  Block 0 mlp error 2   = -2.117937647483359e-08
+block.mlp.e_mlp1.mu: [[-2.4148665e-05  1.6355158e-04 -4.3810960e-05 ...  9.6935706e-05
+   5.1168547e-05  4.9833237e-05]
+ [-2.3541239e-05  1.6306785e-04 -4.4608318e-05 ...  9.6639364e-05
+   5.2111223e-05  4.9149436e-05]
+ [-2.4014511e-05  1.6305271e-04 -4.4913104e-05 ...  9.6499876e-05
+   5.2109688e-05  4.9597103e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060615e-05  1.6329870e-04 -4.4492634e-05 ...  9.6598982e-05
+   5.1695526e-05  4.9768310e-05]
+ [-2.4185265e-05  1.6299561e-04 -4.4294633e-05 ...  9.7004595e-05
+   5.2054787e-05  4.9796505e-05]
+ [-2.4093262e-05  1.6363074e-04 -4.4386052e-05 ...  9.6653464e-05
+   5.1498246e-05  5.0234052e-05]]
+wmlpq outputs value  [[-2.4148665e-05  1.6355158e-04 -4.3810960e-05 ...  9.6935706e-05
+   5.1168547e-05  4.9833237e-05]
+ [-2.3541239e-05  1.6306785e-04 -4.4608318e-05 ...  9.6639364e-05
+   5.2111223e-05  4.9149436e-05]
+ [-2.4014511e-05  1.6305271e-04 -4.4913104e-05 ...  9.6499876e-05
+   5.2109688e-05  4.9597103e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060615e-05  1.6329870e-04 -4.4492634e-05 ...  9.6598982e-05
+   5.1695526e-05  4.9768310e-05]
+ [-2.4185265e-05  1.6299561e-04 -4.4294633e-05 ...  9.7004595e-05
+   5.2054787e-05  4.9796505e-05]
+ [-2.4093262e-05  1.6363074e-04 -4.4386052e-05 ...  9.6653464e-05
+   5.1498246e-05  5.0234052e-05]]
+block.mlp.e_mlp1.target: [[-2.1945201e-05  1.6391266e-04 -4.2348773e-05 ...  9.6883552e-05
+   4.9492752e-05  4.9375853e-05]
+ [-2.1337662e-05  1.6342879e-04 -4.3145854e-05 ...  9.6587217e-05
+   5.0435403e-05  4.8691836e-05]
+ [-2.1810743e-05  1.6341366e-04 -4.3450156e-05 ...  9.6448042e-05
+   5.0433729e-05  4.9138966e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.1856951e-05  1.6365912e-04 -4.3030755e-05 ...  9.6547214e-05
+   5.0019691e-05  4.9310576e-05]
+ [-2.1981194e-05  1.6335608e-04 -4.2832777e-05 ...  9.6952979e-05
+   5.0379233e-05  4.9338265e-05]
+ [-2.1889478e-05  1.6399134e-04 -4.2924221e-05 ...  9.6601667e-05
+   4.9822887e-05  4.9776172e-05]]
+zmplp2 value  [[-2.1945201e-05  1.6391266e-04 -4.2348773e-05 ...  9.6883552e-05
+   4.9492752e-05  4.9375853e-05]
+ [-2.1337662e-05  1.6342879e-04 -4.3145854e-05 ...  9.6587217e-05
+   5.0435403e-05  4.8691836e-05]
+ [-2.1810743e-05  1.6341366e-04 -4.3450156e-05 ...  9.6448042e-05
+   5.0433729e-05  4.9138966e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [-2.1856951e-05  1.6365912e-04 -4.3030755e-05 ...  9.6547214e-05
+   5.0019691e-05  4.9310576e-05]
+ [-2.1981194e-05  1.6335608e-04 -4.2832777e-05 ...  9.6952979e-05
+   5.0379233e-05  4.9338265e-05]
+ [-2.1889478e-05  1.6399134e-04 -4.2924221e-05 ...  9.6601667e-05
+   4.9822887e-05  4.9776172e-05]]
+check the surrounding 
+z_mlp2 [[-1.09723969e-05  8.19677589e-05 -2.11736242e-05 ...  4.84457705e-05
+   2.47474163e-05  2.46889649e-05]
+ [-1.06686375e-05  8.17257605e-05 -2.15721357e-05 ...  4.82975811e-05
+   2.52187838e-05  2.43469276e-05]
+ [-1.09051689e-05  8.17181935e-05 -2.17242759e-05 ...  4.82279829e-05
+   2.52179470e-05  2.45705105e-05]
+ ...
+ [-1.09282728e-05  8.18409535e-05 -2.15145901e-05 ...  4.82775722e-05
+   2.50109097e-05  2.46563231e-05]
+ [-1.09903913e-05  8.16893880e-05 -2.14156080e-05 ...  4.84804877e-05
+   2.51906968e-05  2.46701675e-05]
+ [-1.09445355e-05  8.20071145e-05 -2.14613283e-05 ...  4.83048061e-05
+   2.49125005e-05  2.48891392e-05]]
+cheack w_mlp2 [[-1.09723969e-05  8.19677589e-05 -2.11736242e-05 ...  4.84457705e-05
+   2.47474163e-05  2.46889649e-05]
+ [-1.06686375e-05  8.17257605e-05 -2.15721357e-05 ...  4.82975811e-05
+   2.52187838e-05  2.43469276e-05]
+ [-1.09051689e-05  8.17181935e-05 -2.17242759e-05 ...  4.82279829e-05
+   2.52179470e-05  2.45705105e-05]
+ ...
+ [-1.09282728e-05  8.18409535e-05 -2.15145901e-05 ...  4.82775722e-05
+   2.50109097e-05  2.46563231e-05]
+ [-1.09903913e-05  8.16893880e-05 -2.14156080e-05 ...  4.84804877e-05
+   2.51906968e-05  2.46701675e-05]
+ [-1.09445355e-05  8.20071145e-05 -2.14613283e-05 ...  4.83048061e-05
+   2.49125005e-05  2.48891392e-05]]
+block.mlp.e_mlp.mu [[ 2.3193345e-05 -2.4479890e-04  1.9075405e-05 ... -1.0544889e-05
+  -8.6241107e-06  2.8560606e-05]
+ [ 2.3218159e-05 -2.4479770e-04  1.9074721e-05 ... -1.0551531e-05
+  -8.6060836e-06  2.8550920e-05]
+ [ 2.3203642e-05 -2.4479142e-04  1.9073841e-05 ... -1.0549495e-05
+  -8.6083492e-06  2.8555534e-05]
+ ...
+ [ 2.3205146e-05 -2.4478495e-04  1.9082876e-05 ... -1.0556421e-05
+  -8.6151467e-06  2.8564045e-05]
+ [ 2.3199165e-05 -2.4478987e-04  1.9071849e-05 ... -1.0551102e-05
+  -8.6147456e-06  2.8566348e-05]
+ [ 2.3199027e-05 -2.4478833e-04  1.9092224e-05 ... -1.0558459e-05
+  -8.6091404e-06  2.8558221e-05]]
+block.mlp.W_mlp2.outputs [[ 2.3193345e-05 -2.4479890e-04  1.9075405e-05 ... -1.0544889e-05
+  -8.6241107e-06  2.8560606e-05]
+ [ 2.3218159e-05 -2.4479770e-04  1.9074721e-05 ... -1.0551531e-05
+  -8.6060836e-06  2.8550920e-05]
+ [ 2.3203642e-05 -2.4479142e-04  1.9073841e-05 ... -1.0549495e-05
+  -8.6083492e-06  2.8555534e-05]
+ ...
+ [ 2.3205146e-05 -2.4478495e-04  1.9082876e-05 ... -1.0556421e-05
+  -8.6151467e-06  2.8564045e-05]
+ [ 2.3199165e-05 -2.4478987e-04  1.9071849e-05 ... -1.0551102e-05
+  -8.6147456e-06  2.8566348e-05]
+ [ 2.3199027e-05 -2.4478833e-04  1.9092224e-05 ... -1.0558459e-05
+  -8.6091404e-06  2.8558221e-05]]
 ts=5:
-  L_embed (L1) = -6212.8466796875
-  L_out   (L4) = nan
-  Block 0 attention error = -35170.90625
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -1.122815016419039e-15
+  L_out   (L4) = -0.0001071133156074211
+  Block 0 attention error = -1.5296857197487074e-19
+  Block 0 mlp error 1   = -1.6155163393705152e-05
+  Block 0 mlp error 2   = -7.700342763428125e-08
+block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833001e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111642e-05  4.9149174e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912635e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492212e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294175e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833001e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111642e-05  4.9149174e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912635e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492212e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294175e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+block.mlp.e_mlp1.target: [[-1.9042591e-05  1.6421441e-04 -4.1134022e-05 ...  9.6252188e-05
+   4.8232858e-05  4.8585651e-05]
+ [-1.8435319e-05  1.6373076e-04 -4.1931198e-05 ...  9.5955627e-05
+   4.9175331e-05  4.7902133e-05]
+ [-1.8908577e-05  1.6371558e-04 -4.2236108e-05 ...  9.5816111e-05
+   4.9173741e-05  4.8349852e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-1.8954670e-05  1.6396183e-04 -4.1815074e-05 ...  9.5915129e-05
+   4.8759706e-05  4.8520731e-05]
+ [-1.9079376e-05  1.6365855e-04 -4.1617292e-05 ...  9.6320502e-05
+   4.9118829e-05  4.8549322e-05]
+ [-1.8987364e-05  1.6429376e-04 -4.1708714e-05 ...  9.5969779e-05
+   4.8562400e-05  4.8986567e-05]]
+zmplp2 value  [[-1.9042591e-05  1.6421441e-04 -4.1134022e-05 ...  9.6252188e-05
+   4.8232858e-05  4.8585651e-05]
+ [-1.8435319e-05  1.6373076e-04 -4.1931198e-05 ...  9.5955627e-05
+   4.9175331e-05  4.7902133e-05]
+ [-1.8908577e-05  1.6371558e-04 -4.2236108e-05 ...  9.5816111e-05
+   4.9173741e-05  4.8349852e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [-1.8954670e-05  1.6396183e-04 -4.1815074e-05 ...  9.5915129e-05
+   4.8759706e-05  4.8520731e-05]
+ [-1.9079376e-05  1.6365855e-04 -4.1617292e-05 ...  9.6320502e-05
+   4.9118829e-05  4.8549322e-05]
+ [-1.8987364e-05  1.6429376e-04 -4.1708714e-05 ...  9.5969779e-05
+   4.8562400e-05  4.8986567e-05]]
+check the surrounding 
+z_mlp2 [[-9.5211408e-06  8.2118677e-05 -2.0566291e-05 ...  4.8130034e-05
+   2.4117418e-05  2.4293829e-05]
+ [-9.2175151e-06  8.1876788e-05 -2.0964850e-05 ...  4.7981732e-05
+   2.4588695e-05  2.3952043e-05]
+ [-9.4541365e-06  8.1869199e-05 -2.1117294e-05 ...  4.7911963e-05
+   2.4587900e-05  2.4175921e-05]
+ ...
+ [-9.4771813e-06  8.1992352e-05 -2.0906795e-05 ...  4.7961479e-05
+   2.4380864e-05  2.4261366e-05]
+ [-9.5395335e-06  8.1840670e-05 -2.0807909e-05 ...  4.8164202e-05
+   2.4560442e-05  2.4275665e-05]
+ [-9.4935285e-06  8.2158367e-05 -2.0853617e-05 ...  4.7988808e-05
+   2.4282204e-05  2.4494306e-05]]
+cheack w_mlp2 [[-9.5211408e-06  8.2118677e-05 -2.0566291e-05 ...  4.8130034e-05
+   2.4117418e-05  2.4293829e-05]
+ [-9.2175151e-06  8.1876788e-05 -2.0964850e-05 ...  4.7981732e-05
+   2.4588695e-05  2.3952043e-05]
+ [-9.4541365e-06  8.1869199e-05 -2.1117294e-05 ...  4.7911963e-05
+   2.4587900e-05  2.4175921e-05]
+ ...
+ [-9.4771813e-06  8.1992352e-05 -2.0906795e-05 ...  4.7961479e-05
+   2.4380864e-05  2.4261366e-05]
+ [-9.5395335e-06  8.1840670e-05 -2.0807909e-05 ...  4.8164202e-05
+   2.4560442e-05  2.4275665e-05]
+ [-9.4935285e-06  8.2158367e-05 -2.0853617e-05 ...  4.7988808e-05
+   2.4282204e-05  2.4494306e-05]]
+block.mlp.e_mlp.mu [[ 2.3224868e-05 -2.4486741e-04  1.9184921e-05 ... -1.0726170e-05
+  -8.7297958e-06  2.8628399e-05]
+ [ 2.3249662e-05 -2.4486618e-04  1.9184261e-05 ... -1.0732826e-05
+  -8.7117705e-06  2.8618746e-05]
+ [ 2.3235201e-05 -2.4485990e-04  1.9183401e-05 ... -1.0730799e-05
+  -8.7140179e-06  2.8623370e-05]
+ ...
+ [ 2.3236673e-05 -2.4485344e-04  1.9192408e-05 ... -1.0737664e-05
+  -8.7208555e-06  2.8631843e-05]
+ [ 2.3230727e-05 -2.4485833e-04  1.9181432e-05 ... -1.0732377e-05
+  -8.7204371e-06  2.8634129e-05]
+ [ 2.3230565e-05 -2.4485681e-04  1.9201778e-05 ... -1.0739728e-05
+  -8.7148319e-06  2.8626004e-05]]
+block.mlp.W_mlp2.outputs [[ 2.3224868e-05 -2.4486741e-04  1.9184921e-05 ... -1.0726170e-05
+  -8.7297958e-06  2.8628399e-05]
+ [ 2.3249662e-05 -2.4486618e-04  1.9184261e-05 ... -1.0732826e-05
+  -8.7117705e-06  2.8618746e-05]
+ [ 2.3235201e-05 -2.4485990e-04  1.9183401e-05 ... -1.0730799e-05
+  -8.7140179e-06  2.8623370e-05]
+ ...
+ [ 2.3236673e-05 -2.4485344e-04  1.9192408e-05 ... -1.0737664e-05
+  -8.7208555e-06  2.8631843e-05]
+ [ 2.3230727e-05 -2.4485833e-04  1.9181432e-05 ... -1.0732377e-05
+  -8.7204371e-06  2.8634129e-05]
+ [ 2.3230565e-05 -2.4485681e-04  1.9201778e-05 ... -1.0739728e-05
+  -8.7148319e-06  2.8626004e-05]]
 ts=6:
-  L_embed (L1) = -134061.34375
-  L_out   (L4) = nan
-  Block 0 attention error = -919795.875
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0001129902302636765
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -2.5549390556989238e-05
+  Block 0 mlp error 2   = -3.8586243533700326e-08
+block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607896e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294175e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363067e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607896e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294175e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363067e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+block.mlp.e_mlp1.target: [[-2.0885769e-05  1.6402862e-04 -4.1865362e-05 ...  9.6680444e-05
+   4.8991722e-05  4.9097038e-05]
+ [-2.0278332e-05  1.6354496e-04 -4.2662567e-05 ...  9.6384189e-05
+   4.9934308e-05  4.8413225e-05]
+ [-2.0751484e-05  1.6352984e-04 -4.2967200e-05 ...  9.6244868e-05
+   4.9932787e-05  4.8860606e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.0797577e-05  1.6377574e-04 -4.2546973e-05 ...  9.6343938e-05
+   4.9518552e-05  4.9031918e-05]
+ [-2.0922100e-05  1.6347261e-04 -4.2349136e-05 ...  9.6749558e-05
+   4.9877886e-05  4.9060098e-05]
+ [-2.0830268e-05  1.6410775e-04 -4.2440468e-05 ...  9.6398377e-05
+   4.9321461e-05  4.9497685e-05]]
+zmplp2 value  [[-2.0885769e-05  1.6402862e-04 -4.1865362e-05 ...  9.6680444e-05
+   4.8991722e-05  4.9097038e-05]
+ [-2.0278332e-05  1.6354496e-04 -4.2662567e-05 ...  9.6384189e-05
+   4.9934308e-05  4.8413225e-05]
+ [-2.0751484e-05  1.6352984e-04 -4.2967200e-05 ...  9.6244868e-05
+   4.9932787e-05  4.8860606e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [-2.0797577e-05  1.6377574e-04 -4.2546973e-05 ...  9.6343938e-05
+   4.9518552e-05  4.9031918e-05]
+ [-2.0922100e-05  1.6347261e-04 -4.2349136e-05 ...  9.6749558e-05
+   4.9877886e-05  4.9060098e-05]
+ [-2.0830268e-05  1.6410775e-04 -4.2440468e-05 ...  9.6398377e-05
+   4.9321461e-05  4.9497685e-05]]
+check the surrounding 
+z_mlp2 [[-1.04426990e-05  8.20257555e-05 -2.09319351e-05 ...  4.83441981e-05
+   2.44968833e-05  2.45495467e-05]
+ [-1.01389905e-05  8.17838591e-05 -2.13305102e-05 ...  4.81960451e-05
+   2.49682162e-05  2.42076112e-05]
+ [-1.03755592e-05  8.17762921e-05 -2.14828160e-05 ...  4.81263742e-05
+   2.49674558e-05  2.44313196e-05]
+ ...
+ [-1.03986049e-05  8.18992776e-05 -2.12727155e-05 ...  4.81759198e-05
+   2.47603202e-05  2.45169813e-05]
+ [-1.04608625e-05  8.17476757e-05 -2.11738061e-05 ...  4.83787626e-05
+   2.49400018e-05  2.45310730e-05]
+ [-1.04149503e-05  8.20653295e-05 -2.12194682e-05 ...  4.82031428e-05
+   2.46617656e-05  2.47498847e-05]]
+cheack w_mlp2 [[-1.04426990e-05  8.20257555e-05 -2.09319351e-05 ...  4.83441981e-05
+   2.44968833e-05  2.45495467e-05]
+ [-1.01389905e-05  8.17838591e-05 -2.13305102e-05 ...  4.81960451e-05
+   2.49682162e-05  2.42076112e-05]
+ [-1.03755592e-05  8.17762921e-05 -2.14828160e-05 ...  4.81263742e-05
+   2.49674558e-05  2.44313196e-05]
+ ...
+ [-1.03986049e-05  8.18992776e-05 -2.12727155e-05 ...  4.81759198e-05
+   2.47603202e-05  2.45169813e-05]
+ [-1.04608625e-05  8.17476757e-05 -2.11738061e-05 ...  4.83787626e-05
+   2.49400018e-05  2.45310730e-05]
+ [-1.04149503e-05  8.20653295e-05 -2.12194682e-05 ...  4.82031428e-05
+   2.46617656e-05  2.47498847e-05]]
+block.mlp.e_mlp.mu [[ 2.3201053e-05 -2.4481484e-04  1.9114199e-05 ... -1.0613347e-05
+  -8.6618311e-06  2.8587539e-05]
+ [ 2.3225855e-05 -2.4481365e-04  1.9113526e-05 ... -1.0619991e-05
+  -8.6438113e-06  2.8577871e-05]
+ [ 2.3211362e-05 -2.4480736e-04  1.9112649e-05 ... -1.0617959e-05
+  -8.6460714e-06  2.8582488e-05]
+ ...
+ [ 2.3212862e-05 -2.4480090e-04  1.9121682e-05 ... -1.0624850e-05
+  -8.6528889e-06  2.8590985e-05]
+ [ 2.3206901e-05 -2.4480582e-04  1.9110683e-05 ... -1.0619546e-05
+  -8.6524797e-06  2.8593277e-05]
+ [ 2.3206750e-05 -2.4480428e-04  1.9131041e-05 ... -1.0626905e-05
+  -8.6468681e-06  2.8585149e-05]]
+block.mlp.W_mlp2.outputs [[ 2.3201053e-05 -2.4481484e-04  1.9114199e-05 ... -1.0613347e-05
+  -8.6618311e-06  2.8587539e-05]
+ [ 2.3225855e-05 -2.4481365e-04  1.9113526e-05 ... -1.0619991e-05
+  -8.6438113e-06  2.8577871e-05]
+ [ 2.3211362e-05 -2.4480736e-04  1.9112649e-05 ... -1.0617959e-05
+  -8.6460714e-06  2.8582488e-05]
+ ...
+ [ 2.3212862e-05 -2.4480090e-04  1.9121682e-05 ... -1.0624850e-05
+  -8.6528889e-06  2.8590985e-05]
+ [ 2.3206901e-05 -2.4480582e-04  1.9110683e-05 ... -1.0619546e-05
+  -8.6524797e-06  2.8593277e-05]
+ [ 2.3206750e-05 -2.4480428e-04  1.9131041e-05 ... -1.0626905e-05
+  -8.6468681e-06  2.8585149e-05]]
 ts=7:
-  L_embed (L1) = -3582811.0
-  L_out   (L4) = nan
-  Block 0 attention error = -25378292.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00010930088319582865
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.9492834326229058e-05
+  Block 0 mlp error 2   = -6.051890011349315e-08
+block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+block.mlp.e_mlp1.target: [[-1.9727428e-05  1.6414469e-04 -4.1419924e-05 ...  9.6402291e-05
+   4.8528338e-05  4.8771402e-05]
+ [-1.9120036e-05  1.6366102e-04 -4.2217081e-05 ...  9.6105905e-05
+   4.9470895e-05  4.8087688e-05]
+ [-1.9593237e-05  1.6364588e-04 -4.2521802e-05 ...  9.5966512e-05
+   4.9469370e-05  4.8535174e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-1.9639338e-05  1.6389192e-04 -4.2101274e-05 ...  9.6065560e-05
+   4.9055183e-05  4.8706366e-05]
+ [-1.9763909e-05  1.6358872e-04 -4.1903433e-05 ...  9.6471071e-05
+   4.9414448e-05  4.8734684e-05]
+ [-1.9672018e-05  1.6422389e-04 -4.1994848e-05 ...  9.6120079e-05
+   4.8858001e-05  4.9172158e-05]]
+zmplp2 value  [[-1.9727428e-05  1.6414469e-04 -4.1419924e-05 ...  9.6402291e-05
+   4.8528338e-05  4.8771402e-05]
+ [-1.9120036e-05  1.6366102e-04 -4.2217081e-05 ...  9.6105905e-05
+   4.9470895e-05  4.8087688e-05]
+ [-1.9593237e-05  1.6364588e-04 -4.2521802e-05 ...  9.5966512e-05
+   4.9469370e-05  4.8535174e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [-1.9639338e-05  1.6389192e-04 -4.2101274e-05 ...  9.6065560e-05
+   4.9055183e-05  4.8706366e-05]
+ [-1.9763909e-05  1.6358872e-04 -4.1903433e-05 ...  9.6471071e-05
+   4.9414448e-05  4.8734684e-05]
+ [-1.9672018e-05  1.6422389e-04 -4.1994848e-05 ...  9.6120079e-05
+   4.8858001e-05  4.9172158e-05]]
+check the surrounding 
+z_mlp2 [[-9.8635483e-06  8.2083810e-05 -2.0709231e-05 ...  4.8205100e-05
+   2.4265173e-05  2.4386713e-05]
+ [-9.5598634e-06  8.1841907e-05 -2.1107780e-05 ...  4.8056881e-05
+   2.4736488e-05  2.4044826e-05]
+ [-9.7964548e-06  8.1834332e-05 -2.1260130e-05 ...  4.7987174e-05
+   2.4735726e-05  2.4268591e-05]
+ ...
+ [-9.8195051e-06  8.1957391e-05 -2.1049884e-05 ...  4.8036709e-05
+   2.4528616e-05  2.4354193e-05]
+ [-9.8817882e-06  8.1805745e-05 -2.0950969e-05 ...  4.8239497e-05
+   2.4708264e-05  2.4368353e-05]
+ [-9.8358450e-06  8.2123421e-05 -2.0996673e-05 ...  4.8063968e-05
+   2.4430017e-05  2.4587109e-05]]
+cheack w_mlp2 [[-9.8635483e-06  8.2083810e-05 -2.0709231e-05 ...  4.8205100e-05
+   2.4265173e-05  2.4386713e-05]
+ [-9.5598634e-06  8.1841907e-05 -2.1107780e-05 ...  4.8056881e-05
+   2.4736488e-05  2.4044826e-05]
+ [-9.7964548e-06  8.1834332e-05 -2.1260130e-05 ...  4.7987174e-05
+   2.4735726e-05  2.4268591e-05]
+ ...
+ [-9.8195051e-06  8.1957391e-05 -2.1049884e-05 ...  4.8036709e-05
+   2.4528616e-05  2.4354193e-05]
+ [-9.8817882e-06  8.1805745e-05 -2.0950969e-05 ...  4.8239497e-05
+   2.4708264e-05  2.4368353e-05]
+ [-9.8358450e-06  8.2123421e-05 -2.0996673e-05 ...  4.8063968e-05
+   2.4430017e-05  2.4587109e-05]]
+block.mlp.e_mlp.mu [[ 2.3217308e-05 -2.4485149e-04  1.9159119e-05 ... -1.0683401e-05
+  -8.7050003e-06  2.8612238e-05]
+ [ 2.3242108e-05 -2.4485029e-04  1.9158453e-05 ... -1.0690050e-05
+  -8.6869786e-06  2.8602575e-05]
+ [ 2.3227625e-05 -2.4484401e-04  1.9157584e-05 ... -1.0688020e-05
+  -8.6892360e-06  2.8607195e-05]
+ ...
+ [ 2.3229119e-05 -2.4483755e-04  1.9166608e-05 ... -1.0694901e-05
+  -8.6960599e-06  2.8615683e-05]
+ [ 2.3223161e-05 -2.4484243e-04  1.9155619e-05 ... -1.0689604e-05
+  -8.6956470e-06  2.8617973e-05]
+ [ 2.3223007e-05 -2.4484092e-04  1.9175970e-05 ... -1.0696959e-05
+  -8.6900363e-06  2.8609844e-05]]
+block.mlp.W_mlp2.outputs [[ 2.3217308e-05 -2.4485149e-04  1.9159119e-05 ... -1.0683401e-05
+  -8.7050003e-06  2.8612238e-05]
+ [ 2.3242108e-05 -2.4485029e-04  1.9158453e-05 ... -1.0690050e-05
+  -8.6869786e-06  2.8602575e-05]
+ [ 2.3227625e-05 -2.4484401e-04  1.9157584e-05 ... -1.0688020e-05
+  -8.6892360e-06  2.8607195e-05]
+ ...
+ [ 2.3229119e-05 -2.4483755e-04  1.9166608e-05 ... -1.0694901e-05
+  -8.6960599e-06  2.8615683e-05]
+ [ 2.3223161e-05 -2.4484243e-04  1.9155619e-05 ... -1.0689604e-05
+  -8.6956470e-06  2.8617973e-05]
+ [ 2.3223007e-05 -2.4484092e-04  1.9175970e-05 ... -1.0696959e-05
+  -8.6900363e-06  2.8609844e-05]]
 ts=8:
-  L_embed (L1) = -102003776.0
-  L_out   (L4) = nan
-  Block 0 attention error = -717219648.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011155531683471054
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.3126733140088618e-05
+  Block 0 mlp error 2   = -4.639113271309725e-08
+block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+block.mlp.e_mlp1.target: [[-2.0450902e-05  1.6407191e-04 -4.1692958e-05 ...  9.6579184e-05
+   4.8813668e-05  4.8976384e-05]
+ [-1.9843505e-05  1.6358825e-04 -4.2490137e-05 ...  9.6282849e-05
+   4.9756240e-05  4.8292633e-05]
+ [-2.0316693e-05  1.6357312e-04 -4.2794829e-05 ...  9.6143493e-05
+   4.9754719e-05  4.8740079e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.0362773e-05  1.6381910e-04 -4.2374413e-05 ...  9.6242533e-05
+   4.9340510e-05  4.8911312e-05]
+ [-2.0487345e-05  1.6351591e-04 -4.2176580e-05 ...  9.6648102e-05
+   4.9699807e-05  4.8939582e-05]
+ [-2.0395462e-05  1.6415110e-04 -4.2267959e-05 ...  9.6297030e-05
+   4.9143364e-05  4.9377093e-05]]
+zmplp2 value  [[-2.0450902e-05  1.6407191e-04 -4.1692958e-05 ...  9.6579184e-05
+   4.8813668e-05  4.8976384e-05]
+ [-1.9843505e-05  1.6358825e-04 -4.2490137e-05 ...  9.6282849e-05
+   4.9756240e-05  4.8292633e-05]
+ [-2.0316693e-05  1.6357312e-04 -4.2794829e-05 ...  9.6143493e-05
+   4.9754719e-05  4.8740079e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [-2.0362773e-05  1.6381910e-04 -4.2374413e-05 ...  9.6242533e-05
+   4.9340510e-05  4.8911312e-05]
+ [-2.0487345e-05  1.6351591e-04 -4.2176580e-05 ...  9.6648102e-05
+   4.9699807e-05  4.8939582e-05]
+ [-2.0395462e-05  1.6415110e-04 -4.2267959e-05 ...  9.6297030e-05
+   4.9143364e-05  4.9377093e-05]]
+check the surrounding 
+z_mlp2 [[-1.02252725e-05  8.20474088e-05 -2.08457386e-05 ...  4.82935648e-05
+   2.44078492e-05  2.44892144e-05]
+ [-9.92158402e-06  8.18055123e-05 -2.12442992e-05 ...  4.81453681e-05
+   2.48791730e-05  2.41473099e-05]
+ [-1.01581709e-05  8.17979453e-05 -2.13966341e-05 ...  4.80756789e-05
+   2.48784127e-05  2.43710510e-05]
+ ...
+ [-1.01812093e-05  8.19209672e-05 -2.11864444e-05 ...  4.81252064e-05
+   2.46712898e-05  2.44566727e-05]
+ [-1.02434942e-05  8.17693290e-05 -2.10875332e-05 ...  4.83280273e-05
+   2.48509550e-05  2.44708099e-05]
+ [-1.01975538e-05  8.20870191e-05 -2.11332190e-05 ...  4.81524621e-05
+   2.45727097e-05  2.46895852e-05]]
+cheack w_mlp2 [[-1.02252725e-05  8.20474088e-05 -2.08457386e-05 ...  4.82935648e-05
+   2.44078492e-05  2.44892144e-05]
+ [-9.92158402e-06  8.18055123e-05 -2.12442992e-05 ...  4.81453681e-05
+   2.48791730e-05  2.41473099e-05]
+ [-1.01581709e-05  8.17979453e-05 -2.13966341e-05 ...  4.80756789e-05
+   2.48784127e-05  2.43710510e-05]
+ ...
+ [-1.01812093e-05  8.19209672e-05 -2.11864444e-05 ...  4.81252064e-05
+   2.46712898e-05  2.44566727e-05]
+ [-1.02434942e-05  8.17693290e-05 -2.10875332e-05 ...  4.83280273e-05
+   2.48509550e-05  2.44708099e-05]
+ [-1.01975538e-05  8.20870191e-05 -2.11332190e-05 ...  4.81524621e-05
+   2.45727097e-05  2.46895852e-05]]
+block.mlp.e_mlp.mu [[ 2.32067050e-05 -2.44827155e-04  1.91308591e-05 ... -1.06399566e-05
+  -8.67782182e-06  2.85972492e-05]
+ [ 2.32315069e-05 -2.44825962e-04  1.91301879e-05 ... -1.06466023e-05
+  -8.65979928e-06  2.85875849e-05]
+ [ 2.32170205e-05 -2.44819676e-04  1.91293166e-05 ... -1.06445705e-05
+  -8.66205755e-06  2.85922015e-05]
+ ...
+ [ 2.32185157e-05 -2.44813215e-04  1.91383442e-05 ... -1.06514563e-05
+  -8.66888058e-06  2.86006925e-05]
+ [ 2.32125567e-05 -2.44818104e-04  1.91273502e-05 ... -1.06461548e-05
+  -8.66846767e-06  2.86029826e-05]
+ [ 2.32124039e-05 -2.44816591e-04  1.91477047e-05 ... -1.06535135e-05
+  -8.66285791e-06  2.85948554e-05]]
+block.mlp.W_mlp2.outputs [[ 2.32067050e-05 -2.44827155e-04  1.91308591e-05 ... -1.06399566e-05
+  -8.67782182e-06  2.85972492e-05]
+ [ 2.32315069e-05 -2.44825962e-04  1.91301879e-05 ... -1.06466023e-05
+  -8.65979928e-06  2.85875849e-05]
+ [ 2.32170205e-05 -2.44819676e-04  1.91293166e-05 ... -1.06445705e-05
+  -8.66205755e-06  2.85922015e-05]
+ ...
+ [ 2.32185157e-05 -2.44813215e-04  1.91383442e-05 ... -1.06514563e-05
+  -8.66888058e-06  2.86006925e-05]
+ [ 2.32125567e-05 -2.44818104e-04  1.91273502e-05 ... -1.06461548e-05
+  -8.66846767e-06  2.86029826e-05]
+ [ 2.32124039e-05 -2.44816591e-04  1.91477047e-05 ... -1.06535135e-05
+  -8.66285791e-06  2.85948554e-05]]
 ts=9:
-  L_embed (L1) = -2864146944.0
-  L_out   (L4) = nan
-  Block 0 attention error = -20420358144.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011015273776138201
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.084286643366795e-05
+  Block 0 mlp error 2   = -5.486395338039074e-08
+block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+block.mlp.e_mlp1.target: [[-2.0000718e-05  1.6411752e-04 -4.1524920e-05 ...  9.6468008e-05
+   4.8637288e-05  4.8848218e-05]
+ [-1.9393314e-05  1.6363386e-04 -4.2322088e-05 ...  9.6171651e-05
+   4.9579852e-05  4.8164478e-05]
+ [-1.9866502e-05  1.6361872e-04 -4.2626791e-05 ...  9.6032280e-05
+   4.9578328e-05  4.8611939e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-1.9912604e-05  1.6386472e-04 -4.2206331e-05 ...  9.6131327e-05
+   4.9164129e-05  4.8783160e-05]
+ [-2.0037161e-05  1.6356153e-04 -4.2008491e-05 ...  9.6536867e-05
+   4.9523409e-05  4.8811442e-05]
+ [-1.9945284e-05  1.6419672e-04 -4.2099888e-05 ...  9.6185831e-05
+   4.8966966e-05  4.9248945e-05]]
+zmplp2 value  [[-2.0000718e-05  1.6411752e-04 -4.1524920e-05 ...  9.6468008e-05
+   4.8637288e-05  4.8848218e-05]
+ [-1.9393314e-05  1.6363386e-04 -4.2322088e-05 ...  9.6171651e-05
+   4.9579852e-05  4.8164478e-05]
+ [-1.9866502e-05  1.6361872e-04 -4.2626791e-05 ...  9.6032280e-05
+   4.9578328e-05  4.8611939e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [-1.9912604e-05  1.6386472e-04 -4.2206331e-05 ...  9.6131327e-05
+   4.9164129e-05  4.8783160e-05]
+ [-2.0037161e-05  1.6356153e-04 -4.2008491e-05 ...  9.6536867e-05
+   4.9523409e-05  4.8811442e-05]
+ [-1.9945284e-05  1.6419672e-04 -4.2099888e-05 ...  9.6185831e-05
+   4.8966966e-05  4.9248945e-05]]
+check the surrounding 
+z_mlp2 [[-1.0000189e-05  8.2070226e-05 -2.0761727e-05 ...  4.8237966e-05
+   2.4319650e-05  2.4425126e-05]
+ [-9.6964977e-06  8.1828322e-05 -2.1160282e-05 ...  4.8089762e-05
+   2.4790972e-05  2.4083227e-05]
+ [-9.9330828e-06  8.1820755e-05 -2.1312622e-05 ...  4.8020065e-05
+   2.4790210e-05  2.4306975e-05]
+ ...
+ [-9.9561339e-06  8.1943792e-05 -2.1102405e-05 ...  4.8069593e-05
+   2.4583092e-05  2.4392592e-05]
+ [-1.0018410e-05  8.1792154e-05 -2.1003494e-05 ...  4.8272399e-05
+   2.4762749e-05  2.4406736e-05]
+ [-9.9724730e-06  8.2109829e-05 -2.1049191e-05 ...  4.8096856e-05
+   2.4484505e-05  2.4625506e-05]]
+cheack w_mlp2 [[-1.0000189e-05  8.2070226e-05 -2.0761727e-05 ...  4.8237966e-05
+   2.4319650e-05  2.4425126e-05]
+ [-9.6964977e-06  8.1828322e-05 -2.1160282e-05 ...  4.8089762e-05
+   2.4790972e-05  2.4083227e-05]
+ [-9.9330828e-06  8.1820755e-05 -2.1312622e-05 ...  4.8020065e-05
+   2.4790210e-05  2.4306975e-05]
+ ...
+ [-9.9561339e-06  8.1943792e-05 -2.1102405e-05 ...  4.8069593e-05
+   2.4583092e-05  2.4392592e-05]
+ [-1.0018410e-05  8.1792154e-05 -2.1003494e-05 ...  4.8272399e-05
+   2.4762749e-05  2.4406736e-05]
+ [-9.9724730e-06  8.2109829e-05 -2.1049191e-05 ...  4.8096856e-05
+   2.4484505e-05  2.4625506e-05]]
+block.mlp.e_mlp.mu [[ 2.32134571e-05 -2.44842900e-04  1.91485324e-05 ... -1.06668767e-05
+  -8.69483392e-06  2.86063823e-05]
+ [ 2.32382572e-05 -2.44841678e-04  1.91478630e-05 ... -1.06735251e-05
+  -8.67681320e-06  2.85967199e-05]
+ [ 2.32237726e-05 -2.44835392e-04  1.91469935e-05 ... -1.06714933e-05
+  -8.67907056e-06  2.86013383e-05]
+ ...
+ [ 2.32252660e-05 -2.44828931e-04  1.91560175e-05 ... -1.06783773e-05
+  -8.68589359e-06  2.86098257e-05]
+ [ 2.32193088e-05 -2.44833820e-04  1.91450272e-05 ... -1.06730795e-05
+  -8.68548159e-06  2.86121176e-05]
+ [ 2.32191542e-05 -2.44832307e-04  1.91653780e-05 ... -1.06804364e-05
+  -8.67987183e-06  2.86039904e-05]]
+block.mlp.W_mlp2.outputs [[ 2.32134571e-05 -2.44842900e-04  1.91485324e-05 ... -1.06668767e-05
+  -8.69483392e-06  2.86063823e-05]
+ [ 2.32382572e-05 -2.44841678e-04  1.91478630e-05 ... -1.06735251e-05
+  -8.67681320e-06  2.85967199e-05]
+ [ 2.32237726e-05 -2.44835392e-04  1.91469935e-05 ... -1.06714933e-05
+  -8.67907056e-06  2.86013383e-05]
+ ...
+ [ 2.32252660e-05 -2.44828931e-04  1.91560175e-05 ... -1.06783773e-05
+  -8.68589359e-06  2.86098257e-05]
+ [ 2.32193088e-05 -2.44833820e-04  1.91450272e-05 ... -1.06730795e-05
+  -8.68548159e-06  2.86121176e-05]
+ [ 2.32191542e-05 -2.44832307e-04  1.91653780e-05 ... -1.06804364e-05
+  -8.67987183e-06  2.86039904e-05]]
 ts=10:
-  L_embed (L1) = -82737102848.0
-  L_out   (L4) = nan
-  Block 0 attention error = -586400268288.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011101638665422797
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.223924093414098e-05
+  Block 0 mlp error 2   = -4.954024035441762e-08
+block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+block.mlp.e_mlp1.target: [[-2.0280220e-05  1.6408898e-04 -4.1628580e-05 ...  9.6537420e-05
+   4.8746508e-05  4.8928028e-05]
+ [-1.9672827e-05  1.6360532e-04 -4.2425756e-05 ...  9.6241070e-05
+   4.9689075e-05  4.8244285e-05]
+ [-2.0146015e-05  1.6359020e-04 -4.2730455e-05 ...  9.6101707e-05
+   4.9687555e-05  4.8691742e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.0192103e-05  1.6383619e-04 -4.2310014e-05 ...  9.6200747e-05
+   4.9273352e-05  4.8862963e-05]
+ [-2.0316673e-05  1.6353300e-04 -4.2112177e-05 ...  9.6606302e-05
+   4.9632639e-05  4.8891245e-05]
+ [-2.0224788e-05  1.6416819e-04 -4.2203563e-05 ...  9.6255251e-05
+   4.9076196e-05  4.9328748e-05]]
+zmplp2 value  [[-2.0280220e-05  1.6408898e-04 -4.1628580e-05 ...  9.6537420e-05
+   4.8746508e-05  4.8928028e-05]
+ [-1.9672827e-05  1.6360532e-04 -4.2425756e-05 ...  9.6241070e-05
+   4.9689075e-05  4.8244285e-05]
+ [-2.0146015e-05  1.6359020e-04 -4.2730455e-05 ...  9.6101707e-05
+   4.9687555e-05  4.8691742e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [-2.0192103e-05  1.6383619e-04 -4.2310014e-05 ...  9.6200747e-05
+   4.9273352e-05  4.8862963e-05]
+ [-2.0316673e-05  1.6353300e-04 -4.2112177e-05 ...  9.6606302e-05
+   4.9632639e-05  4.8891245e-05]
+ [-2.0224788e-05  1.6416819e-04 -4.2203563e-05 ...  9.6255251e-05
+   4.9076196e-05  4.9328748e-05]]
+check the surrounding 
+z_mlp2 [[-1.01399346e-05  8.20559435e-05 -2.08135534e-05 ...  4.82726755e-05
+   2.43742652e-05  2.44650328e-05]
+ [-9.83624977e-06  8.18140470e-05 -2.12121122e-05 ...  4.81244751e-05
+   2.48455890e-05  2.41231337e-05]
+ [-1.00728348e-05  8.18064873e-05 -2.13644507e-05 ...  4.80547824e-05
+   2.48448287e-05  2.43468803e-05]
+ ...
+ [-1.00958778e-05  8.19295165e-05 -2.11542447e-05 ...  4.81043135e-05
+   2.46377094e-05  2.44324983e-05]
+ [-1.01581609e-05  8.17778709e-05 -2.10553353e-05 ...  4.83071235e-05
+   2.48173674e-05  2.44466391e-05]
+ [-1.01122205e-05  8.20955611e-05 -2.11010210e-05 ...  4.81315656e-05
+   2.45391220e-05  2.46654090e-05]]
+cheack w_mlp2 [[-1.01399346e-05  8.20559435e-05 -2.08135534e-05 ...  4.82726755e-05
+   2.43742652e-05  2.44650328e-05]
+ [-9.83624977e-06  8.18140470e-05 -2.12121122e-05 ...  4.81244751e-05
+   2.48455890e-05  2.41231337e-05]
+ [-1.00728348e-05  8.18064873e-05 -2.13644507e-05 ...  4.80547824e-05
+   2.48448287e-05  2.43468803e-05]
+ ...
+ [-1.00958778e-05  8.19295165e-05 -2.11542447e-05 ...  4.81043135e-05
+   2.46377094e-05  2.44324983e-05]
+ [-1.01581609e-05  8.17778709e-05 -2.10553353e-05 ...  4.83071235e-05
+   2.48173674e-05  2.44466391e-05]
+ [-1.01122205e-05  8.20955611e-05 -2.11010210e-05 ...  4.81315656e-05
+   2.45391220e-05  2.46654090e-05]]
+block.mlp.e_mlp.mu [[ 2.3209215e-05 -2.4483289e-04  1.9137522e-05 ... -1.0650203e-05
+  -8.6842247e-06  2.8600796e-05]
+ [ 2.3234015e-05 -2.4483170e-04  1.9136853e-05 ... -1.0656851e-05
+  -8.6662039e-06  2.8591134e-05]
+ [ 2.3219529e-05 -2.4482538e-04  1.9135981e-05 ... -1.0654820e-05
+  -8.6684613e-06  2.8595752e-05]
+ ...
+ [ 2.3221024e-05 -2.4481895e-04  1.9145007e-05 ... -1.0661705e-05
+  -8.6752852e-06  2.8604241e-05]
+ [ 2.3215065e-05 -2.4482384e-04  1.9134015e-05 ... -1.0656404e-05
+  -8.6748723e-06  2.8606531e-05]
+ [ 2.3214912e-05 -2.4482229e-04  1.9154368e-05 ... -1.0663763e-05
+  -8.6692626e-06  2.8598404e-05]]
+block.mlp.W_mlp2.outputs [[ 2.3209215e-05 -2.4483289e-04  1.9137522e-05 ... -1.0650203e-05
+  -8.6842247e-06  2.8600796e-05]
+ [ 2.3234015e-05 -2.4483170e-04  1.9136853e-05 ... -1.0656851e-05
+  -8.6662039e-06  2.8591134e-05]
+ [ 2.3219529e-05 -2.4482538e-04  1.9135981e-05 ... -1.0654820e-05
+  -8.6684613e-06  2.8595752e-05]
+ ...
+ [ 2.3221024e-05 -2.4481895e-04  1.9145007e-05 ... -1.0661705e-05
+  -8.6752852e-06  2.8604241e-05]
+ [ 2.3215065e-05 -2.4482384e-04  1.9134015e-05 ... -1.0656404e-05
+  -8.6748723e-06  2.8606531e-05]
+ [ 2.3214912e-05 -2.4482229e-04  1.9154368e-05 ... -1.0663763e-05
+  -8.6692626e-06  2.8598404e-05]]
 ts=11:
-  L_embed (L1) = -2381506412544.0
-  L_out   (L4) = nan
-  Block 0 attention error = -17093775851520.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011048091982956976
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.137011688319035e-05
+  Block 0 mlp error 2   = -5.2794710825310176e-08
+block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+block.mlp.e_mlp1.target: [[-2.0106920e-05  1.6410679e-04 -4.1564548e-05 ...  9.6494252e-05
+   4.8678834e-05  4.8878454e-05]
+ [-1.9499519e-05  1.6362313e-04 -4.2361717e-05 ...  9.6197895e-05
+   4.9621398e-05  4.8194714e-05]
+ [-1.9972707e-05  1.6360800e-04 -4.2666416e-05 ...  9.6058531e-05
+   4.9619877e-05  4.8642170e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.0018802e-05  1.6385400e-04 -4.2245971e-05 ...  9.6157572e-05
+   4.9205675e-05  4.8813392e-05]
+ [-2.0143365e-05  1.6355081e-04 -4.2048130e-05 ...  9.6563119e-05
+   4.9564958e-05  4.8841674e-05]
+ [-2.0051488e-05  1.6418600e-04 -4.2139523e-05 ...  9.6212076e-05
+   4.9008519e-05  4.9279177e-05]]
+zmplp2 value  [[-2.0106920e-05  1.6410679e-04 -4.1564548e-05 ...  9.6494252e-05
+   4.8678834e-05  4.8878454e-05]
+ [-1.9499519e-05  1.6362313e-04 -4.2361717e-05 ...  9.6197895e-05
+   4.9621398e-05  4.8194714e-05]
+ [-1.9972707e-05  1.6360800e-04 -4.2666416e-05 ...  9.6058531e-05
+   4.9619877e-05  4.8642170e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [-2.0018802e-05  1.6385400e-04 -4.2245971e-05 ...  9.6157572e-05
+   4.9205675e-05  4.8813392e-05]
+ [-2.0143365e-05  1.6355081e-04 -4.2048130e-05 ...  9.6563119e-05
+   4.9564958e-05  4.8841674e-05]
+ [-2.0051488e-05  1.6418600e-04 -4.2139523e-05 ...  9.6212076e-05
+   4.9008519e-05  4.9279177e-05]]
+check the surrounding 
+z_mlp2 [[-1.0053287e-05  8.2064849e-05 -2.0781541e-05 ...  4.8251088e-05
+   2.4340427e-05  2.4440244e-05]
+ [-9.7495977e-06  8.1822960e-05 -2.1180096e-05 ...  4.8102887e-05
+   2.4811747e-05  2.4098345e-05]
+ [-9.9861845e-06  8.1815386e-05 -2.1332435e-05 ...  4.8033195e-05
+   2.4810986e-05  2.4322091e-05]
+ ...
+ [-1.0009230e-05  8.1938422e-05 -2.1122225e-05 ...  4.8082722e-05
+   2.4603867e-05  2.4407711e-05]
+ [-1.0071510e-05  8.1786791e-05 -2.1023314e-05 ...  4.8285525e-05
+   2.4783525e-05  2.4421854e-05]
+ [-1.0025573e-05  8.2104467e-05 -2.1069005e-05 ...  4.8109978e-05
+   2.4505282e-05  2.4640622e-05]]
+cheack w_mlp2 [[-1.0053287e-05  8.2064849e-05 -2.0781541e-05 ...  4.8251088e-05
+   2.4340427e-05  2.4440244e-05]
+ [-9.7495977e-06  8.1822960e-05 -2.1180096e-05 ...  4.8102887e-05
+   2.4811747e-05  2.4098345e-05]
+ [-9.9861845e-06  8.1815386e-05 -2.1332435e-05 ...  4.8033195e-05
+   2.4810986e-05  2.4322091e-05]
+ ...
+ [-1.0009230e-05  8.1938422e-05 -2.1122225e-05 ...  4.8082722e-05
+   2.4603867e-05  2.4407711e-05]
+ [-1.0071510e-05  8.1786791e-05 -2.1023314e-05 ...  4.8285525e-05
+   2.4783525e-05  2.4421854e-05]
+ [-1.0025573e-05  8.2104467e-05 -2.1069005e-05 ...  4.8109978e-05
+   2.4505282e-05  2.4640622e-05]]
+block.mlp.e_mlp.mu [[ 2.32118618e-05 -2.44839175e-04  1.91443651e-05 ... -1.06605276e-05
+  -8.69082305e-06  2.86042232e-05]
+ [ 2.32366619e-05 -2.44837982e-04  1.91436975e-05 ... -1.06671741e-05
+  -8.67280141e-06  2.85945589e-05]
+ [ 2.32221755e-05 -2.44831695e-04  1.91428244e-05 ... -1.06651432e-05
+  -8.67505878e-06  2.85991773e-05]
+ ...
+ [ 2.32236707e-05 -2.44825234e-04  1.91518502e-05 ... -1.06720272e-05
+  -8.68188272e-06  2.86076665e-05]
+ [ 2.32177117e-05 -2.44830124e-04  1.91408581e-05 ... -1.06667276e-05
+  -8.68146981e-06  2.86099566e-05]
+ [ 2.32175589e-05 -2.44828610e-04  1.91612125e-05 ... -1.06740845e-05
+  -8.67586004e-06  2.86018294e-05]]
+block.mlp.W_mlp2.outputs [[ 2.32118618e-05 -2.44839175e-04  1.91443651e-05 ... -1.06605276e-05
+  -8.69082305e-06  2.86042232e-05]
+ [ 2.32366619e-05 -2.44837982e-04  1.91436975e-05 ... -1.06671741e-05
+  -8.67280141e-06  2.85945589e-05]
+ [ 2.32221755e-05 -2.44831695e-04  1.91428244e-05 ... -1.06651432e-05
+  -8.67505878e-06  2.85991773e-05]
+ ...
+ [ 2.32236707e-05 -2.44825234e-04  1.91518502e-05 ... -1.06720272e-05
+  -8.68188272e-06  2.86076665e-05]
+ [ 2.32177117e-05 -2.44830124e-04  1.91408581e-05 ... -1.06667276e-05
+  -8.68146981e-06  2.86099566e-05]
+ [ 2.32175589e-05 -2.44828610e-04  1.91612125e-05 ... -1.06740845e-05
+  -8.67586004e-06  2.86018294e-05]]
 ts=12:
-  L_embed (L1) = -69657289555968.0
-  L_out   (L4) = nan
-  Block 0 attention error = -502222269972480.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011081160482717678
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.1905394532950595e-05
+  Block 0 mlp error 2   = -5.076921993918404e-08
+block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+block.mlp.e_mlp1.target: [[-2.0214284e-05  1.6409571e-04 -4.1604133e-05 ...  9.6521035e-05
+   4.8720769e-05  4.8909198e-05]
+ [-1.9606887e-05  1.6361204e-04 -4.2401305e-05 ...  9.6224685e-05
+   4.9663337e-05  4.8225458e-05]
+ [-2.0080075e-05  1.6359691e-04 -4.2706004e-05 ...  9.6085321e-05
+   4.9661812e-05  4.8672915e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.0126168e-05  1.6384291e-04 -4.2285559e-05 ...  9.6184362e-05
+   4.9247614e-05  4.8844136e-05]
+ [-2.0250734e-05  1.6353972e-04 -4.2087722e-05 ...  9.6589916e-05
+   4.9606897e-05  4.8872418e-05]
+ [-2.0158852e-05  1.6417490e-04 -4.2179112e-05 ...  9.6238866e-05
+   4.9050454e-05  4.9309921e-05]]
+zmplp2 value  [[-2.0214284e-05  1.6409571e-04 -4.1604133e-05 ...  9.6521035e-05
+   4.8720769e-05  4.8909198e-05]
+ [-1.9606887e-05  1.6361204e-04 -4.2401305e-05 ...  9.6224685e-05
+   4.9663337e-05  4.8225458e-05]
+ [-2.0080075e-05  1.6359691e-04 -4.2706004e-05 ...  9.6085321e-05
+   4.9661812e-05  4.8672915e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [-2.0126168e-05  1.6384291e-04 -4.2285559e-05 ...  9.6184362e-05
+   4.9247614e-05  4.8844136e-05]
+ [-2.0250734e-05  1.6353972e-04 -4.2087722e-05 ...  9.6589916e-05
+   4.9606897e-05  4.8872418e-05]
+ [-2.0158852e-05  1.6417490e-04 -4.2179112e-05 ...  9.6238866e-05
+   4.9050454e-05  4.9309921e-05]]
+check the surrounding 
+z_mlp2 [[-1.01069681e-05  8.20593050e-05 -2.08013298e-05 ...  4.82644828e-05
+   2.43613958e-05  2.44556159e-05]
+ [-9.80327968e-06  8.18174085e-05 -2.11998886e-05 ...  4.81162824e-05
+   2.48327196e-05  2.41137186e-05]
+ [-1.00398656e-05  8.18098415e-05 -2.13522253e-05 ...  4.80465897e-05
+   2.48319575e-05  2.43374670e-05]
+ ...
+ [-1.00629113e-05  8.19328779e-05 -2.11420192e-05 ...  4.80961207e-05
+   2.46248401e-05  2.44230851e-05]
+ [-1.01251935e-05  8.17812324e-05 -2.10431081e-05 ...  4.82989308e-05
+   2.48044944e-05  2.44372259e-05]
+ [-1.00792531e-05  8.20989153e-05 -2.10887993e-05 ...  4.81233728e-05
+   2.45262509e-05  2.46559957e-05]]
+cheack w_mlp2 [[-1.01069681e-05  8.20593050e-05 -2.08013298e-05 ...  4.82644828e-05
+   2.43613958e-05  2.44556159e-05]
+ [-9.80327968e-06  8.18174085e-05 -2.11998886e-05 ...  4.81162824e-05
+   2.48327196e-05  2.41137186e-05]
+ [-1.00398656e-05  8.18098415e-05 -2.13522253e-05 ...  4.80465897e-05
+   2.48319575e-05  2.43374670e-05]
+ ...
+ [-1.00629113e-05  8.19328779e-05 -2.11420192e-05 ...  4.80961207e-05
+   2.46248401e-05  2.44230851e-05]
+ [-1.01251935e-05  8.17812324e-05 -2.10431081e-05 ...  4.82989308e-05
+   2.48044944e-05  2.44372259e-05]
+ [-1.00792531e-05  8.20989153e-05 -2.10887993e-05 ...  4.81233728e-05
+   2.45262509e-05  2.46559957e-05]]
+block.mlp.e_mlp.mu [[ 2.3210217e-05 -2.4483525e-04  1.9140120e-05 ... -1.0654137e-05
+  -8.6867267e-06  2.8602117e-05]
+ [ 2.3235018e-05 -2.4483405e-04  1.9139450e-05 ... -1.0660785e-05
+  -8.6687060e-06  2.8592453e-05]
+ [ 2.3220531e-05 -2.4482774e-04  1.9138577e-05 ... -1.0658752e-05
+  -8.6709633e-06  2.8597073e-05]
+ ...
+ [ 2.3222026e-05 -2.4482131e-04  1.9147605e-05 ... -1.0665637e-05
+  -8.6777864e-06  2.8605560e-05]
+ [ 2.3216069e-05 -2.4482619e-04  1.9136613e-05 ... -1.0660338e-05
+  -8.6773744e-06  2.8607850e-05]
+ [ 2.3215915e-05 -2.4482465e-04  1.9156965e-05 ... -1.0667694e-05
+  -8.6717637e-06  2.8599723e-05]]
+block.mlp.W_mlp2.outputs [[ 2.3210217e-05 -2.4483525e-04  1.9140120e-05 ... -1.0654137e-05
+  -8.6867267e-06  2.8602117e-05]
+ [ 2.3235018e-05 -2.4483405e-04  1.9139450e-05 ... -1.0660785e-05
+  -8.6687060e-06  2.8592453e-05]
+ [ 2.3220531e-05 -2.4482774e-04  1.9138577e-05 ... -1.0658752e-05
+  -8.6709633e-06  2.8597073e-05]
+ ...
+ [ 2.3222026e-05 -2.4482131e-04  1.9147605e-05 ... -1.0665637e-05
+  -8.6777864e-06  2.8605560e-05]
+ [ 2.3216069e-05 -2.4482619e-04  1.9136613e-05 ... -1.0660338e-05
+  -8.6773744e-06  2.8607850e-05]
+ [ 2.3215915e-05 -2.4482465e-04  1.9156965e-05 ... -1.0667694e-05
+  -8.6717637e-06  2.8599723e-05]]
 ts=13:
-  L_embed (L1) = -2045938004656128.0
-  L_out   (L4) = nan
-  Block 0 attention error = -1.4762895665528832e+16
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011060683755204082
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.157346170861274e-05
+  Block 0 mlp error 2   = -5.201665942422551e-08
+block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+block.mlp.e_mlp1.target: [[-2.0147801e-05  1.6410260e-04 -4.1579649e-05 ...  9.6504431e-05
+   4.8694790e-05  4.8890150e-05]
+ [-1.9540403e-05  1.6361894e-04 -4.2376822e-05 ...  9.6208081e-05
+   4.9637354e-05  4.8206406e-05]
+ [-2.0013591e-05  1.6360381e-04 -4.2681520e-05 ...  9.6068718e-05
+   4.9635830e-05  4.8653863e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.0059684e-05  1.6384981e-04 -4.2261076e-05 ...  9.6167765e-05
+   4.9221631e-05  4.8825088e-05]
+ [-2.0184249e-05  1.6354662e-04 -4.2063239e-05 ...  9.6573305e-05
+   4.9580914e-05  4.8853370e-05]
+ [-2.0092370e-05  1.6418179e-04 -4.2154628e-05 ...  9.6222262e-05
+   4.9024471e-05  4.9290873e-05]]
+zmplp2 value  [[-2.0147801e-05  1.6410260e-04 -4.1579649e-05 ...  9.6504431e-05
+   4.8694790e-05  4.8890150e-05]
+ [-1.9540403e-05  1.6361894e-04 -4.2376822e-05 ...  9.6208081e-05
+   4.9637354e-05  4.8206406e-05]
+ [-2.0013591e-05  1.6360381e-04 -4.2681520e-05 ...  9.6068718e-05
+   4.9635830e-05  4.8653863e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [-2.0059684e-05  1.6384981e-04 -4.2261076e-05 ...  9.6167765e-05
+   4.9221631e-05  4.8825088e-05]
+ [-2.0184249e-05  1.6354662e-04 -4.2063239e-05 ...  9.6573305e-05
+   4.9580914e-05  4.8853370e-05]
+ [-2.0092370e-05  1.6418179e-04 -4.2154628e-05 ...  9.6222262e-05
+   4.9024471e-05  4.9290873e-05]]
+check the surrounding 
+z_mlp2 [[-1.00737279e-05  8.20627538e-05 -2.07890880e-05 ...  4.82561773e-05
+   2.43484046e-05  2.44460916e-05]
+ [-9.77003856e-06  8.18208646e-05 -2.11876486e-05 ...  4.81079805e-05
+   2.48197248e-05  2.41041907e-05]
+ [-1.00066245e-05  8.18132903e-05 -2.13399871e-05 ...  4.80382878e-05
+   2.48189626e-05  2.43279374e-05]
+ ...
+ [-1.00296711e-05  8.19363268e-05 -2.11297775e-05 ...  4.80878189e-05
+   2.46118452e-05  2.44135590e-05]
+ [-1.00919515e-05  8.17846885e-05 -2.10308681e-05 ...  4.82906180e-05
+   2.47915032e-05  2.44277016e-05]
+ [-1.00460120e-05  8.21023641e-05 -2.10765575e-05 ...  4.81150710e-05
+   2.45132578e-05  2.46464715e-05]]
+cheack w_mlp2 [[-1.00737279e-05  8.20627538e-05 -2.07890880e-05 ...  4.82561773e-05
+   2.43484046e-05  2.44460916e-05]
+ [-9.77003856e-06  8.18208646e-05 -2.11876486e-05 ...  4.81079805e-05
+   2.48197248e-05  2.41041907e-05]
+ [-1.00066245e-05  8.18132903e-05 -2.13399871e-05 ...  4.80382878e-05
+   2.48189626e-05  2.43279374e-05]
+ ...
+ [-1.00296711e-05  8.19363268e-05 -2.11297775e-05 ...  4.80878189e-05
+   2.46118452e-05  2.44135590e-05]
+ [-1.00919515e-05  8.17846885e-05 -2.10308681e-05 ...  4.82906180e-05
+   2.47915032e-05  2.44277016e-05]
+ [-1.00460120e-05  8.21023641e-05 -2.10765575e-05 ...  4.81150710e-05
+   2.45132578e-05  2.46464715e-05]]
+block.mlp.e_mlp.mu [[ 2.32112361e-05 -2.44837691e-04  1.91427516e-05 ... -1.06580919e-05
+  -8.68926691e-06  2.86034156e-05]
+ [ 2.32360362e-05 -2.44836498e-04  1.91420822e-05 ... -1.06647394e-05
+  -8.67124618e-06  2.85937494e-05]
+ [ 2.32215498e-05 -2.44830211e-04  1.91412109e-05 ... -1.06627076e-05
+  -8.67350263e-06  2.85983697e-05]
+ ...
+ [ 2.32230450e-05 -2.44823750e-04  1.91502368e-05 ... -1.06695925e-05
+  -8.68032566e-06  2.86068571e-05]
+ [ 2.32170878e-05 -2.44828640e-04  1.91392428e-05 ... -1.06642938e-05
+  -8.67991366e-06  2.86091472e-05]
+ [ 2.32169332e-05 -2.44827126e-04  1.91595973e-05 ... -1.06716507e-05
+  -8.67430390e-06  2.86010218e-05]]
+block.mlp.W_mlp2.outputs [[ 2.32112361e-05 -2.44837691e-04  1.91427516e-05 ... -1.06580919e-05
+  -8.68926691e-06  2.86034156e-05]
+ [ 2.32360362e-05 -2.44836498e-04  1.91420822e-05 ... -1.06647394e-05
+  -8.67124618e-06  2.85937494e-05]
+ [ 2.32215498e-05 -2.44830211e-04  1.91412109e-05 ... -1.06627076e-05
+  -8.67350263e-06  2.85983697e-05]
+ ...
+ [ 2.32230450e-05 -2.44823750e-04  1.91502368e-05 ... -1.06695925e-05
+  -8.68032566e-06  2.86068571e-05]
+ [ 2.32170878e-05 -2.44828640e-04  1.91392428e-05 ... -1.06642938e-05
+  -8.67991366e-06  2.86091472e-05]
+ [ 2.32169332e-05 -2.44827126e-04  1.91595973e-05 ... -1.06716507e-05
+  -8.67430390e-06  2.86010218e-05]]
 ts=14:
-  L_embed (L1) = -6.001828960613171e+16
-  L_out   (L4) = nan
-  Block 0 attention error = -4.3243582726026035e+17
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011073343921452761
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.177848909923341e-05
+  Block 0 mlp error 2   = -5.124309154780349e-08
+block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+block.mlp.e_mlp1.target: [[-2.0188956e-05  1.6409831e-04 -4.1594794e-05 ...  9.6514719e-05
+   4.8710881e-05  4.8901944e-05]
+ [-1.9581559e-05  1.6361466e-04 -4.2391966e-05 ...  9.6218369e-05
+   4.9653449e-05  4.8218204e-05]
+ [-2.0054749e-05  1.6359953e-04 -4.2696669e-05 ...  9.6078998e-05
+   4.9651924e-05  4.8665661e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.0100841e-05  1.6384551e-04 -4.2276224e-05 ...  9.6178046e-05
+   4.9237726e-05  4.8836882e-05]
+ [-2.0225407e-05  1.6354234e-04 -4.2078384e-05 ...  9.6583593e-05
+   4.9597009e-05  4.8865164e-05]
+ [-2.0133524e-05  1.6417752e-04 -4.2169773e-05 ...  9.6232550e-05
+   4.9040566e-05  4.9302667e-05]]
+zmplp2 value  [[-2.0188956e-05  1.6409831e-04 -4.1594794e-05 ...  9.6514719e-05
+   4.8710881e-05  4.8901944e-05]
+ [-1.9581559e-05  1.6361466e-04 -4.2391966e-05 ...  9.6218369e-05
+   4.9653449e-05  4.8218204e-05]
+ [-2.0054749e-05  1.6359953e-04 -4.2696669e-05 ...  9.6078998e-05
+   4.9651924e-05  4.8665661e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [-2.0100841e-05  1.6384551e-04 -4.2276224e-05 ...  9.6178046e-05
+   4.9237726e-05  4.8836882e-05]
+ [-2.0225407e-05  1.6354234e-04 -4.2078384e-05 ...  9.6583593e-05
+   4.9597009e-05  4.8865164e-05]
+ [-2.0133524e-05  1.6417752e-04 -4.2169773e-05 ...  9.6232550e-05
+   4.9040566e-05  4.9302667e-05]]
+check the surrounding 
+z_mlp2 [[-1.00943043e-05  8.20606074e-05 -2.07966605e-05 ...  4.82613250e-05
+   2.43564500e-05  2.44519888e-05]
+ [-9.79061588e-06  8.18187254e-05 -2.11952192e-05 ...  4.81131246e-05
+   2.48277756e-05  2.41100915e-05]
+ [-1.00272036e-05  8.18111512e-05 -2.13475578e-05 ...  4.80434283e-05
+   2.48270135e-05  2.43338400e-05]
+ ...
+ [-1.00502475e-05  8.19341803e-05 -2.11373517e-05 ...  4.80929630e-05
+   2.46198961e-05  2.44194580e-05]
+ [-1.01125297e-05  8.17825421e-05 -2.10384387e-05 ...  4.82957694e-05
+   2.47995504e-05  2.44335988e-05]
+ [-1.00665893e-05  8.21002250e-05 -2.10841299e-05 ...  4.81202151e-05
+   2.45213050e-05  2.46523687e-05]]
+cheack w_mlp2 [[-1.00943043e-05  8.20606074e-05 -2.07966605e-05 ...  4.82613250e-05
+   2.43564500e-05  2.44519888e-05]
+ [-9.79061588e-06  8.18187254e-05 -2.11952192e-05 ...  4.81131246e-05
+   2.48277756e-05  2.41100915e-05]
+ [-1.00272036e-05  8.18111512e-05 -2.13475578e-05 ...  4.80434283e-05
+   2.48270135e-05  2.43338400e-05]
+ ...
+ [-1.00502475e-05  8.19341803e-05 -2.11373517e-05 ...  4.80929630e-05
+   2.46198961e-05  2.44194580e-05]
+ [-1.01125297e-05  8.17825421e-05 -2.10384387e-05 ...  4.82957694e-05
+   2.47995504e-05  2.44335988e-05]
+ [-1.00665893e-05  8.21002250e-05 -2.10841299e-05 ...  4.81202151e-05
+   2.45213050e-05  2.46523687e-05]]
+block.mlp.e_mlp.mu [[ 2.32106049e-05 -2.44836177e-04  1.91411200e-05 ... -1.06556436e-05
+  -8.68769257e-06  2.86026152e-05]
+ [ 2.32354050e-05 -2.44834984e-04  1.91404506e-05 ... -1.06622920e-05
+  -8.66967275e-06  2.85929509e-05]
+ [ 2.32209204e-05 -2.44828669e-04  1.91395811e-05 ... -1.06602602e-05
+  -8.67193012e-06  2.85975675e-05]
+ ...
+ [ 2.32224138e-05 -2.44822208e-04  1.91486051e-05 ... -1.06671441e-05
+  -8.67875315e-06  2.86060567e-05]
+ [ 2.32164548e-05 -2.44827097e-04  1.91376130e-05 ... -1.06618445e-05
+  -8.67834024e-06  2.86083487e-05]
+ [ 2.32163020e-05 -2.44825584e-04  1.91579675e-05 ... -1.06692032e-05
+  -8.67272956e-06  2.86002214e-05]]
+block.mlp.W_mlp2.outputs [[ 2.32106049e-05 -2.44836177e-04  1.91411200e-05 ... -1.06556436e-05
+  -8.68769257e-06  2.86026152e-05]
+ [ 2.32354050e-05 -2.44834984e-04  1.91404506e-05 ... -1.06622920e-05
+  -8.66967275e-06  2.85929509e-05]
+ [ 2.32209204e-05 -2.44828669e-04  1.91395811e-05 ... -1.06602602e-05
+  -8.67193012e-06  2.85975675e-05]
+ ...
+ [ 2.32224138e-05 -2.44822208e-04  1.91486051e-05 ... -1.06671441e-05
+  -8.67875315e-06  2.86060567e-05]
+ [ 2.32164548e-05 -2.44827097e-04  1.91376130e-05 ... -1.06618445e-05
+  -8.67834024e-06  2.86083487e-05]
+ [ 2.32163020e-05 -2.44825584e-04  1.91579675e-05 ... -1.06692032e-05
+  -8.67272956e-06  2.86002214e-05]]
 ts=15:
-  L_embed (L1) = -1.757334041511592e+18
-  L_out   (L4) = nan
-  Block 0 attention error = -1.2644401311610044e+19
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011065509170293808
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.165149817301426e-05
+  Block 0 mlp error 2   = -5.172088179961065e-08
+block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+block.mlp.e_mlp1.target: [[-2.0163485e-05  1.6410097e-04 -4.1585427e-05 ...  9.6508353e-05
+   4.8700917e-05  4.8894643e-05]
+ [-1.9556086e-05  1.6361731e-04 -4.2382599e-05 ...  9.6212003e-05
+   4.9643480e-05  4.8210903e-05]
+ [-2.0029274e-05  1.6360218e-04 -4.2687298e-05 ...  9.6072632e-05
+   4.9641960e-05  4.8658359e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.0075368e-05  1.6384818e-04 -4.2266853e-05 ...  9.6171680e-05
+   4.9227758e-05  4.8829581e-05]
+ [-2.0199934e-05  1.6354499e-04 -4.2069012e-05 ...  9.6577227e-05
+   4.9587041e-05  4.8857863e-05]
+ [-2.0108051e-05  1.6418018e-04 -4.2160405e-05 ...  9.6226184e-05
+   4.9030601e-05  4.9295366e-05]]
+zmplp2 value  [[-2.0163485e-05  1.6410097e-04 -4.1585427e-05 ...  9.6508353e-05
+   4.8700917e-05  4.8894643e-05]
+ [-1.9556086e-05  1.6361731e-04 -4.2382599e-05 ...  9.6212003e-05
+   4.9643480e-05  4.8210903e-05]
+ [-2.0029274e-05  1.6360218e-04 -4.2687298e-05 ...  9.6072632e-05
+   4.9641960e-05  4.8658359e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [-2.0075368e-05  1.6384818e-04 -4.2266853e-05 ...  9.6171680e-05
+   4.9227758e-05  4.8829581e-05]
+ [-2.0199934e-05  1.6354499e-04 -4.2069012e-05 ...  9.6577227e-05
+   4.9587041e-05  4.8857863e-05]
+ [-2.0108051e-05  1.6418018e-04 -4.2160405e-05 ...  9.6226184e-05
+   4.9030601e-05  4.9295366e-05]]
+check the surrounding 
+z_mlp2 [[-1.0081570e-05  8.2061939e-05 -2.0791977e-05 ...  4.8258138e-05
+   2.4351468e-05  2.4448338e-05]
+ [-9.7778802e-06  8.1820050e-05 -2.1190537e-05 ...  4.8109941e-05
+   2.4822790e-05  2.4106439e-05]
+ [-1.0014466e-05  8.1812475e-05 -2.1342876e-05 ...  4.8040245e-05
+   2.4822028e-05  2.4330186e-05]
+ ...
+ [-1.0037512e-05  8.1935512e-05 -2.1132666e-05 ...  4.8089776e-05
+   2.4614912e-05  2.4415805e-05]
+ [-1.0099793e-05  8.1783874e-05 -2.1033753e-05 ...  4.8292586e-05
+   2.4794566e-05  2.4429948e-05]
+ [-1.0053853e-05  8.2101556e-05 -2.1079446e-05 ...  4.8117032e-05
+   2.4516323e-05  2.4648718e-05]]
+cheack w_mlp2 [[-1.0081570e-05  8.2061939e-05 -2.0791977e-05 ...  4.8258138e-05
+   2.4351468e-05  2.4448338e-05]
+ [-9.7778802e-06  8.1820050e-05 -2.1190537e-05 ...  4.8109941e-05
+   2.4822790e-05  2.4106439e-05]
+ [-1.0014466e-05  8.1812475e-05 -2.1342876e-05 ...  4.8040245e-05
+   2.4822028e-05  2.4330186e-05]
+ ...
+ [-1.0037512e-05  8.1935512e-05 -2.1132666e-05 ...  4.8089776e-05
+   2.4614912e-05  2.4415805e-05]
+ [-1.0099793e-05  8.1783874e-05 -2.1033753e-05 ...  4.8292586e-05
+   2.4794566e-05  2.4429948e-05]
+ [-1.0053853e-05  8.2101556e-05 -2.1079446e-05 ...  4.8117032e-05
+   2.4516323e-05  2.4648718e-05]]
+block.mlp.e_mlp.mu [[ 2.32109960e-05 -2.44837109e-04  1.91421295e-05 ... -1.06571588e-05
+  -8.68866846e-06  2.86031081e-05]
+ [ 2.32357961e-05 -2.44835916e-04  1.91414601e-05 ... -1.06638054e-05
+  -8.67064591e-06  2.85934439e-05]
+ [ 2.32213097e-05 -2.44829629e-04  1.91405907e-05 ... -1.06617745e-05
+  -8.67290328e-06  2.85980641e-05]
+ ...
+ [ 2.32228049e-05 -2.44823168e-04  1.91496165e-05 ... -1.06686603e-05
+  -8.67972722e-06  2.86065515e-05]
+ [ 2.32168459e-05 -2.44828057e-04  1.91386225e-05 ... -1.06633597e-05
+  -8.67931431e-06  2.86088416e-05]
+ [ 2.32166931e-05 -2.44826544e-04  1.91589770e-05 ... -1.06707175e-05
+  -8.67370545e-06  2.86007162e-05]]
+block.mlp.W_mlp2.outputs [[ 2.32109960e-05 -2.44837109e-04  1.91421295e-05 ... -1.06571588e-05
+  -8.68866846e-06  2.86031081e-05]
+ [ 2.32357961e-05 -2.44835916e-04  1.91414601e-05 ... -1.06638054e-05
+  -8.67064591e-06  2.85934439e-05]
+ [ 2.32213097e-05 -2.44829629e-04  1.91405907e-05 ... -1.06617745e-05
+  -8.67290328e-06  2.85980641e-05]
+ ...
+ [ 2.32228049e-05 -2.44823168e-04  1.91496165e-05 ... -1.06686603e-05
+  -8.67972722e-06  2.86065515e-05]
+ [ 2.32168459e-05 -2.44828057e-04  1.91386225e-05 ... -1.06633597e-05
+  -8.67931431e-06  2.86088416e-05]
+ [ 2.32166931e-05 -2.44826544e-04  1.91589770e-05 ... -1.06707175e-05
+  -8.67370545e-06  2.86007162e-05]]
 ts=16:
-  L_embed (L1) = -5.138926473006442e+19
-  L_out   (L4) = nan
-  Block 0 attention error = -3.698763097181719e+20
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011070356413256377
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.173002576455474e-05
+  Block 0 mlp error 2   = -5.142500114629911e-08
+block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+block.mlp.e_mlp1.target: [[-2.0179248e-05  1.6409933e-04 -4.1591222e-05 ...  9.6512289e-05
+   4.8707087e-05  4.8899165e-05]
+ [-1.9571849e-05  1.6361567e-04 -4.2388394e-05 ...  9.6215939e-05
+   4.9649650e-05  4.8215421e-05]
+ [-2.0045038e-05  1.6360053e-04 -4.2693093e-05 ...  9.6076576e-05
+   4.9648130e-05  4.8662878e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.0091133e-05  1.6384653e-04 -4.2272648e-05 ...  9.6175616e-05
+   4.9233931e-05  4.8834099e-05]
+ [-2.0215697e-05  1.6354334e-04 -4.2074811e-05 ...  9.6581163e-05
+   4.9593214e-05  4.8862381e-05]
+ [-2.0123814e-05  1.6417852e-04 -4.2166201e-05 ...  9.6230120e-05
+   4.9036771e-05  4.9299884e-05]]
+zmplp2 value  [[-2.0179248e-05  1.6409933e-04 -4.1591222e-05 ...  9.6512289e-05
+   4.8707087e-05  4.8899165e-05]
+ [-1.9571849e-05  1.6361567e-04 -4.2388394e-05 ...  9.6215939e-05
+   4.9649650e-05  4.8215421e-05]
+ [-2.0045038e-05  1.6360053e-04 -4.2693093e-05 ...  9.6076576e-05
+   4.9648130e-05  4.8662878e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [-2.0091133e-05  1.6384653e-04 -4.2272648e-05 ...  9.6175616e-05
+   4.9233931e-05  4.8834099e-05]
+ [-2.0215697e-05  1.6354334e-04 -4.2074811e-05 ...  9.6581163e-05
+   4.9593214e-05  4.8862381e-05]
+ [-2.0123814e-05  1.6417852e-04 -4.2166201e-05 ...  9.6230120e-05
+   4.9036771e-05  4.9299884e-05]]
+check the surrounding 
+z_mlp2 [[-1.00894513e-05  8.20611167e-05 -2.07948742e-05 ...  4.82601063e-05
+   2.43545528e-05  2.44505991e-05]
+ [-9.78576099e-06  8.18192275e-05 -2.11934348e-05 ...  4.81119096e-05
+   2.48258766e-05  2.41086982e-05]
+ [-1.00223479e-05  8.18116532e-05 -2.13457697e-05 ...  4.80422168e-05
+   2.48251163e-05  2.43324484e-05]
+ ...
+ [-1.00453935e-05  8.19346897e-05 -2.11355637e-05 ...  4.80917479e-05
+   2.46179989e-05  2.44180646e-05]
+ [-1.01076748e-05  8.17830442e-05 -2.10366525e-05 ...  4.82945543e-05
+   2.47976532e-05  2.44322073e-05]
+ [-1.00617344e-05  8.21007270e-05 -2.10823437e-05 ...  4.81190000e-05
+   2.45194078e-05  2.46509771e-05]]
+cheack w_mlp2 [[-1.00894513e-05  8.20611167e-05 -2.07948742e-05 ...  4.82601063e-05
+   2.43545528e-05  2.44505991e-05]
+ [-9.78576099e-06  8.18192275e-05 -2.11934348e-05 ...  4.81119096e-05
+   2.48258766e-05  2.41086982e-05]
+ [-1.00223479e-05  8.18116532e-05 -2.13457697e-05 ...  4.80422168e-05
+   2.48251163e-05  2.43324484e-05]
+ ...
+ [-1.00453935e-05  8.19346897e-05 -2.11355637e-05 ...  4.80917479e-05
+   2.46179989e-05  2.44180646e-05]
+ [-1.01076748e-05  8.17830442e-05 -2.10366525e-05 ...  4.82945543e-05
+   2.47976532e-05  2.44322073e-05]
+ [-1.00617344e-05  8.21007270e-05 -2.10823437e-05 ...  4.81190000e-05
+   2.45194078e-05  2.46509771e-05]]
+block.mlp.e_mlp.mu [[ 2.3210754e-05 -2.4483653e-04  1.9141504e-05 ... -1.0656221e-05
+  -8.6880646e-06  2.8602803e-05]
+ [ 2.3235552e-05 -2.4483533e-04  1.9140834e-05 ... -1.0662869e-05
+  -8.6700429e-06  2.8593138e-05]
+ [ 2.3221068e-05 -2.4482905e-04  1.9139965e-05 ... -1.0660839e-05
+  -8.6723012e-06  2.8597757e-05]
+ ...
+ [ 2.3222563e-05 -2.4482259e-04  1.9148991e-05 ... -1.0667722e-05
+  -8.6791242e-06  2.8606246e-05]
+ [ 2.3216606e-05 -2.4482748e-04  1.9137999e-05 ... -1.0662423e-05
+  -8.6787113e-06  2.8608536e-05]
+ [ 2.3216451e-05 -2.4482596e-04  1.9158351e-05 ... -1.0669779e-05
+  -8.6731015e-06  2.8600411e-05]]
+block.mlp.W_mlp2.outputs [[ 2.3210754e-05 -2.4483653e-04  1.9141504e-05 ... -1.0656221e-05
+  -8.6880646e-06  2.8602803e-05]
+ [ 2.3235552e-05 -2.4483533e-04  1.9140834e-05 ... -1.0662869e-05
+  -8.6700429e-06  2.8593138e-05]
+ [ 2.3221068e-05 -2.4482905e-04  1.9139965e-05 ... -1.0660839e-05
+  -8.6723012e-06  2.8597757e-05]
+ ...
+ [ 2.3222563e-05 -2.4482259e-04  1.9148991e-05 ... -1.0667722e-05
+  -8.6791242e-06  2.8606246e-05]
+ [ 2.3216606e-05 -2.4482748e-04  1.9137999e-05 ... -1.0662423e-05
+  -8.6787113e-06  2.8608536e-05]
+ [ 2.3216451e-05 -2.4482596e-04  1.9158351e-05 ... -1.0669779e-05
+  -8.6731015e-06  2.8600411e-05]]
 ts=17:
-  L_embed (L1) = -1.5038706980191805e+21
-  L_out   (L4) = nan
-  Block 0 attention error = -1.0829069685398757e+22
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0001106735726352781
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.1681433281628415e-05
+  Block 0 mlp error 2   = -5.160794458447526e-08
+block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+block.mlp.e_mlp1.target: [[-2.0169493e-05  1.6410035e-04 -4.1587635e-05 ...  9.6509852e-05
+   4.8703267e-05  4.8896367e-05]
+ [-1.9562096e-05  1.6361669e-04 -4.2384807e-05 ...  9.6213502e-05
+   4.9645831e-05  4.8212623e-05]
+ [-2.0035284e-05  1.6360155e-04 -4.2689506e-05 ...  9.6074138e-05
+   4.9644310e-05  4.8660080e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.0081376e-05  1.6384755e-04 -4.2269061e-05 ...  9.6173178e-05
+   4.9230108e-05  4.8831302e-05]
+ [-2.0205942e-05  1.6354436e-04 -4.2071224e-05 ...  9.6578726e-05
+   4.9589391e-05  4.8859587e-05]
+ [-2.0114061e-05  1.6417955e-04 -4.2162614e-05 ...  9.6227683e-05
+   4.9032951e-05  4.9297087e-05]]
+zmplp2 value  [[-2.0169493e-05  1.6410035e-04 -4.1587635e-05 ...  9.6509852e-05
+   4.8703267e-05  4.8896367e-05]
+ [-1.9562096e-05  1.6361669e-04 -4.2384807e-05 ...  9.6213502e-05
+   4.9645831e-05  4.8212623e-05]
+ [-2.0035284e-05  1.6360155e-04 -4.2689506e-05 ...  9.6074138e-05
+   4.9644310e-05  4.8660080e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [-2.0081376e-05  1.6384755e-04 -4.2269061e-05 ...  9.6173178e-05
+   4.9230108e-05  4.8831302e-05]
+ [-2.0205942e-05  1.6354436e-04 -4.2071224e-05 ...  9.6578726e-05
+   4.9589391e-05  4.8859587e-05]
+ [-2.0114061e-05  1.6417955e-04 -4.2162614e-05 ...  9.6227683e-05
+   4.9032951e-05  4.9297087e-05]]
+check the surrounding 
+z_mlp2 [[-1.0084574e-05  8.2061626e-05 -2.0793081e-05 ...  4.8258888e-05
+   2.4352643e-05  2.4449200e-05]
+ [-9.7808852e-06  8.1819737e-05 -2.1191641e-05 ...  4.8110691e-05
+   2.4823967e-05  2.4107299e-05]
+ [-1.0017471e-05  8.1812163e-05 -2.1343976e-05 ...  4.8040998e-05
+   2.4823205e-05  2.4331046e-05]
+ ...
+ [-1.0040515e-05  8.1935199e-05 -2.1133770e-05 ...  4.8090529e-05
+   2.4616087e-05  2.4416666e-05]
+ [-1.0102797e-05  8.1783553e-05 -2.1034859e-05 ...  4.8293336e-05
+   2.4795741e-05  2.4430810e-05]
+ [-1.0056858e-05  8.2101244e-05 -2.1080550e-05 ...  4.8117781e-05
+   2.4517498e-05  2.4649578e-05]]
+cheack w_mlp2 [[-1.0084574e-05  8.2061626e-05 -2.0793081e-05 ...  4.8258888e-05
+   2.4352643e-05  2.4449200e-05]
+ [-9.7808852e-06  8.1819737e-05 -2.1191641e-05 ...  4.8110691e-05
+   2.4823967e-05  2.4107299e-05]
+ [-1.0017471e-05  8.1812163e-05 -2.1343976e-05 ...  4.8040998e-05
+   2.4823205e-05  2.4331046e-05]
+ ...
+ [-1.0040515e-05  8.1935199e-05 -2.1133770e-05 ...  4.8090529e-05
+   2.4616087e-05  2.4416666e-05]
+ [-1.0102797e-05  8.1783553e-05 -2.1034859e-05 ...  4.8293336e-05
+   2.4795741e-05  2.4430810e-05]
+ [-1.0056858e-05  8.2101244e-05 -2.1080550e-05 ...  4.8117781e-05
+   2.4517498e-05  2.4649578e-05]]
+block.mlp.e_mlp.mu [[ 2.3210903e-05 -2.4483691e-04  1.9141891e-05 ... -1.0656802e-05
+  -8.6884384e-06  2.8602992e-05]
+ [ 2.3235703e-05 -2.4483568e-04  1.9141222e-05 ... -1.0663449e-05
+  -8.6704158e-06  2.8593327e-05]
+ [ 2.3221219e-05 -2.4482940e-04  1.9140351e-05 ... -1.0661417e-05
+  -8.6726750e-06  2.8597946e-05]
+ ...
+ [ 2.3222712e-05 -2.4482294e-04  1.9149378e-05 ... -1.0668303e-05
+  -8.6794962e-06  2.8606435e-05]
+ [ 2.3216755e-05 -2.4482782e-04  1.9138386e-05 ... -1.0663002e-05
+  -8.6790833e-06  2.8608725e-05]
+ [ 2.3216602e-05 -2.4482631e-04  1.9158739e-05 ... -1.0670360e-05
+  -8.6734753e-06  2.8600600e-05]]
+block.mlp.W_mlp2.outputs [[ 2.3210903e-05 -2.4483691e-04  1.9141891e-05 ... -1.0656802e-05
+  -8.6884384e-06  2.8602992e-05]
+ [ 2.3235703e-05 -2.4483568e-04  1.9141222e-05 ... -1.0663449e-05
+  -8.6704158e-06  2.8593327e-05]
+ [ 2.3221219e-05 -2.4482940e-04  1.9140351e-05 ... -1.0661417e-05
+  -8.6726750e-06  2.8597946e-05]
+ ...
+ [ 2.3222712e-05 -2.4482294e-04  1.9149378e-05 ... -1.0668303e-05
+  -8.6794962e-06  2.8606435e-05]
+ [ 2.3216755e-05 -2.4482782e-04  1.9138386e-05 ... -1.0663002e-05
+  -8.6790833e-06  2.8608725e-05]
+ [ 2.3216602e-05 -2.4482631e-04  1.9158739e-05 ... -1.0670360e-05
+  -8.6734753e-06  2.8600600e-05]]
 ts=18:
-  L_embed (L1) = -4.403753922911767e+22
-  L_out   (L4) = nan
-  Block 0 attention error = -3.171796947004344e+23
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011069211905123666
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.17114866245538e-05
+  Block 0 mlp error 2   = -5.1494733810386606e-08
+block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+block.mlp.e_mlp1.target: [[-2.0175528e-05  1.6409972e-04 -4.1589854e-05 ...  9.6511365e-05
+   4.8705631e-05  4.8898099e-05]
+ [-1.9568131e-05  1.6361606e-04 -4.2387030e-05 ...  9.6215015e-05
+   4.9648195e-05  4.8214355e-05]
+ [-2.0041321e-05  1.6360093e-04 -4.2691725e-05 ...  9.6075644e-05
+   4.9646675e-05  4.8661812e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.0087413e-05  1.6384691e-04 -4.2271284e-05 ...  9.6174692e-05
+   4.9232476e-05  4.8833033e-05]
+ [-2.0211977e-05  1.6354374e-04 -4.2073443e-05 ...  9.6580239e-05
+   4.9591759e-05  4.8861315e-05]
+ [-2.0120096e-05  1.6417891e-04 -4.2164833e-05 ...  9.6229189e-05
+   4.9035316e-05  4.9298818e-05]]
+zmplp2 value  [[-2.0175528e-05  1.6409972e-04 -4.1589854e-05 ...  9.6511365e-05
+   4.8705631e-05  4.8898099e-05]
+ [-1.9568131e-05  1.6361606e-04 -4.2387030e-05 ...  9.6215015e-05
+   4.9648195e-05  4.8214355e-05]
+ [-2.0041321e-05  1.6360093e-04 -4.2691725e-05 ...  9.6075644e-05
+   4.9646675e-05  4.8661812e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [-2.0087413e-05  1.6384691e-04 -4.2271284e-05 ...  9.6174692e-05
+   4.9232476e-05  4.8833033e-05]
+ [-2.0211977e-05  1.6354374e-04 -4.2073443e-05 ...  9.6580239e-05
+   4.9591759e-05  4.8861315e-05]
+ [-2.0120096e-05  1.6417891e-04 -4.2164833e-05 ...  9.6229189e-05
+   4.9035316e-05  4.9298818e-05]]
+check the surrounding 
+z_mlp2 [[-1.0087591e-05  8.2061313e-05 -2.0794190e-05 ...  4.8259644e-05
+   2.4353825e-05  2.4450066e-05]
+ [-9.7839020e-06  8.1819424e-05 -2.1192753e-05 ...  4.8111448e-05
+   2.4825149e-05  2.4108165e-05]
+ [-1.0020490e-05  8.1811850e-05 -2.1345086e-05 ...  4.8041751e-05
+   2.4824389e-05  2.4331912e-05]
+ ...
+ [-1.0043534e-05  8.1934879e-05 -2.1134882e-05 ...  4.8091286e-05
+   2.4617271e-05  2.4417532e-05]
+ [-1.0105815e-05  8.1783241e-05 -2.1035969e-05 ...  4.8294092e-05
+   2.4796926e-05  2.4431674e-05]
+ [-1.0059875e-05  8.2100923e-05 -2.1081660e-05 ...  4.8118534e-05
+   2.4518680e-05  2.4650444e-05]]
+cheack w_mlp2 [[-1.0087591e-05  8.2061313e-05 -2.0794190e-05 ...  4.8259644e-05
+   2.4353825e-05  2.4450066e-05]
+ [-9.7839020e-06  8.1819424e-05 -2.1192753e-05 ...  4.8111448e-05
+   2.4825149e-05  2.4108165e-05]
+ [-1.0020490e-05  8.1811850e-05 -2.1345086e-05 ...  4.8041751e-05
+   2.4824389e-05  2.4331912e-05]
+ ...
+ [-1.0043534e-05  8.1934879e-05 -2.1134882e-05 ...  4.8091286e-05
+   2.4617271e-05  2.4417532e-05]
+ [-1.0105815e-05  8.1783241e-05 -2.1035969e-05 ...  4.8294092e-05
+   2.4796926e-05  2.4431674e-05]
+ [-1.0059875e-05  8.2100923e-05 -2.1081660e-05 ...  4.8118534e-05
+   2.4518680e-05  2.4650444e-05]]
+block.mlp.e_mlp.mu [[ 2.32108123e-05 -2.44836672e-04  1.91416530e-05 ... -1.06564421e-05
+  -8.68820734e-06  2.86028753e-05]
+ [ 2.32356106e-05 -2.44835479e-04  1.91409836e-05 ... -1.06630905e-05
+  -8.67018571e-06  2.85932110e-05]
+ [ 2.32211260e-05 -2.44829163e-04  1.91401123e-05 ... -1.06610587e-05
+  -8.67244398e-06  2.85978294e-05]
+ ...
+ [ 2.32226212e-05 -2.44822731e-04  1.91491381e-05 ... -1.06679436e-05
+  -8.67926610e-06  2.86063168e-05]
+ [ 2.32166622e-05 -2.44827621e-04  1.91381459e-05 ... -1.06626439e-05
+  -8.67885319e-06  2.86086088e-05]
+ [ 2.32165075e-05 -2.44826078e-04  1.91584986e-05 ... -1.06700008e-05
+  -8.67324343e-06  2.86004833e-05]]
+block.mlp.W_mlp2.outputs [[ 2.32108123e-05 -2.44836672e-04  1.91416530e-05 ... -1.06564421e-05
+  -8.68820734e-06  2.86028753e-05]
+ [ 2.32356106e-05 -2.44835479e-04  1.91409836e-05 ... -1.06630905e-05
+  -8.67018571e-06  2.85932110e-05]
+ [ 2.32211260e-05 -2.44829163e-04  1.91401123e-05 ... -1.06610587e-05
+  -8.67244398e-06  2.85978294e-05]
+ ...
+ [ 2.32226212e-05 -2.44822731e-04  1.91491381e-05 ... -1.06679436e-05
+  -8.67926610e-06  2.86063168e-05]
+ [ 2.32166622e-05 -2.44827621e-04  1.91381459e-05 ... -1.06626439e-05
+  -8.67885319e-06  2.86086088e-05]
+ [ 2.32165075e-05 -2.44826078e-04  1.91584986e-05 ... -1.06700008e-05
+  -8.67324343e-06  2.86004833e-05]]
 ts=19:
-  L_embed (L1) = -1.2898035513931756e+24
-  L_out   (L4) = nan
-  Block 0 attention error = -9.289807985636241e+24
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011068063759012148
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.169289655284956e-05
+  Block 0 mlp error 2   = -5.156476134970944e-08
+block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
+   5.1168907e-05  4.9833005e-05]
+ [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
+   5.2111638e-05  4.9149177e-05]
+ [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
+   5.2110154e-05  4.9596798e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
+   5.1695919e-05  4.9768092e-05]
+ [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
+   5.2055220e-05  4.9796261e-05]
+ [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
+   5.1498613e-05  5.0233833e-05]]
+block.mlp.e_mlp1.target: [[-2.0171796e-05  1.6410010e-04 -4.1588482e-05 ...  9.6510426e-05
+   4.8704169e-05  4.8897025e-05]
+ [-1.9564395e-05  1.6361645e-04 -4.2385655e-05 ...  9.6214077e-05
+   4.9646733e-05  4.8213285e-05]
+ [-2.0037585e-05  1.6360132e-04 -4.2690353e-05 ...  9.6074713e-05
+   4.9645208e-05  4.8660742e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.0083678e-05  1.6384730e-04 -4.2269909e-05 ...  9.6173753e-05
+   4.9231010e-05  4.8831964e-05]
+ [-2.0208243e-05  1.6354413e-04 -4.2072068e-05 ...  9.6579301e-05
+   4.9590293e-05  4.8860245e-05]
+ [-2.0116360e-05  1.6417931e-04 -4.2163461e-05 ...  9.6228257e-05
+   4.9033850e-05  4.9297749e-05]]
+zmplp2 value  [[-2.0171796e-05  1.6410010e-04 -4.1588482e-05 ...  9.6510426e-05
+   4.8704169e-05  4.8897025e-05]
+ [-1.9564395e-05  1.6361645e-04 -4.2385655e-05 ...  9.6214077e-05
+   4.9646733e-05  4.8213285e-05]
+ [-2.0037585e-05  1.6360132e-04 -4.2690353e-05 ...  9.6074713e-05
+   4.9645208e-05  4.8660742e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [-2.0083678e-05  1.6384730e-04 -4.2269909e-05 ...  9.6173753e-05
+   4.9231010e-05  4.8831964e-05]
+ [-2.0208243e-05  1.6354413e-04 -4.2072068e-05 ...  9.6579301e-05
+   4.9590293e-05  4.8860245e-05]
+ [-2.0116360e-05  1.6417931e-04 -4.2163461e-05 ...  9.6228257e-05
+   4.9033850e-05  4.9297749e-05]]
+check the surrounding 
+z_mlp2 [[-1.0085725e-05  8.2061502e-05 -2.0793505e-05 ...  4.8259175e-05
+   2.4353094e-05  2.4449530e-05]
+ [-9.7820339e-06  8.1819620e-05 -2.1192065e-05 ...  4.8110978e-05
+   2.4824418e-05  2.4107630e-05]
+ [-1.0018622e-05  8.1812046e-05 -2.1344400e-05 ...  4.8041285e-05
+   2.4823656e-05  2.4331377e-05]
+ ...
+ [-1.0041666e-05  8.1935075e-05 -2.1134194e-05 ...  4.8090817e-05
+   2.4616538e-05  2.4416997e-05]
+ [-1.0103948e-05  8.1783437e-05 -2.1035281e-05 ...  4.8293623e-05
+   2.4796193e-05  2.4431140e-05]
+ [-1.0058007e-05  8.2101120e-05 -2.1080974e-05 ...  4.8118069e-05
+   2.4517947e-05  2.4649909e-05]]
+cheack w_mlp2 [[-1.0085725e-05  8.2061502e-05 -2.0793505e-05 ...  4.8259175e-05
+   2.4353094e-05  2.4449530e-05]
+ [-9.7820339e-06  8.1819620e-05 -2.1192065e-05 ...  4.8110978e-05
+   2.4824418e-05  2.4107630e-05]
+ [-1.0018622e-05  8.1812046e-05 -2.1344400e-05 ...  4.8041285e-05
+   2.4823656e-05  2.4331377e-05]
+ ...
+ [-1.0041666e-05  8.1935075e-05 -2.1134194e-05 ...  4.8090817e-05
+   2.4616538e-05  2.4416997e-05]
+ [-1.0103948e-05  8.1783437e-05 -2.1035281e-05 ...  4.8293623e-05
+   2.4796193e-05  2.4431140e-05]
+ [-1.0058007e-05  8.2101120e-05 -2.1080974e-05 ...  4.8118069e-05
+   2.4517947e-05  2.4649909e-05]]
+block.mlp.e_mlp.mu [[ 2.32108687e-05 -2.44836818e-04  1.91418003e-05 ... -1.06566658e-05
+  -8.68835104e-06  2.86029463e-05]
+ [ 2.32356688e-05 -2.44835624e-04  1.91411309e-05 ... -1.06633124e-05
+  -8.67032850e-06  2.85932838e-05]
+ [ 2.32211823e-05 -2.44829309e-04  1.91402596e-05 ... -1.06612806e-05
+  -8.67258677e-06  2.85979022e-05]
+ ...
+ [ 2.32226776e-05 -2.44822848e-04  1.91492854e-05 ... -1.06681655e-05
+  -8.67940798e-06  2.86063896e-05]
+ [ 2.32167185e-05 -2.44827737e-04  1.91382933e-05 ... -1.06628668e-05
+  -8.67899689e-06  2.86086815e-05]
+ [ 2.32165658e-05 -2.44826224e-04  1.91586478e-05 ... -1.06702246e-05
+  -8.67338713e-06  2.86005543e-05]]
+block.mlp.W_mlp2.outputs [[ 2.32108687e-05 -2.44836818e-04  1.91418003e-05 ... -1.06566658e-05
+  -8.68835104e-06  2.86029463e-05]
+ [ 2.32356688e-05 -2.44835624e-04  1.91411309e-05 ... -1.06633124e-05
+  -8.67032850e-06  2.85932838e-05]
+ [ 2.32211823e-05 -2.44829309e-04  1.91402596e-05 ... -1.06612806e-05
+  -8.67258677e-06  2.85979022e-05]
+ ...
+ [ 2.32226776e-05 -2.44822848e-04  1.91492854e-05 ... -1.06681655e-05
+  -8.67940798e-06  2.86063896e-05]
+ [ 2.32167185e-05 -2.44827737e-04  1.91382933e-05 ... -1.06628668e-05
+  -8.67899689e-06  2.86086815e-05]
+ [ 2.32165658e-05 -2.44826224e-04  1.91586478e-05 ... -1.06702246e-05
+  -8.67338713e-06  2.86005543e-05]]
 
 Before evolve():
-  Output weights = [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  Output weights = [[-0.0025796  -0.00536817 -0.00385617 ...  0.00600005  0.00163745
+   0.00190573]
+ [ 0.00058702 -0.00665626  0.00323455 ...  0.00898084  0.00200509
+  -0.00502799]
+ [-0.00849051  0.01034883  0.00085245 ...  0.00403775 -0.00024235
+  -0.00982084]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [-0.00488323 -0.00145556 -0.00792412 ...  0.00384715 -0.00224172
+   0.00048926]
+ [-0.00405312  0.00653957 -0.00534301 ... -0.00641004 -0.0027866
+   0.00079404]
+ [-0.0096973   0.00649236 -0.00672544 ... -0.00890862 -0.00064916
+   0.0036834 ]]
 
 After evolve():
-  Output weights = [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  Output weights = [[-0.0026543  -0.00529168 -0.00378787 ...  0.00592968  0.0015669
+   0.00184266]
+ [ 0.00067049 -0.00673975  0.0031636  ...  0.00905736  0.00208351
+  -0.00497872]
+ [-0.00856553  0.0104256   0.00092108 ...  0.00396705 -0.00031326
+  -0.0098842 ]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [-0.00480919 -0.00153142 -0.00799189 ...  0.00391696 -0.00217177
+   0.00055201]
+ [-0.00397944  0.00646407 -0.0054105  ... -0.00634055 -0.00271699
+   0.00085662]
+ [-0.00977745  0.0065739  -0.00665373 ... -0.00898322 -0.00072469
+   0.00362061]]
   Weights updated ✅
 Block 0 errors: attn=0.0, mlp=0.0
 ts=0:
-  L_embed (L1) = -0.678191065788269
-  L_out   (L4) = nan
+  L_embed (L1) = -0.6844906210899353
+  L_out   (L4) = -0.0001636339002288878
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  Block 0 mlp error 1   = -1.2667929695453495e-05
+  Block 0 mlp error 2   = -5.374660304369172e-06
+block.mlp.e_mlp1.mu: [[ 1.45383010e-05  1.83694312e-04 -1.05065319e-05 ...  7.79384791e-05
+   1.90815936e-05  1.95535449e-05]
+ [ 1.44703254e-05  1.82614225e-04 -1.08645490e-05 ...  7.74994114e-05
+   1.99922633e-05  1.90330938e-05]
+ [ 1.44208161e-05  1.83462544e-04 -1.07922315e-05 ...  7.78093454e-05
+   1.94995846e-05  1.92614643e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.46445900e-05  1.83101758e-04 -1.02631648e-05 ...  7.67348611e-05
+   1.96125475e-05  1.92984753e-05]
+ [ 1.44790738e-05  1.82712654e-04 -9.32803687e-06 ...  7.77146415e-05
+   1.97788977e-05  1.92216994e-05]
+ [ 1.45273589e-05  1.83038748e-04 -9.88387183e-06 ...  7.72983913e-05
+   1.97550908e-05  1.96588280e-05]]
+wmlpq outputs value  [[ 1.45383010e-05  1.83694312e-04 -1.05065319e-05 ...  7.79384791e-05
+   1.90815936e-05  1.95535449e-05]
+ [ 1.44703254e-05  1.82614225e-04 -1.08645490e-05 ...  7.74994114e-05
+   1.99922633e-05  1.90330938e-05]
+ [ 1.44208161e-05  1.83462544e-04 -1.07922315e-05 ...  7.78093454e-05
+   1.94995846e-05  1.92614643e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.46445900e-05  1.83101758e-04 -1.02631648e-05 ...  7.67348611e-05
+   1.96125475e-05  1.92984753e-05]
+ [ 1.44790738e-05  1.82712654e-04 -9.32803687e-06 ...  7.77146415e-05
+   1.97788977e-05  1.92216994e-05]
+ [ 1.45273589e-05  1.83038748e-04 -9.88387183e-06 ...  7.72983913e-05
+   1.97550908e-05  1.96588280e-05]]
+block.mlp.e_mlp1.target: [[-2.4053545e-05  1.6427366e-04 -4.1886706e-05 ...  9.6698554e-05
+   4.8809074e-05  4.9894148e-05]
+ [-2.2653567e-05  1.6379007e-04 -4.2108364e-05 ...  9.6049305e-05
+   5.0143226e-05  4.8338330e-05]
+ [-2.3285938e-05  1.6370983e-04 -4.1955187e-05 ...  9.6415621e-05
+   4.9709975e-05  4.9098253e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [-2.3659151e-05  1.6420164e-04 -4.1672902e-05 ...  9.6700867e-05
+   4.9394639e-05  4.9372335e-05]
+ [-2.3820854e-05  1.6441531e-04 -4.1286959e-05 ...  9.6805728e-05
+   4.9831739e-05  4.9033890e-05]
+ [-2.3757355e-05  1.6460019e-04 -4.1768802e-05 ...  9.6449890e-05
+   4.9773542e-05  4.9559938e-05]]
+zmplp2 value  [[-2.4053545e-05  1.6427366e-04 -4.1886706e-05 ...  9.6698554e-05
+   4.8809074e-05  4.9894148e-05]
+ [-2.2653567e-05  1.6379007e-04 -4.2108364e-05 ...  9.6049305e-05
+   5.0143226e-05  4.8338330e-05]
+ [-2.3285938e-05  1.6370983e-04 -4.1955187e-05 ...  9.6415621e-05
+   4.9709975e-05  4.9098253e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [-2.3659151e-05  1.6420164e-04 -4.1672902e-05 ...  9.6700867e-05
+   4.9394639e-05  4.9372335e-05]
+ [-2.3820854e-05  1.6441531e-04 -4.1286959e-05 ...  9.6805728e-05
+   4.9831739e-05  4.9033890e-05]
+ [-2.3757355e-05  1.6460019e-04 -4.1768802e-05 ...  9.6449890e-05
+   4.9773542e-05  4.9559938e-05]]
+check the surrounding 
+z_mlp2 [[-1.2026526e-05  8.2148319e-05 -2.0942607e-05 ...  4.8353253e-05
+   2.4405552e-05  2.4948133e-05]
+ [-1.1326564e-05  8.1906452e-05 -2.1053429e-05 ...  4.8028582e-05
+   2.5072683e-05  2.4170158e-05]
+ [-1.1642739e-05  8.1866325e-05 -2.0976844e-05 ...  4.8211765e-05
+   2.4856039e-05  2.4550154e-05]
+ ...
+ [-1.1829337e-05  8.2112296e-05 -2.0835711e-05 ...  4.8354410e-05
+   2.4698358e-05  2.4687206e-05]
+ [-1.1910186e-05  8.2219158e-05 -2.0642756e-05 ...  4.8406851e-05
+   2.4916926e-05  2.4517967e-05]
+ [-1.1878436e-05  8.2311621e-05 -2.0883659e-05 ...  4.8228907e-05
+   2.4887824e-05  2.4781015e-05]]
+cheack w_mlp2 [[-1.2026526e-05  8.2148319e-05 -2.0942607e-05 ...  4.8353253e-05
+   2.4405552e-05  2.4948133e-05]
+ [-1.1326564e-05  8.1906452e-05 -2.1053429e-05 ...  4.8028582e-05
+   2.5072683e-05  2.4170158e-05]
+ [-1.1642739e-05  8.1866325e-05 -2.0976844e-05 ...  4.8211765e-05
+   2.4856039e-05  2.4550154e-05]
+ ...
+ [-1.1829337e-05  8.2112296e-05 -2.0835711e-05 ...  4.8354410e-05
+   2.4698358e-05  2.4687206e-05]
+ [-1.1910186e-05  8.2219158e-05 -2.0642756e-05 ...  4.8406851e-05
+   2.4916926e-05  2.4517967e-05]
+ [-1.1878436e-05  8.2311621e-05 -2.0883659e-05 ...  4.8228907e-05
+   2.4887824e-05  2.4781015e-05]]
+block.mlp.e_mlp.mu [[ 6.8639951e-05 -2.7642932e-04  6.4730863e-05 ... -5.4807228e-05
+  -5.2499821e-05  8.2387378e-05]
+ [ 6.8677611e-05 -2.7642291e-04  6.4730622e-05 ... -5.4812190e-05
+  -5.2468473e-05  8.2357976e-05]
+ [ 6.8661313e-05 -2.7641127e-04  6.4733402e-05 ... -5.4812426e-05
+  -5.2480529e-05  8.2360762e-05]
+ ...
+ [ 6.8667578e-05 -2.7641017e-04  6.4734137e-05 ... -5.4849828e-05
+  -5.2487016e-05  8.2393330e-05]
+ [ 6.8651840e-05 -2.7643502e-04  6.4699954e-05 ... -5.4832537e-05
+  -5.2479143e-05  8.2411032e-05]
+ [ 6.8651600e-05 -2.7643066e-04  6.4729116e-05 ... -5.4837205e-05
+  -5.2477983e-05  8.2399849e-05]]
+block.mlp.W_mlp2.outputs [[ 6.8639951e-05 -2.7642932e-04  6.4730863e-05 ... -5.4807228e-05
+  -5.2499821e-05  8.2387378e-05]
+ [ 6.8677611e-05 -2.7642291e-04  6.4730622e-05 ... -5.4812190e-05
+  -5.2468473e-05  8.2357976e-05]
+ [ 6.8661313e-05 -2.7641127e-04  6.4733402e-05 ... -5.4812426e-05
+  -5.2480529e-05  8.2360762e-05]
+ ...
+ [ 6.8667578e-05 -2.7641017e-04  6.4734137e-05 ... -5.4849828e-05
+  -5.2487016e-05  8.2393330e-05]
+ [ 6.8651840e-05 -2.7643502e-04  6.4699954e-05 ... -5.4832537e-05
+  -5.2479143e-05  8.2411032e-05]
+ [ 6.8651600e-05 -2.7643066e-04  6.4729116e-05 ... -5.4837205e-05
+  -5.2477983e-05  8.2399849e-05]]
 ts=1:
-  L_embed (L1) = -0.5759881734848022
-  L_out   (L4) = nan
-  Block 0 attention error = -0.890527069568634
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -9.704477270133793e-05
+  Block 0 attention error = -2.784565822366858e-06
+  Block 0 mlp error 1   = -2.7564652782530175e-09
+  Block 0 mlp error 2   = -3.1921771892484685e-08
+block.mlp.e_mlp1.mu: [[ 1.45383010e-05  1.83694312e-04 -1.05065319e-05 ...  7.79384791e-05
+   1.90815936e-05  1.95535449e-05]
+ [ 1.44703254e-05  1.82614225e-04 -1.08645490e-05 ...  7.74994114e-05
+   1.99922633e-05  1.90330938e-05]
+ [ 1.44208161e-05  1.83462544e-04 -1.07922315e-05 ...  7.78093454e-05
+   1.94995846e-05  1.92614643e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.46445900e-05  1.83101758e-04 -1.02631648e-05 ...  7.67348611e-05
+   1.96125475e-05  1.92984753e-05]
+ [ 1.44790738e-05  1.82712654e-04 -9.32803687e-06 ...  7.77146415e-05
+   1.97788977e-05  1.92216994e-05]
+ [ 1.45273589e-05  1.83038748e-04 -9.88387183e-06 ...  7.72983913e-05
+   1.97550908e-05  1.96588280e-05]]
+wmlpq outputs value  [[ 1.45383010e-05  1.83694312e-04 -1.05065319e-05 ...  7.79384791e-05
+   1.90815936e-05  1.95535449e-05]
+ [ 1.44703254e-05  1.82614225e-04 -1.08645490e-05 ...  7.74994114e-05
+   1.99922633e-05  1.90330938e-05]
+ [ 1.44208161e-05  1.83462544e-04 -1.07922315e-05 ...  7.78093454e-05
+   1.94995846e-05  1.92614643e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.46445900e-05  1.83101758e-04 -1.02631648e-05 ...  7.67348611e-05
+   1.96125475e-05  1.92984753e-05]
+ [ 1.44790738e-05  1.82712654e-04 -9.32803687e-06 ...  7.77146415e-05
+   1.97788977e-05  1.92216994e-05]
+ [ 1.45273589e-05  1.83038748e-04 -9.88387183e-06 ...  7.72983913e-05
+   1.97550908e-05  1.96588280e-05]]
+block.mlp.e_mlp1.target: [[ 8.0278114e-06  1.8479541e-04 -9.5652395e-06 ...  7.8408098e-05
+   2.2706074e-05  2.1834536e-05]
+ [ 7.9597812e-06  1.8371602e-04 -9.9232348e-06 ...  7.7969511e-05
+   2.3616043e-05  2.1314523e-05]
+ [ 7.9104866e-06  1.8456431e-04 -9.8512537e-06 ...  7.8279380e-05
+   2.3123774e-05  2.1542573e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 8.1340841e-06  1.8420430e-04 -9.3204435e-06 ...  7.7204801e-05
+   2.3236234e-05  2.1579081e-05]
+ [ 7.9685506e-06  1.8381471e-04 -8.3864543e-06 ...  7.8184428e-05
+   2.3402074e-05  2.1503376e-05]
+ [ 8.0166064e-06  1.8414079e-04 -8.9417190e-06 ...  7.7768433e-05
+   2.3378478e-05  2.1939926e-05]]
+zmplp2 value  [[ 8.0278114e-06  1.8479541e-04 -9.5652395e-06 ...  7.8408098e-05
+   2.2706074e-05  2.1834536e-05]
+ [ 7.9597812e-06  1.8371602e-04 -9.9232348e-06 ...  7.7969511e-05
+   2.3616043e-05  2.1314523e-05]
+ [ 7.9104866e-06  1.8456431e-04 -9.8512537e-06 ...  7.8279380e-05
+   2.3123774e-05  2.1542573e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [ 8.1340841e-06  1.8420430e-04 -9.3204435e-06 ...  7.7204801e-05
+   2.3236234e-05  2.1579081e-05]
+ [ 7.9685506e-06  1.8381471e-04 -8.3864543e-06 ...  7.8184428e-05
+   2.3402074e-05  2.1503376e-05]
+ [ 8.0166064e-06  1.8414079e-04 -8.9417190e-06 ...  7.7768433e-05
+   2.3378478e-05  2.1939926e-05]]
+check the surrounding 
+z_mlp2 [[ 4.0139330e-06  9.2412236e-05 -4.7825811e-06 ...  3.9206665e-05
+   1.1353256e-05  1.0917471e-05]
+ [ 3.9799174e-06  9.1872367e-05 -4.9615755e-06 ...  3.8987346e-05
+   1.1808260e-05  1.0657454e-05]
+ [ 3.9552701e-06  9.2296643e-05 -4.9255859e-06 ...  3.9142298e-05
+   1.1562114e-05  1.0771484e-05]
+ ...
+ [ 4.0670702e-06  9.2116585e-05 -4.6601849e-06 ...  3.8604936e-05
+   1.1618347e-05  1.0789739e-05]
+ [ 3.9843026e-06  9.1921735e-05 -4.1931971e-06 ...  3.9094815e-05
+   1.1701270e-05  1.0751885e-05]
+ [ 4.0083305e-06  9.2084818e-05 -4.4708254e-06 ...  3.8886788e-05
+   1.1689472e-05  1.0970169e-05]]
+cheack w_mlp2 [[ 4.0139330e-06  9.2412236e-05 -4.7825811e-06 ...  3.9206665e-05
+   1.1353256e-05  1.0917471e-05]
+ [ 3.9799174e-06  9.1872367e-05 -4.9615755e-06 ...  3.8987346e-05
+   1.1808260e-05  1.0657454e-05]
+ [ 3.9552701e-06  9.2296643e-05 -4.9255859e-06 ...  3.9142298e-05
+   1.1562114e-05  1.0771484e-05]
+ ...
+ [ 4.0670702e-06  9.2116585e-05 -4.6601849e-06 ...  3.8604936e-05
+   1.1618347e-05  1.0789739e-05]
+ [ 3.9843026e-06  9.1921735e-05 -4.1931971e-06 ...  3.9094815e-05
+   1.1701270e-05  1.0751885e-05]
+ [ 4.0083305e-06  9.2084818e-05 -4.4708254e-06 ...  3.8886788e-05
+   1.1689472e-05  1.0970169e-05]]
+block.mlp.e_mlp.mu [[ 6.9053349e-05 -2.7715130e-04  6.6338063e-05 ... -5.6481738e-05
+  -5.2325671e-05  8.3956955e-05]
+ [ 6.9069021e-05 -2.7713121e-04  6.6323075e-05 ... -5.6484405e-05
+  -5.2311763e-05  8.3943487e-05]
+ [ 6.9052934e-05 -2.7713313e-04  6.6329078e-05 ... -5.6477285e-05
+  -5.2322255e-05  8.3951207e-05]
+ ...
+ [ 6.9098212e-05 -2.7712146e-04  6.6360546e-05 ... -5.6515186e-05
+  -5.2318959e-05  8.3981671e-05]
+ [ 6.9086622e-05 -2.7712627e-04  6.6347551e-05 ... -5.6509216e-05
+  -5.2322437e-05  8.3965067e-05]
+ [ 6.9085836e-05 -2.7712199e-04  6.6361878e-05 ... -5.6517270e-05
+  -5.2302748e-05  8.3945197e-05]]
+block.mlp.W_mlp2.outputs [[ 6.9053349e-05 -2.7715130e-04  6.6338063e-05 ... -5.6481738e-05
+  -5.2325671e-05  8.3956955e-05]
+ [ 6.9069021e-05 -2.7713121e-04  6.6323075e-05 ... -5.6484405e-05
+  -5.2311763e-05  8.3943487e-05]
+ [ 6.9052934e-05 -2.7713313e-04  6.6329078e-05 ... -5.6477285e-05
+  -5.2322255e-05  8.3951207e-05]
+ ...
+ [ 6.9098212e-05 -2.7712146e-04  6.6360546e-05 ... -5.6515186e-05
+  -5.2318959e-05  8.3981671e-05]
+ [ 6.9086622e-05 -2.7712627e-04  6.6347551e-05 ... -5.6509216e-05
+  -5.2322437e-05  8.3965067e-05]
+ [ 6.9085836e-05 -2.7712199e-04  6.6361878e-05 ... -5.6517270e-05
+  -5.2302748e-05  8.3945197e-05]]
 ts=2:
-  L_embed (L1) = -2.86647891998291
-  L_out   (L4) = nan
-  Block 0 attention error = -10.146944046020508
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -1.523263826186394e-08
+  L_out   (L4) = -0.00013396574649959803
+  Block 0 attention error = -4.147936579101952e-06
+  Block 0 mlp error 1   = -5.004288686905056e-05
+  Block 0 mlp error 2   = -1.1763540364029268e-08
+block.mlp.e_mlp1.mu: [[ 1.5303332e-05  1.8213075e-04 -8.3585492e-06 ...  7.5760196e-05
+   1.9376195e-05  1.9279723e-05]
+ [ 1.6277814e-05  1.8160022e-04 -8.5327902e-06 ...  7.5033269e-05
+   1.9969335e-05  1.8304598e-05]
+ [ 1.6126663e-05  1.8180438e-04 -8.1755279e-06 ...  7.4761010e-05
+   1.9589057e-05  1.8573812e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.5665639e-05  1.8166931e-04 -8.6510427e-06 ...  7.4937881e-05
+   1.9689893e-05  1.8945540e-05]
+ [ 1.5770789e-05  1.8142378e-04 -8.0245582e-06 ...  7.5155607e-05
+   1.9806314e-05  1.8817027e-05]
+ [ 1.5495625e-05  1.8210569e-04 -8.7391682e-06 ...  7.5235090e-05
+   1.9599369e-05  1.9545942e-05]]
+wmlpq outputs value  [[ 1.5303332e-05  1.8213075e-04 -8.3585492e-06 ...  7.5760196e-05
+   1.9376195e-05  1.9279723e-05]
+ [ 1.6277814e-05  1.8160022e-04 -8.5327902e-06 ...  7.5033269e-05
+   1.9969335e-05  1.8304598e-05]
+ [ 1.6126663e-05  1.8180438e-04 -8.1755279e-06 ...  7.4761010e-05
+   1.9589057e-05  1.8573812e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.5665639e-05  1.8166931e-04 -8.6510427e-06 ...  7.4937881e-05
+   1.9689893e-05  1.8945540e-05]
+ [ 1.5770789e-05  1.8142378e-04 -8.0245582e-06 ...  7.5155607e-05
+   1.9806314e-05  1.8817027e-05]
+ [ 1.5495625e-05  1.8210569e-04 -8.7391682e-06 ...  7.5235090e-05
+   1.9599369e-05  1.9545942e-05]]
+block.mlp.e_mlp1.target: [[ 1.45126232e-05  1.83662967e-04 -1.05959525e-05 ...  7.79535258e-05
+   1.90895134e-05  1.95957982e-05]
+ [ 1.44448177e-05  1.82583055e-04 -1.09543862e-05 ...  7.75140652e-05
+   2.00001305e-05  1.90751070e-05]
+ [ 1.43950529e-05  1.83431082e-04 -1.08816748e-05 ...  7.78241520e-05
+   1.95074936e-05  1.93036431e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.46208877e-05  1.83070020e-04 -1.03528591e-05 ...  7.67499369e-05
+   1.96200945e-05  1.93394389e-05]
+ [ 1.44554488e-05  1.82681440e-04 -9.41783583e-06 ...  7.77292298e-05
+   1.97871541e-05  1.92625066e-05]
+ [ 1.45035456e-05  1.83007869e-04 -9.97367079e-06 ...  7.73130450e-05
+   1.97634163e-05  1.97000518e-05]]
+zmplp2 value  [[ 1.45126232e-05  1.83662967e-04 -1.05959525e-05 ...  7.79535258e-05
+   1.90895134e-05  1.95957982e-05]
+ [ 1.44448177e-05  1.82583055e-04 -1.09543862e-05 ...  7.75140652e-05
+   2.00001305e-05  1.90751070e-05]
+ [ 1.43950529e-05  1.83431082e-04 -1.08816748e-05 ...  7.78241520e-05
+   1.95074936e-05  1.93036431e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [ 1.46208877e-05  1.83070020e-04 -1.03528591e-05 ...  7.67499369e-05
+   1.96200945e-05  1.93394389e-05]
+ [ 1.44554488e-05  1.82681440e-04 -9.41783583e-06 ...  7.77292298e-05
+   1.97871541e-05  1.92625066e-05]
+ [ 1.45035456e-05  1.83007869e-04 -9.97367079e-06 ...  7.73130450e-05
+   1.97634163e-05  1.97000518e-05]]
+check the surrounding 
+z_mlp2 [[ 7.2564017e-06  9.1845832e-05 -5.2979281e-06 ...  3.8979349e-05
+   9.5449113e-06  9.7980628e-06]
+ [ 7.2224975e-06  9.1305708e-05 -5.4771422e-06 ...  3.8759586e-05
+   1.0000235e-05  9.5377081e-06]
+ [ 7.1976147e-06  9.1729853e-05 -5.4407869e-06 ...  3.8914655e-05
+   9.7539087e-06  9.6519807e-06]
+ ...
+ [ 7.3105343e-06  9.1549271e-05 -5.1763841e-06 ...  3.8377475e-05
+   9.8102109e-06  9.6698786e-06]
+ [ 7.2278131e-06  9.1354916e-05 -4.7088802e-06 ...  3.8867187e-05
+   9.8937435e-06  9.6314116e-06]
+ [ 7.2518628e-06  9.1518181e-05 -4.9867931e-06 ...  3.8659065e-05
+   9.8818746e-06  9.8501914e-06]]
+cheack w_mlp2 [[ 7.2564017e-06  9.1845832e-05 -5.2979281e-06 ...  3.8979349e-05
+   9.5449113e-06  9.7980628e-06]
+ [ 7.2224975e-06  9.1305708e-05 -5.4771422e-06 ...  3.8759586e-05
+   1.0000235e-05  9.5377081e-06]
+ [ 7.1976147e-06  9.1729853e-05 -5.4407869e-06 ...  3.8914655e-05
+   9.7539087e-06  9.6519807e-06]
+ ...
+ [ 7.3105343e-06  9.1549271e-05 -5.1763841e-06 ...  3.8377475e-05
+   9.8102109e-06  9.6698786e-06]
+ [ 7.2278131e-06  9.1354916e-05 -4.7088802e-06 ...  3.8867187e-05
+   9.8937435e-06  9.6314116e-06]
+ [ 7.2518628e-06  9.1518181e-05 -4.9867931e-06 ...  3.8659065e-05
+   9.8818746e-06  9.8501914e-06]]
+block.mlp.e_mlp.mu [[ 6.9188798e-05 -2.7768515e-04  6.6550412e-05 ... -5.6492485e-05
+  -5.2485713e-05  8.3958621e-05]
+ [ 6.9204609e-05 -2.7766507e-04  6.6535431e-05 ... -5.6495155e-05
+  -5.2471700e-05  8.3945015e-05]
+ [ 6.9188471e-05 -2.7766693e-04  6.6541441e-05 ... -5.6488057e-05
+  -5.2482210e-05  8.3952749e-05]
+ ...
+ [ 6.9233654e-05 -2.7765529e-04  6.6572866e-05 ... -5.6526016e-05
+  -5.2478896e-05  8.3983250e-05]
+ [ 6.9222056e-05 -2.7766015e-04  6.6559754e-05 ... -5.6519995e-05
+  -5.2482381e-05  8.3966741e-05]
+ [ 6.9221278e-05 -2.7765587e-04  6.6574154e-05 ... -5.6528053e-05
+  -5.2462721e-05  8.3946885e-05]]
+block.mlp.W_mlp2.outputs [[ 6.9188798e-05 -2.7768515e-04  6.6550412e-05 ... -5.6492485e-05
+  -5.2485713e-05  8.3958621e-05]
+ [ 6.9204609e-05 -2.7766507e-04  6.6535431e-05 ... -5.6495155e-05
+  -5.2471700e-05  8.3945015e-05]
+ [ 6.9188471e-05 -2.7766693e-04  6.6541441e-05 ... -5.6488057e-05
+  -5.2482210e-05  8.3952749e-05]
+ ...
+ [ 6.9233654e-05 -2.7765529e-04  6.6572866e-05 ... -5.6526016e-05
+  -5.2478896e-05  8.3983250e-05]
+ [ 6.9222056e-05 -2.7766015e-04  6.6559754e-05 ... -5.6519995e-05
+  -5.2482381e-05  8.3966741e-05]
+ [ 6.9221278e-05 -2.7765587e-04  6.6574154e-05 ... -5.6528053e-05
+  -5.2462721e-05  8.3946885e-05]]
 ts=3:
-  L_embed (L1) = -34.100955963134766
-  L_out   (L4) = nan
-  Block 0 attention error = -138.0477294921875
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -1.9846211785079504e-08
+  L_out   (L4) = -0.00010605782154016197
+  Block 0 attention error = -4.628146824114943e-13
+  Block 0 mlp error 1   = -5.825652351632016e-06
+  Block 0 mlp error 2   = -1.0806802919205438e-07
+block.mlp.e_mlp1.mu: [[ 1.32672449e-05  1.81619078e-04 -1.21886696e-05 ...  7.74407672e-05
+   2.15378241e-05  2.06683944e-05]
+ [ 1.38807745e-05  1.81136333e-04 -1.29812006e-05 ...  7.71426785e-05
+   2.24760897e-05  1.99807164e-05]
+ [ 1.34118864e-05  1.81122174e-04 -1.32823598e-05 ...  7.70017723e-05
+   2.24712348e-05  2.04253683e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33603935e-05  1.81366893e-04 -1.28666725e-05 ...  7.71028208e-05
+   2.20611564e-05  2.06003697e-05]
+ [ 1.32393425e-05  1.81064519e-04 -1.26657715e-05 ...  7.75072986e-05
+   2.24177384e-05  2.06261448e-05]
+ [ 1.33250933e-05  1.81698648e-04 -1.27620806e-05 ...  7.71579143e-05
+   2.18657115e-05  2.10676262e-05]]
+wmlpq outputs value  [[ 1.32672449e-05  1.81619078e-04 -1.21886696e-05 ...  7.74407672e-05
+   2.15378241e-05  2.06683944e-05]
+ [ 1.38807745e-05  1.81136333e-04 -1.29812006e-05 ...  7.71426785e-05
+   2.24760897e-05  1.99807164e-05]
+ [ 1.34118864e-05  1.81122174e-04 -1.32823598e-05 ...  7.70017723e-05
+   2.24712348e-05  2.04253683e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33603935e-05  1.81366893e-04 -1.28666725e-05 ...  7.71028208e-05
+   2.20611564e-05  2.06003697e-05]
+ [ 1.32393425e-05  1.81064519e-04 -1.26657715e-05 ...  7.75072986e-05
+   2.24177384e-05  2.06261448e-05]
+ [ 1.33250933e-05  1.81698648e-04 -1.27620806e-05 ...  7.71579143e-05
+   2.18657115e-05  2.10676262e-05]]
+block.mlp.e_mlp1.target: [[ 8.30616773e-06  1.81516065e-04 -1.16011479e-05 ...  7.58774622e-05
+   2.29550060e-05  2.20117290e-05]
+ [ 9.28067675e-06  1.80985837e-04 -1.17753843e-05 ...  7.51507105e-05
+   2.35478547e-05  2.10367907e-05]
+ [ 9.12957603e-06  1.81189986e-04 -1.14182549e-05 ...  7.48784369e-05
+   2.31677423e-05  2.13058775e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 8.66845949e-06  1.81055206e-04 -1.18930775e-05 ...  7.50553008e-05
+   2.32683888e-05  2.16774188e-05]
+ [ 8.77364255e-06  1.80809482e-04 -1.12670350e-05 ...  7.52729538e-05
+   2.33846004e-05  2.15493110e-05]
+ [ 8.49838034e-06  1.81491385e-04 -1.19814185e-05 ...  7.53525310e-05
+   2.31777467e-05  2.22780036e-05]]
+zmplp2 value  [[ 8.30616773e-06  1.81516065e-04 -1.16011479e-05 ...  7.58774622e-05
+   2.29550060e-05  2.20117290e-05]
+ [ 9.28067675e-06  1.80985837e-04 -1.17753843e-05 ...  7.51507105e-05
+   2.35478547e-05  2.10367907e-05]
+ [ 9.12957603e-06  1.81189986e-04 -1.14182549e-05 ...  7.48784369e-05
+   2.31677423e-05  2.13058775e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [ 8.66845949e-06  1.81055206e-04 -1.18930775e-05 ...  7.50553008e-05
+   2.32683888e-05  2.16774188e-05]
+ [ 8.77364255e-06  1.80809482e-04 -1.12670350e-05 ...  7.52729538e-05
+   2.33846004e-05  2.15493110e-05]
+ [ 8.49838034e-06  1.81491385e-04 -1.19814185e-05 ...  7.53525310e-05
+   2.31777467e-05  2.22780036e-05]]
+check the surrounding 
+z_mlp2 [[ 4.15311297e-06  9.07720532e-05 -5.80051665e-06 ...  3.79411831e-05
+   1.14777276e-05  1.10060701e-05]
+ [ 4.64037475e-06  9.05068591e-05 -5.88763305e-06 ...  3.75777599e-05
+   1.17741629e-05  1.05185836e-05]
+ [ 4.56482348e-06  9.06089554e-05 -5.70907150e-06 ...  3.74416049e-05
+   1.15841003e-05  1.06531315e-05]
+ ...
+ [ 4.33426158e-06  9.05415436e-05 -5.94647827e-06 ...  3.75300478e-05
+   1.16344245e-05  1.08389095e-05]
+ [ 4.38685402e-06  9.04186527e-05 -5.63346384e-06 ...  3.76388853e-05
+   1.16925330e-05  1.07748529e-05]
+ [ 4.24922109e-06  9.07597132e-05 -5.99064788e-06 ...  3.76786811e-05
+   1.15891025e-05  1.11392128e-05]]
+cheack w_mlp2 [[ 4.15311297e-06  9.07720532e-05 -5.80051665e-06 ...  3.79411831e-05
+   1.14777276e-05  1.10060701e-05]
+ [ 4.64037475e-06  9.05068591e-05 -5.88763305e-06 ...  3.75777599e-05
+   1.17741629e-05  1.05185836e-05]
+ [ 4.56482348e-06  9.06089554e-05 -5.70907150e-06 ...  3.74416049e-05
+   1.15841003e-05  1.06531315e-05]
+ ...
+ [ 4.33426158e-06  9.05415436e-05 -5.94647827e-06 ...  3.75300478e-05
+   1.16344245e-05  1.08389095e-05]
+ [ 4.38685402e-06  9.04186527e-05 -5.63346384e-06 ...  3.76388853e-05
+   1.16925330e-05  1.07748529e-05]
+ [ 4.24922109e-06  9.07597132e-05 -5.99064788e-06 ...  3.76786811e-05
+   1.15891025e-05  1.11392128e-05]]
+block.mlp.e_mlp.mu [[ 6.9224210e-05 -2.7744193e-04  6.6350440e-05 ... -5.6136905e-05
+  -5.2235984e-05  8.3808329e-05]
+ [ 6.9253780e-05 -2.7743471e-04  6.6357410e-05 ... -5.6143206e-05
+  -5.2217478e-05  8.3797044e-05]
+ [ 6.9249269e-05 -2.7742604e-04  6.6369641e-05 ... -5.6140478e-05
+  -5.2221047e-05  8.3800893e-05]
+ ...
+ [ 6.9235677e-05 -2.7742155e-04  6.6359280e-05 ... -5.6148285e-05
+  -5.2225438e-05  8.3810010e-05]
+ [ 6.9234819e-05 -2.7742362e-04  6.6355402e-05 ... -5.6142828e-05
+  -5.2225470e-05  8.3811668e-05]
+ [ 6.9229682e-05 -2.7742816e-04  6.6367917e-05 ... -5.6150326e-05
+  -5.2220163e-05  8.3804982e-05]]
+block.mlp.W_mlp2.outputs [[ 6.9224210e-05 -2.7744193e-04  6.6350440e-05 ... -5.6136905e-05
+  -5.2235984e-05  8.3808329e-05]
+ [ 6.9253780e-05 -2.7743471e-04  6.6357410e-05 ... -5.6143206e-05
+  -5.2217478e-05  8.3797044e-05]
+ [ 6.9249269e-05 -2.7742604e-04  6.6369641e-05 ... -5.6140478e-05
+  -5.2221047e-05  8.3800893e-05]
+ ...
+ [ 6.9235677e-05 -2.7742155e-04  6.6359280e-05 ... -5.6148285e-05
+  -5.2225438e-05  8.3810010e-05]
+ [ 6.9234819e-05 -2.7742362e-04  6.6355402e-05 ... -5.6142828e-05
+  -5.2225470e-05  8.3811668e-05]
+ [ 6.9229682e-05 -2.7742816e-04  6.6367917e-05 ... -5.6150326e-05
+  -5.2220163e-05  8.3804982e-05]]
 ts=4:
-  L_embed (L1) = -581.2490234375
-  L_out   (L4) = nan
-  Block 0 attention error = -2381.575439453125
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -3.3838796836219848e-15
+  L_out   (L4) = -0.00012330796744208783
+  Block 0 attention error = -1.7015863273527748e-13
+  Block 0 mlp error 1   = -3.053377440664917e-05
+  Block 0 mlp error 2   = -1.2596363951900003e-08
+block.mlp.e_mlp1.mu: [[ 1.32675223e-05  1.81619456e-04 -1.21895118e-05 ...  7.74409200e-05
+   2.15374039e-05  2.06689347e-05]
+ [ 1.38810465e-05  1.81136798e-04 -1.29821965e-05 ...  7.71429040e-05
+   2.24755804e-05  1.99813585e-05]
+ [ 1.34122374e-05  1.81122668e-04 -1.32834703e-05 ...  7.70019833e-05
+   2.24706873e-05  2.04260832e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33603344e-05  1.81367403e-04 -1.28675792e-05 ...  7.71029372e-05
+   2.20609018e-05  2.06011264e-05]
+ [ 1.32392815e-05  1.81065057e-04 -1.26667546e-05 ...  7.75074222e-05
+   2.24174564e-05  2.06269669e-05]
+ [ 1.33250614e-05  1.81699099e-04 -1.27629110e-05 ...  7.71579944e-05
+   2.18654859e-05  2.10683320e-05]]
+wmlpq outputs value  [[ 1.32675223e-05  1.81619456e-04 -1.21895118e-05 ...  7.74409200e-05
+   2.15374039e-05  2.06689347e-05]
+ [ 1.38810465e-05  1.81136798e-04 -1.29821965e-05 ...  7.71429040e-05
+   2.24755804e-05  1.99813585e-05]
+ [ 1.34122374e-05  1.81122668e-04 -1.32834703e-05 ...  7.70019833e-05
+   2.24706873e-05  2.04260832e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33603344e-05  1.81367403e-04 -1.28675792e-05 ...  7.71029372e-05
+   2.20609018e-05  2.06011264e-05]
+ [ 1.32392815e-05  1.81065057e-04 -1.26667546e-05 ...  7.75074222e-05
+   2.24174564e-05  2.06269669e-05]
+ [ 1.33250614e-05  1.81699099e-04 -1.27629110e-05 ...  7.71579944e-05
+   2.18654859e-05  2.10683320e-05]]
+block.mlp.e_mlp1.target: [[ 1.11013433e-05  1.81549403e-04 -1.35558894e-05 ...  7.70981933e-05
+   2.30387413e-05  2.18060140e-05]
+ [ 1.17147392e-05  1.81066411e-04 -1.43479392e-05 ...  7.68003811e-05
+   2.39770325e-05  2.11182778e-05]
+ [ 1.12462931e-05  1.81052441e-04 -1.46489083e-05 ...  7.66598096e-05
+   2.39718665e-05  2.15623513e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.11936979e-05  1.81296869e-04 -1.42344379e-05 ...  7.67607344e-05
+   2.35621937e-05  2.17384077e-05]
+ [ 1.10729115e-05  1.80994291e-04 -1.40333905e-05 ...  7.71655905e-05
+   2.39187684e-05  2.17637917e-05]
+ [ 1.11584068e-05  1.81628217e-04 -1.41295659e-05 ...  7.68158498e-05
+   2.33670744e-05  2.22053495e-05]]
+zmplp2 value  [[ 1.11013433e-05  1.81549403e-04 -1.35558894e-05 ...  7.70981933e-05
+   2.30387413e-05  2.18060140e-05]
+ [ 1.17147392e-05  1.81066411e-04 -1.43479392e-05 ...  7.68003811e-05
+   2.39770325e-05  2.11182778e-05]
+ [ 1.12462931e-05  1.81052441e-04 -1.46489083e-05 ...  7.66598096e-05
+   2.39718665e-05  2.15623513e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [ 1.11936979e-05  1.81296869e-04 -1.42344379e-05 ...  7.67607344e-05
+   2.35621937e-05  2.17384077e-05]
+ [ 1.10729115e-05  1.80994291e-04 -1.40333905e-05 ...  7.71655905e-05
+   2.39187684e-05  2.17637917e-05]
+ [ 1.11584068e-05  1.81628217e-04 -1.41295659e-05 ...  7.68158498e-05
+   2.33670744e-05  2.22053495e-05]]
+check the surrounding 
+z_mlp2 [[ 5.5507239e-06  9.0788722e-05 -6.7778665e-06 ...  3.8551625e-05
+   1.1519597e-05  1.0903210e-05]
+ [ 5.8574283e-06  9.0547161e-05 -7.1738823e-06 ...  3.8402701e-05
+   1.1988761e-05  1.0559329e-05]
+ [ 5.6232002e-06  9.0540161e-05 -7.3243632e-06 ...  3.8332404e-05
+   1.1986178e-05  1.0781374e-05]
+ ...
+ [ 5.5969022e-06  9.0662419e-05 -7.1171326e-06 ...  3.8382874e-05
+   1.1781332e-05  1.0869405e-05]
+ [ 5.5365081e-06  9.0511086e-05 -7.0166116e-06 ...  3.8585331e-05
+   1.1959628e-05  1.0882097e-05]
+ [ 5.5792566e-06  9.0828151e-05 -7.0646979e-06 ...  3.8410435e-05
+   1.1683770e-05  1.1102885e-05]]
+cheack w_mlp2 [[ 5.5507239e-06  9.0788722e-05 -6.7778665e-06 ...  3.8551625e-05
+   1.1519597e-05  1.0903210e-05]
+ [ 5.8574283e-06  9.0547161e-05 -7.1738823e-06 ...  3.8402701e-05
+   1.1988761e-05  1.0559329e-05]
+ [ 5.6232002e-06  9.0540161e-05 -7.3243632e-06 ...  3.8332404e-05
+   1.1986178e-05  1.0781374e-05]
+ ...
+ [ 5.5969022e-06  9.0662419e-05 -7.1171326e-06 ...  3.8382874e-05
+   1.1781332e-05  1.0869405e-05]
+ [ 5.5365081e-06  9.0511086e-05 -7.0166116e-06 ...  3.8585331e-05
+   1.1959628e-05  1.0882097e-05]
+ [ 5.5792566e-06  9.0828151e-05 -7.0646979e-06 ...  3.8410435e-05
+   1.1683770e-05  1.1102885e-05]]
+block.mlp.e_mlp.mu [[ 6.9226735e-05 -2.7763392e-04  6.6473032e-05 ... -5.6410765e-05
+  -5.2402487e-05  8.3904859e-05]
+ [ 6.9251779e-05 -2.7763273e-04  6.6472836e-05 ... -5.6417954e-05
+  -5.2384792e-05  8.3895655e-05]
+ [ 6.9237562e-05 -2.7762647e-04  6.6472428e-05 ... -5.6416411e-05
+  -5.2387397e-05  8.3900704e-05]
+ ...
+ [ 6.9238689e-05 -2.7762001e-04  6.6480825e-05 ... -5.6422643e-05
+  -5.2393683e-05  8.3908606e-05]
+ [ 6.9233065e-05 -2.7762490e-04  6.6470318e-05 ... -5.6417855e-05
+  -5.2393665e-05  8.3911356e-05]
+ [ 6.9232461e-05 -2.7762336e-04  6.6489971e-05 ... -5.6424462e-05
+  -5.2387502e-05  8.3902545e-05]]
+block.mlp.W_mlp2.outputs [[ 6.9226735e-05 -2.7763392e-04  6.6473032e-05 ... -5.6410765e-05
+  -5.2402487e-05  8.3904859e-05]
+ [ 6.9251779e-05 -2.7763273e-04  6.6472836e-05 ... -5.6417954e-05
+  -5.2384792e-05  8.3895655e-05]
+ [ 6.9237562e-05 -2.7762647e-04  6.6472428e-05 ... -5.6416411e-05
+  -5.2387397e-05  8.3900704e-05]
+ ...
+ [ 6.9238689e-05 -2.7762001e-04  6.6480825e-05 ... -5.6422643e-05
+  -5.2393683e-05  8.3908606e-05]
+ [ 6.9233065e-05 -2.7762490e-04  6.6470318e-05 ... -5.6417855e-05
+  -5.2393665e-05  8.3911356e-05]
+ [ 6.9232461e-05 -2.7762336e-04  6.6489971e-05 ... -5.6424462e-05
+  -5.2387502e-05  8.3902545e-05]]
 ts=5:
-  L_embed (L1) = -9576.626953125
-  L_out   (L4) = nan
-  Block 0 attention error = -54694.1953125
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -1.1228145929025653e-15
+  L_out   (L4) = -0.00011106063902843744
+  Block 0 attention error = -1.4911644356099957e-19
+  Block 0 mlp error 1   = -1.1786880349973217e-05
+  Block 0 mlp error 2   = -6.465056401339098e-08
+block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891517e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686964e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810947e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891517e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686964e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810947e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+block.mlp.e_mlp1.target: [[ 7.8025541e-06  1.8111970e-04 -1.4734030e-05 ...  7.7548393e-05
+   2.4319699e-05  2.2799513e-05]
+ [ 8.4160056e-06  1.8063722e-04 -1.5526650e-05 ...  7.7250093e-05
+   2.5257639e-05  2.2112185e-05]
+ [ 7.9471029e-06  1.8062297e-04 -1.5827971e-05 ...  7.7109151e-05
+   2.5252739e-05  2.2557033e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 7.8956909e-06  1.8086789e-04 -1.5411506e-05 ...  7.7210127e-05
+   2.4842961e-05  2.2731405e-05]
+ [ 7.7746172e-06  1.8056549e-04 -1.5211000e-05 ...  7.7614313e-05
+   2.5199470e-05  2.2757635e-05]
+ [ 7.8604098e-06  1.8119969e-04 -1.5307138e-05 ...  7.7265307e-05
+   2.4647583e-05  2.3198760e-05]]
+zmplp2 value  [[ 7.8025541e-06  1.8111970e-04 -1.4734030e-05 ...  7.7548393e-05
+   2.4319699e-05  2.2799513e-05]
+ [ 8.4160056e-06  1.8063722e-04 -1.5526650e-05 ...  7.7250093e-05
+   2.5257639e-05  2.2112185e-05]
+ [ 7.9471029e-06  1.8062297e-04 -1.5827971e-05 ...  7.7109151e-05
+   2.5252739e-05  2.2557033e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [ 7.8956909e-06  1.8086789e-04 -1.5411506e-05 ...  7.7210127e-05
+   2.4842961e-05  2.2731405e-05]
+ [ 7.7746172e-06  1.8056549e-04 -1.5211000e-05 ...  7.7614313e-05
+   2.5199470e-05  2.2757635e-05]
+ [ 7.8604098e-06  1.8119969e-04 -1.5307138e-05 ...  7.7265307e-05
+   2.4647583e-05  2.3198760e-05]]
+check the surrounding 
+z_mlp2 [[ 3.90130299e-06  9.05738052e-05 -7.36692255e-06 ...  3.87767577e-05
+   1.21601015e-05  1.13999786e-05]
+ [ 4.20803281e-06  9.03324835e-05 -7.76322213e-06 ...  3.86275897e-05
+   1.26290906e-05  1.10563005e-05]
+ [ 3.97357826e-06  9.03253604e-05 -7.91387902e-06 ...  3.85571075e-05
+   1.26266405e-05  1.12787329e-05]
+ ...
+ [ 3.94787185e-06  9.04478657e-05 -7.70565202e-06 ...  3.86075990e-05
+   1.24217422e-05  1.13659216e-05]
+ [ 3.88733451e-06  9.02966203e-05 -7.60540206e-06 ...  3.88097178e-05
+   1.26000050e-05  1.13790384e-05]
+ [ 3.93023129e-06  9.06138084e-05 -7.65346886e-06 ...  3.86351967e-05
+   1.23240497e-05  1.15996090e-05]]
+cheack w_mlp2 [[ 3.90130299e-06  9.05738052e-05 -7.36692255e-06 ...  3.87767577e-05
+   1.21601015e-05  1.13999786e-05]
+ [ 4.20803281e-06  9.03324835e-05 -7.76322213e-06 ...  3.86275897e-05
+   1.26290906e-05  1.10563005e-05]
+ [ 3.97357826e-06  9.03253604e-05 -7.91387902e-06 ...  3.85571075e-05
+   1.26266405e-05  1.12787329e-05]
+ ...
+ [ 3.94787185e-06  9.04478657e-05 -7.70565202e-06 ...  3.86075990e-05
+   1.24217422e-05  1.13659216e-05]
+ [ 3.88733451e-06  9.02966203e-05 -7.60540206e-06 ...  3.88097178e-05
+   1.26000050e-05  1.13790384e-05]
+ [ 3.93023129e-06  9.06138084e-05 -7.65346886e-06 ...  3.86351967e-05
+   1.23240497e-05  1.15996090e-05]]
+block.mlp.e_mlp.mu [[ 6.9186637e-05 -2.7751044e-04  6.6349574e-05 ... -5.6227655e-05
+  -5.2285286e-05  8.3846106e-05]
+ [ 6.9211703e-05 -2.7750924e-04  6.6349421e-05 ... -5.6234865e-05
+  -5.2267584e-05  8.3836901e-05]
+ [ 6.9197537e-05 -2.7750296e-04  6.6349028e-05 ... -5.6233341e-05
+  -5.2270152e-05  8.3841973e-05]
+ ...
+ [ 6.9198504e-05 -2.7749653e-04  6.6357323e-05 ... -5.6239449e-05
+  -5.2276482e-05  8.3849758e-05]
+ [ 6.9192924e-05 -2.7750139e-04  6.6346845e-05 ... -5.6234687e-05
+  -5.2276453e-05  8.3852538e-05]
+ [ 6.9192305e-05 -2.7749990e-04  6.6366491e-05 ... -5.6241279e-05
+  -5.2270334e-05  8.3843763e-05]]
+block.mlp.W_mlp2.outputs [[ 6.9186637e-05 -2.7751044e-04  6.6349574e-05 ... -5.6227655e-05
+  -5.2285286e-05  8.3846106e-05]
+ [ 6.9211703e-05 -2.7750924e-04  6.6349421e-05 ... -5.6234865e-05
+  -5.2267584e-05  8.3836901e-05]
+ [ 6.9197537e-05 -2.7750296e-04  6.6349028e-05 ... -5.6233341e-05
+  -5.2270152e-05  8.3841973e-05]
+ ...
+ [ 6.9198504e-05 -2.7749653e-04  6.6357323e-05 ... -5.6239449e-05
+  -5.2276482e-05  8.3849758e-05]
+ [ 6.9192924e-05 -2.7750139e-04  6.6346845e-05 ... -5.6234687e-05
+  -5.2276453e-05  8.3852538e-05]
+ [ 6.9192305e-05 -2.7749990e-04  6.6366491e-05 ... -5.6241279e-05
+  -5.2270334e-05  8.3843763e-05]]
 ts=6:
-  L_embed (L1) = -225084.84375
-  L_out   (L4) = nan
-  Block 0 attention error = -1726252.5
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011899690434802324
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -2.339341699553188e-05
+  Block 0 mlp error 2   = -2.5186205121485727e-08
+block.mlp.e_mlp1.mu: [[ 1.32673449e-05  1.81619427e-04 -1.21891517e-05 ...  7.74410073e-05
+   2.15377622e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817690e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671527e-05 ...  7.71029809e-05
+   2.20612874e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178857e-05  2.06267214e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625244e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+wmlpq outputs value  [[ 1.32673449e-05  1.81619427e-04 -1.21891517e-05 ...  7.74410073e-05
+   2.15377622e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817690e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671527e-05 ...  7.71029809e-05
+   2.20612874e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178857e-05  2.06267214e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625244e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+block.mlp.e_mlp1.target: [[ 1.00394736e-05  1.81435025e-04 -1.39732101e-05 ...  7.71937048e-05
+   2.35000371e-05  2.21627652e-05]
+ [ 1.06529606e-05  1.80952396e-04 -1.47657029e-05 ...  7.68958053e-05
+   2.44381445e-05  2.14751981e-05]
+ [ 1.01843143e-05  1.80938325e-04 -1.50668584e-05 ...  7.67550591e-05
+   2.44332477e-05  2.19196118e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.01322339e-05  1.81182986e-04 -1.46511975e-05 ...  7.68559185e-05
+   2.40234403e-05  2.20948878e-05]
+ [ 1.00112984e-05  1.80880539e-04 -1.44505002e-05 ...  7.72604399e-05
+   2.43800332e-05  2.21207192e-05]
+ [ 1.00969082e-05  1.81514552e-04 -1.45465810e-05 ...  7.69109538e-05
+   2.38281900e-05  2.25620952e-05]]
+zmplp2 value  [[ 1.00394736e-05  1.81435025e-04 -1.39732101e-05 ...  7.71937048e-05
+   2.35000371e-05  2.21627652e-05]
+ [ 1.06529606e-05  1.80952396e-04 -1.47657029e-05 ...  7.68958053e-05
+   2.44381445e-05  2.14751981e-05]
+ [ 1.01843143e-05  1.80938325e-04 -1.50668584e-05 ...  7.67550591e-05
+   2.44332477e-05  2.19196118e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [ 1.01322339e-05  1.81182986e-04 -1.46511975e-05 ...  7.68559185e-05
+   2.40234403e-05  2.20948878e-05]
+ [ 1.00112984e-05  1.80880539e-04 -1.44505002e-05 ...  7.72604399e-05
+   2.43800332e-05  2.21207192e-05]
+ [ 1.00969082e-05  1.81514552e-04 -1.45465810e-05 ...  7.69109538e-05
+   2.38281900e-05  2.25620952e-05]]
+check the surrounding 
+z_mlp2 [[ 5.01978002e-06  9.07315189e-05 -6.98652184e-06 ...  3.85993881e-05
+   1.17502541e-05  1.10815909e-05]
+ [ 5.32652848e-06  9.04901317e-05 -7.38275821e-06 ...  3.84504201e-05
+   1.22193269e-05  1.07377946e-05]
+ [ 5.09220126e-06  9.04830958e-05 -7.53333234e-06 ...  3.83800361e-05
+   1.22168785e-05  1.09600114e-05]
+ ...
+ [ 5.06616061e-06  9.06054556e-05 -7.32550780e-06 ...  3.84304731e-05
+   1.20119666e-05  1.10476522e-05]
+ [ 5.00569195e-06  9.04541885e-05 -7.22516143e-06 ...  3.86327629e-05
+   1.21902694e-05  1.10605679e-05]
+ [ 5.04849731e-06  9.07712965e-05 -7.27320048e-06 ...  3.84579944e-05
+   1.19143360e-05  1.12812641e-05]]
+cheack w_mlp2 [[ 5.01978002e-06  9.07315189e-05 -6.98652184e-06 ...  3.85993881e-05
+   1.17502541e-05  1.10815909e-05]
+ [ 5.32652848e-06  9.04901317e-05 -7.38275821e-06 ...  3.84504201e-05
+   1.22193269e-05  1.07377946e-05]
+ [ 5.09220126e-06  9.04830958e-05 -7.53333234e-06 ...  3.83800361e-05
+   1.22168785e-05  1.09600114e-05]
+ ...
+ [ 5.06616061e-06  9.06054556e-05 -7.32550780e-06 ...  3.84304731e-05
+   1.20119666e-05  1.10476522e-05]
+ [ 5.00569195e-06  9.04541885e-05 -7.22516143e-06 ...  3.86327629e-05
+   1.21902694e-05  1.10605679e-05]
+ [ 5.04849731e-06  9.07712965e-05 -7.27320048e-06 ...  3.84579944e-05
+   1.19143360e-05  1.12812641e-05]]
+block.mlp.e_mlp.mu [[ 6.9217094e-05 -2.7759807e-04  6.6433175e-05 ... -5.6352215e-05
+  -5.2366220e-05  8.3885636e-05]
+ [ 6.9242145e-05 -2.7759688e-04  6.6433000e-05 ... -5.6359411e-05
+  -5.2348529e-05  8.3876439e-05]
+ [ 6.9227950e-05 -2.7759062e-04  6.6432600e-05 ... -5.6357876e-05
+  -5.2351119e-05  8.3881489e-05]
+ ...
+ [ 6.9228998e-05 -2.7758416e-04  6.6440938e-05 ... -5.6364042e-05
+  -5.2357420e-05  8.3889339e-05]
+ [ 6.9223395e-05 -2.7758905e-04  6.6430446e-05 ... -5.6359266e-05
+  -5.2357402e-05  8.3892104e-05]
+ [ 6.9222784e-05 -2.7758753e-04  6.6450099e-05 ... -5.6365865e-05
+  -5.2351257e-05  8.3883308e-05]]
+block.mlp.W_mlp2.outputs [[ 6.9217094e-05 -2.7759807e-04  6.6433175e-05 ... -5.6352215e-05
+  -5.2366220e-05  8.3885636e-05]
+ [ 6.9242145e-05 -2.7759688e-04  6.6433000e-05 ... -5.6359411e-05
+  -5.2348529e-05  8.3876439e-05]
+ [ 6.9227950e-05 -2.7759062e-04  6.6432600e-05 ... -5.6357876e-05
+  -5.2351119e-05  8.3881489e-05]
+ ...
+ [ 6.9228998e-05 -2.7758416e-04  6.6440938e-05 ... -5.6364042e-05
+  -5.2357420e-05  8.3889339e-05]
+ [ 6.9223395e-05 -2.7758905e-04  6.6430446e-05 ... -5.6359266e-05
+  -5.2357402e-05  8.3892104e-05]
+ [ 6.9222784e-05 -2.7758753e-04  6.6450099e-05 ... -5.6365865e-05
+  -5.2351257e-05  8.3883308e-05]]
 ts=7:
-  L_embed (L1) = -6803965.0
-  L_out   (L4) = nan
-  Block 0 attention error = -49237492.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011352167348377407
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.514183259132551e-05
+  Block 0 mlp error 2   = -4.960785560115255e-08
+block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+block.mlp.e_mlp1.target: [[ 8.5280208e-06  1.8121210e-04 -1.4473396e-05 ...  7.7451892e-05
+   2.4037057e-05  2.2578419e-05]
+ [ 9.1415241e-06  1.8072952e-04 -1.5265898e-05 ...  7.7153825e-05
+   2.4975110e-05  2.1890923e-05]
+ [ 8.6727678e-06  1.8071537e-04 -1.5567097e-05 ...  7.7013006e-05
+   2.4970237e-05  2.2335484e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 8.6209548e-06  1.8096012e-04 -1.5151152e-05 ...  7.7113902e-05
+   2.4560399e-05  2.2510449e-05]
+ [ 8.4999756e-06  1.8065771e-04 -1.4950507e-05 ...  7.7518285e-05
+   2.4916977e-05  2.2536424e-05]
+ [ 8.5856555e-06  1.8129181e-04 -1.5046648e-05 ...  7.7168996e-05
+   2.4365088e-05  2.2977718e-05]]
+zmplp2 value  [[ 8.5280208e-06  1.8121210e-04 -1.4473396e-05 ...  7.7451892e-05
+   2.4037057e-05  2.2578419e-05]
+ [ 9.1415241e-06  1.8072952e-04 -1.5265898e-05 ...  7.7153825e-05
+   2.4975110e-05  2.1890923e-05]
+ [ 8.6727678e-06  1.8071537e-04 -1.5567097e-05 ...  7.7013006e-05
+   2.4970237e-05  2.2335484e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [ 8.6209548e-06  1.8096012e-04 -1.5151152e-05 ...  7.7113902e-05
+   2.4560399e-05  2.2510449e-05]
+ [ 8.4999756e-06  1.8065771e-04 -1.4950507e-05 ...  7.7518285e-05
+   2.4916977e-05  2.2536424e-05]
+ [ 8.5856555e-06  1.8129181e-04 -1.5046648e-05 ...  7.7168996e-05
+   2.4365088e-05  2.2977718e-05]]
+check the surrounding 
+z_mlp2 [[ 4.2640413e-06  9.0620029e-05 -7.2366083e-06 ...  3.8728500e-05
+   1.2018775e-05  1.1289426e-05]
+ [ 4.5707975e-06  9.0378657e-05 -7.6328497e-06 ...  3.8579448e-05
+   1.2487820e-05  1.0945665e-05]
+ [ 4.3364157e-06  9.0371585e-05 -7.7834457e-06 ...  3.8509028e-05
+   1.2485383e-05  1.1167955e-05]
+ ...
+ [ 4.3105092e-06  9.0493995e-05 -7.5754788e-06 ...  3.8559483e-05
+   1.2280456e-05  1.1255441e-05]
+ [ 4.2500187e-06  9.0342743e-05 -7.4751588e-06 ...  3.8761696e-05
+   1.2458753e-05  1.1268428e-05]
+ [ 4.2928591e-06  9.0659887e-05 -7.5232269e-06 ...  3.8587033e-05
+   1.2182797e-05  1.1489084e-05]]
+cheack w_mlp2 [[ 4.2640413e-06  9.0620029e-05 -7.2366083e-06 ...  3.8728500e-05
+   1.2018775e-05  1.1289426e-05]
+ [ 4.5707975e-06  9.0378657e-05 -7.6328497e-06 ...  3.8579448e-05
+   1.2487820e-05  1.0945665e-05]
+ [ 4.3364157e-06  9.0371585e-05 -7.7834457e-06 ...  3.8509028e-05
+   1.2485383e-05  1.1167955e-05]
+ ...
+ [ 4.3105092e-06  9.0493995e-05 -7.5754788e-06 ...  3.8559483e-05
+   1.2280456e-05  1.1255441e-05]
+ [ 4.2500187e-06  9.0342743e-05 -7.4751588e-06 ...  3.8761696e-05
+   1.2458753e-05  1.1268428e-05]
+ [ 4.2928591e-06  9.0659887e-05 -7.5232269e-06 ...  3.8587033e-05
+   1.2182797e-05  1.1489084e-05]]
+block.mlp.e_mlp.mu [[ 6.9195368e-05 -2.7753730e-04  6.6376670e-05 ... -5.6267807e-05
+  -5.2310887e-05  8.3859108e-05]
+ [ 6.9220434e-05 -2.7753611e-04  6.6376509e-05 ... -5.6275010e-05
+  -5.2293191e-05  8.3849904e-05]
+ [ 6.9206246e-05 -2.7752985e-04  6.6376102e-05 ... -5.6273475e-05
+  -5.2295774e-05  8.3854968e-05]
+ ...
+ [ 6.9207257e-05 -2.7752339e-04  6.6384426e-05 ... -5.6279619e-05
+  -5.2302086e-05  8.3862782e-05]
+ [ 6.9201669e-05 -2.7752828e-04  6.6373941e-05 ... -5.6274850e-05
+  -5.2302068e-05  8.3865554e-05]
+ [ 6.9201051e-05 -2.7752676e-04  6.6393586e-05 ... -5.6281446e-05
+  -5.2295931e-05  8.3856772e-05]]
+block.mlp.W_mlp2.outputs [[ 6.9195368e-05 -2.7753730e-04  6.6376670e-05 ... -5.6267807e-05
+  -5.2310887e-05  8.3859108e-05]
+ [ 6.9220434e-05 -2.7753611e-04  6.6376509e-05 ... -5.6275010e-05
+  -5.2293191e-05  8.3849904e-05]
+ [ 6.9206246e-05 -2.7752985e-04  6.6376102e-05 ... -5.6273475e-05
+  -5.2295774e-05  8.3854968e-05]
+ ...
+ [ 6.9207257e-05 -2.7752339e-04  6.6384426e-05 ... -5.6279619e-05
+  -5.2302086e-05  8.3862782e-05]
+ [ 6.9201669e-05 -2.7752828e-04  6.6373941e-05 ... -5.6274850e-05
+  -5.2302068e-05  8.3865554e-05]
+ [ 6.9201051e-05 -2.7752676e-04  6.6393586e-05 ... -5.6281446e-05
+  -5.2295931e-05  8.3856772e-05]]
 ts=8:
-  L_embed (L1) = -198625632.0
-  L_out   (L4) = nan
-  Block 0 attention error = -1389435904.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011714520223904401
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.0490841052378528e-05
+  Block 0 mlp error 2   = -3.224393552159199e-08
+block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+block.mlp.e_mlp1.target: [[ 9.54752340e-06  1.81366617e-04 -1.41409801e-05 ...  7.72709900e-05
+   2.36808301e-05  2.23035931e-05]
+ [ 1.01609985e-05  1.80884017e-04 -1.49334865e-05 ...  7.69729886e-05
+   2.46189138e-05  2.16160770e-05]
+ [ 9.69228131e-06  1.80869887e-04 -1.52346702e-05 ...  7.68322061e-05
+   2.46140298e-05  2.20605816e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 9.64037372e-06  1.81114607e-04 -1.48188301e-05 ...  7.69330873e-05
+   2.42042061e-05  2.22356630e-05]
+ [ 9.51939910e-06  1.80812174e-04 -1.46181710e-05 ...  7.73375214e-05
+   2.45607916e-05  2.22615836e-05]
+ [ 9.60505895e-06  1.81446245e-04 -1.47142819e-05 ...  7.69881517e-05
+   2.40089212e-05  2.27029050e-05]]
+zmplp2 value  [[ 9.54752340e-06  1.81366617e-04 -1.41409801e-05 ...  7.72709900e-05
+   2.36808301e-05  2.23035931e-05]
+ [ 1.01609985e-05  1.80884017e-04 -1.49334865e-05 ...  7.69729886e-05
+   2.46189138e-05  2.16160770e-05]
+ [ 9.69228131e-06  1.80869887e-04 -1.52346702e-05 ...  7.68322061e-05
+   2.46140298e-05  2.20605816e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [ 9.64037372e-06  1.81114607e-04 -1.48188301e-05 ...  7.69330873e-05
+   2.42042061e-05  2.22356630e-05]
+ [ 9.51939910e-06  1.80812174e-04 -1.46181710e-05 ...  7.73375214e-05
+   2.45607916e-05  2.22615836e-05]
+ [ 9.60505895e-06  1.81446245e-04 -1.47142819e-05 ...  7.69881517e-05
+   2.40089212e-05  2.27029050e-05]]
+check the surrounding 
+z_mlp2 [[ 4.77380036e-06  9.06973073e-05 -7.07040499e-06 ...  3.86380379e-05
+   1.18406533e-05  1.11520076e-05]
+ [ 5.08054336e-06  9.04559274e-05 -7.46664909e-06 ...  3.84890191e-05
+   1.23097152e-05  1.08082368e-05]
+ [ 4.84618067e-06  9.04488625e-05 -7.61723595e-06 ...  3.84186169e-05
+   1.23072732e-05  1.10304982e-05]
+ ...
+ [ 4.82022642e-06  9.05712586e-05 -7.40932137e-06 ...  3.84690611e-05
+   1.21023522e-05  1.11180425e-05]
+ [ 4.75973820e-06  9.04199987e-05 -7.30899501e-06 ...  3.86713036e-05
+   1.22806523e-05  1.11310028e-05]
+ [ 4.80256904e-06  9.07371286e-05 -7.35704862e-06 ...  3.84966006e-05
+   1.20047071e-05  1.13516717e-05]]
+cheack w_mlp2 [[ 4.77380036e-06  9.06973073e-05 -7.07040499e-06 ...  3.86380379e-05
+   1.18406533e-05  1.11520076e-05]
+ [ 5.08054336e-06  9.04559274e-05 -7.46664909e-06 ...  3.84890191e-05
+   1.23097152e-05  1.08082368e-05]
+ [ 4.84618067e-06  9.04488625e-05 -7.61723595e-06 ...  3.84186169e-05
+   1.23072732e-05  1.10304982e-05]
+ ...
+ [ 4.82022642e-06  9.05712586e-05 -7.40932137e-06 ...  3.84690611e-05
+   1.21023522e-05  1.11180425e-05]
+ [ 4.75973820e-06  9.04199987e-05 -7.30899501e-06 ...  3.86713036e-05
+   1.22806523e-05  1.11310028e-05]
+ [ 4.80256904e-06  9.07371286e-05 -7.35704862e-06 ...  3.84966006e-05
+   1.20047071e-05  1.13516717e-05]]
+block.mlp.e_mlp.mu [[ 6.9210400e-05 -2.7757892e-04  6.6414803e-05 ... -5.6324861e-05
+  -5.2348500e-05  8.3876912e-05]
+ [ 6.9235459e-05 -2.7757772e-04  6.6414636e-05 ... -5.6332061e-05
+  -5.2330804e-05  8.3867708e-05]
+ [ 6.9221271e-05 -2.7757147e-04  6.6414235e-05 ... -5.6330529e-05
+  -5.2333391e-05  8.3872765e-05]
+ ...
+ [ 6.9222297e-05 -2.7756501e-04  6.6422566e-05 ... -5.6336681e-05
+  -5.2339699e-05  8.3880594e-05]
+ [ 6.9216701e-05 -2.7756990e-04  6.6412074e-05 ... -5.6331908e-05
+  -5.2339677e-05  8.3883366e-05]
+ [ 6.9216090e-05 -2.7756838e-04  6.6431727e-05 ... -5.6338507e-05
+  -5.2333540e-05  8.3874576e-05]]
+block.mlp.W_mlp2.outputs [[ 6.9210400e-05 -2.7757892e-04  6.6414803e-05 ... -5.6324861e-05
+  -5.2348500e-05  8.3876912e-05]
+ [ 6.9235459e-05 -2.7757772e-04  6.6414636e-05 ... -5.6332061e-05
+  -5.2330804e-05  8.3867708e-05]
+ [ 6.9221271e-05 -2.7757147e-04  6.6414235e-05 ... -5.6330529e-05
+  -5.2333391e-05  8.3872765e-05]
+ ...
+ [ 6.9222297e-05 -2.7756501e-04  6.6422566e-05 ... -5.6336681e-05
+  -5.2339699e-05  8.3880594e-05]
+ [ 6.9216701e-05 -2.7756990e-04  6.6412074e-05 ... -5.6331908e-05
+  -5.2339677e-05  8.3883366e-05]
+ [ 6.9216090e-05 -2.7756838e-04  6.6431727e-05 ... -5.6338507e-05
+  -5.2333540e-05  8.3874576e-05]]
 ts=9:
-  L_embed (L1) = -5623605248.0
-  L_out   (L4) = nan
-  Block 0 attention error = -40695930880.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011467808508314192
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.6798854630906135e-05
+  Block 0 mlp error 2   = -4.349715965190626e-08
+block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+block.mlp.e_mlp1.target: [[ 8.8604429e-06  1.8126074e-04 -1.4363197e-05 ...  7.7395373e-05
+   2.3918803e-05  2.2486660e-05]
+ [ 9.4739426e-06  1.8077815e-04 -1.5155694e-05 ...  7.7097342e-05
+   2.4856870e-05  2.1799147e-05]
+ [ 9.0052117e-06  1.8076402e-04 -1.5456884e-05 ...  7.6956545e-05
+   2.4851988e-05  2.2243672e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 8.9533360e-06  1.8100876e-04 -1.5041006e-05 ...  7.7057433e-05
+   2.4442161e-05  2.2418712e-05]
+ [ 8.8323668e-06  1.8070632e-04 -1.4840349e-05 ...  7.7461853e-05
+   2.4798739e-05  2.2444648e-05]
+ [ 8.9180303e-06  1.8134041e-04 -1.4936474e-05 ...  7.7112512e-05
+   2.4246865e-05  2.2885964e-05]]
+zmplp2 value  [[ 8.8604429e-06  1.8126074e-04 -1.4363197e-05 ...  7.7395373e-05
+   2.3918803e-05  2.2486660e-05]
+ [ 9.4739426e-06  1.8077815e-04 -1.5155694e-05 ...  7.7097342e-05
+   2.4856870e-05  2.1799147e-05]
+ [ 9.0052117e-06  1.8076402e-04 -1.5456884e-05 ...  7.6956545e-05
+   2.4851988e-05  2.2243672e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [ 8.9533360e-06  1.8100876e-04 -1.5041006e-05 ...  7.7057433e-05
+   2.4442161e-05  2.2418712e-05]
+ [ 8.8323668e-06  1.8070632e-04 -1.4840349e-05 ...  7.7461853e-05
+   2.4798739e-05  2.2444648e-05]
+ [ 8.9180303e-06  1.8134041e-04 -1.4936474e-05 ...  7.7112512e-05
+   2.4246865e-05  2.2885964e-05]]
+check the surrounding 
+z_mlp2 [[ 4.43025465e-06  9.06443456e-05 -7.18151114e-06 ...  3.87002365e-05
+   1.19596452e-05  1.12435455e-05]
+ [ 4.73700948e-06  9.04029730e-05 -7.57774933e-06 ...  3.85511994e-05
+   1.24286989e-05  1.08997765e-05]
+ [ 4.50264042e-06  9.03959080e-05 -7.72834119e-06 ...  3.84807900e-05
+   1.24262579e-05  1.11220470e-05]
+ ...
+ [ 4.47670209e-06  9.05183188e-05 -7.52040614e-06 ...  3.85312414e-05
+   1.22213351e-05  1.12095695e-05]
+ [ 4.41621660e-06  9.03670589e-05 -7.42008069e-06 ...  3.87334803e-05
+   1.23996315e-05  1.12225380e-05]
+ [ 4.45904925e-06  9.06841888e-05 -7.46814248e-06 ...  3.85587882e-05
+   1.21236826e-05  1.14432041e-05]]
+cheack w_mlp2 [[ 4.43025465e-06  9.06443456e-05 -7.18151114e-06 ...  3.87002365e-05
+   1.19596452e-05  1.12435455e-05]
+ [ 4.73700948e-06  9.04029730e-05 -7.57774933e-06 ...  3.85511994e-05
+   1.24286989e-05  1.08997765e-05]
+ [ 4.50264042e-06  9.03959080e-05 -7.72834119e-06 ...  3.84807900e-05
+   1.24262579e-05  1.11220470e-05]
+ ...
+ [ 4.47670209e-06  9.05183188e-05 -7.52040614e-06 ...  3.85312414e-05
+   1.22213351e-05  1.12095695e-05]
+ [ 4.41621660e-06  9.03670589e-05 -7.42008069e-06 ...  3.87334803e-05
+   1.23996315e-05  1.12225380e-05]
+ [ 4.45904925e-06  9.06841888e-05 -7.46814248e-06 ...  3.85587882e-05
+   1.21236826e-05  1.14432041e-05]]
+block.mlp.e_mlp.mu [[ 6.9200149e-05 -2.7755063e-04  6.6389090e-05 ... -5.6286353e-05
+  -5.2323026e-05  8.3864958e-05]
+ [ 6.9225207e-05 -2.7754944e-04  6.6388930e-05 ... -5.6293553e-05
+  -5.2305331e-05  8.3855761e-05]
+ [ 6.9211019e-05 -2.7754315e-04  6.6388522e-05 ... -5.6292021e-05
+  -5.2307914e-05  8.3860818e-05]
+ ...
+ [ 6.9212037e-05 -2.7753672e-04  6.6396853e-05 ... -5.6298170e-05
+  -5.2314226e-05  8.3868639e-05]
+ [ 6.9206442e-05 -2.7754158e-04  6.6386361e-05 ... -5.6293396e-05
+  -5.2314204e-05  8.3871411e-05]
+ [ 6.9205831e-05 -2.7754006e-04  6.6406006e-05 ... -5.6299992e-05
+  -5.2308067e-05  8.3862622e-05]]
+block.mlp.W_mlp2.outputs [[ 6.9200149e-05 -2.7755063e-04  6.6389090e-05 ... -5.6286353e-05
+  -5.2323026e-05  8.3864958e-05]
+ [ 6.9225207e-05 -2.7754944e-04  6.6388930e-05 ... -5.6293553e-05
+  -5.2305331e-05  8.3855761e-05]
+ [ 6.9211019e-05 -2.7754315e-04  6.6388522e-05 ... -5.6292021e-05
+  -5.2307914e-05  8.3860818e-05]
+ ...
+ [ 6.9212037e-05 -2.7753672e-04  6.6396853e-05 ... -5.6298170e-05
+  -5.2314226e-05  8.3868639e-05]
+ [ 6.9206442e-05 -2.7754158e-04  6.6386361e-05 ... -5.6293396e-05
+  -5.2314204e-05  8.3871411e-05]
+ [ 6.9205831e-05 -2.7754006e-04  6.6406006e-05 ... -5.6299992e-05
+  -5.2308067e-05  8.3862622e-05]]
 ts=10:
-  L_embed (L1) = -167818461184.0
-  L_out   (L4) = nan
-  Block 0 attention error = -1229238566912.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011632640962488949
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.9242510461481288e-05
+  Block 0 mlp error 2   = -3.572865381329393e-08
+block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+block.mlp.e_mlp1.target: [[ 9.32328840e-06  1.81332784e-04 -1.42141616e-05 ...  7.73106804e-05
+   2.37592230e-05  2.23641782e-05]
+ [ 9.93676804e-06  1.80850198e-04 -1.50066671e-05 ...  7.70126644e-05
+   2.46972995e-05  2.16766675e-05]
+ [ 9.46804175e-06  1.80836068e-04 -1.53078545e-05 ...  7.68718746e-05
+   2.46924174e-05  2.21211849e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 9.41615690e-06  1.81080788e-04 -1.48919898e-05 ...  7.69727558e-05
+   2.42825918e-05  2.22962390e-05]
+ [ 9.29518228e-06  1.80778370e-04 -1.46913344e-05 ...  7.73771826e-05
+   2.46391737e-05  2.23221723e-05]
+ [ 9.38084759e-06  1.81412441e-04 -1.47874525e-05 ...  7.70278348e-05
+   2.40872996e-05  2.27634882e-05]]
+zmplp2 value  [[ 9.32328840e-06  1.81332784e-04 -1.42141616e-05 ...  7.73106804e-05
+   2.37592230e-05  2.23641782e-05]
+ [ 9.93676804e-06  1.80850198e-04 -1.50066671e-05 ...  7.70126644e-05
+   2.46972995e-05  2.16766675e-05]
+ [ 9.46804175e-06  1.80836068e-04 -1.53078545e-05 ...  7.68718746e-05
+   2.46924174e-05  2.21211849e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [ 9.41615690e-06  1.81080788e-04 -1.48919898e-05 ...  7.69727558e-05
+   2.42825918e-05  2.22962390e-05]
+ [ 9.29518228e-06  1.80778370e-04 -1.46913344e-05 ...  7.73771826e-05
+   2.46391737e-05  2.23221723e-05]
+ [ 9.38084759e-06  1.81412441e-04 -1.47874525e-05 ...  7.70278348e-05
+   2.40872996e-05  2.27634882e-05]]
+check the surrounding 
+z_mlp2 [[ 4.66168149e-06  9.06803762e-05 -7.10699442e-06 ...  3.86578831e-05
+   1.18798525e-05  1.11823028e-05]
+ [ 4.96842586e-06  9.04390181e-05 -7.50323807e-06 ...  3.85088570e-05
+   1.23489090e-05  1.08385339e-05]
+ [ 4.73405908e-06  9.04319459e-05 -7.65382720e-06 ...  3.84384512e-05
+   1.23464679e-05  1.10608007e-05]
+ ...
+ [ 4.70811619e-06  9.05543493e-05 -7.44590079e-06 ...  3.84889026e-05
+   1.21415460e-05  1.11483305e-05]
+ [ 4.64762752e-06  9.04030821e-05 -7.34557534e-06 ...  3.86911379e-05
+   1.23198452e-05  1.11612981e-05]
+ [ 4.69046108e-06  9.07202266e-05 -7.39363304e-06 ...  3.85164421e-05
+   1.20438972e-05  1.13819651e-05]]
+cheack w_mlp2 [[ 4.66168149e-06  9.06803762e-05 -7.10699442e-06 ...  3.86578831e-05
+   1.18798525e-05  1.11823028e-05]
+ [ 4.96842586e-06  9.04390181e-05 -7.50323807e-06 ...  3.85088570e-05
+   1.23489090e-05  1.08385339e-05]
+ [ 4.73405908e-06  9.04319459e-05 -7.65382720e-06 ...  3.84384512e-05
+   1.23464679e-05  1.10608007e-05]
+ ...
+ [ 4.70811619e-06  9.05543493e-05 -7.44590079e-06 ...  3.84889026e-05
+   1.21415460e-05  1.11483305e-05]
+ [ 4.64762752e-06  9.04030821e-05 -7.34557534e-06 ...  3.86911379e-05
+   1.23198452e-05  1.11612981e-05]
+ [ 4.69046108e-06  9.07202266e-05 -7.39363304e-06 ...  3.85164421e-05
+   1.20438972e-05  1.13819651e-05]]
+block.mlp.e_mlp.mu [[ 6.9207090e-05 -2.7756978e-04  6.6406421e-05 ... -5.6312321e-05
+  -5.2340241e-05  8.3872983e-05]
+ [ 6.9232148e-05 -2.7756859e-04  6.6406254e-05 ... -5.6319521e-05
+  -5.2322546e-05  8.3863779e-05]
+ [ 6.9217960e-05 -2.7756233e-04  6.6405846e-05 ... -5.6317989e-05
+  -5.2325129e-05  8.3868836e-05]
+ ...
+ [ 6.9218986e-05 -2.7755587e-04  6.6414184e-05 ... -5.6324137e-05
+  -5.2331441e-05  8.3876672e-05]
+ [ 6.9213391e-05 -2.7756076e-04  6.6403692e-05 ... -5.6319368e-05
+  -5.2331419e-05  8.3879437e-05]
+ [ 6.9212780e-05 -2.7755924e-04  6.6423338e-05 ... -5.6325964e-05
+  -5.2325282e-05  8.3870647e-05]]
+block.mlp.W_mlp2.outputs [[ 6.9207090e-05 -2.7756978e-04  6.6406421e-05 ... -5.6312321e-05
+  -5.2340241e-05  8.3872983e-05]
+ [ 6.9232148e-05 -2.7756859e-04  6.6406254e-05 ... -5.6319521e-05
+  -5.2322546e-05  8.3863779e-05]
+ [ 6.9217960e-05 -2.7756233e-04  6.6405846e-05 ... -5.6317989e-05
+  -5.2325129e-05  8.3868836e-05]
+ ...
+ [ 6.9218986e-05 -2.7755587e-04  6.6414184e-05 ... -5.6324137e-05
+  -5.2331441e-05  8.3876672e-05]
+ [ 6.9213391e-05 -2.7756076e-04  6.6403692e-05 ... -5.6319368e-05
+  -5.2331419e-05  8.3879437e-05]
+ [ 6.9212780e-05 -2.7755924e-04  6.6423338e-05 ... -5.6325964e-05
+  -5.2325282e-05  8.3870647e-05]]
 ts=11:
-  L_embed (L1) = -5069507395584.0
-  L_out   (L4) = nan
-  Block 0 attention error = -37324394070016.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011521088890731335
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.7578437109477818e-05
+  Block 0 mlp error 2   = -4.086992788643329e-08
+block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+block.mlp.e_mlp1.target: [[ 9.0115664e-06  1.8128396e-04 -1.4314296e-05 ...  7.7368051e-05
+   2.3866451e-05  2.2446338e-05]
+ [ 9.6250606e-06  1.8080136e-04 -1.5106796e-05 ...  7.7070028e-05
+   2.4804522e-05  2.1758824e-05]
+ [ 9.1563352e-06  1.8078725e-04 -1.5407984e-05 ...  7.6929231e-05
+   2.4799640e-05  2.2203345e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 9.1044494e-06  1.8103197e-04 -1.4992115e-05 ...  7.7030119e-05
+   2.4389812e-05  2.2378394e-05]
+ [ 8.9834793e-06  1.8072955e-04 -1.4791456e-05 ...  7.7434539e-05
+   2.4746392e-05  2.2404327e-05]
+ [ 9.0691428e-06  1.8136362e-04 -1.4887579e-05 ...  7.7085191e-05
+   2.4194518e-05  2.2845645e-05]]
+zmplp2 value  [[ 9.0115664e-06  1.8128396e-04 -1.4314296e-05 ...  7.7368051e-05
+   2.3866451e-05  2.2446338e-05]
+ [ 9.6250606e-06  1.8080136e-04 -1.5106796e-05 ...  7.7070028e-05
+   2.4804522e-05  2.1758824e-05]
+ [ 9.1563352e-06  1.8078725e-04 -1.5407984e-05 ...  7.6929231e-05
+   2.4799640e-05  2.2203345e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [ 9.1044494e-06  1.8103197e-04 -1.4992115e-05 ...  7.7030119e-05
+   2.4389812e-05  2.2378394e-05]
+ [ 8.9834793e-06  1.8072955e-04 -1.4791456e-05 ...  7.7434539e-05
+   2.4746392e-05  2.2404327e-05]
+ [ 9.0691428e-06  1.8136362e-04 -1.4887579e-05 ...  7.7085191e-05
+   2.4194518e-05  2.2845645e-05]]
+check the surrounding 
+z_mlp2 [[ 4.50581774e-06  9.06559653e-05 -7.15706119e-06 ...  3.86865722e-05
+   1.19334672e-05  1.12233829e-05]
+ [ 4.81256984e-06  9.04145927e-05 -7.55330075e-06 ...  3.85375388e-05
+   1.24025228e-05  1.08796130e-05]
+ [ 4.57820306e-06  9.04075350e-05 -7.70389124e-06 ...  3.84671330e-05
+   1.24000817e-05  1.11018826e-05]
+ ...
+ [ 4.55226018e-06  9.05299239e-05 -7.49596211e-06 ...  3.85175845e-05
+   1.21951589e-05  1.11894105e-05]
+ [ 4.49177378e-06  9.03786713e-05 -7.39563438e-06 ...  3.87198234e-05
+   1.23734571e-05  1.12023772e-05]
+ [ 4.53460643e-06  9.06958085e-05 -7.44369527e-06 ...  3.85451240e-05
+   1.20975083e-05  1.14230443e-05]]
+cheack w_mlp2 [[ 4.50581774e-06  9.06559653e-05 -7.15706119e-06 ...  3.86865722e-05
+   1.19334672e-05  1.12233829e-05]
+ [ 4.81256984e-06  9.04145927e-05 -7.55330075e-06 ...  3.85375388e-05
+   1.24025228e-05  1.08796130e-05]
+ [ 4.57820306e-06  9.04075350e-05 -7.70389124e-06 ...  3.84671330e-05
+   1.24000817e-05  1.11018826e-05]
+ ...
+ [ 4.55226018e-06  9.05299239e-05 -7.49596211e-06 ...  3.85175845e-05
+   1.21951589e-05  1.11894105e-05]
+ [ 4.49177378e-06  9.03786713e-05 -7.39563438e-06 ...  3.87198234e-05
+   1.23734571e-05  1.12023772e-05]
+ [ 4.53460643e-06  9.06958085e-05 -7.44369527e-06 ...  3.85451240e-05
+   1.20975083e-05  1.14230443e-05]]
+block.mlp.e_mlp.mu [[ 6.9202404e-05 -2.7755683e-04  6.6394743e-05 ... -5.6294819e-05
+  -5.2328625e-05  8.3867591e-05]
+ [ 6.9227463e-05 -2.7755563e-04  6.6394583e-05 ... -5.6302018e-05
+  -5.2310930e-05  8.3858387e-05]
+ [ 6.9213274e-05 -2.7754938e-04  6.6394176e-05 ... -5.6300487e-05
+  -5.2313513e-05  8.3863444e-05]
+ ...
+ [ 6.9214300e-05 -2.7754292e-04  6.6402506e-05 ... -5.6306635e-05
+  -5.2319821e-05  8.3871273e-05]
+ [ 6.9208705e-05 -2.7754781e-04  6.6392015e-05 ... -5.6301866e-05
+  -5.2319803e-05  8.3874045e-05]
+ [ 6.9208094e-05 -2.7754629e-04  6.6411667e-05 ... -5.6308461e-05
+  -5.2313662e-05  8.3865256e-05]]
+block.mlp.W_mlp2.outputs [[ 6.9202404e-05 -2.7755683e-04  6.6394743e-05 ... -5.6294819e-05
+  -5.2328625e-05  8.3867591e-05]
+ [ 6.9227463e-05 -2.7755563e-04  6.6394583e-05 ... -5.6302018e-05
+  -5.2310930e-05  8.3858387e-05]
+ [ 6.9213274e-05 -2.7754938e-04  6.6394176e-05 ... -5.6300487e-05
+  -5.2313513e-05  8.3863444e-05]
+ ...
+ [ 6.9214300e-05 -2.7754292e-04  6.6402506e-05 ... -5.6306635e-05
+  -5.2319821e-05  8.3871273e-05]
+ [ 6.9208705e-05 -2.7754781e-04  6.6392015e-05 ... -5.6301866e-05
+  -5.2319803e-05  8.3874045e-05]
+ [ 6.9208094e-05 -2.7754629e-04  6.6411667e-05 ... -5.6308461e-05
+  -5.2313662e-05  8.3865256e-05]]
 ts=12:
-  L_embed (L1) = -153114795573248.0
-  L_out   (L4) = nan
-  Block 0 attention error = -1121256241889280.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011595938121899962
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.8690248907660134e-05
+  Block 0 mlp error 2   = -3.7368486971445236e-08
+block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+block.mlp.e_mlp1.target: [[ 9.2214850e-06  1.8131697e-04 -1.4246951e-05 ...  7.7329300e-05
+   2.3794324e-05  2.2391141e-05]
+ [ 9.8349692e-06  1.8083438e-04 -1.5039454e-05 ...  7.7031276e-05
+   2.4732399e-05  2.1703630e-05]
+ [ 9.3662420e-06  1.8082025e-04 -1.5340642e-05 ...  7.6890487e-05
+   2.4727517e-05  2.2148150e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 9.3143590e-06  1.8106497e-04 -1.4924774e-05 ...  7.6991368e-05
+   2.4317691e-05  2.2323200e-05]
+ [ 9.1933844e-06  1.8076255e-04 -1.4724119e-05 ...  7.7395795e-05
+   2.4674271e-05  2.2349135e-05]
+ [ 9.2790497e-06  1.8139662e-04 -1.4820238e-05 ...  7.7046447e-05
+   2.4122397e-05  2.2790451e-05]]
+zmplp2 value  [[ 9.2214850e-06  1.8131697e-04 -1.4246951e-05 ...  7.7329300e-05
+   2.3794324e-05  2.2391141e-05]
+ [ 9.8349692e-06  1.8083438e-04 -1.5039454e-05 ...  7.7031276e-05
+   2.4732399e-05  2.1703630e-05]
+ [ 9.3662420e-06  1.8082025e-04 -1.5340642e-05 ...  7.6890487e-05
+   2.4727517e-05  2.2148150e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [ 9.3143590e-06  1.8106497e-04 -1.4924774e-05 ...  7.6991368e-05
+   2.4317691e-05  2.2323200e-05]
+ [ 9.1933844e-06  1.8076255e-04 -1.4724119e-05 ...  7.7395795e-05
+   2.4674271e-05  2.2349135e-05]
+ [ 9.2790497e-06  1.8139662e-04 -1.4820238e-05 ...  7.7046447e-05
+   2.4122397e-05  2.2790451e-05]]
+check the surrounding 
+z_mlp2 [[ 4.6107789e-06  9.0672467e-05 -7.1233890e-06 ...  3.8667193e-05
+   1.1897403e-05  1.1195784e-05]
+ [ 4.9175255e-06  9.0431102e-05 -7.5196303e-06 ...  3.8518163e-05
+   1.2366460e-05  1.0852015e-05]
+ [ 4.6831583e-06  9.0424037e-05 -7.6702199e-06 ...  3.8447761e-05
+   1.2364019e-05  1.1074283e-05]
+ ...
+ [ 4.6572168e-06  9.0546426e-05 -7.4622931e-06 ...  3.8498209e-05
+   1.2159097e-05  1.1161812e-05]
+ [ 4.5967286e-06  9.0395173e-05 -7.3619672e-06 ...  3.8700447e-05
+   1.2337395e-05  1.1174780e-05]
+ [ 4.6395612e-06  9.0712310e-05 -7.4100253e-06 ...  3.8525748e-05
+   1.2061446e-05  1.1395447e-05]]
+cheack w_mlp2 [[ 4.6107789e-06  9.0672467e-05 -7.1233890e-06 ...  3.8667193e-05
+   1.1897403e-05  1.1195784e-05]
+ [ 4.9175255e-06  9.0431102e-05 -7.5196303e-06 ...  3.8518163e-05
+   1.2366460e-05  1.0852015e-05]
+ [ 4.6831583e-06  9.0424037e-05 -7.6702199e-06 ...  3.8447761e-05
+   1.2364019e-05  1.1074283e-05]
+ ...
+ [ 4.6572168e-06  9.0546426e-05 -7.4622931e-06 ...  3.8498209e-05
+   1.2159097e-05  1.1161812e-05]
+ [ 4.5967286e-06  9.0395173e-05 -7.3619672e-06 ...  3.8700447e-05
+   1.2337395e-05  1.1174780e-05]
+ [ 4.6395612e-06  9.0712310e-05 -7.4100253e-06 ...  3.8525748e-05
+   1.2061446e-05  1.1395447e-05]]
+block.mlp.e_mlp.mu [[ 6.9205562e-05 -2.7756556e-04  6.6402608e-05 ... -5.6306613e-05
+  -5.2336458e-05  8.3871222e-05]
+ [ 6.9230620e-05 -2.7756440e-04  6.6402441e-05 ... -5.6313809e-05
+  -5.2318763e-05  8.3862018e-05]
+ [ 6.9216432e-05 -2.7755811e-04  6.6402041e-05 ... -5.6312278e-05
+  -5.2321346e-05  8.3867075e-05]
+ ...
+ [ 6.9217458e-05 -2.7755165e-04  6.6410372e-05 ... -5.6318429e-05
+  -5.2327654e-05  8.3874904e-05]
+ [ 6.9211863e-05 -2.7755654e-04  6.6399880e-05 ... -5.6313656e-05
+  -5.2327636e-05  8.3877676e-05]
+ [ 6.9211252e-05 -2.7755502e-04  6.6419532e-05 ... -5.6320256e-05
+  -5.2321499e-05  8.3868879e-05]]
+block.mlp.W_mlp2.outputs [[ 6.9205562e-05 -2.7756556e-04  6.6402608e-05 ... -5.6306613e-05
+  -5.2336458e-05  8.3871222e-05]
+ [ 6.9230620e-05 -2.7756440e-04  6.6402441e-05 ... -5.6313809e-05
+  -5.2318763e-05  8.3862018e-05]
+ [ 6.9216432e-05 -2.7755811e-04  6.6402041e-05 ... -5.6312278e-05
+  -5.2321346e-05  8.3867075e-05]
+ ...
+ [ 6.9217458e-05 -2.7755165e-04  6.6410372e-05 ... -5.6318429e-05
+  -5.2327654e-05  8.3874904e-05]
+ [ 6.9211863e-05 -2.7755654e-04  6.6399880e-05 ... -5.6313656e-05
+  -5.2327636e-05  8.3877676e-05]
+ [ 6.9211252e-05 -2.7755502e-04  6.6419532e-05 ... -5.6320256e-05
+  -5.2321499e-05  8.3868879e-05]]
 ts=13:
-  L_embed (L1) = -4591048382742528.0
-  L_out   (L4) = nan
-  Block 0 attention error = -3.350251443532595e+16
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011545421875780448
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.793777300918009e-05
+  Block 0 mlp error 2   = -3.9707835242097644e-08
+block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+block.mlp.e_mlp1.target: [[ 9.0801295e-06  1.8129469e-04 -1.4292268e-05 ...  7.7355435e-05
+   2.3842866e-05  2.2428258e-05]
+ [ 9.6936219e-06  1.8081210e-04 -1.5084770e-05 ...  7.7057419e-05
+   2.4780938e-05  2.1740743e-05]
+ [ 9.2248956e-06  1.8079797e-04 -1.5385956e-05 ...  7.6916622e-05
+   2.4776054e-05  2.2185264e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 9.1730126e-06  1.8104269e-04 -1.4970089e-05 ...  7.7017503e-05
+   2.4366231e-05  2.2360313e-05]
+ [ 9.0520389e-06  1.8074027e-04 -1.4769432e-05 ...  7.7421930e-05
+   2.4722809e-05  2.2386248e-05]
+ [ 9.1377015e-06  1.8137434e-04 -1.4865553e-05 ...  7.7072582e-05
+   2.4170935e-05  2.2827564e-05]]
+zmplp2 value  [[ 9.0801295e-06  1.8129469e-04 -1.4292268e-05 ...  7.7355435e-05
+   2.3842866e-05  2.2428258e-05]
+ [ 9.6936219e-06  1.8081210e-04 -1.5084770e-05 ...  7.7057419e-05
+   2.4780938e-05  2.1740743e-05]
+ [ 9.2248956e-06  1.8079797e-04 -1.5385956e-05 ...  7.6916622e-05
+   2.4776054e-05  2.2185264e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [ 9.1730126e-06  1.8104269e-04 -1.4970089e-05 ...  7.7017503e-05
+   2.4366231e-05  2.2360313e-05]
+ [ 9.0520389e-06  1.8074027e-04 -1.4769432e-05 ...  7.7421930e-05
+   2.4722809e-05  2.2386248e-05]
+ [ 9.1377015e-06  1.8137434e-04 -1.4865553e-05 ...  7.7072582e-05
+   2.4170935e-05  2.2827564e-05]]
+check the surrounding 
+z_mlp2 [[ 4.54009978e-06  9.06613277e-05 -7.14604721e-06 ...  3.86802640e-05
+   1.19216747e-05  1.12143425e-05]
+ [ 4.84685097e-06  9.04199624e-05 -7.54228768e-06 ...  3.85312342e-05
+   1.23907303e-05  1.08705726e-05]
+ [ 4.61248419e-06  9.04128974e-05 -7.69287726e-06 ...  3.84608284e-05
+   1.23882883e-05  1.10928413e-05]
+ ...
+ [ 4.58654222e-06  9.05352863e-05 -7.48494904e-06 ...  3.85112762e-05
+   1.21833682e-05  1.11803693e-05]
+ [ 4.52605445e-06  9.03840337e-05 -7.38462268e-06 ...  3.87135151e-05
+   1.23616655e-05  1.11933377e-05]
+ [ 4.56888620e-06  9.07011708e-05 -7.43268220e-06 ...  3.85388194e-05
+   1.20857167e-05  1.14140039e-05]]
+cheack w_mlp2 [[ 4.54009978e-06  9.06613277e-05 -7.14604721e-06 ...  3.86802640e-05
+   1.19216747e-05  1.12143425e-05]
+ [ 4.84685097e-06  9.04199624e-05 -7.54228768e-06 ...  3.85312342e-05
+   1.23907303e-05  1.08705726e-05]
+ [ 4.61248419e-06  9.04128974e-05 -7.69287726e-06 ...  3.84608284e-05
+   1.23882883e-05  1.10928413e-05]
+ ...
+ [ 4.58654222e-06  9.05352863e-05 -7.48494904e-06 ...  3.85112762e-05
+   1.21833682e-05  1.11803693e-05]
+ [ 4.52605445e-06  9.03840337e-05 -7.38462268e-06 ...  3.87135151e-05
+   1.23616655e-05  1.11933377e-05]
+ [ 4.56888620e-06  9.07011708e-05 -7.43268220e-06 ...  3.85388194e-05
+   1.20857167e-05  1.14140039e-05]]
+block.mlp.e_mlp.mu [[ 6.9203437e-05 -2.7755968e-04  6.6397311e-05 ... -5.6298668e-05
+  -5.2331179e-05  8.3868777e-05]
+ [ 6.9228496e-05 -2.7755849e-04  6.6397144e-05 ... -5.6305867e-05
+  -5.2313484e-05  8.3859573e-05]
+ [ 6.9214308e-05 -2.7755223e-04  6.6396744e-05 ... -5.6304336e-05
+  -5.2316067e-05  8.3864630e-05]
+ ...
+ [ 6.9215333e-05 -2.7754577e-04  6.6405075e-05 ... -5.6310484e-05
+  -5.2322375e-05  8.3872459e-05]
+ [ 6.9209738e-05 -2.7755066e-04  6.6394583e-05 ... -5.6305715e-05
+  -5.2322357e-05  8.3875231e-05]
+ [ 6.9209120e-05 -2.7754914e-04  6.6414228e-05 ... -5.6312310e-05
+  -5.2316220e-05  8.3866442e-05]]
+block.mlp.W_mlp2.outputs [[ 6.9203437e-05 -2.7755968e-04  6.6397311e-05 ... -5.6298668e-05
+  -5.2331179e-05  8.3868777e-05]
+ [ 6.9228496e-05 -2.7755849e-04  6.6397144e-05 ... -5.6305867e-05
+  -5.2313484e-05  8.3859573e-05]
+ [ 6.9214308e-05 -2.7755223e-04  6.6396744e-05 ... -5.6304336e-05
+  -5.2316067e-05  8.3864630e-05]
+ ...
+ [ 6.9215333e-05 -2.7754577e-04  6.6405075e-05 ... -5.6310484e-05
+  -5.2322375e-05  8.3872459e-05]
+ [ 6.9209738e-05 -2.7755066e-04  6.6394583e-05 ... -5.6305715e-05
+  -5.2322357e-05  8.3875231e-05]
+ [ 6.9209120e-05 -2.7754914e-04  6.6414228e-05 ... -5.6312310e-05
+  -5.2316220e-05  8.3866442e-05]]
 ts=14:
-  L_embed (L1) = -1.3716283861447475e+17
-  L_out   (L4) = nan
-  Block 0 attention error = -1.0022547390579343e+18
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011579383863136172
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.8442675354890525e-05
+  Block 0 mlp error 2   = -3.8124465362443516e-08
+block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+block.mlp.e_mlp1.target: [[ 9.1753118e-06  1.8130972e-04 -1.4261765e-05 ...  7.7337820e-05
+   2.3810187e-05  2.2403286e-05]
+ [ 9.7888005e-06  1.8082712e-04 -1.5054267e-05 ...  7.7039804e-05
+   2.4748262e-05  2.1715774e-05]
+ [ 9.3200724e-06  1.8081299e-04 -1.5355456e-05 ...  7.6899007e-05
+   2.4743380e-05  2.2160295e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 9.2681894e-06  1.8105772e-04 -1.4939587e-05 ...  7.6999888e-05
+   2.4333553e-05  2.2335345e-05]
+ [ 9.1472157e-06  1.8075529e-04 -1.4738930e-05 ...  7.7404315e-05
+   2.4690135e-05  2.2361279e-05]
+ [ 9.2328810e-06  1.8138936e-04 -1.4835051e-05 ...  7.7054967e-05
+   2.4138260e-05  2.2802597e-05]]
+zmplp2 value  [[ 9.1753118e-06  1.8130972e-04 -1.4261765e-05 ...  7.7337820e-05
+   2.3810187e-05  2.2403286e-05]
+ [ 9.7888005e-06  1.8082712e-04 -1.5054267e-05 ...  7.7039804e-05
+   2.4748262e-05  2.1715774e-05]
+ [ 9.3200724e-06  1.8081299e-04 -1.5355456e-05 ...  7.6899007e-05
+   2.4743380e-05  2.2160295e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [ 9.2681894e-06  1.8105772e-04 -1.4939587e-05 ...  7.6999888e-05
+   2.4333553e-05  2.2335345e-05]
+ [ 9.1472157e-06  1.8075529e-04 -1.4738930e-05 ...  7.7404315e-05
+   2.4690135e-05  2.2361279e-05]
+ [ 9.2328810e-06  1.8138936e-04 -1.4835051e-05 ...  7.7054967e-05
+   2.4138260e-05  2.2802597e-05]]
+check the surrounding 
+z_mlp2 [[ 4.58769182e-06  9.06688438e-05 -7.13079544e-06 ...  3.86714528e-05
+   1.19053348e-05  1.12018570e-05]
+ [ 4.89444119e-06  9.04274712e-05 -7.52703681e-06 ...  3.85224266e-05
+   1.23743921e-05  1.08580880e-05]
+ [ 4.66007350e-06  9.04204062e-05 -7.67762685e-06 ...  3.84520208e-05
+   1.23719510e-05  1.10803558e-05]
+ ...
+ [ 4.63413107e-06  9.05428024e-05 -7.46969909e-06 ...  3.85024687e-05
+   1.21670282e-05  1.11678855e-05]
+ [ 4.57364331e-06  9.03915425e-05 -7.36937272e-06 ...  3.87047075e-05
+   1.23453265e-05  1.11808522e-05]
+ [ 4.61647687e-06  9.07086796e-05 -7.41743179e-06 ...  3.85300082e-05
+   1.20693776e-05  1.14015202e-05]]
+cheack w_mlp2 [[ 4.58769182e-06  9.06688438e-05 -7.13079544e-06 ...  3.86714528e-05
+   1.19053348e-05  1.12018570e-05]
+ [ 4.89444119e-06  9.04274712e-05 -7.52703681e-06 ...  3.85224266e-05
+   1.23743921e-05  1.08580880e-05]
+ [ 4.66007350e-06  9.04204062e-05 -7.67762685e-06 ...  3.84520208e-05
+   1.23719510e-05  1.10803558e-05]
+ ...
+ [ 4.63413107e-06  9.05428024e-05 -7.46969909e-06 ...  3.85024687e-05
+   1.21670282e-05  1.11678855e-05]
+ [ 4.57364331e-06  9.03915425e-05 -7.36937272e-06 ...  3.87047075e-05
+   1.23453265e-05  1.11808522e-05]
+ [ 4.61647687e-06  9.07086796e-05 -7.41743179e-06 ...  3.85300082e-05
+   1.20693776e-05  1.14015202e-05]]
+block.mlp.e_mlp.mu [[ 6.9204871e-05 -2.7756364e-04  6.6400877e-05 ... -5.6304019e-05
+  -5.2334733e-05  8.3870422e-05]
+ [ 6.9229929e-05 -2.7756247e-04  6.6400717e-05 ... -5.6311219e-05
+  -5.2317038e-05  8.3861218e-05]
+ [ 6.9215741e-05 -2.7755619e-04  6.6400309e-05 ... -5.6309684e-05
+  -5.2319625e-05  8.3866275e-05]
+ ...
+ [ 6.9216767e-05 -2.7754973e-04  6.6408640e-05 ... -5.6315836e-05
+  -5.2325933e-05  8.3874103e-05]
+ [ 6.9211164e-05 -2.7755462e-04  6.6398148e-05 ... -5.6311063e-05
+  -5.2325911e-05  8.3876868e-05]
+ [ 6.9210553e-05 -2.7755310e-04  6.6417801e-05 ... -5.6317662e-05
+  -5.2319774e-05  8.3868086e-05]]
+block.mlp.W_mlp2.outputs [[ 6.9204871e-05 -2.7756364e-04  6.6400877e-05 ... -5.6304019e-05
+  -5.2334733e-05  8.3870422e-05]
+ [ 6.9229929e-05 -2.7756247e-04  6.6400717e-05 ... -5.6311219e-05
+  -5.2317038e-05  8.3861218e-05]
+ [ 6.9215741e-05 -2.7755619e-04  6.6400309e-05 ... -5.6309684e-05
+  -5.2319625e-05  8.3866275e-05]
+ ...
+ [ 6.9216767e-05 -2.7754973e-04  6.6408640e-05 ... -5.6315836e-05
+  -5.2325933e-05  8.3874103e-05]
+ [ 6.9211164e-05 -2.7755462e-04  6.6398148e-05 ... -5.6311063e-05
+  -5.2325911e-05  8.3876868e-05]
+ [ 6.9210553e-05 -2.7755310e-04  6.6417801e-05 ... -5.6317662e-05
+  -5.2319774e-05  8.3868086e-05]]
 ts=15:
-  L_embed (L1) = -4.108232288452477e+18
-  L_out   (L4) = nan
-  Block 0 attention error = -3.0069663898743603e+19
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011556491517694667
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.810188769013621e-05
+  Block 0 mlp error 2   = -3.918686886095202e-08
+block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+block.mlp.e_mlp1.target: [[ 9.11122243e-06  1.81299591e-04 -1.42823001e-05 ...  7.73496868e-05
+   2.38321900e-05  2.24200921e-05]
+ [ 9.72471116e-06  1.80816991e-04 -1.50748019e-05 ...  7.70516708e-05
+   2.47702628e-05  2.17325796e-05]
+ [ 9.25598579e-06  1.80802861e-04 -1.53759902e-05 ...  7.69108738e-05
+   2.47653788e-05  2.21770988e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 9.20410184e-06  1.81047595e-04 -1.49601228e-05 ...  7.70117549e-05
+   2.43555533e-05  2.23521492e-05]
+ [ 9.08312904e-06  1.80745163e-04 -1.47594637e-05 ...  7.74161817e-05
+   2.47121334e-05  2.23780826e-05]
+ [ 9.16879071e-06  1.81379233e-04 -1.48555855e-05 ...  7.70668339e-05
+   2.41602611e-05  2.28193985e-05]]
+zmplp2 value  [[ 9.11122243e-06  1.81299591e-04 -1.42823001e-05 ...  7.73496868e-05
+   2.38321900e-05  2.24200921e-05]
+ [ 9.72471116e-06  1.80816991e-04 -1.50748019e-05 ...  7.70516708e-05
+   2.47702628e-05  2.17325796e-05]
+ [ 9.25598579e-06  1.80802861e-04 -1.53759902e-05 ...  7.69108738e-05
+   2.47653788e-05  2.21770988e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [ 9.20410184e-06  1.81047595e-04 -1.49601228e-05 ...  7.70117549e-05
+   2.43555533e-05  2.23521492e-05]
+ [ 9.08312904e-06  1.80745163e-04 -1.47594637e-05 ...  7.74161817e-05
+   2.47121334e-05  2.23780826e-05]
+ [ 9.16879071e-06  1.81379233e-04 -1.48555855e-05 ...  7.70668339e-05
+   2.41602611e-05  2.28193985e-05]]
+check the surrounding 
+z_mlp2 [[ 4.55564668e-06  9.06637797e-05 -7.14106318e-06 ...  3.86773900e-05
+   1.19163369e-05  1.12102598e-05]
+ [ 4.86239605e-06  9.04224071e-05 -7.53730410e-06 ...  3.85283602e-05
+   1.23853924e-05  1.08664908e-05]
+ [ 4.62802927e-06  9.04153421e-05 -7.68789414e-06 ...  3.84579544e-05
+   1.23829504e-05  1.10887586e-05]
+ ...
+ [ 4.60208730e-06  9.05377383e-05 -7.47996592e-06 ...  3.85084022e-05
+   1.21780295e-05  1.11762874e-05]
+ [ 4.54159954e-06  9.03864784e-05 -7.37963865e-06 ...  3.87106411e-05
+   1.23563277e-05  1.11892550e-05]
+ [ 4.58443128e-06  9.07036156e-05 -7.42769907e-06 ...  3.85359417e-05
+   1.20803797e-05  1.14099212e-05]]
+cheack w_mlp2 [[ 4.55564668e-06  9.06637797e-05 -7.14106318e-06 ...  3.86773900e-05
+   1.19163369e-05  1.12102598e-05]
+ [ 4.86239605e-06  9.04224071e-05 -7.53730410e-06 ...  3.85283602e-05
+   1.23853924e-05  1.08664908e-05]
+ [ 4.62802927e-06  9.04153421e-05 -7.68789414e-06 ...  3.84579544e-05
+   1.23829504e-05  1.10887586e-05]
+ ...
+ [ 4.60208730e-06  9.05377383e-05 -7.47996592e-06 ...  3.85084022e-05
+   1.21780295e-05  1.11762874e-05]
+ [ 4.54159954e-06  9.03864784e-05 -7.37963865e-06 ...  3.87106411e-05
+   1.23563277e-05  1.11892550e-05]
+ [ 4.58443128e-06  9.07036156e-05 -7.42769907e-06 ...  3.85359417e-05
+   1.20803797e-05  1.14099212e-05]]
+block.mlp.e_mlp.mu [[ 6.9203903e-05 -2.7756099e-04  6.6398476e-05 ... -5.6300414e-05
+  -5.2332340e-05  8.3869316e-05]
+ [ 6.9228961e-05 -2.7755980e-04  6.6398308e-05 ... -5.6307617e-05
+  -5.2314645e-05  8.3860112e-05]
+ [ 6.9214773e-05 -2.7755351e-04  6.6397908e-05 ... -5.6306082e-05
+  -5.2317228e-05  8.3865169e-05]
+ ...
+ [ 6.9215799e-05 -2.7754708e-04  6.6406239e-05 ... -5.6312234e-05
+  -5.2323539e-05  8.3872997e-05]
+ [ 6.9210204e-05 -2.7755194e-04  6.6395747e-05 ... -5.6307461e-05
+  -5.2323518e-05  8.3875770e-05]
+ [ 6.9209593e-05 -2.7755043e-04  6.6415399e-05 ... -5.6314057e-05
+  -5.2317380e-05  8.3866980e-05]]
+block.mlp.W_mlp2.outputs [[ 6.9203903e-05 -2.7756099e-04  6.6398476e-05 ... -5.6300414e-05
+  -5.2332340e-05  8.3869316e-05]
+ [ 6.9228961e-05 -2.7755980e-04  6.6398308e-05 ... -5.6307617e-05
+  -5.2314645e-05  8.3860112e-05]
+ [ 6.9214773e-05 -2.7755351e-04  6.6397908e-05 ... -5.6306082e-05
+  -5.2317228e-05  8.3865169e-05]
+ ...
+ [ 6.9215799e-05 -2.7754708e-04  6.6406239e-05 ... -5.6312234e-05
+  -5.2323539e-05  8.3872997e-05]
+ [ 6.9210204e-05 -2.7755194e-04  6.6395747e-05 ... -5.6307461e-05
+  -5.2323518e-05  8.3875770e-05]
+ [ 6.9209593e-05 -2.7755043e-04  6.6415399e-05 ... -5.6314057e-05
+  -5.2317380e-05  8.3866980e-05]]
 ts=16:
-  L_embed (L1) = -1.2328343615573275e+20
-  L_out   (L4) = nan
-  Block 0 attention error = -9.031127442511165e+20
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011571893992368132
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.8331007595406845e-05
+  Block 0 mlp error 2   = -3.846982465915971e-08
+block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+block.mlp.e_mlp1.target: [[ 9.1543770e-06  1.8130642e-04 -1.4268474e-05 ...  7.7341690e-05
+   2.3817376e-05  2.2408780e-05]
+ [ 9.7678649e-06  1.8082382e-04 -1.5060977e-05 ...  7.7043675e-05
+   2.4755449e-05  2.1721267e-05]
+ [ 9.2991395e-06  1.8080969e-04 -1.5362164e-05 ...  7.6902877e-05
+   2.4750567e-05  2.2165787e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 9.2472546e-06  1.8105442e-04 -1.4946295e-05 ...  7.7003766e-05
+   2.4340741e-05  2.2340837e-05]
+ [ 9.1262809e-06  1.8075199e-04 -1.4745639e-05 ...  7.7408185e-05
+   2.4697321e-05  2.2366770e-05]
+ [ 9.2119453e-06  1.8138606e-04 -1.4841760e-05 ...  7.7058838e-05
+   2.4145447e-05  2.2808088e-05]]
+zmplp2 value  [[ 9.1543770e-06  1.8130642e-04 -1.4268474e-05 ...  7.7341690e-05
+   2.3817376e-05  2.2408780e-05]
+ [ 9.7678649e-06  1.8082382e-04 -1.5060977e-05 ...  7.7043675e-05
+   2.4755449e-05  2.1721267e-05]
+ [ 9.2991395e-06  1.8080969e-04 -1.5362164e-05 ...  7.6902877e-05
+   2.4750567e-05  2.2165787e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [ 9.2472546e-06  1.8105442e-04 -1.4946295e-05 ...  7.7003766e-05
+   2.4340741e-05  2.2340837e-05]
+ [ 9.1262809e-06  1.8075199e-04 -1.4745639e-05 ...  7.7408185e-05
+   2.4697321e-05  2.2366770e-05]
+ [ 9.2119453e-06  1.8138606e-04 -1.4841760e-05 ...  7.7058838e-05
+   2.4145447e-05  2.2808088e-05]]
+check the surrounding 
+z_mlp2 [[ 4.57722399e-06  9.06671921e-05 -7.13415011e-06 ...  3.86733882e-05
+   1.19089291e-05  1.12046037e-05]
+ [ 4.88397336e-06  9.04258195e-05 -7.53039149e-06 ...  3.85243620e-05
+   1.23779855e-05  1.08608347e-05]
+ [ 4.64960704e-06  9.04187546e-05 -7.68098107e-06 ...  3.84539562e-05
+   1.23755444e-05  1.10831024e-05]
+ ...
+ [ 4.62366370e-06  9.05411507e-05 -7.47305285e-06 ...  3.85044077e-05
+   1.21706234e-05  1.11706313e-05]
+ [ 4.56317593e-06  9.03898908e-05 -7.37272649e-06 ...  3.87066430e-05
+   1.23489199e-05  1.11835989e-05]
+ [ 4.60600904e-06  9.07070280e-05 -7.42078646e-06 ...  3.85319436e-05
+   1.20729710e-05  1.14042659e-05]]
+cheack w_mlp2 [[ 4.57722399e-06  9.06671921e-05 -7.13415011e-06 ...  3.86733882e-05
+   1.19089291e-05  1.12046037e-05]
+ [ 4.88397336e-06  9.04258195e-05 -7.53039149e-06 ...  3.85243620e-05
+   1.23779855e-05  1.08608347e-05]
+ [ 4.64960704e-06  9.04187546e-05 -7.68098107e-06 ...  3.84539562e-05
+   1.23755444e-05  1.10831024e-05]
+ ...
+ [ 4.62366370e-06  9.05411507e-05 -7.47305285e-06 ...  3.85044077e-05
+   1.21706234e-05  1.11706313e-05]
+ [ 4.56317593e-06  9.03898908e-05 -7.37272649e-06 ...  3.87066430e-05
+   1.23489199e-05  1.11835989e-05]
+ [ 4.60600904e-06  9.07070280e-05 -7.42078646e-06 ...  3.85319436e-05
+   1.20729710e-05  1.14042659e-05]]
+block.mlp.e_mlp.mu [[ 6.9204551e-05 -2.7756277e-04  6.6400098e-05 ... -5.6302841e-05
+  -5.2333951e-05  8.3870058e-05]
+ [ 6.9229616e-05 -2.7756160e-04  6.6399931e-05 ... -5.6310040e-05
+  -5.2316256e-05  8.3860854e-05]
+ [ 6.9215428e-05 -2.7755531e-04  6.6399523e-05 ... -5.6308509e-05
+  -5.2318843e-05  8.3865918e-05]
+ ...
+ [ 6.9216447e-05 -2.7754885e-04  6.6407854e-05 ... -5.6314657e-05
+  -5.2325151e-05  8.3873740e-05]
+ [ 6.9210852e-05 -2.7755374e-04  6.6397362e-05 ... -5.6309887e-05
+  -5.2325129e-05  8.3876512e-05]
+ [ 6.9210240e-05 -2.7755223e-04  6.6417015e-05 ... -5.6316483e-05
+  -5.2318992e-05  8.3867722e-05]]
+block.mlp.W_mlp2.outputs [[ 6.9204551e-05 -2.7756277e-04  6.6400098e-05 ... -5.6302841e-05
+  -5.2333951e-05  8.3870058e-05]
+ [ 6.9229616e-05 -2.7756160e-04  6.6399931e-05 ... -5.6310040e-05
+  -5.2316256e-05  8.3860854e-05]
+ [ 6.9215428e-05 -2.7755531e-04  6.6399523e-05 ... -5.6308509e-05
+  -5.2318843e-05  8.3865918e-05]
+ ...
+ [ 6.9216447e-05 -2.7754885e-04  6.6407854e-05 ... -5.6314657e-05
+  -5.2325151e-05  8.3873740e-05]
+ [ 6.9210852e-05 -2.7755374e-04  6.6397362e-05 ... -5.6309887e-05
+  -5.2325129e-05  8.3876512e-05]
+ [ 6.9210240e-05 -2.7755223e-04  6.6417015e-05 ... -5.6316483e-05
+  -5.2318992e-05  8.3867722e-05]]
 ts=17:
-  L_embed (L1) = -3.701265057880956e+21
-  L_out   (L4) = nan
-  Block 0 attention error = -2.7108742417012595e+22
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011561519204406068
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.8176575395045802e-05
+  Block 0 mlp error 2   = -3.895187816738144e-08
+block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+block.mlp.e_mlp1.target: [[ 9.12531868e-06  1.81301817e-04 -1.42777835e-05 ...  7.73470747e-05
+   2.38273497e-05  2.24163960e-05]
+ [ 9.73880742e-06  1.80819217e-04 -1.50702854e-05 ...  7.70490587e-05
+   2.47654225e-05  2.17288816e-05]
+ [ 9.27008296e-06  1.80805087e-04 -1.53714736e-05 ...  7.69082617e-05
+   2.47605403e-05  2.21734026e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 9.21819810e-06  1.81049822e-04 -1.49556054e-05 ...  7.70091501e-05
+   2.43507147e-05  2.23484531e-05]
+ [ 9.09722439e-06  1.80747389e-04 -1.47549472e-05 ...  7.74135697e-05
+   2.47072949e-05  2.23743864e-05]
+ [ 9.18288788e-06  1.81381460e-04 -1.48510680e-05 ...  7.70642218e-05
+   2.41554208e-05  2.28157023e-05]]
+zmplp2 value  [[ 9.12531868e-06  1.81301817e-04 -1.42777835e-05 ...  7.73470747e-05
+   2.38273497e-05  2.24163960e-05]
+ [ 9.73880742e-06  1.80819217e-04 -1.50702854e-05 ...  7.70490587e-05
+   2.47654225e-05  2.17288816e-05]
+ [ 9.27008296e-06  1.80805087e-04 -1.53714736e-05 ...  7.69082617e-05
+   2.47605403e-05  2.21734026e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [ 9.21819810e-06  1.81049822e-04 -1.49556054e-05 ...  7.70091501e-05
+   2.43507147e-05  2.23484531e-05]
+ [ 9.09722439e-06  1.80747389e-04 -1.47549472e-05 ...  7.74135697e-05
+   2.47072949e-05  2.23743864e-05]
+ [ 9.18288788e-06  1.81381460e-04 -1.48510680e-05 ...  7.70642218e-05
+   2.41554208e-05  2.28157023e-05]]
+check the surrounding 
+z_mlp2 [[ 4.56269481e-06  9.06648929e-05 -7.13880490e-06 ...  3.86760839e-05
+   1.19139158e-05  1.12084117e-05]
+ [ 4.86944418e-06  9.04235203e-05 -7.53504582e-06 ...  3.85270541e-05
+   1.23829723e-05  1.08646418e-05]
+ [ 4.63507786e-06  9.04164554e-05 -7.68563586e-06 ...  3.84566483e-05
+   1.23805312e-05  1.10869105e-05]
+ ...
+ [ 4.60913543e-06  9.05388515e-05 -7.47770719e-06 ...  3.85070998e-05
+   1.21756102e-05  1.11744394e-05]
+ [ 4.54864767e-06  9.03875916e-05 -7.37738037e-06 ...  3.87093351e-05
+   1.23539066e-05  1.11874069e-05]
+ [ 4.59147986e-06  9.07047288e-05 -7.42544034e-06 ...  3.85346357e-05
+   1.20779596e-05  1.14080731e-05]]
+cheack w_mlp2 [[ 4.56269481e-06  9.06648929e-05 -7.13880490e-06 ...  3.86760839e-05
+   1.19139158e-05  1.12084117e-05]
+ [ 4.86944418e-06  9.04235203e-05 -7.53504582e-06 ...  3.85270541e-05
+   1.23829723e-05  1.08646418e-05]
+ [ 4.63507786e-06  9.04164554e-05 -7.68563586e-06 ...  3.84566483e-05
+   1.23805312e-05  1.10869105e-05]
+ ...
+ [ 4.60913543e-06  9.05388515e-05 -7.47770719e-06 ...  3.85070998e-05
+   1.21756102e-05  1.11744394e-05]
+ [ 4.54864767e-06  9.03875916e-05 -7.37738037e-06 ...  3.87093351e-05
+   1.23539066e-05  1.11874069e-05]
+ [ 4.59147986e-06  9.07047288e-05 -7.42544034e-06 ...  3.85346357e-05
+   1.20779596e-05  1.14080731e-05]]
+block.mlp.e_mlp.mu [[ 6.9204114e-05 -2.7756157e-04  6.6399007e-05 ... -5.6301207e-05
+  -5.2332864e-05  8.3869556e-05]
+ [ 6.9229180e-05 -2.7756038e-04  6.6398839e-05 ... -5.6308407e-05
+  -5.2315168e-05  8.3860352e-05]
+ [ 6.9214984e-05 -2.7755409e-04  6.6398432e-05 ... -5.6306875e-05
+  -5.2317755e-05  8.3865416e-05]
+ ...
+ [ 6.9216010e-05 -2.7754766e-04  6.6406770e-05 ... -5.6313023e-05
+  -5.2324063e-05  8.3873245e-05]
+ [ 6.9210415e-05 -2.7755252e-04  6.6396278e-05 ... -5.6308254e-05
+  -5.2324045e-05  8.3876010e-05]
+ [ 6.9209804e-05 -2.7755104e-04  6.6415923e-05 ... -5.6314850e-05
+  -5.2317908e-05  8.3867220e-05]]
+block.mlp.W_mlp2.outputs [[ 6.9204114e-05 -2.7756157e-04  6.6399007e-05 ... -5.6301207e-05
+  -5.2332864e-05  8.3869556e-05]
+ [ 6.9229180e-05 -2.7756038e-04  6.6398839e-05 ... -5.6308407e-05
+  -5.2315168e-05  8.3860352e-05]
+ [ 6.9214984e-05 -2.7755409e-04  6.6398432e-05 ... -5.6306875e-05
+  -5.2317755e-05  8.3865416e-05]
+ ...
+ [ 6.9216010e-05 -2.7754766e-04  6.6406770e-05 ... -5.6313023e-05
+  -5.2324063e-05  8.3873245e-05]
+ [ 6.9210415e-05 -2.7755252e-04  6.6396278e-05 ... -5.6308254e-05
+  -5.2324045e-05  8.3876010e-05]
+ [ 6.9209804e-05 -2.7755104e-04  6.6415923e-05 ... -5.6314850e-05
+  -5.2317908e-05  8.3867220e-05]]
 ts=18:
-  L_embed (L1) = -1.1106844054295602e+23
-  L_out   (L4) = nan
-  Block 0 attention error = -8.13375601091401e+23
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011568503396119922
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.828047970775515e-05
+  Block 0 mlp error 2   = -3.86269540797457e-08
+block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+block.mlp.e_mlp1.target: [[ 9.1448846e-06  1.8130490e-04 -1.4271514e-05 ...  7.7343451e-05
+   2.3820634e-05  2.2411268e-05]
+ [ 9.7583725e-06  1.8082232e-04 -1.5064017e-05 ...  7.7045435e-05
+   2.4758707e-05  2.1723754e-05]
+ [ 9.2896453e-06  1.8080819e-04 -1.5365205e-05 ...  7.6904638e-05
+   2.4753825e-05  2.2168275e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 9.2377613e-06  1.8105292e-04 -1.4949337e-05 ...  7.7005519e-05
+   2.4343999e-05  2.2343325e-05]
+ [ 9.1167894e-06  1.8075049e-04 -1.4748681e-05 ...  7.7409946e-05
+   2.4700579e-05  2.2369259e-05]
+ [ 9.2024538e-06  1.8138456e-04 -1.4844802e-05 ...  7.7060598e-05
+   2.4148707e-05  2.2810576e-05]]
+zmplp2 value  [[ 9.1448846e-06  1.8130490e-04 -1.4271514e-05 ...  7.7343451e-05
+   2.3820634e-05  2.2411268e-05]
+ [ 9.7583725e-06  1.8082232e-04 -1.5064017e-05 ...  7.7045435e-05
+   2.4758707e-05  2.1723754e-05]
+ [ 9.2896453e-06  1.8080819e-04 -1.5365205e-05 ...  7.6904638e-05
+   2.4753825e-05  2.2168275e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [ 9.2377613e-06  1.8105292e-04 -1.4949337e-05 ...  7.7005519e-05
+   2.4343999e-05  2.2343325e-05]
+ [ 9.1167894e-06  1.8075049e-04 -1.4748681e-05 ...  7.7409946e-05
+   2.4700579e-05  2.2369259e-05]
+ [ 9.2024538e-06  1.8138456e-04 -1.4844802e-05 ...  7.7060598e-05
+   2.4148707e-05  2.2810576e-05]]
+check the surrounding 
+z_mlp2 [[ 4.57247779e-06  9.06664354e-05 -7.13567033e-06 ...  3.86742686e-05
+   1.19105580e-05  1.12058478e-05]
+ [ 4.87922716e-06  9.04250701e-05 -7.53191171e-06 ...  3.85252424e-05
+   1.23796144e-05  1.08620779e-05]
+ [ 4.64485902e-06  9.04180051e-05 -7.68250175e-06 ...  3.84548366e-05
+   1.23771733e-05  1.10843466e-05]
+ ...
+ [ 4.61891705e-06  9.05404013e-05 -7.47457398e-06 ...  3.85052845e-05
+   1.21722524e-05  1.11718755e-05]
+ [ 4.55843019e-06  9.03891414e-05 -7.37424716e-06 ...  3.87075233e-05
+   1.23505488e-05  1.11848431e-05]
+ [ 4.60126330e-06  9.07062786e-05 -7.42230714e-06 ...  3.85328240e-05
+   1.20746026e-05  1.14055101e-05]]
+cheack w_mlp2 [[ 4.57247779e-06  9.06664354e-05 -7.13567033e-06 ...  3.86742686e-05
+   1.19105580e-05  1.12058478e-05]
+ [ 4.87922716e-06  9.04250701e-05 -7.53191171e-06 ...  3.85252424e-05
+   1.23796144e-05  1.08620779e-05]
+ [ 4.64485902e-06  9.04180051e-05 -7.68250175e-06 ...  3.84548366e-05
+   1.23771733e-05  1.10843466e-05]
+ ...
+ [ 4.61891705e-06  9.05404013e-05 -7.47457398e-06 ...  3.85052845e-05
+   1.21722524e-05  1.11718755e-05]
+ [ 4.55843019e-06  9.03891414e-05 -7.37424716e-06 ...  3.87075233e-05
+   1.23505488e-05  1.11848431e-05]
+ [ 4.60126330e-06  9.07062786e-05 -7.42230714e-06 ...  3.85328240e-05
+   1.20746026e-05  1.14055101e-05]]
+block.mlp.e_mlp.mu [[ 6.9204412e-05 -2.7756239e-04  6.6399742e-05 ... -5.6302310e-05
+  -5.2333598e-05  8.3869898e-05]
+ [ 6.9229471e-05 -2.7756119e-04  6.6399574e-05 ... -5.6309505e-05
+  -5.2315903e-05  8.3860694e-05]
+ [ 6.9215283e-05 -2.7755491e-04  6.6399167e-05 ... -5.6307974e-05
+  -5.2318486e-05  8.3865751e-05]
+ ...
+ [ 6.9216308e-05 -2.7754848e-04  6.6407498e-05 ... -5.6314122e-05
+  -5.2324795e-05  8.3873580e-05]
+ [ 6.9210706e-05 -2.7755334e-04  6.6397006e-05 ... -5.6309353e-05
+  -5.2324776e-05  8.3876352e-05]
+ [ 6.9210095e-05 -2.7755185e-04  6.6416658e-05 ... -5.6315952e-05
+  -5.2318639e-05  8.3867562e-05]]
+block.mlp.W_mlp2.outputs [[ 6.9204412e-05 -2.7756239e-04  6.6399742e-05 ... -5.6302310e-05
+  -5.2333598e-05  8.3869898e-05]
+ [ 6.9229471e-05 -2.7756119e-04  6.6399574e-05 ... -5.6309505e-05
+  -5.2315903e-05  8.3860694e-05]
+ [ 6.9215283e-05 -2.7755491e-04  6.6399167e-05 ... -5.6307974e-05
+  -5.2318486e-05  8.3865751e-05]
+ ...
+ [ 6.9216308e-05 -2.7754848e-04  6.6407498e-05 ... -5.6314122e-05
+  -5.2324795e-05  8.3873580e-05]
+ [ 6.9210706e-05 -2.7755334e-04  6.6397006e-05 ... -5.6309353e-05
+  -5.2324776e-05  8.3876352e-05]
+ [ 6.9210095e-05 -2.7755185e-04  6.6416658e-05 ... -5.6315952e-05
+  -5.2318639e-05  8.3867562e-05]]
 ts=19:
-  L_embed (L1) = -3.3323299534785834e+24
-  L_out   (L4) = nan
-  Block 0 attention error = -2.4411295855758724e+25
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011563798761926591
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.821046316763386e-05
+  Block 0 mlp error 2   = -3.8845556105115975e-08
+block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
+   2.15377604e-05  2.06686982e-05]
+ [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
+   2.24759915e-05  1.99810966e-05]
+ [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
+   2.24711457e-05  2.04257758e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
+   2.20612892e-05  2.06009026e-05]
+ [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
+   2.24178839e-05  2.06267196e-05]
+ [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
+   2.18658515e-05  2.10681101e-05]]
+block.mlp.e_mlp1.target: [[ 9.1317106e-06  1.8130282e-04 -1.4275736e-05 ...  7.7345896e-05
+   2.3825156e-05  2.2414721e-05]
+ [ 9.7451984e-06  1.8082024e-04 -1.5068237e-05 ...  7.7047873e-05
+   2.4763229e-05  2.1727208e-05]
+ [ 9.2764731e-06  1.8080611e-04 -1.5369425e-05 ...  7.6907083e-05
+   2.4758348e-05  2.2171727e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 9.2245882e-06  1.8105083e-04 -1.4953557e-05 ...  7.7007964e-05
+   2.4348521e-05  2.2346778e-05]
+ [ 9.1036154e-06  1.8074841e-04 -1.4752900e-05 ...  7.7412384e-05
+   2.4705101e-05  2.2372711e-05]
+ [ 9.1892780e-06  1.8138248e-04 -1.4849021e-05 ...  7.7063036e-05
+   2.4153227e-05  2.2814027e-05]]
+zmplp2 value  [[ 9.1317106e-06  1.8130282e-04 -1.4275736e-05 ...  7.7345896e-05
+   2.3825156e-05  2.2414721e-05]
+ [ 9.7451984e-06  1.8082024e-04 -1.5068237e-05 ...  7.7047873e-05
+   2.4763229e-05  2.1727208e-05]
+ [ 9.2764731e-06  1.8080611e-04 -1.5369425e-05 ...  7.6907083e-05
+   2.4758348e-05  2.2171727e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [ 9.2245882e-06  1.8105083e-04 -1.4953557e-05 ...  7.7007964e-05
+   2.4348521e-05  2.2346778e-05]
+ [ 9.1036154e-06  1.8074841e-04 -1.4752900e-05 ...  7.7412384e-05
+   2.4705101e-05  2.2372711e-05]
+ [ 9.1892780e-06  1.8138248e-04 -1.4849021e-05 ...  7.7063036e-05
+   2.4153227e-05  2.2814027e-05]]
+check the surrounding 
+z_mlp2 [[ 4.5658908e-06  9.0665395e-05 -7.1377813e-06 ...  3.8675495e-05
+   1.1912819e-05  1.1207574e-05]
+ [ 4.8726397e-06  9.0424030e-05 -7.5340217e-06 ...  3.8526461e-05
+   1.2381875e-05  1.0863805e-05]
+ [ 4.6382729e-06  9.0416965e-05 -7.6846118e-06 ...  3.8456059e-05
+   1.2379435e-05  1.1086073e-05]
+ ...
+ [ 4.6123305e-06  9.0539354e-05 -7.4766831e-06 ...  3.8506507e-05
+   1.2174513e-05  1.1173602e-05]
+ [ 4.5518432e-06  9.0388101e-05 -7.3763567e-06 ...  3.8708742e-05
+   1.2352810e-05  1.1186569e-05]
+ [ 4.5946749e-06  9.0705238e-05 -7.4244167e-06 ...  3.8534043e-05
+   1.2076863e-05  1.1407235e-05]]
+cheack w_mlp2 [[ 4.5658908e-06  9.0665395e-05 -7.1377813e-06 ...  3.8675495e-05
+   1.1912819e-05  1.1207574e-05]
+ [ 4.8726397e-06  9.0424030e-05 -7.5340217e-06 ...  3.8526461e-05
+   1.2381875e-05  1.0863805e-05]
+ [ 4.6382729e-06  9.0416965e-05 -7.6846118e-06 ...  3.8456059e-05
+   1.2379435e-05  1.1086073e-05]
+ ...
+ [ 4.6123305e-06  9.0539354e-05 -7.4766831e-06 ...  3.8506507e-05
+   1.2174513e-05  1.1173602e-05]
+ [ 4.5518432e-06  9.0388101e-05 -7.3763567e-06 ...  3.8708742e-05
+   1.2352810e-05  1.1186569e-05]
+ [ 4.5946749e-06  9.0705238e-05 -7.4244167e-06 ...  3.8534043e-05
+   1.2076863e-05  1.1407235e-05]]
+block.mlp.e_mlp.mu [[ 6.9204209e-05 -2.7756183e-04  6.6399247e-05 ... -5.6301567e-05
+  -5.2333104e-05  8.3869665e-05]
+ [ 6.9229274e-05 -2.7756064e-04  6.6399080e-05 ... -5.6308767e-05
+  -5.2315409e-05  8.3860468e-05]
+ [ 6.9215086e-05 -2.7755438e-04  6.6398679e-05 ... -5.6307235e-05
+  -5.2317995e-05  8.3865525e-05]
+ ...
+ [ 6.9216105e-05 -2.7754792e-04  6.6407003e-05 ... -5.6313384e-05
+  -5.2324303e-05  8.3873354e-05]
+ [ 6.9210510e-05 -2.7755278e-04  6.6396518e-05 ... -5.6308614e-05
+  -5.2324285e-05  8.3876119e-05]
+ [ 6.9209898e-05 -2.7755130e-04  6.6416163e-05 ... -5.6315210e-05
+  -5.2318144e-05  8.3867330e-05]]
+block.mlp.W_mlp2.outputs [[ 6.9204209e-05 -2.7756183e-04  6.6399247e-05 ... -5.6301567e-05
+  -5.2333104e-05  8.3869665e-05]
+ [ 6.9229274e-05 -2.7756064e-04  6.6399080e-05 ... -5.6308767e-05
+  -5.2315409e-05  8.3860468e-05]
+ [ 6.9215086e-05 -2.7755438e-04  6.6398679e-05 ... -5.6307235e-05
+  -5.2317995e-05  8.3865525e-05]
+ ...
+ [ 6.9216105e-05 -2.7754792e-04  6.6407003e-05 ... -5.6313384e-05
+  -5.2324303e-05  8.3873354e-05]
+ [ 6.9210510e-05 -2.7755278e-04  6.6396518e-05 ... -5.6308614e-05
+  -5.2324285e-05  8.3876119e-05]
+ [ 6.9209898e-05 -2.7755130e-04  6.6416163e-05 ... -5.6315210e-05
+  -5.2318144e-05  8.3867330e-05]]
 
 Before evolve():
-  Output weights = [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  Output weights = [[-0.0026543  -0.00529168 -0.00378787 ...  0.00592968  0.0015669
+   0.00184266]
+ [ 0.00067049 -0.00673975  0.0031636  ...  0.00905736  0.00208351
+  -0.00497872]
+ [-0.00856553  0.0104256   0.00092108 ...  0.00396705 -0.00031326
+  -0.0098842 ]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [-0.00480919 -0.00153142 -0.00799189 ...  0.00391696 -0.00217177
+   0.00055201]
+ [-0.00397944  0.00646407 -0.0054105  ... -0.00634055 -0.00271699
+   0.00085662]
+ [-0.00977745  0.0065739  -0.00665373 ... -0.00898322 -0.00072469
+   0.00362061]]
 
 After evolve():
-  Output weights = [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  Output weights = [[-0.00272027 -0.00522461 -0.0037265  ...  0.0058667   0.00150395
+   0.00178536]
+ [ 0.00074067 -0.0068172   0.00313244 ...  0.00910014  0.00213277
+  -0.00497631]
+ [-0.00863186  0.01049279  0.00098328 ...  0.00390334 -0.00037688
+  -0.00994254]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [-0.00474369 -0.0015978  -0.0080534  ...  0.00397993 -0.00210895
+   0.00060991]
+ [-0.00391424  0.00639803 -0.00547189 ... -0.00627774 -0.00265438
+   0.00091456]
+ [-0.00984775  0.0066459  -0.00659213 ... -0.00904766 -0.00079015
+   0.00356762]]
   Weights updated ✅
 Block 0 errors: attn=0.0, mlp=0.0
 ts=0:
-  L_embed (L1) = -0.6701550483703613
-  L_out   (L4) = nan
+  L_embed (L1) = -0.6684989929199219
+  L_out   (L4) = -0.0005726884119212627
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  Block 0 mlp error 1   = -1.742136555549223e-05
+  Block 0 mlp error 2   = -2.4828977984725498e-06
+block.mlp.e_mlp1.mu: [[ 4.0831310e-05  1.9438272e-04  1.3391029e-05 ...  6.0076225e-05
+  -1.9762051e-06  6.0894871e-07]
+ [ 4.1194719e-05  1.9336827e-04  1.2480600e-05 ...  5.9166301e-05
+  -1.5237692e-06 -1.7646363e-07]
+ [ 4.0908038e-05  1.9374784e-04  1.2815918e-05 ...  5.9343674e-05
+  -1.6853193e-06  4.2332090e-07]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 4.1267853e-05  1.9411973e-04  1.3041876e-05 ...  5.9532606e-05
+  -2.0918137e-06 -2.0437130e-07]
+ [ 4.0775492e-05  1.9338867e-04  1.3584834e-05 ...  5.9369559e-05
+  -1.7189495e-06 -3.3460310e-08]
+ [ 4.0860647e-05  1.9371997e-04  1.2877128e-05 ...  5.9171707e-05
+  -1.9580930e-06  5.6261007e-07]]
+wmlpq outputs value  [[ 4.0831310e-05  1.9438272e-04  1.3391029e-05 ...  6.0076225e-05
+  -1.9762051e-06  6.0894871e-07]
+ [ 4.1194719e-05  1.9336827e-04  1.2480600e-05 ...  5.9166301e-05
+  -1.5237692e-06 -1.7646363e-07]
+ [ 4.0908038e-05  1.9374784e-04  1.2815918e-05 ...  5.9343674e-05
+  -1.6853193e-06  4.2332090e-07]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 4.1267853e-05  1.9411973e-04  1.3041876e-05 ...  5.9532606e-05
+  -2.0918137e-06 -2.0437130e-07]
+ [ 4.0775492e-05  1.9338867e-04  1.3584834e-05 ...  5.9369559e-05
+  -1.7189495e-06 -3.3460310e-08]
+ [ 4.0860647e-05  1.9371997e-04  1.2877128e-05 ...  5.9171707e-05
+  -1.9580930e-06  5.6261007e-07]]
+block.mlp.e_mlp1.target: [[ 1.45383010e-05  1.83694312e-04 -1.05065319e-05 ...  7.79384791e-05
+   1.90815936e-05  1.95535449e-05]
+ [ 1.44703254e-05  1.82614225e-04 -1.08645490e-05 ...  7.74994114e-05
+   1.99922633e-05  1.90330938e-05]
+ [ 1.44208161e-05  1.83462544e-04 -1.07922315e-05 ...  7.78093454e-05
+   1.94995846e-05  1.92614643e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 1.46445900e-05  1.83101758e-04 -1.02631648e-05 ...  7.67348611e-05
+   1.96125475e-05  1.92984753e-05]
+ [ 1.44790738e-05  1.82712654e-04 -9.32803687e-06 ...  7.77146415e-05
+   1.97788977e-05  1.92216994e-05]
+ [ 1.45273589e-05  1.83038748e-04 -9.88387183e-06 ...  7.72983913e-05
+   1.97550908e-05  1.96588280e-05]]
+zmplp2 value  [[ 1.45383010e-05  1.83694312e-04 -1.05065319e-05 ...  7.79384791e-05
+   1.90815936e-05  1.95535449e-05]
+ [ 1.44703254e-05  1.82614225e-04 -1.08645490e-05 ...  7.74994114e-05
+   1.99922633e-05  1.90330938e-05]
+ [ 1.44208161e-05  1.83462544e-04 -1.07922315e-05 ...  7.78093454e-05
+   1.94995846e-05  1.92614643e-05]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [ 1.46445900e-05  1.83101758e-04 -1.02631648e-05 ...  7.67348611e-05
+   1.96125475e-05  1.92984753e-05]
+ [ 1.44790738e-05  1.82712654e-04 -9.32803687e-06 ...  7.77146415e-05
+   1.97788977e-05  1.92216994e-05]
+ [ 1.45273589e-05  1.83038748e-04 -9.88387183e-06 ...  7.72983913e-05
+   1.97550908e-05  1.96588280e-05]]
+check the surrounding 
+z_mlp2 [[ 7.2692405e-06  9.1861511e-05 -5.2532191e-06 ...  3.8971823e-05
+   9.5409514e-06  9.7769353e-06]
+ [ 7.2352514e-06  9.1321308e-05 -5.4322240e-06 ...  3.8752260e-05
+   9.9963017e-06  9.5167015e-06]
+ [ 7.2104967e-06  9.1745598e-05 -5.3960662e-06 ...  3.8907252e-05
+   9.7499542e-06  9.6308904e-06]
+ ...
+ [ 7.3223869e-06  9.1565140e-05 -5.1315369e-06 ...  3.8369937e-05
+   9.8064374e-06  9.6493968e-06]
+ [ 7.2396256e-06  9.1370530e-05 -4.6639816e-06 ...  3.8859893e-05
+   9.8896153e-06  9.6110070e-06]
+ [ 7.2637695e-06  9.1533635e-05 -4.9418945e-06 ...  3.8651739e-05
+   9.8777118e-06  9.8295777e-06]]
+cheack w_mlp2 [[ 7.2692405e-06  9.1861511e-05 -5.2532191e-06 ...  3.8971823e-05
+   9.5409514e-06  9.7769353e-06]
+ [ 7.2352514e-06  9.1321308e-05 -5.4322240e-06 ...  3.8752260e-05
+   9.9963017e-06  9.5167015e-06]
+ [ 7.2104967e-06  9.1745598e-05 -5.3960662e-06 ...  3.8907252e-05
+   9.7499542e-06  9.6308904e-06]
+ ...
+ [ 7.3223869e-06  9.1565140e-05 -5.1315369e-06 ...  3.8369937e-05
+   9.8064374e-06  9.6493968e-06]
+ [ 7.2396256e-06  9.1370530e-05 -4.6639816e-06 ...  3.8859893e-05
+   9.8896153e-06  9.6110070e-06]
+ [ 7.2637695e-06  9.1533635e-05 -4.9418945e-06 ...  3.8651739e-05
+   9.8777118e-06  9.8295777e-06]]
+block.mlp.e_mlp.mu [[ 1.01638114e-04 -2.71098397e-04  9.84585276e-05 ... -8.83929097e-05
+  -8.41065848e-05  1.22066551e-04]
+ [ 1.01653706e-04 -2.71078432e-04  9.84433864e-05 ... -8.83954272e-05
+  -8.40924549e-05  1.22052865e-04]
+ [ 1.01637641e-04 -2.71080295e-04  9.84494618e-05 ... -8.83883768e-05
+  -8.41030342e-05  1.22060657e-04]
+ ...
+ [ 1.01682686e-04 -2.71068799e-04  9.84807193e-05 ... -8.84261317e-05
+  -8.40994762e-05  1.22090976e-04]
+ [ 1.01671088e-04 -2.71073572e-04  9.84676590e-05 ... -8.84201509e-05
+  -8.41029760e-05  1.22074416e-04]
+ [ 1.01670419e-04 -2.71069264e-04  9.84821527e-05 ... -8.84283218e-05
+  -8.40833891e-05  1.22054633e-04]]
+block.mlp.W_mlp2.outputs [[ 1.01638114e-04 -2.71098397e-04  9.84585276e-05 ... -8.83929097e-05
+  -8.41065848e-05  1.22066551e-04]
+ [ 1.01653706e-04 -2.71078432e-04  9.84433864e-05 ... -8.83954272e-05
+  -8.40924549e-05  1.22052865e-04]
+ [ 1.01637641e-04 -2.71080295e-04  9.84494618e-05 ... -8.83883768e-05
+  -8.41030342e-05  1.22060657e-04]
+ ...
+ [ 1.01682686e-04 -2.71068799e-04  9.84807193e-05 ... -8.84261317e-05
+  -8.40994762e-05  1.22090976e-04]
+ [ 1.01671088e-04 -2.71073572e-04  9.84676590e-05 ... -8.84201509e-05
+  -8.41029760e-05  1.22074416e-04]
+ [ 1.01670419e-04 -2.71069264e-04  9.84821527e-05 ... -8.84283218e-05
+  -8.40833891e-05  1.22054633e-04]]
 ts=1:
-  L_embed (L1) = -0.5756104588508606
-  L_out   (L4) = nan
-  Block 0 attention error = -0.7592762112617493
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -0.5772592425346375
+  L_out   (L4) = -0.00012709747534245253
+  Block 0 attention error = -2.761925088634598e-06
+  Block 0 mlp error 1   = -1.0896611390975863e-09
+  Block 0 mlp error 2   = -4.011039322904253e-08
+block.mlp.e_mlp1.mu: [[ 4.0831310e-05  1.9438272e-04  1.3391029e-05 ...  6.0076225e-05
+  -1.9762051e-06  6.0894871e-07]
+ [ 4.1194719e-05  1.9336827e-04  1.2480600e-05 ...  5.9166301e-05
+  -1.5237692e-06 -1.7646363e-07]
+ [ 4.0908038e-05  1.9374784e-04  1.2815918e-05 ...  5.9343674e-05
+  -1.6853193e-06  4.2332090e-07]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 4.1267853e-05  1.9411973e-04  1.3041876e-05 ...  5.9532606e-05
+  -2.0918137e-06 -2.0437130e-07]
+ [ 4.0775492e-05  1.9338867e-04  1.3584834e-05 ...  5.9369559e-05
+  -1.7189495e-06 -3.3460310e-08]
+ [ 4.0860647e-05  1.9371997e-04  1.2877128e-05 ...  5.9171707e-05
+  -1.9580930e-06  5.6261007e-07]]
+wmlpq outputs value  [[ 4.0831310e-05  1.9438272e-04  1.3391029e-05 ...  6.0076225e-05
+  -1.9762051e-06  6.0894871e-07]
+ [ 4.1194719e-05  1.9336827e-04  1.2480600e-05 ...  5.9166301e-05
+  -1.5237692e-06 -1.7646363e-07]
+ [ 4.0908038e-05  1.9374784e-04  1.2815918e-05 ...  5.9343674e-05
+  -1.6853193e-06  4.2332090e-07]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 4.1267853e-05  1.9411973e-04  1.3041876e-05 ...  5.9532606e-05
+  -2.0918137e-06 -2.0437130e-07]
+ [ 4.0775492e-05  1.9338867e-04  1.3584834e-05 ...  5.9369559e-05
+  -1.7189495e-06 -3.3460310e-08]
+ [ 4.0860647e-05  1.9371997e-04  1.2877128e-05 ...  5.9171707e-05
+  -1.9580930e-06  5.6261007e-07]]
+block.mlp.e_mlp1.target: [[3.38486134e-05 1.95188724e-04 1.41245091e-05 ... 6.09369708e-05
+  7.91216735e-07 3.09982715e-06]
+ [3.42121530e-05 1.94175154e-04 1.32136865e-05 ... 6.00271342e-05
+  1.24290273e-06 2.31461854e-06]
+ [3.39254220e-05 1.94554406e-04 1.35490591e-05 ... 6.02045911e-05
+  1.08180211e-06 2.91424840e-06]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [3.42871135e-05 1.94926790e-04 1.37765064e-05 ... 6.03937078e-05
+  6.74457624e-07 2.28484532e-06]
+ [3.37948150e-05 1.94195760e-04 1.43182215e-05 ... 6.02300170e-05
+  1.04751598e-06 2.45666888e-06]
+ [3.38795508e-05 1.94527383e-04 1.36110866e-05 ... 6.00324893e-05
+  8.08649929e-07 3.05257890e-06]]
+zmplp2 value  [[3.38486134e-05 1.95188724e-04 1.41245091e-05 ... 6.09369708e-05
+  7.91216735e-07 3.09982715e-06]
+ [3.42121530e-05 1.94175154e-04 1.32136865e-05 ... 6.00271342e-05
+  1.24290273e-06 2.31461854e-06]
+ [3.39254220e-05 1.94554406e-04 1.35490591e-05 ... 6.02045911e-05
+  1.08180211e-06 2.91424840e-06]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [3.42871135e-05 1.94926790e-04 1.37765064e-05 ... 6.03937078e-05
+  6.74457624e-07 2.28484532e-06]
+ [3.37948150e-05 1.94195760e-04 1.43182215e-05 ... 6.02300170e-05
+  1.04751598e-06 2.45666888e-06]
+ [3.38795508e-05 1.94527383e-04 1.36110866e-05 ... 6.00324893e-05
+  8.08649929e-07 3.05257890e-06]]
+check the surrounding 
+z_mlp2 [[1.6924794e-05 9.7610566e-05 7.0623396e-06 ... 3.0470066e-05
+  3.9560865e-07 1.5499177e-06]
+ [1.7106575e-05 9.7103621e-05 6.6069174e-06 ... 3.0015102e-05
+  6.2145205e-07 1.1573117e-06]
+ [1.6963200e-05 9.7293312e-05 6.7746078e-06 ... 3.0103838e-05
+  5.4090157e-07 1.4571278e-06]
+ ...
+ [1.7144057e-05 9.7479555e-05 6.8883337e-06 ... 3.0198406e-05
+  3.3722901e-07 1.1424248e-06]
+ [1.6897893e-05 9.7113923e-05 7.1591976e-06 ... 3.0116553e-05
+  5.2375850e-07 1.2283371e-06]
+ [1.6940265e-05 9.7279793e-05 6.8056220e-06 ... 3.0017780e-05
+  4.0432525e-07 1.5262934e-06]]
+cheack w_mlp2 [[1.6924794e-05 9.7610566e-05 7.0623396e-06 ... 3.0470066e-05
+  3.9560865e-07 1.5499177e-06]
+ [1.7106575e-05 9.7103621e-05 6.6069174e-06 ... 3.0015102e-05
+  6.2145205e-07 1.1573117e-06]
+ [1.6963200e-05 9.7293312e-05 6.7746078e-06 ... 3.0103838e-05
+  5.4090157e-07 1.4571278e-06]
+ ...
+ [1.7144057e-05 9.7479555e-05 6.8883337e-06 ... 3.0198406e-05
+  3.3722901e-07 1.1424248e-06]
+ [1.6897893e-05 9.7113923e-05 7.1591976e-06 ... 3.0116553e-05
+  5.2375850e-07 1.2283371e-06]
+ [1.6940265e-05 9.7279793e-05 6.8056220e-06 ... 3.0017780e-05
+  4.0432525e-07 1.5262934e-06]]
+block.mlp.e_mlp.mu [[ 1.01743746e-04 -2.71098193e-04  9.92898713e-05 ... -8.96318816e-05
+  -8.39655768e-05  1.23199410e-04]
+ [ 1.01773374e-04 -2.71086406e-04  9.92749119e-05 ... -8.96434285e-05
+  -8.39454369e-05  1.23199672e-04]
+ [ 1.01756414e-04 -2.71086930e-04  9.92785644e-05 ... -8.96386191e-05
+  -8.39479908e-05  1.23194128e-04]
+ ...
+ [ 1.01742291e-04 -2.71086174e-04  9.93032736e-05 ... -8.96182319e-05
+  -8.39822897e-05  1.23236445e-04]
+ [ 1.01749400e-04 -2.71076773e-04  9.92920104e-05 ... -8.96330239e-05
+  -8.39725908e-05  1.23235019e-04]
+ [ 1.01743346e-04 -2.71067955e-04  9.93116919e-05 ... -8.96363636e-05
+  -8.39663771e-05  1.23225982e-04]]
+block.mlp.W_mlp2.outputs [[ 1.01743746e-04 -2.71098193e-04  9.92898713e-05 ... -8.96318816e-05
+  -8.39655768e-05  1.23199410e-04]
+ [ 1.01773374e-04 -2.71086406e-04  9.92749119e-05 ... -8.96434285e-05
+  -8.39454369e-05  1.23199672e-04]
+ [ 1.01756414e-04 -2.71086930e-04  9.92785644e-05 ... -8.96386191e-05
+  -8.39479908e-05  1.23194128e-04]
+ ...
+ [ 1.01742291e-04 -2.71086174e-04  9.93032736e-05 ... -8.96182319e-05
+  -8.39822897e-05  1.23236445e-04]
+ [ 1.01749400e-04 -2.71076773e-04  9.92920104e-05 ... -8.96330239e-05
+  -8.39725908e-05  1.23235019e-04]
+ [ 1.01743346e-04 -2.71067955e-04  9.93116919e-05 ... -8.96363636e-05
+  -8.39663771e-05  1.23225982e-04]]
 ts=2:
-  L_embed (L1) = -2.616185188293457
-  L_out   (L4) = nan
-  Block 0 attention error = -7.856788635253906
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+  L_embed (L1) = -1.495991597266766e-08
+  L_out   (L4) = -0.00039420698885805905
+  Block 0 attention error = -4.148054813413182e-06
+  Block 0 mlp error 1   = -0.00034651136957108974
+  Block 0 mlp error 2   = -1.2180271014017308e-08
+block.mlp.e_mlp1.mu: [[ 4.19025164e-05  1.93614047e-04  1.48537874e-05 ...  5.78403560e-05
+  -2.12024656e-06 -6.07666266e-07]
+ [ 4.28787171e-05  1.93083659e-04  1.46808206e-05 ...  5.71130186e-05
+  -1.52834014e-06 -1.58367402e-06]
+ [ 4.27284540e-05  1.93287939e-04  1.50387441e-05 ...  5.68405012e-05
+  -1.90925812e-06 -1.31493175e-06]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 4.22662451e-05  1.93152737e-04  1.45623508e-05 ...  5.70176780e-05
+  -1.80757206e-06 -9.42589509e-07]
+ [ 4.23723250e-05  1.92907348e-04  1.51895565e-05 ...  5.72350982e-05
+  -1.69183829e-06 -1.07163351e-06]
+ [ 4.20953584e-05  1.93589090e-04  1.44736259e-05 ...  5.73150137e-05
+  -1.89750097e-06 -3.41810733e-07]]
+wmlpq outputs value  [[ 4.19025164e-05  1.93614047e-04  1.48537874e-05 ...  5.78403560e-05
+  -2.12024656e-06 -6.07666266e-07]
+ [ 4.28787171e-05  1.93083659e-04  1.46808206e-05 ...  5.71130186e-05
+  -1.52834014e-06 -1.58367402e-06]
+ [ 4.27284540e-05  1.93287939e-04  1.50387441e-05 ...  5.68405012e-05
+  -1.90925812e-06 -1.31493175e-06]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 4.22662451e-05  1.93152737e-04  1.45623508e-05 ...  5.70176780e-05
+  -1.80757206e-06 -9.42589509e-07]
+ [ 4.23723250e-05  1.92907348e-04  1.51895565e-05 ...  5.72350982e-05
+  -1.69183829e-06 -1.07163351e-06]
+ [ 4.20953584e-05  1.93589090e-04  1.44736259e-05 ...  5.73150137e-05
+  -1.89750097e-06 -3.41810733e-07]]
+block.mlp.e_mlp1.target: [[ 4.0824154e-05  1.9436570e-04  1.3336520e-05 ...  6.0086124e-05
+  -1.9755028e-06  6.2665254e-07]
+ [ 4.1187406e-05  1.9335130e-04  1.2427417e-05 ...  5.9176215e-05
+  -1.5229566e-06 -1.5882665e-07]
+ [ 4.0900646e-05  1.9373100e-04  1.2762183e-05 ...  5.9353693e-05
+  -1.6848037e-06  4.4091485e-07]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
+ [ 4.1259136e-05  1.9410180e-04  1.2986859e-05 ...  5.9542144e-05
+  -2.0903401e-06 -1.8529045e-07]
+ [ 4.0767485e-05  1.9337087e-04  1.3530223e-05 ...  5.9380109e-05
+  -1.7180867e-06 -1.5439355e-08]
+ [ 4.0852545e-05  1.9370193e-04  1.2822626e-05 ...  5.9182359e-05
+  -1.9571839e-06  5.8019418e-07]]
+zmplp2 value  [[ 4.0824154e-05  1.9436570e-04  1.3336520e-05 ...  6.0086124e-05
+  -1.9755028e-06  6.2665254e-07]
+ [ 4.1187406e-05  1.9335130e-04  1.2427417e-05 ...  5.9176215e-05
+  -1.5229566e-06 -1.5882665e-07]
+ [ 4.0900646e-05  1.9373100e-04  1.2762183e-05 ...  5.9353693e-05
+  -1.6848037e-06  4.4091485e-07]
  ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
+ [ 4.1259136e-05  1.9410180e-04  1.2986859e-05 ...  5.9542144e-05
+  -2.0903401e-06 -1.8529045e-07]
+ [ 4.0767485e-05  1.9337087e-04  1.3530223e-05 ...  5.9380109e-05
+  -1.7180867e-06 -1.5439355e-08]
+ [ 4.0852545e-05  1.9370193e-04  1.2822626e-05 ...  5.9182359e-05
+  -1.9571839e-06  5.8019418e-07]]
+check the surrounding 
+z_mlp2 [[ 2.0412788e-05  9.7198914e-05  6.6683356e-06 ...  3.0044599e-05
+  -9.8774967e-07  3.1332647e-07]
+ [ 2.0594425e-05  9.6691554e-05  6.2137742e-06 ...  2.9589599e-05
+  -7.6147728e-07 -7.9413319e-08]
+ [ 2.0451034e-05  9.6881471e-05  6.3811608e-06 ...  2.9678347e-05
+  -8.4240065e-07  2.2045751e-07]
+ ...
+ [ 2.0630294e-05  9.7066935e-05  6.4935011e-06 ...  2.9772580e-05
+  -1.0451682e-06 -9.2645202e-08]
+ [ 2.0384450e-05  9.6701340e-05  6.7651899e-06 ...  2.9691555e-05
+  -8.5904207e-07 -7.7196773e-09]
+ [ 2.0426984e-05  9.6866934e-05  6.4113833e-06 ...  2.9592671e-05
+  -9.7859038e-07  2.9009723e-07]]
+cheack w_mlp2 [[ 2.0412788e-05  9.7198914e-05  6.6683356e-06 ...  3.0044599e-05
+  -9.8774967e-07  3.1332647e-07]
+ [ 2.0594425e-05  9.6691554e-05  6.2137742e-06 ...  2.9589599e-05
+  -7.6147728e-07 -7.9413319e-08]
+ [ 2.0451034e-05  9.6881471e-05  6.3811608e-06 ...  2.9678347e-05
+  -8.4240065e-07  2.2045751e-07]
+ ...
+ [ 2.0630294e-05  9.7066935e-05  6.4935011e-06 ...  2.9772580e-05
+  -1.0451682e-06 -9.2645202e-08]
+ [ 2.0384450e-05  9.6701340e-05  6.7651899e-06 ...  2.9691555e-05
+  -8.5904207e-07 -7.7196773e-09]
+ [ 2.0426984e-05  9.6866934e-05  6.4113833e-06 ...  2.9592671e-05
+  -9.7859038e-07  2.9009723e-07]]
+block.mlp.e_mlp.mu [[ 1.0190634e-04 -2.7163108e-04  9.9524339e-05 ... -8.9692243e-05
+  -8.4150495e-05  1.2323441e-04]
+ [ 1.0193595e-04 -2.7161921e-04  9.9509343e-05 ... -8.9703790e-05
+  -8.4130348e-05  1.2323463e-04]
+ [ 1.0191895e-04 -2.7161973e-04  9.9513018e-05 ... -8.9698966e-05
+  -8.4132938e-05  1.2322911e-04]
+ ...
+ [ 1.0190504e-04 -2.7161889e-04  9.9537865e-05 ... -8.9678848e-05
+  -8.4167121e-05  1.2327159e-04]
+ [ 1.0191209e-04 -2.7160955e-04  9.9526558e-05 ... -8.9693567e-05
+  -8.4157466e-05  1.2327006e-04]
+ [ 1.0190604e-04 -2.7160073e-04  9.9546254e-05 ... -8.9696929e-05
+  -8.4151157e-05  1.2326095e-04]]
+block.mlp.W_mlp2.outputs [[ 1.0190634e-04 -2.7163108e-04  9.9524339e-05 ... -8.9692243e-05
+  -8.4150495e-05  1.2323441e-04]
+ [ 1.0193595e-04 -2.7161921e-04  9.9509343e-05 ... -8.9703790e-05
+  -8.4130348e-05  1.2323463e-04]
+ [ 1.0191895e-04 -2.7161973e-04  9.9513018e-05 ... -8.9698966e-05
+  -8.4132938e-05  1.2322911e-04]
+ ...
+ [ 1.0190504e-04 -2.7161889e-04  9.9537865e-05 ... -8.9678848e-05
+  -8.4167121e-05  1.2327159e-04]
+ [ 1.0191209e-04 -2.7160955e-04  9.9526558e-05 ... -8.9693567e-05
+  -8.4157466e-05  1.2327006e-04]
+ [ 1.0190604e-04 -2.7160073e-04  9.9546254e-05 ... -8.9696929e-05
+  -8.4151157e-05  1.2326095e-04]]
 ts=3:
-  L_embed (L1) = -24.786083221435547
-  L_out   (L4) = nan
-  Block 0 attention error = -113.39400482177734
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=4:
-  L_embed (L1) = -506.3808898925781
-  L_out   (L4) = nan
-  Block 0 attention error = -2188.83154296875
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=5:
-  L_embed (L1) = -8498.16015625
-  L_out   (L4) = nan
-  Block 0 attention error = -59007.7109375
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=6:
-  L_embed (L1) = -231369.84375
-  L_out   (L4) = nan
-  Block 0 attention error = -1583595.375
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=7:
-  L_embed (L1) = -6283318.5
-  L_out   (L4) = nan
-  Block 0 attention error = -44039404.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=8:
-  L_embed (L1) = -178964336.0
-  L_out   (L4) = nan
-  Block 0 attention error = -1292795904.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=9:
-  L_embed (L1) = -5298814464.0
-  L_out   (L4) = nan
-  Block 0 attention error = -38635712512.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=10:
-  L_embed (L1) = -157960241152.0
-  L_out   (L4) = nan
-  Block 0 attention error = -1149400907776.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=11:
-  L_embed (L1) = -4684584583168.0
-  L_out   (L4) = nan
-  Block 0 attention error = -33942205890560.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=12:
-  L_embed (L1) = -138337759264768.0
-  L_out   (L4) = nan
-  Block 0 attention error = -1002289003233280.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=13:
-  L_embed (L1) = -4089349226364928.0
-  L_out   (L4) = nan
-  Block 0 attention error = -2.969036588790579e+16
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=14:
-  L_embed (L1) = -1.2120825488054682e+17
-  L_out   (L4) = nan
-  Block 0 attention error = -8.808990293601812e+17
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=15:
-  L_embed (L1) = -3.595506376920531e+18
-  L_out   (L4) = nan
-  Block 0 attention error = -2.612371457874854e+19
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=16:
-  L_embed (L1) = -1.065903251673957e+20
-  L_out   (L4) = nan
-  Block 0 attention error = -7.740558341105831e+20
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=17:
-  L_embed (L1) = -3.1581517719683507e+21
-  L_out   (L4) = nan
-  Block 0 attention error = -2.2931773108016585e+22
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=18:
-  L_embed (L1) = -9.35739736032547e+22
-  L_out   (L4) = nan
-  Block 0 attention error = -6.795974351682561e+23
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=19:
-  L_embed (L1) = -2.773448948277405e+24
-  L_out   (L4) = nan
-  Block 0 attention error = -2.0146712997194292e+25
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-
-Before evolve():
-  Output weights = [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-
-After evolve():
-  Output weights = [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-  Weights updated ✅
-Block 0 errors: attn=0.0, mlp=0.0
-ts=0:
-  L_embed (L1) = -0.6934658288955688
-  L_out   (L4) = nan
-  Block 0 attention error = -0.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=1:
-  L_embed (L1) = -0.5752924680709839
-  L_out   (L4) = nan
-  Block 0 attention error = -0.9676171541213989
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=2:
-  L_embed (L1) = -3.199556350708008
-  L_out   (L4) = nan
-  Block 0 attention error = -10.370973587036133
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=3:
-  L_embed (L1) = -34.11239242553711
-  L_out   (L4) = nan
-  Block 0 attention error = -138.12330627441406
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=4:
-  L_embed (L1) = -568.309326171875
-  L_out   (L4) = nan
-  Block 0 attention error = -1874.414306640625
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=5:
-  L_embed (L1) = -7218.0595703125
-  L_out   (L4) = nan
-  Block 0 attention error = -35384.06640625
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=6:
-  L_embed (L1) = -137256.28125
-  L_out   (L4) = nan
-  Block 0 attention error = -938743.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=7:
-  L_embed (L1) = -3781325.0
-  L_out   (L4) = nan
-  Block 0 attention error = -28732484.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=8:
-  L_embed (L1) = -117276144.0
-  L_out   (L4) = nan
-  Block 0 attention error = -867146240.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=9:
-  L_embed (L1) = -3455061248.0
-  L_out   (L4) = nan
-  Block 0 attention error = -24597204992.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=10:
-  L_embed (L1) = -98817449984.0
-  L_out   (L4) = nan
-  Block 0 attention error = -697833422848.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=11:
-  L_embed (L1) = -2837171404800.0
-  L_out   (L4) = nan
-  Block 0 attention error = -20508850520064.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=12:
-  L_embed (L1) = -84160538476544.0
-  L_out   (L4) = nan
-  Block 0 attention error = -617457517592576.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=13:
-  L_embed (L1) = -2531316285308928.0
-  L_out   (L4) = nan
-  Block 0 attention error = -1.8594753817870336e+16
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=14:
-  L_embed (L1) = -7.586247120571597e+16
-  L_out   (L4) = nan
-  Block 0 attention error = -5.542550841883361e+17
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=15:
-  L_embed (L1) = -2.256933983231148e+18
-  L_out   (L4) = nan
-  Block 0 attention error = -1.6436135329716503e+19
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=16:
-  L_embed (L1) = -6.6973104825417335e+19
-  L_out   (L4) = nan
-  Block 0 attention error = -4.8824318727132755e+20
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=17:
-  L_embed (L1) = -1.9919785661954544e+21
-  L_out   (L4) = nan
-  Block 0 attention error = -1.4550388427995463e+22
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=18:
-  L_embed (L1) = -5.938645527754266e+22
-  L_out   (L4) = nan
-  Block 0 attention error = -4.3415388557874644e+23
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=19:
-  L_embed (L1) = -1.7714445803932182e+24
-  L_out   (L4) = nan
-  Block 0 attention error = -1.2948725437264053e+25
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-
-Before evolve():
-  Output weights = [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-
-After evolve():
-  Output weights = [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-  Weights updated ✅
-Block 0 errors: attn=0.0, mlp=0.0
-ts=0:
-  L_embed (L1) = -0.6683691143989563
-  L_out   (L4) = nan
-  Block 0 attention error = -0.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=1:
-  L_embed (L1) = -0.5749908685684204
-  L_out   (L4) = nan
-  Block 0 attention error = -0.911041259765625
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=2:
-  L_embed (L1) = -2.962989568710327
-  L_out   (L4) = nan
-  Block 0 attention error = -10.6937894821167
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=3:
-  L_embed (L1) = -35.77701187133789
-  L_out   (L4) = nan
-  Block 0 attention error = -152.7493896484375
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=4:
-  L_embed (L1) = -612.20458984375
-  L_out   (L4) = nan
-  Block 0 attention error = -2510.85498046875
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=5:
-  L_embed (L1) = -9983.341796875
-  L_out   (L4) = nan
-  Block 0 attention error = -51674.8125
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=6:
-  L_embed (L1) = -202725.375
-  L_out   (L4) = nan
-  Block 0 attention error = -1508222.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=7:
-  L_embed (L1) = -5940606.5
-  L_out   (L4) = nan
-  Block 0 attention error = -42912552.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=8:
-  L_embed (L1) = -172911616.0
-  L_out   (L4) = nan
-  Block 0 attention error = -1240949760.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=9:
-  L_embed (L1) = -4961058816.0
-  L_out   (L4) = nan
-  Block 0 attention error = -35954614272.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=10:
-  L_embed (L1) = -145644896256.0
-  L_out   (L4) = nan
-  Block 0 attention error = -1047106879488.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=11:
-  L_embed (L1) = -4243875954688.0
-  L_out   (L4) = nan
-  Block 0 attention error = -30813324312576.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=12:
-  L_embed (L1) = -125166721957888.0
-  L_out   (L4) = nan
-  Block 0 attention error = -911254017277952.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=13:
-  L_embed (L1) = -3703593785884672.0
-  L_out   (L4) = nan
-  Block 0 attention error = -2.702514540720947e+16
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=14:
-  L_embed (L1) = -1.096902521043026e+17
-  L_out   (L4) = nan
-  Block 0 attention error = -8.007836643580969e+17
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=15:
-  L_embed (L1) = -3.2488817628513567e+18
-  L_out   (L4) = nan
-  Block 0 attention error = -2.3702112786339332e+19
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=16:
-  L_embed (L1) = -9.613857873998958e+19
-  L_out   (L4) = nan
-  Block 0 attention error = -7.016648329627414e+20
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=17:
-  L_embed (L1) = -2.8468274998774365e+21
-  L_out   (L4) = nan
-  Block 0 attention error = -2.079367567412356e+22
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=18:
-  L_embed (L1) = -8.439248504293448e+22
-  L_out   (L4) = nan
-  Block 0 attention error = -6.170278086524902e+23
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=19:
-  L_embed (L1) = -2.504619646974841e+24
-  L_out   (L4) = nan
-  Block 0 attention error = -1.8327827138038383e+25
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-
-Before evolve():
-  Output weights = [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-
-After evolve():
-  Output weights = [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-  Weights updated ✅
-Block 0 errors: attn=0.0, mlp=0.0
-ts=0:
-  L_embed (L1) = -0.6532317996025085
-  L_out   (L4) = nan
-  Block 0 attention error = -0.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=1:
-  L_embed (L1) = -0.5746732354164124
-  L_out   (L4) = nan
-  Block 0 attention error = -0.6855019330978394
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=2:
-  L_embed (L1) = -2.0810680389404297
-  L_out   (L4) = nan
-  Block 0 attention error = -10.10239028930664
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=3:
-  L_embed (L1) = -38.579708099365234
-  L_out   (L4) = nan
-  Block 0 attention error = -192.79446411132812
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=4:
-  L_embed (L1) = -791.9083251953125
-  L_out   (L4) = nan
-  Block 0 attention error = -3347.74853515625
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=5:
-  L_embed (L1) = -13450.47265625
-  L_out   (L4) = nan
-  Block 0 attention error = -66551.796875
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=6:
-  L_embed (L1) = -255280.71875
-  L_out   (L4) = nan
-  Block 0 attention error = -1829278.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=7:
-  L_embed (L1) = -7257787.0
-  L_out   (L4) = nan
-  Block 0 attention error = -52479168.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=8:
-  L_embed (L1) = -216531504.0
-  L_out   (L4) = nan
-  Block 0 attention error = -1596656640.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=9:
-  L_embed (L1) = -6467353600.0
-  L_out   (L4) = nan
-  Block 0 attention error = -47829360640.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=10:
-  L_embed (L1) = -194889809920.0
-  L_out   (L4) = nan
-  Block 0 attention error = -1406353014784.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=11:
-  L_embed (L1) = -5701438013440.0
-  L_out   (L4) = nan
-  Block 0 attention error = -41331770523648.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=12:
-  L_embed (L1) = -168074502209536.0
-  L_out   (L4) = nan
-  Block 0 attention error = -1221362534318080.0
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=13:
-  L_embed (L1) = -4978190829223936.0
-  L_out   (L4) = nan
-  Block 0 attention error = -3.632282189011354e+16
-  Block 0 mlp error 1   = nan
-  Block 0 mlp error 2   = nan
-block.mlp.e_mlp1.mu: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-wmlpq outputs value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-block.mlp.e_mlp1.target: [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-zmplp2 value  [[nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- ...
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]
- [nan nan nan ... nan nan nan]]
-ts=14:
-Traceback (most recent call last):
-  File "/content/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/train.py", line 79, in <module>
+  L_embed (L1) = -1.98466985068535e-08
+  L_out   (L4) = -0.00017712166300043464
+  Block 0 attention error = -4.831872749133659e-13
+  Block 0 mlp error 1   = -2.963900078611914e-05
+  Block 0 mlp error 2   = -6.501508664769062e-07
+block.mlp.e_mlp1.mu: [[3.98809134e-05 1.93105516e-04 1.10352985e-05 ... 5.95145284e-05
+  3.01918135e-08 7.71615760e-07]
+ [4.04987113e-05 1.92623411e-04 1.02460963e-05 ... 5.92149590e-05
+  9.65232630e-07 8.14488317e-08]
+ [4.00329845e-05 1.92609892e-04 9.94742550e-06 ... 5.90727359e-05
+  9.57979864e-07 5.24120821e-07]
+ ...
+ [3.99772252e-05 1.92853724e-04 1.03598777e-05 ... 5.91754870e-05
+  5.51209723e-07 7.01827730e-07]
+ [3.98586963e-05 1.92551815e-04 1.05628087e-05 ... 5.95789497e-05
+  9.05884235e-07 7.26033818e-07]
+ [3.99401106e-05 1.93185275e-04 1.04631290e-05 ... 5.92310753e-05
+  3.57102863e-07 1.17002492e-06]]
+wmlpq outputs value  [[3.98809134e-05 1.93105516e-04 1.10352985e-05 ... 5.95145284e-05
+  3.01918135e-08 7.71615760e-07]
+ [4.04987113e-05 1.92623411e-04 1.02460963e-05 ... 5.92149590e-05
+  9.65232630e-07 8.14488317e-08]
+ [4.00329845e-05 1.92609892e-04 9.94742550e-06 ... 5.90727359e-05
+  9.57979864e-07 5.24120821e-07]
+ ...
+ [3.99772252e-05 1.92853724e-04 1.03598777e-05 ... 5.91754870e-05
+  5.51209723e-07 7.01827730e-07]
+ [3.98586963e-05 1.92551815e-04 1.05628087e-05 ... 5.95789497e-05
+  9.05884235e-07 7.26033818e-07]
+ [3.99401106e-05 1.93185275e-04 1.04631290e-05 ... 5.92310753e-05
+  3.57102863e-07 1.17002492e-06]]
+block.mlp.e_mlp1.target: Traceback (most recent call last):
+  File "/content/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/train.py", line 79, in <module>
     main()
-  File "/content/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/train.py", line 55, in main
+  File "/content/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/train.py", line 55, in main
     yMu_inf, _, _EFE = model.process(obs=inputs, lab=targets, adapt_synapses=True)
                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/content/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/model.py", line 487, in process
-    print(f"  L_embed (L1) = {self.embedding.e_embed.L.value}")
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/dist-packages/jax/_src/array.py", line 381, in __format__
-    return format(self._value[()], format_spec)
-                  ^^^^^^^^^^^
+  File "/content/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/model.py", line 497, in process
+    print("block.mlp.e_mlp1.target:", block.mlp.e_mlp1.target)
+  File "/usr/local/lib/python3.11/dist-packages/ngcsimlib/compartment.py", line 103, in __str__
+    return str(self.value)
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/jax/_src/array.py", line 336, in __str__
+    return str(self._value)
+               ^^^^^^^^^^^
   File "/usr/local/lib/python3.11/dist-packages/jax/_src/profiler.py", line 334, in wrapper
     return func(*args, **kwargs)
            ^^^^^^^^^^^^^^^^^^^^^

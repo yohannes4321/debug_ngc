@@ -492,18 +492,7 @@ class NGCTransformer:
                     print(f"  Block {i} mlp error 2   = {block.mlp.e_mlp1.L.value}")
                     
                    
-                    print("block.mlp.e_mlp1.mu:", block.mlp.e_mlp1.mu)
-                    print("wmlpq outputs value ",block.mlp.W_mlp1.outputs)
-                    print("block.mlp.e_mlp1.target:", block.mlp.e_mlp1.target)
-                    print("zmplp2 value ",block.mlp.z_mlp2.z)
                     
-
-                    print("check the surrounding ")
-                    print("z_mlp2",block.mlp.z_mlp2.zF)
-                    print("cheack w_mlp2",block.mlp.W_mlp2.inputs)
-                    print("block.mlp.e_mlp.mu",block.mlp.e_mlp.mu)
-                    print("block.mlp.W_mlp2.outputs",block.mlp.W_mlp2.outputs)
-
                     # block.mlp.W_mlp2.inputs << block.mlp.z_mlp2.zF
                     # block.mlp.e_mlp.mu << block.mlp.W_mlp2.outputs
 
@@ -521,15 +510,15 @@ class NGCTransformer:
             )
             EFE = L1 + L4 + block_errors
 
-            print("\nBefore evolve():")
-            print(f"  Output weights = {self.output.W_out.weights.value}")
+            # print("\nBefore evolve():")
+            # print(f"  Output weights = {self.output.W_out.weights.value}")
 
             if bool(adapt_synapses):
                 self.circuit.evolve()
                 self.circuit.evolve_embedding()
-                print("\nAfter evolve():")
-                print(f"  Output weights = {self.output.W_out.weights.value}")
-                print("  Weights updated ✅")
+                # print("\nAfter evolv/e():")
+                # print(f"  Output weights = {self.output.W_out.weights.value}")
+                # print("  Weights updated ✅")
                 ## skip E/M steps if just doing test-time inference
         return y_mu_inf, y_mu, EFE
 
