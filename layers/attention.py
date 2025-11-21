@@ -35,7 +35,14 @@ class Attention:
         fan_in = n_embed  # or shape[0]
         he_std = jnp.sqrt(2.0 / fan_in)
 
-        weight_init = {"dist": "gaussian", "mu": 0.0, "sigma": float(he_std)}
+        weight_init = {
+    "dist": "gaussian",
+    "mu": 0.0,
+    "sigma": float(he_std),
+    "amin": wlb,   # minimum allowed value
+    "amax": wub     # maximum allowed value
+}
+
         self.z_qkv = RateCell(f"{prefix}z_qkv", n_units=n_embed, tau_m=1., 
                             act_fx="identity", batch_size=batch_size * seq_len )
       
