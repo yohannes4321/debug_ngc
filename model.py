@@ -244,6 +244,7 @@ class NGCTransformer:
                     advance_process >> block.mlp.W_mlp2.advance_state
                     advance_process >> block.attention.e_attn.advance_state
                     advance_process >> block.mlp.e_mlp.advance_state
+                    advance_process >> block.mlp.e_mlp1.advance_state
                     
                     reset_process >> block.attention.z_qkv.reset
                     reset_process >> block.mlp.z_mlp.reset
