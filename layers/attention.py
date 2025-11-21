@@ -29,7 +29,7 @@ class Attention:
         eta: Learning rate for Hebbian synapses
     """
         
-    def __init__(self, dkey, n_embed, seq_len, batch_size, n_heads, dropout_rate, eta, optim_type, wub, wlb, prefix, **kwargs):
+    def __init__(self, dkey, n_embed, seq_len, batch_size, n_heads, dropout_rate, eta, optim_type, wub, wlb, prefix,act_fx ,**kwargs):
     
         dkey, *subkeys = random.split(dkey, 10)
         fan_in = n_embed  # or shape[0]
@@ -42,9 +42,16 @@ class Attention:
     "amin": wlb,   # minimum allowed value
     "amax": wub     # maximum allowed value
 }
-
-        self.z_qkv = RateCell(f"{prefix}z_qkv", n_units=n_embed, tau_m=1., 
+        self.z_score = RateCell(f"{prefix}z_score", n_units=n_embed, tau_m=1., 
                             act_fx="identity", batch_size=batch_size * seq_len )
+        self.W_attn_score = HebbianSynapse(f"{prefix}W_attn_score", shape=(n_embed, n_embed), batch_size=batch_size * seq_len, eta=eta,
+                                weight_init=weight_init,
+                                bias_init=dist.constant(value=0.), w_bound=0., 
+                                optim_type=optim_type, sign_value=-1., key=subkeys[5])
+        self.e_score = ErrorCell(f"{prefix}e_score", n_units=n_embed, 
+                                  batch_size=batch_size * seq_len)          
+        self.z_qkv = RateCell(f"{prefix}z_qkv", n_units=n_embed, tau_m=1., 
+                            act_fx=act_fx, batch_size=batch_size * seq_len )
       
         self.W_q = HebbianSynapse(f"{prefix}W_q", shape=(n_embed, n_embed), batch_size=batch_size * seq_len, eta=eta,
                                 weight_init=weight_init,
@@ -76,3 +83,5 @@ class Attention:
         
         self.E_attn = StaticSynapse(f"{prefix}E_attn", shape=(n_embed, n_embed),
                         weight_init=weight_init, key=subkeys[4])
+        self.E_score = StaticSynapse(f"{prefix}E_score", shape=(n_embed, n_embed),
+                        weight_init=weight_init, key=subkeys[6])

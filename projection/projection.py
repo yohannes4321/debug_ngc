@@ -7,7 +7,7 @@ import ngclearn.utils.weight_distribution as dist
 from projection.proj_block import ProjBlock
 from jax import random
 class Projection():
-    def __init__(self, dkey, n_embed, seq_len, batch_size, vocab_size, eta, optim_type, pos_learnable, wub, wlb, n_blocks, n_heads, dropout_rate,  **kwargs):
+    def __init__(self, dkey, n_embed, seq_len, batch_size, vocab_size, eta, optim_type, pos_learnable, wub, wlb, n_blocks, n_heads, dropout_rate,act_fx , **kwargs):
         dkey, *subkeys = random.split(dkey, 20)
         
         self.q_embed = RateCell("q_embed", n_units=seq_len, tau_m=0., act_fx="identity",
@@ -36,7 +36,8 @@ class Projection():
                           eta=eta,
                           optim_type=optim_type,
                           wub=wub,
-                          wlb=wlb)
+                          wlb=wlb,
+                          act_fx=act_fx)
             self.blocks.append(block)       
         
         self.Q_out = StaticSynapse("Q_out", shape=(n_embed, vocab_size), eta=eta,

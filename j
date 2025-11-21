@@ -1,4996 +1,4142 @@
-Streaming output truncated to the last 5000 lines.
- [-4.7294197e-05  1.5136359e-04 -6.7832836e-05 ...  1.1360586e-04
-   7.2162802e-05  7.4444717e-05]
- [-4.7771751e-05  1.5134778e-04 -6.8140995e-05 ...  1.1346790e-04
-   7.2164534e-05  7.4895237e-05]
- ...
- [-4.7812191e-05  1.5159465e-04 -6.7716042e-05 ...  1.1356513e-04
-   7.1746086e-05  7.5062453e-05]
- [-4.7940266e-05  1.5129092e-04 -6.7520989e-05 ...  1.1397178e-04
-   7.2108000e-05  7.5093194e-05]
- [-4.7842270e-05  1.5192687e-04 -6.7607689e-05 ...  1.1361906e-04
-   7.1547096e-05  7.5526681e-05]]
-zmplp2 value  [[-4.7895617e-05  1.5184800e-04 -6.7031040e-05 ...  1.1390056e-04
-   7.1215843e-05  7.5124473e-05]
- [-4.7294197e-05  1.5136359e-04 -6.7832836e-05 ...  1.1360586e-04
-   7.2162802e-05  7.4444717e-05]
- [-4.7771751e-05  1.5134778e-04 -6.8140995e-05 ...  1.1346790e-04
-   7.2164534e-05  7.4895237e-05]
- ...
- [-4.7812191e-05  1.5159465e-04 -6.7716042e-05 ...  1.1356513e-04
-   7.1746086e-05  7.5062453e-05]
- [-4.7940266e-05  1.5129092e-04 -6.7520989e-05 ...  1.1397178e-04
-   7.2108000e-05  7.5093194e-05]
- [-4.7842270e-05  1.5192687e-04 -6.7607689e-05 ...  1.1361906e-04
-   7.1547096e-05  7.5526681e-05]]
-check the surrounding 
-z_mlp2 [[-2.3946832e-05  7.5933807e-05 -3.3513610e-05 ...  5.6955800e-05
-   3.5610079e-05  3.7564638e-05]
- [-2.3646146e-05  7.5691547e-05 -3.3914461e-05 ...  5.6808425e-05
-   3.6083617e-05  3.7224720e-05]
- [-2.3884904e-05  7.5683631e-05 -3.4068522e-05 ...  5.6739427e-05
-   3.6084482e-05  3.7450005e-05]
- ...
- [-2.3905121e-05  7.5807104e-05 -3.3856068e-05 ...  5.6788056e-05
-   3.5875233e-05  3.7533624e-05]
- [-2.3969156e-05  7.5655204e-05 -3.3758555e-05 ...  5.6991419e-05
-   3.6056212e-05  3.7548994e-05]
- [-2.3920160e-05  7.5973257e-05 -3.3801902e-05 ...  5.6815024e-05
-   3.5775727e-05  3.7765767e-05]]
-cheack w_mlp2 [[-2.3946832e-05  7.5933807e-05 -3.3513610e-05 ...  5.6955800e-05
-   3.5610079e-05  3.7564638e-05]
- [-2.3646146e-05  7.5691547e-05 -3.3914461e-05 ...  5.6808425e-05
-   3.6083617e-05  3.7224720e-05]
- [-2.3884904e-05  7.5683631e-05 -3.4068522e-05 ...  5.6739427e-05
-   3.6084482e-05  3.7450005e-05]
- ...
- [-2.3905121e-05  7.5807104e-05 -3.3856068e-05 ...  5.6788056e-05
-   3.5875233e-05  3.7533624e-05]
- [-2.3969156e-05  7.5655204e-05 -3.3758555e-05 ...  5.6991419e-05
-   3.6056212e-05  3.7548994e-05]
- [-2.3920160e-05  7.5973257e-05 -3.3801902e-05 ...  5.6815024e-05
-   3.5775727e-05  3.7765767e-05]]
-block.mlp.e_mlp.mu [[-2.1327169e-05 -1.8513449e-04 -2.6918140e-05 ...  3.2852869e-05
-   3.2835873e-05 -2.4247101e-05]
- [-2.1302712e-05 -1.8513328e-04 -2.6919392e-05 ...  3.2846827e-05
-   3.2854285e-05 -2.4257286e-05]
- [-2.1317555e-05 -1.8512693e-04 -2.6920790e-05 ...  3.2849399e-05
-   3.2852404e-05 -2.4253155e-05]
- ...
- [-2.1315511e-05 -1.8512056e-04 -2.6910993e-05 ...  3.2841730e-05
-   3.2845004e-05 -2.4243949e-05]
- [-2.1321883e-05 -1.8512536e-04 -2.6922537e-05 ...  3.2847591e-05
-   3.2845848e-05 -2.4242170e-05]
- [-2.1321486e-05 -1.8512391e-04 -2.6901387e-05 ...  3.2839409e-05
-   3.2850858e-05 -2.4249570e-05]]
-block.mlp.W_mlp2.outputs [[-2.1327169e-05 -1.8513449e-04 -2.6918140e-05 ...  3.2852869e-05
-   3.2835873e-05 -2.4247101e-05]
- [-2.1302712e-05 -1.8513328e-04 -2.6919392e-05 ...  3.2846827e-05
-   3.2854285e-05 -2.4257286e-05]
- [-2.1317555e-05 -1.8512693e-04 -2.6920790e-05 ...  3.2849399e-05
-   3.2852404e-05 -2.4253155e-05]
- ...
- [-2.1315511e-05 -1.8512056e-04 -2.6910993e-05 ...  3.2841730e-05
-   3.2845004e-05 -2.4243949e-05]
- [-2.1321883e-05 -1.8512536e-04 -2.6922537e-05 ...  3.2847591e-05
-   3.2845848e-05 -2.4242170e-05]
- [-2.1321486e-05 -1.8512391e-04 -2.6901387e-05 ...  3.2839409e-05
-   3.2850858e-05 -2.4249570e-05]]
+import jax
+import numpy as np
+from ngclearn.utils.analysis.probe import Probe
+from ngclearn.utils.model_utils import drop_out, softmax, gelu, layer_normalize
+from ngclearn.utils.optim import adam
+from jax import jit, random, numpy as jnp, lax, nn
+from functools import partial as bind
 
-Before evolve():
-  Output weights = [[-0.00249881 -0.00544919 -0.00393455 ...  0.00607947  0.00171654
-   0.00198149]
- [ 0.00050715 -0.00657838  0.00331661 ...  0.00889897  0.00192333
-  -0.0051082 ]
- [-0.00840921  0.01026729  0.00077369 ...  0.00411759 -0.00016279
-  -0.00974483]
- ...
- [-0.00496371 -0.00137471 -0.00784636 ...  0.00376827 -0.00232027
-   0.00041421]
- [-0.00413331  0.00662019 -0.00526558 ... -0.0064886  -0.00286482
-   0.0007193 ]
- [-0.00961358  0.00640952 -0.00680795 ... -0.00882533 -0.00056582
-   0.00376275]]
 
-After evolve():
-  Output weights = [[-0.0025796  -0.00536817 -0.00385617 ...  0.00600005  0.00163745
-   0.00190573]
- [ 0.00058702 -0.00665626  0.00323455 ...  0.00898084  0.00200509
-  -0.00502799]
- [-0.00849051  0.01034883  0.00085245 ...  0.00403775 -0.00024235
-  -0.00982084]
- ...
- [-0.00488323 -0.00145556 -0.00792412 ...  0.00384715 -0.00224172
-   0.00048926]
- [-0.00405312  0.00653957 -0.00534301 ... -0.00641004 -0.0027866
-   0.00079404]
- [-0.0096973   0.00649236 -0.00672544 ... -0.00890862 -0.00064916
-   0.0036834 ]]
-  Weights updated ✅
+[docs]
+
+def masked_fill(x: jax.Array, mask: jax.Array, value=0) -> jax.Array:
+    """
+    Return an output with masked condition, with non-masked value
+    be the other value
+
+    Args:
+        x (jax.Array): _description_
+        mask (jax.Array): _description_
+        value (int, optional): _description_. Defaults to 0.
+
+    Returns:
+        jax.Array: _description_
+    """
+    return jnp.where(mask, jnp.broadcast_to(value, x.shape), x)
+
+
+
+
+[docs]
+
+@bind(jax.jit, static_argnums=[5, 6])
+def cross_attention(dkey, params: tuple, x1: jax.Array, x2: jax.Array, mask: jax.Array, n_heads: int=8, dropout_rate: float=0.0) -> jax.Array:
+    """
+    Run cross-attention function given a list of parameters and two sequences (x1 and x2).
+    The function takes in a query sequence x1 and a key-value sequence x2, and returns an output of the same shape as x1.
+    T is the length of the query sequence, and S is the length of the key-value sequence.
+    Dq is the dimension of the query sequence, and Dkv is the dimension of the key-value sequence.
+    H is the number of attention heads.
+
+    Args:
+        dkey: JAX key to trigger any internal noise (drop-out)
+
+        params (tuple): tuple of parameters
+
+        x1 (jax.Array): query sequence. Shape: (B, T, Dq)
+
+        x2 (jax.Array): key-value sequence. Shape: (B, S, Dkv)
+
+        mask (jax.Array): mask tensor. Shape: (B, T, S)
+
+        n_heads (int, optional): number of attention heads. Defaults to 8.
+
+        dropout_rate (float, optional): dropout rate. Defaults to 0.0.
+
+    Returns:
+        jax.Array: output of cross-attention
+    """
+    B, T, Dq = x1.shape # The original shape
+    _, S, Dkv = x2.shape
+    # in here we attend x2 to x1
+    Wq, bq, Wk, bk, Wv, bv, Wout, bout = params
+    # projection
+    q = x1 @ Wq + bq # normal linear transformation (B, T, D)
+    k = x2 @ Wk + bk # normal linear transformation (B, S, D)
+    v = x2 @ Wv + bv # normal linear transformation (B, S, D)
+    hidden = q.shape[-1]
+    _hidden = hidden // n_heads
+    q = q.reshape((B, T, n_heads, _hidden)).transpose([0, 2, 1, 3]) # (B, H, T, D)
+    k = k.reshape((B, S, n_heads, _hidden)).transpose([0, 2, 1, 3]) # (B, H, T, D)
+    v = v.reshape((B, S, n_heads, _hidden)).transpose([0, 2, 1, 3]) # (B, H, T, D)
+    score = jnp.einsum("BHTE,BHSE->BHTS", q, k) / jnp.sqrt(_hidden) # Q @ KT / ||d||; d = D // n_heads
+    if mask is not None:
+        Tq, Tk = q.shape[2], k.shape[2]
+        assert mask.shape == (B, Tq, Tk), (mask.shape, (B, Tq, Tk))
+        _mask = mask.reshape((B, 1, Tq, Tk)) # 'b tq tk -> b 1 tq tk'
+        score = masked_fill(score, _mask, value=-jnp.inf) # basically masking out all must-unattended values
+    score = jax.nn.softmax(score, axis=-1) # (B, H, T, S)
+    score = score.astype(q.dtype) # (B, H, T, S)
+    if dropout_rate > 0.:
+        score, _ = drop_out(dkey, score, rate=dropout_rate) ## NOTE: normally you apply dropout here
+    attention = jnp.einsum("BHTS,BHSE->BHTE", score, v) # (B, T, H, E)
+    attention = attention.transpose([0, 2, 1, 3]).reshape((B, T, -1)) # (B, T, H, E) => (B, T, D)
+    return attention @ Wout + bout # (B, T, Dq)
+
+
+
+
+[docs]
+
+@bind(jax.jit, static_argnums=[4, 5, 6, 7, 8])
+def run_attention_probe(
+        dkey, params, encodings, mask, n_heads: int, dropout: float = 0.0, use_LN=False, use_LN_input=False,
+        use_softmax=True
+):
+    """
+    Runs full nonlinear attentive probe on input encodings (typically embedding vectors produced by some other model). 
+
+    Args:
+        dkey: JAX key for any internal noise to be applied
+
+        params: parameters tuple/list of probe
+
+        encodings: input encoding vectors/data
+
+        mask: optional mask to be applied to internal cross-attention
+
+        n_heads: number of attention heads
+
+        dropout: if >0, triggers drop-out applied internally to cross-attention
+
+        use_LN: use layer normalization?
+
+        use_LN_input: use layer normalization on input encodings?
+
+        use_softmax: should softmax be applied to output of attention probe? (useful for classification) 
+
+    Returns:
+        output scores/probabilities, cross-attention (hidden) features
+    """
+    # Two separate dkeys for each dropout in two cross attention
+    dkey1, dkey2 = random.split(dkey, 2)
+    # encoded_image_feature: (B, hw, dim)
+    #learnable_query, *_params) = params
+    learnable_query, Wq, bq, Wk, bk, Wv, bv, Wout, bout,\
+        Wqs, bqs, Wks, bks, Wvs, bvs, Wouts, bouts, Wlnattn_mu,\
+        Wlnattn_scale, Whid1, bhid1, Wln_mu1, Wln_scale1, Whid2,\
+        bhid2, Wln_mu2, Wln_scale2, Whid3, bhid3, Wln_mu3, Wln_scale3,\
+        Wy, by, ln_in_mu, ln_in_scale, ln_in_mu2, ln_in_scale2 = params
+    cross_attn_params = (Wq, bq, Wk, bk, Wv, bv, Wout, bout)
+    if use_LN_input:
+        #TODO NORMALIZE
+        learnable_query = layer_normalize(learnable_query, ln_in_mu, ln_in_scale)
+        encodings = layer_normalize(encodings, ln_in_mu2, ln_in_scale2)
+  
+    features = cross_attention(dkey1, cross_attn_params, learnable_query, encodings, mask, n_heads, dropout)
+    # Perform a single self-attention block here
+    # Self-Attention
+    self_attn_params = (Wqs, bqs, Wks, bks, Wvs, bvs, Wouts, bouts)
+    # TODO SAVE CROSS ATTENTION
+    skip = features
+    # TODO NORMALIZE CROSS ENTTORPY
+    if use_LN:
+        features = layer_normalize(features, Wlnattn_mu, Wlnattn_scale)
+    features = cross_attention(dkey2, self_attn_params, features, features, None, n_heads, dropout)
+    # TODO ADD
+    features = features + skip
+    features = features[:, 0]  # (B, 1, dim) => (B, dim)
+    # MLP
+    # TODO SAVE
+    skip = features
+    # NORMAILIZE
+    if use_LN: ## normalize hidden layer output of probe predictor
+        features = layer_normalize(features, Wln_mu1, Wln_scale1)
+    features = jnp.matmul((features), Whid1) + bhid1
+    features = gelu(features)
+    # NORMALIZE 
+    if use_LN: ## normalize hidden layer output of probe predictor
+        features = layer_normalize(features, Wln_mu2, Wln_scale2)
+    features = jnp.matmul((features), Whid2) + bhid2
+    features = gelu(features)
+    if use_LN: ## normalize hidden layer output of probe predictor
+        features = layer_normalize(features, Wln_mu3, Wln_scale3)
+    features = jnp.matmul((features), Whid3) + bhid3
+    # TODO ADD 
+    features = features + skip
+    outs = jnp.matmul(features, Wy) + by
+    if use_softmax: ## apply softmax output nonlinearity
+        # NOTE: Viet: please check the softmax function, it might potentially
+        # cause the gradient to be nan since there is a potential division by zero
+        outs = jax.nn.softmax(outs)
+    return outs, features
+
+
+
+
+[docs]
+
+@bind(jax.jit, static_argnums=[5, 6, 7, 8, 9])
+def eval_attention_probe(dkey, params, encodings, labels, mask, n_heads: int, dropout: float = 0.0, use_LN=False, use_LN_input=False, use_softmax=True):
+    """
+    Runs and evaluates the nonlinear attentive probe given a paired set of encoding vectors and externally assigned 
+    labels/regression targets.
+
+    Args:
+        dkey: JAX key to trigger any internal noise (as in drop-out)
+
+        params: parameters tuple/list of probe
+
+        encodings: input encoding vectors/data
+
+        labels: output target values (e.g., labels, regression target vectors)
+
+        mask: optional mask to be applied to internal cross-attention
+
+        n_heads: number of attention heads
+
+        dropout: if >0, triggers drop-out applied internally to cross-attention
+
+        use_LN: use layer normalization?
+
+        use_softmax: should softmax be applied to output of attention probe? (useful for classification) 
+
+    Returns:
+        current loss value, output scores/probabilities
+    """
+    # encodings: (B, hw, dim)
+    outs, _ = run_attention_probe(dkey, params, encodings, mask, n_heads, dropout, use_LN, use_LN_input, use_softmax)
+    if use_softmax: ## Multinoulli log likelihood for 1-of-K predictions
+        L = -jnp.mean(jnp.sum(jnp.log(outs.clip(min=1e-5)) * labels, axis=1, keepdims=True))
+    else: ## MSE for real-valued outputs
+        L = jnp.mean(jnp.sum(jnp.square(outs - labels), axis=1, keepdims=True))
+    return L, outs #, features
+
+
+
+
+[docs]
+
+class AttentiveProbe(Probe):
+    """
+    This implements a nonlinear attentive probe, which is useful for evaluating the quality of 
+    encodings/embeddings in light of some superivsory downstream data (e.g., label one-hot 
+    encodings or real-valued vector regression targets).
+
+    Args:
+        dkey: init seed key
+
+        source_seq_length: length of input sequence (e.g., height x width of the image feature)
+
+        input_dim: input dimensionality of probe
+
+        out_dim: output dimensionality of probe
+
+        num_heads: number of cross-attention heads
+
+        head_dim: output dimensionality of each cross-attention head
+
+        target_seq_length: to pool, we set it at one (or map the source sequence to the target sequence of length 1)
+
+        learnable_query_dim: target sequence dim (output dimension of cross-attention portion of probe)
+
+        batch_size: size of batches to process per internal call to update (or process)
+
+        hid_dim: dimensionality of hidden layer(s) of MLP portion of probe
+
+        use_LN: should layer normalization be used within MLP portions of probe or not?
+
+        use_softmax: should a softmax be applied to output of probe or not?
+
+    """
+    def __init__(
+            self, dkey, source_seq_length, input_dim, out_dim, num_heads=8, attn_dim=64,
+            target_seq_length=1, learnable_query_dim=32, batch_size=1, hid_dim=32,
+            use_LN=True, use_LN_input=False, use_softmax=True, dropout=0.5, eta=0.0002,
+            eta_decay=0.0, min_eta=1e-5, **kwargs
+    ):
+        super().__init__(dkey, batch_size, **kwargs)
+        assert attn_dim % num_heads == 0, f"`attn_dim` must be divisible by `num_heads`. Got {attn_dim} and {num_heads}."
+        assert learnable_query_dim % num_heads == 0, f"`learnable_query_dim` must be divisible by `num_heads`. Got {learnable_query_dim} and {num_heads}."
+        self.dkey, *subkeys = random.split(self.dkey, 26)
+        self.num_heads = num_heads
+        self.source_seq_length = source_seq_length
+        self.input_dim = input_dim
+        self.out_dim = out_dim
+        self.use_softmax = use_softmax
+        self.use_LN = use_LN
+        self.use_LN_input = use_LN_input
+        self.dropout = dropout
+
+        sigma = 0.02
+        ## cross-attention parameters
+        Wq = random.normal(subkeys[0], (learnable_query_dim, attn_dim)) * sigma
+        bq = random.normal(subkeys[1], (1, attn_dim)) * sigma
+        Wk = random.normal(subkeys[2], (input_dim, attn_dim)) * sigma
+        bk = random.normal(subkeys[3], (1, attn_dim)) * sigma
+        Wv = random.normal(subkeys[4], (input_dim, attn_dim)) * sigma
+        bv = random.normal(subkeys[5], (1, attn_dim)) * sigma
+        Wout = random.normal(subkeys[6], (attn_dim, learnable_query_dim)) * sigma
+        bout = random.normal(subkeys[7], (1, learnable_query_dim)) * sigma
+        cross_attn_params = (Wq, bq, Wk, bk, Wv, bv, Wout, bout)
+        Wqs = random.normal(subkeys[8], (learnable_query_dim, learnable_query_dim)) * sigma
+        bqs = random.normal(subkeys[9], (1, learnable_query_dim)) * sigma
+        Wks = random.normal(subkeys[10], (learnable_query_dim, learnable_query_dim)) * sigma
+        bks = random.normal(subkeys[11], (1, learnable_query_dim)) * sigma
+        Wvs = random.normal(subkeys[12], (learnable_query_dim, learnable_query_dim)) * sigma
+        bvs = random.normal(subkeys[13], (1, learnable_query_dim)) * sigma
+        Wouts = random.normal(subkeys[14], (learnable_query_dim, learnable_query_dim)) * sigma
+        bouts = random.normal(subkeys[15], (1, learnable_query_dim)) * sigma
+        Wlnattn_mu = jnp.zeros((1, learnable_query_dim)) ## LN parameter (applied to output of attention)
+        Wlnattn_scale = jnp.ones((1, learnable_query_dim)) ## LN parameter (applied to output of attention)
+        self_attn_params = (Wqs, bqs, Wks, bks, Wvs, bvs, Wouts, bouts, Wlnattn_mu, Wlnattn_scale)
+        learnable_query = jnp.zeros((batch_size, 1, learnable_query_dim))  # (B, T, D)
+        self.mask = np.zeros((self.batch_size, target_seq_length, source_seq_length)).astype(bool) ## mask tensor
+        self.dev_mask = np.zeros((self.dev_batch_size, target_seq_length, source_seq_length)).astype(bool)
+        ## MLP parameters
+        Whid1 = random.normal(subkeys[16], (learnable_query_dim, learnable_query_dim)) * sigma
+        bhid1 = random.normal(subkeys[17], (1, learnable_query_dim)) * sigma
+        Wln_mu1 = jnp.zeros((1, learnable_query_dim)) ## LN parameter
+        Wln_scale1 = jnp.ones((1, learnable_query_dim)) ## LN parameter
+        Whid2 = random.normal(subkeys[18], (learnable_query_dim, learnable_query_dim * 4)) * sigma
+        bhid2 = random.normal(subkeys[19], (1, learnable_query_dim * 4)) * sigma
+        Wln_mu2 = jnp.zeros((1, learnable_query_dim)) ## LN parameter
+        Wln_scale2 = jnp.ones((1, learnable_query_dim)) ## LN parameter
+        Whid3 = random.normal(subkeys[20], (learnable_query_dim * 4, learnable_query_dim)) * sigma
+        bhid3 = random.normal(subkeys[21], (1, learnable_query_dim)) * sigma
+        Wln_mu3 = jnp.zeros((1, learnable_query_dim * 4)) ## LN parameter
+        Wln_scale3 = jnp.ones((1, learnable_query_dim * 4)) ## LN parameter
+        Wy = random.normal(subkeys[22], (learnable_query_dim, out_dim)) * sigma
+        by = random.normal(subkeys[23], (1, out_dim)) * sigma
+        mlp_params = (Whid1, bhid1, Wln_mu1, Wln_scale1, Whid2, bhid2, Wln_mu2, Wln_scale2, Whid3, bhid3, Wln_mu3, Wln_scale3, Wy, by)
+        # Finally, define ln for the input to the attention
+        ln_in_mu = jnp.zeros((1, learnable_query_dim)) ## LN parameter
+        ln_in_scale = jnp.ones((1, learnable_query_dim)) ## LN parameter
+        ln_in_mu2 = jnp.zeros((1, input_dim)) ## LN parameter
+        ln_in_scale2 = jnp.ones((1, input_dim)) ## LN parameter
+        ln_in_params = (ln_in_mu, ln_in_scale, ln_in_mu2, ln_in_scale2)
+        self.probe_params = (learnable_query, *cross_attn_params, *self_attn_params, *mlp_params, *ln_in_params)
+
+        ## set up gradient calculator
+        self.grad_fx = jax.value_and_grad(eval_attention_probe, argnums=1, has_aux=True) #, allow_int=True)
+        ## set up update rule/optimizer
+        self.optim_params = adam.adam_init(self.probe_params)
+        # Learning rate scheduling
+        self.eta = eta #0.001
+        self.eta_decay = eta_decay
+        self.min_eta = min_eta
+
+        # Finally, the dkey for the noise_key
+        self.noise_key = subkeys[24]
+
+
+[docs]
+
+    def process(self, embeddings, dkey=None):
+        # noise_key = None
+        noise_key = self.noise_key
+        if dkey is not None:
+            dkey, *subkeys = random.split(dkey, 2)
+            noise_key = subkeys[0]
+        outs, feats = run_attention_probe(
+            noise_key, self.probe_params, embeddings, self.dev_mask, self.num_heads, 0.0,
+            use_LN=self.use_LN, use_LN_input=self.use_LN_input, use_softmax=self.use_softmax
+        )
+        return outs
+
+
+
+
+[docs]
+
+    def update(self, embeddings, labels, dkey=None):
+        # noise_key = None
+        noise_key = self.noise_key
+        if dkey is not None:
+            dkey, *subkeys = random.split(dkey, 2)
+            noise_key = subkeys[0]
+        outputs, grads = self.grad_fx(
+            noise_key, self.probe_params, embeddings, labels, self.mask, self.num_heads, dropout=self.dropout,
+            use_LN=self.use_LN, use_LN_input=self.use_LN_input, use_softmax=self.use_softmax
+        )
+        loss, predictions = outputs
+        ## adjust parameters of probe
+        self.optim_params, self.probe_params = adam.adam_step(
+            self.optim_params, self.probe_params, grads, eta=self.eta
+        )
+
+        self.eta = max(self.min_eta, self.eta - self.eta_decay * self.eta)
+        return loss, predictions
+
+
+
+Missing configuration file. Attempted to locate file at "json_files/config.json". Default Config will be used. 
+See https://ngc-learn.readthedocs.io/en/latest/tutorials/model_basics/configuration.html for additional information
+
+ iter 0:
 Block 0 errors: attn=0.0, mlp=0.0
 ts=0:
-  L_embed (L1) = -0.6807945966720581
-  L_out   (L4) = -0.0001678115368122235
+  L_embed (L1) = -0.6568235158920288
+  L_out   (L4) = -0.0
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = -6.867627234896645e-06
-  Block 0 mlp error 2   = -5.246090495347744e-06
-block.mlp.e_mlp1.mu: [[-2.4053545e-05  1.6427366e-04 -4.1886706e-05 ...  9.6698554e-05
-   4.8809074e-05  4.9894148e-05]
- [-2.2653567e-05  1.6379007e-04 -4.2108364e-05 ...  9.6049305e-05
-   5.0143226e-05  4.8338330e-05]
- [-2.3285938e-05  1.6370983e-04 -4.1955187e-05 ...  9.6415621e-05
-   4.9709975e-05  4.9098253e-05]
- ...
- [-2.3659151e-05  1.6420164e-04 -4.1672902e-05 ...  9.6700867e-05
-   4.9394639e-05  4.9372335e-05]
- [-2.3820854e-05  1.6441531e-04 -4.1286959e-05 ...  9.6805728e-05
-   4.9831739e-05  4.9033890e-05]
- [-2.3757355e-05  1.6460019e-04 -4.1768802e-05 ...  9.6449890e-05
-   4.9773542e-05  4.9559938e-05]]
-wmlpq outputs value  [[-2.4053545e-05  1.6427366e-04 -4.1886706e-05 ...  9.6698554e-05
-   4.8809074e-05  4.9894148e-05]
- [-2.2653567e-05  1.6379007e-04 -4.2108364e-05 ...  9.6049305e-05
-   5.0143226e-05  4.8338330e-05]
- [-2.3285938e-05  1.6370983e-04 -4.1955187e-05 ...  9.6415621e-05
-   4.9709975e-05  4.9098253e-05]
- ...
- [-2.3659151e-05  1.6420164e-04 -4.1672902e-05 ...  9.6700867e-05
-   4.9394639e-05  4.9372335e-05]
- [-2.3820854e-05  1.6441531e-04 -4.1286959e-05 ...  9.6805728e-05
-   4.9831739e-05  4.9033890e-05]
- [-2.3757355e-05  1.6460019e-04 -4.1768802e-05 ...  9.6449890e-05
-   4.9773542e-05  4.9559938e-05]]
-block.mlp.e_mlp1.target: [[-5.94246994e-05  1.52350069e-04 -7.21489851e-05 ...  1.15013725e-04
-   7.69172329e-05  8.01916249e-05]
- [-5.88523617e-05  1.51382992e-04 -7.29006206e-05 ...  1.14541974e-04
-   7.75611989e-05  7.97589746e-05]
- [-5.92544457e-05  1.51168264e-04 -7.26487051e-05 ...  1.14488495e-04
-   7.72454441e-05  8.03193470e-05]
- ...
- [-5.97350881e-05  1.52312627e-04 -7.29537351e-05 ...  1.15668176e-04
-   7.75643930e-05  7.90581544e-05]
- [-5.97529142e-05  1.52570268e-04 -7.26494836e-05 ...  1.16740412e-04
-   7.72961284e-05  7.95710439e-05]
- [-5.91965545e-05  1.53029818e-04 -7.31051114e-05 ...  1.16761272e-04
-   7.69166436e-05  7.97622051e-05]]
-zmplp2 value  [[-5.94246994e-05  1.52350069e-04 -7.21489851e-05 ...  1.15013725e-04
-   7.69172329e-05  8.01916249e-05]
- [-5.88523617e-05  1.51382992e-04 -7.29006206e-05 ...  1.14541974e-04
-   7.75611989e-05  7.97589746e-05]
- [-5.92544457e-05  1.51168264e-04 -7.26487051e-05 ...  1.14488495e-04
-   7.72454441e-05  8.03193470e-05]
- ...
- [-5.97350881e-05  1.52312627e-04 -7.29537351e-05 ...  1.15668176e-04
-   7.75643930e-05  7.90581544e-05]
- [-5.97529142e-05  1.52570268e-04 -7.26494836e-05 ...  1.16740412e-04
-   7.72961284e-05  7.95710439e-05]
- [-5.91965545e-05  1.53029818e-04 -7.31051114e-05 ...  1.16761272e-04
-   7.69166436e-05  7.97622051e-05]]
-check the surrounding 
-z_mlp2 [[-2.9710847e-05  7.6184915e-05 -3.6072277e-05 ...  5.7512490e-05
-   3.8461134e-05  4.0098552e-05]
- [-2.9424707e-05  7.5701253e-05 -3.6448051e-05 ...  5.7276571e-05
-   3.8783161e-05  3.9882194e-05]
- [-2.9625729e-05  7.5593853e-05 -3.6322108e-05 ...  5.7249825e-05
-   3.8625265e-05  4.0162417e-05]
- ...
- [-2.9866027e-05  7.6166179e-05 -3.6474601e-05 ...  5.7839781e-05
-   3.8784758e-05  3.9531737e-05]
- [-2.9874940e-05  7.6295037e-05 -3.6322497e-05 ...  5.8376001e-05
-   3.8650607e-05  3.9788214e-05]
- [-2.9596787e-05  7.6524870e-05 -3.6550282e-05 ...  5.8386438e-05
-   3.8460839e-05  3.9883809e-05]]
-cheack w_mlp2 [[-2.9710847e-05  7.6184915e-05 -3.6072277e-05 ...  5.7512490e-05
-   3.8461134e-05  4.0098552e-05]
- [-2.9424707e-05  7.5701253e-05 -3.6448051e-05 ...  5.7276571e-05
-   3.8783161e-05  3.9882194e-05]
- [-2.9625729e-05  7.5593853e-05 -3.6322108e-05 ...  5.7249825e-05
-   3.8625265e-05  4.0162417e-05]
- ...
- [-2.9866027e-05  7.6166179e-05 -3.6474601e-05 ...  5.7839781e-05
-   3.8784758e-05  3.9531737e-05]
- [-2.9874940e-05  7.6295037e-05 -3.6322497e-05 ...  5.8376001e-05
-   3.8650607e-05  3.9788214e-05]
- [-2.9596787e-05  7.6524870e-05 -3.6550282e-05 ...  5.8386438e-05
-   3.8460839e-05  3.9883809e-05]]
-block.mlp.e_mlp.mu [[ 2.2448497e-05 -2.4335050e-04  1.6856462e-05 ... -8.7208900e-06
-  -8.5126985e-06  2.7034172e-05]
- [ 2.2482893e-05 -2.4334688e-04  1.6852346e-05 ... -8.7363569e-06
-  -8.5049078e-06  2.7036971e-05]
- [ 2.2468648e-05 -2.4332800e-04  1.6856731e-05 ... -8.7403841e-06
-  -8.5042857e-06  2.7041384e-05]
- ...
- [ 2.2402734e-05 -2.4332371e-04  1.6831318e-05 ... -8.7037306e-06
-  -8.5232532e-06  2.7015307e-05]
- [ 2.2379079e-05 -2.4334295e-04  1.6824639e-05 ... -8.6957925e-06
-  -8.5367301e-06  2.7025795e-05]
- [ 2.2388038e-05 -2.4334027e-04  1.6858930e-05 ... -8.6930477e-06
-  -8.5470238e-06  2.7017577e-05]]
-block.mlp.W_mlp2.outputs [[ 2.2448497e-05 -2.4335050e-04  1.6856462e-05 ... -8.7208900e-06
-  -8.5126985e-06  2.7034172e-05]
- [ 2.2482893e-05 -2.4334688e-04  1.6852346e-05 ... -8.7363569e-06
-  -8.5049078e-06  2.7036971e-05]
- [ 2.2468648e-05 -2.4332800e-04  1.6856731e-05 ... -8.7403841e-06
-  -8.5042857e-06  2.7041384e-05]
- ...
- [ 2.2402734e-05 -2.4332371e-04  1.6831318e-05 ... -8.7037306e-06
-  -8.5232532e-06  2.7015307e-05]
- [ 2.2379079e-05 -2.4334295e-04  1.6824639e-05 ... -8.6957925e-06
-  -8.5367301e-06  2.7025795e-05]
- [ 2.2388038e-05 -2.4334027e-04  1.6858930e-05 ... -8.6930477e-06
-  -8.5470238e-06  2.7017577e-05]]
+  Block 0 mlp error 1   = -0.0
+  Block 0 mlp error 2   = -4.415288135106721e-09
 ts=1:
-  L_embed (L1) = -0.5772591829299927
-  L_out   (L4) = -8.935632649809122e-05
-  Block 0 attention error = -2.6120198981516296e-06
-  Block 0 mlp error 1   = -2.968722823126768e-09
-  Block 0 mlp error 2   = -1.918457748217861e-08
-block.mlp.e_mlp1.mu: [[-2.4053545e-05  1.6427366e-04 -4.1886706e-05 ...  9.6698554e-05
-   4.8809074e-05  4.9894148e-05]
- [-2.2653567e-05  1.6379007e-04 -4.2108364e-05 ...  9.6049305e-05
-   5.0143226e-05  4.8338330e-05]
- [-2.3285938e-05  1.6370983e-04 -4.1955187e-05 ...  9.6415621e-05
-   4.9709975e-05  4.9098253e-05]
- ...
- [-2.3659151e-05  1.6420164e-04 -4.1672902e-05 ...  9.6700867e-05
-   4.9394639e-05  4.9372335e-05]
- [-2.3820854e-05  1.6441531e-04 -4.1286959e-05 ...  9.6805728e-05
-   4.9831739e-05  4.9033890e-05]
- [-2.3757355e-05  1.6460019e-04 -4.1768802e-05 ...  9.6449890e-05
-   4.9773542e-05  4.9559938e-05]]
-wmlpq outputs value  [[-2.4053545e-05  1.6427366e-04 -4.1886706e-05 ...  9.6698554e-05
-   4.8809074e-05  4.9894148e-05]
- [-2.2653567e-05  1.6379007e-04 -4.2108364e-05 ...  9.6049305e-05
-   5.0143226e-05  4.8338330e-05]
- [-2.3285938e-05  1.6370983e-04 -4.1955187e-05 ...  9.6415621e-05
-   4.9709975e-05  4.9098253e-05]
- ...
- [-2.3659151e-05  1.6420164e-04 -4.1672902e-05 ...  9.6700867e-05
-   4.9394639e-05  4.9372335e-05]
- [-2.3820854e-05  1.6441531e-04 -4.1286959e-05 ...  9.6805728e-05
-   4.9831739e-05  4.9033890e-05]
- [-2.3757355e-05  1.6460019e-04 -4.1768802e-05 ...  9.6449890e-05
-   4.9773542e-05  4.9559938e-05]]
-block.mlp.e_mlp1.target: [[-2.8885366e-05  1.6536402e-04 -4.0750772e-05 ...  9.6498625e-05
-   5.2640029e-05  5.1425635e-05]
- [-2.7485818e-05  1.6488061e-04 -4.0972107e-05 ...  9.5849602e-05
-   5.3973628e-05  4.9870046e-05]
- [-2.8117785e-05  1.6480056e-04 -4.0819225e-05 ...  9.6216419e-05
-   5.3540374e-05  5.0629315e-05]
- ...
- [-2.8491249e-05  1.6529296e-04 -4.0536455e-05 ...  9.6500946e-05
-   5.3225100e-05  5.0903800e-05]
- [-2.8653027e-05  1.6550627e-04 -4.0150542e-05 ...  9.6604796e-05
-   5.3662799e-05  5.0566043e-05]
- [-2.8590028e-05  1.6569083e-04 -4.0631814e-05 ...  9.6248928e-05
-   5.3605407e-05  5.1091840e-05]]
-zmplp2 value  [[-2.8885366e-05  1.6536402e-04 -4.0750772e-05 ...  9.6498625e-05
-   5.2640029e-05  5.1425635e-05]
- [-2.7485818e-05  1.6488061e-04 -4.0972107e-05 ...  9.5849602e-05
-   5.3973628e-05  4.9870046e-05]
- [-2.8117785e-05  1.6480056e-04 -4.0819225e-05 ...  9.6216419e-05
-   5.3540374e-05  5.0629315e-05]
- ...
- [-2.8491249e-05  1.6529296e-04 -4.0536455e-05 ...  9.6500946e-05
-   5.3225100e-05  5.0903800e-05]
- [-2.8653027e-05  1.6550627e-04 -4.0150542e-05 ...  9.6604796e-05
-   5.3662799e-05  5.0566043e-05]
- [-2.8590028e-05  1.6569083e-04 -4.0631814e-05 ...  9.6248928e-05
-   5.3605407e-05  5.1091840e-05]]
-check the surrounding 
-z_mlp2 [[-1.44423284e-05  8.26936448e-05 -2.03746786e-05 ...  4.82532741e-05
-   2.63211950e-05  2.57139418e-05]
- [-1.37425877e-05  8.24518720e-05 -2.04853404e-05 ...  4.79287082e-05
-   2.69880529e-05  2.49360819e-05]
- [-1.40585571e-05  8.24118324e-05 -2.04089010e-05 ...  4.81121497e-05
-   2.67714058e-05  2.53157505e-05]
- ...
- [-1.42452782e-05  8.26581090e-05 -2.02675274e-05 ...  4.82544347e-05
-   2.66137558e-05  2.54530005e-05]
- [-1.43261650e-05  8.27647818e-05 -2.00745872e-05 ...  4.83063704e-05
-   2.68326239e-05  2.52841091e-05]
- [-1.42946665e-05  8.28570992e-05 -2.03152049e-05 ...  4.81284042e-05
-   2.68039275e-05  2.55470313e-05]]
-cheack w_mlp2 [[-1.44423284e-05  8.26936448e-05 -2.03746786e-05 ...  4.82532741e-05
-   2.63211950e-05  2.57139418e-05]
- [-1.37425877e-05  8.24518720e-05 -2.04853404e-05 ...  4.79287082e-05
-   2.69880529e-05  2.49360819e-05]
- [-1.40585571e-05  8.24118324e-05 -2.04089010e-05 ...  4.81121497e-05
-   2.67714058e-05  2.53157505e-05]
- ...
- [-1.42452782e-05  8.26581090e-05 -2.02675274e-05 ...  4.82544347e-05
-   2.66137558e-05  2.54530005e-05]
- [-1.43261650e-05  8.27647818e-05 -2.00745872e-05 ...  4.83063704e-05
-   2.68326239e-05  2.52841091e-05]
- [-1.42946665e-05  8.28570992e-05 -2.03152049e-05 ...  4.81284042e-05
-   2.68039275e-05  2.55470313e-05]]
-block.mlp.e_mlp.mu [[ 2.3160736e-05 -2.4439275e-04  1.8866807e-05 ... -1.0426925e-05
-  -8.4517606e-06  2.8510207e-05]
- [ 2.3198038e-05 -2.4438641e-04  1.8866274e-05 ... -1.0431592e-05
-  -8.4201411e-06  2.8480528e-05]
- [ 2.3182020e-05 -2.4437474e-04  1.8869281e-05 ... -1.0432034e-05
-  -8.4324438e-06  2.8483530e-05]
- ...
- [ 2.3188644e-05 -2.4437354e-04  1.8870278e-05 ... -1.0469732e-05
-  -8.4391113e-06  2.8516393e-05]
- [ 2.3172584e-05 -2.4439843e-04  1.8835723e-05 ... -1.0452092e-05
-  -8.4308358e-06  2.8533725e-05]
- [ 2.3172444e-05 -2.4439406e-04  1.8864945e-05 ... -1.0456901e-05
-  -8.4297753e-06  2.8522680e-05]]
-block.mlp.W_mlp2.outputs [[ 2.3160736e-05 -2.4439275e-04  1.8866807e-05 ... -1.0426925e-05
-  -8.4517606e-06  2.8510207e-05]
- [ 2.3198038e-05 -2.4438641e-04  1.8866274e-05 ... -1.0431592e-05
-  -8.4201411e-06  2.8480528e-05]
- [ 2.3182020e-05 -2.4437474e-04  1.8869281e-05 ... -1.0432034e-05
-  -8.4324438e-06  2.8483530e-05]
- ...
- [ 2.3188644e-05 -2.4437354e-04  1.8870278e-05 ... -1.0469732e-05
-  -8.4391113e-06  2.8516393e-05]
- [ 2.3172584e-05 -2.4439843e-04  1.8835723e-05 ... -1.0452092e-05
-  -8.4308358e-06  2.8533725e-05]
- [ 2.3172444e-05 -2.4439406e-04  1.8864945e-05 ... -1.0456901e-05
-  -8.4297753e-06  2.8522680e-05]]
+  L_embed (L1) = -0.5772592425346375
+  L_out   (L4) = -4.2454548990905616e-13
+  Block 0 attention error = -2.773450887616491e-06
+  Block 0 mlp error 1   = -1.0741261395955104e-12
+  Block 0 mlp error 2   = -0.0
 ts=2:
-  L_embed (L1) = -1.4479494936381343e-08
-  L_out   (L4) = -0.00012841711577493697
-  Block 0 attention error = -4.14806891058106e-06
-  Block 0 mlp error 1   = -5.597365816356614e-05
-  Block 0 mlp error 2   = -1.1898018570377644e-08
-block.mlp.e_mlp1.mu: [[-2.2092401e-05  1.6406775e-04 -3.9963579e-05 ...  9.5247960e-05
-   4.8991715e-05  4.8430033e-05]
- [-2.1120388e-05  1.6353696e-04 -4.0139606e-05 ...  9.4521500e-05
-   4.9586604e-05  4.7456244e-05]
- [-2.1272817e-05  1.6374094e-04 -3.9783270e-05 ...  9.4249539e-05
-   4.9207232e-05  4.7726171e-05]
- ...
- [-2.1732139e-05  1.6360606e-04 -4.0257553e-05 ...  9.4426068e-05
-   4.9306862e-05  4.8096968e-05]
- [-2.1628315e-05  1.6336031e-04 -3.9632072e-05 ...  9.4644136e-05
-   4.9424252e-05  4.7969254e-05]
- [-2.1900887e-05  1.6404250e-04 -4.0344828e-05 ...  9.4723116e-05
-   4.9215490e-05  4.8696787e-05]]
-wmlpq outputs value  [[-2.2092401e-05  1.6406775e-04 -3.9963579e-05 ...  9.5247960e-05
-   4.8991715e-05  4.8430033e-05]
- [-2.1120388e-05  1.6353696e-04 -4.0139606e-05 ...  9.4521500e-05
-   4.9586604e-05  4.7456244e-05]
- [-2.1272817e-05  1.6374094e-04 -3.9783270e-05 ...  9.4249539e-05
-   4.9207232e-05  4.7726171e-05]
- ...
- [-2.1732139e-05  1.6360606e-04 -4.0257553e-05 ...  9.4426068e-05
-   4.9306862e-05  4.8096968e-05]
- [-2.1628315e-05  1.6336031e-04 -3.9632072e-05 ...  9.4644136e-05
-   4.9424252e-05  4.7969254e-05]
- [-2.1900887e-05  1.6404250e-04 -4.0344828e-05 ...  9.4723116e-05
-   4.9215490e-05  4.8696787e-05]]
-block.mlp.e_mlp1.target: [[-2.4086570e-05  1.6424546e-04 -4.1979267e-05 ...  9.6713062e-05
-   4.8820188e-05  4.9950318e-05]
- [-2.2686190e-05  1.6376239e-04 -4.2201220e-05 ...  9.6064054e-05
-   5.0154187e-05  4.8394704e-05]
- [-2.3318771e-05  1.6368194e-04 -4.2048094e-05 ...  9.6429816e-05
-   4.9721355e-05  4.9154973e-05]
- ...
- [-2.3691910e-05  1.6417392e-04 -4.1764557e-05 ...  9.6715696e-05
-   4.9405455e-05  4.9428145e-05]
- [-2.3853539e-05  1.6438747e-04 -4.1379713e-05 ...  9.6821408e-05
-   4.9841437e-05  4.9090078e-05]
- [-2.3789780e-05  1.6457266e-04 -4.1861560e-05 ...  9.6465847e-05
-   4.9782644e-05  4.9615799e-05]]
-zmplp2 value  [[-2.4086570e-05  1.6424546e-04 -4.1979267e-05 ...  9.6713062e-05
-   4.8820188e-05  4.9950318e-05]
- [-2.2686190e-05  1.6376239e-04 -4.2201220e-05 ...  9.6064054e-05
-   5.0154187e-05  4.8394704e-05]
- [-2.3318771e-05  1.6368194e-04 -4.2048094e-05 ...  9.6429816e-05
-   4.9721355e-05  4.9154973e-05]
- ...
- [-2.3691910e-05  1.6417392e-04 -4.1764557e-05 ...  9.6715696e-05
-   4.9405455e-05  4.9428145e-05]
- [-2.3853539e-05  1.6438747e-04 -4.1379713e-05 ...  9.6821408e-05
-   4.9841437e-05  4.9090078e-05]
- [-2.3789780e-05  1.6457266e-04 -4.1861560e-05 ...  9.6465847e-05
-   4.9782644e-05  4.9615799e-05]]
-check the surrounding 
-z_mlp2 [[-1.20430377e-05  8.21342037e-05 -2.09888822e-05 ...  4.83605072e-05
-   2.44111088e-05  2.49762215e-05]
- [-1.13428760e-05  8.18926055e-05 -2.10998496e-05 ...  4.80359558e-05
-   2.50781632e-05  2.41983507e-05]
- [-1.16591546e-05  8.18523622e-05 -2.10232956e-05 ...  4.82188625e-05
-   2.48617289e-05  2.45785141e-05]
- ...
- [-1.18457165e-05  8.20984278e-05 -2.08815363e-05 ...  4.83618242e-05
-   2.47037660e-05  2.47151129e-05]
- [-1.19265278e-05  8.22052316e-05 -2.06891273e-05 ...  4.84146913e-05
-   2.49217755e-05  2.45460669e-05]
- [-1.18946491e-05  8.22978545e-05 -2.09300342e-05 ...  4.82368850e-05
-   2.48923752e-05  2.48089473e-05]]
-cheack w_mlp2 [[-1.20430377e-05  8.21342037e-05 -2.09888822e-05 ...  4.83605072e-05
-   2.44111088e-05  2.49762215e-05]
- [-1.13428760e-05  8.18926055e-05 -2.10998496e-05 ...  4.80359558e-05
-   2.50781632e-05  2.41983507e-05]
- [-1.16591546e-05  8.18523622e-05 -2.10232956e-05 ...  4.82188625e-05
-   2.48617289e-05  2.45785141e-05]
- ...
- [-1.18457165e-05  8.20984278e-05 -2.08815363e-05 ...  4.83618242e-05
-   2.47037660e-05  2.47151129e-05]
- [-1.19265278e-05  8.22052316e-05 -2.06891273e-05 ...  4.84146913e-05
-   2.49217755e-05  2.45460669e-05]
- [-1.18946491e-05  8.22978545e-05 -2.09300342e-05 ...  4.82368850e-05
-   2.48923752e-05  2.48089473e-05]]
-block.mlp.e_mlp.mu [[ 2.32471011e-05 -2.44855124e-04  1.90086848e-05 ... -1.03690236e-05
-  -8.55601684e-06  2.84696180e-05]
- [ 2.32844704e-05 -2.44848809e-04  1.90081773e-05 ... -1.03737120e-05
-  -8.52443736e-06  2.84399939e-05]
- [ 2.32684106e-05 -2.44837080e-04  1.90111896e-05 ... -1.03742059e-05
-  -8.53669826e-06  2.84430298e-05]
- ...
- [ 2.32747443e-05 -2.44835886e-04  1.90120772e-05 ... -1.04116543e-05
-  -8.54346581e-06  2.84756679e-05]
- [ 2.32586171e-05 -2.44860828e-04  1.89776147e-05 ... -1.03940220e-05
-  -8.53526126e-06  2.84929829e-05]
- [ 2.32585135e-05 -2.44856492e-04  1.90069040e-05 ... -1.03987795e-05
-  -8.53424626e-06  2.84819180e-05]]
-block.mlp.W_mlp2.outputs [[ 2.32471011e-05 -2.44855124e-04  1.90086848e-05 ... -1.03690236e-05
-  -8.55601684e-06  2.84696180e-05]
- [ 2.32844704e-05 -2.44848809e-04  1.90081773e-05 ... -1.03737120e-05
-  -8.52443736e-06  2.84399939e-05]
- [ 2.32684106e-05 -2.44837080e-04  1.90111896e-05 ... -1.03742059e-05
-  -8.53669826e-06  2.84430298e-05]
- ...
- [ 2.32747443e-05 -2.44835886e-04  1.90120772e-05 ... -1.04116543e-05
-  -8.54346581e-06  2.84756679e-05]
- [ 2.32586171e-05 -2.44860828e-04  1.89776147e-05 ... -1.03940220e-05
-  -8.53526126e-06  2.84929829e-05]
- [ 2.32585135e-05 -2.44856492e-04  1.90069040e-05 ... -1.03987795e-05
-  -8.53424626e-06  2.84819180e-05]]
+  L_embed (L1) = -1.505169677784579e-08
+  L_out   (L4) = -1.5378463205564102e-13
+  Block 0 attention error = -4.148055722907884e-06
+  Block 0 mlp error 1   = -5.975927044310252e-18
+  Block 0 mlp error 2   = -1.240148161940624e-08
 ts=3:
-  L_embed (L1) = -1.9846826404545936e-08
-  L_out   (L4) = -0.00010166406718781218
-  Block 0 attention error = -4.557694282744662e-13
-  Block 0 mlp error 1   = -8.775738933763932e-06
-  Block 0 mlp error 2   = -1.7223082693362812e-07
-block.mlp.e_mlp1.mu: [[-2.4148721e-05  1.6355130e-04 -4.3810465e-05 ...  9.6935459e-05
-   5.1169030e-05  4.9832644e-05]
- [-2.3541288e-05  1.6306747e-04 -4.4607736e-05 ...  9.6639058e-05
-   5.2111747e-05  4.9148781e-05]
- [-2.4014580e-05  1.6305235e-04 -4.4912464e-05 ...  9.6499549e-05
-   5.2110285e-05  4.9596340e-05]
- ...
- [-2.4060797e-05  1.6329827e-04 -4.4491888e-05 ...  9.6598531e-05
-   5.1696072e-05  4.9767739e-05]
- [-2.4185474e-05  1.6299514e-04 -4.4293833e-05 ...  9.7004100e-05
-   5.2055384e-05  4.9795883e-05]
- [-2.4093442e-05  1.6363038e-04 -4.4385397e-05 ...  9.6653064e-05
-   5.1498759e-05  5.0233513e-05]]
-wmlpq outputs value  [[-2.4148721e-05  1.6355130e-04 -4.3810465e-05 ...  9.6935459e-05
-   5.1169030e-05  4.9832644e-05]
- [-2.3541288e-05  1.6306747e-04 -4.4607736e-05 ...  9.6639058e-05
-   5.2111747e-05  4.9148781e-05]
- [-2.4014580e-05  1.6305235e-04 -4.4912464e-05 ...  9.6499549e-05
-   5.2110285e-05  4.9596340e-05]
- ...
- [-2.4060797e-05  1.6329827e-04 -4.4491888e-05 ...  9.6598531e-05
-   5.1696072e-05  4.9767739e-05]
- [-2.4185474e-05  1.6299514e-04 -4.4293833e-05 ...  9.7004100e-05
-   5.2055384e-05  4.9795883e-05]
- [-2.4093442e-05  1.6363038e-04 -4.4385397e-05 ...  9.6653064e-05
-   5.1498759e-05  5.0233513e-05]]
-block.mlp.e_mlp1.target: [[-1.5399430e-05  1.6493401e-04 -3.6443536e-05 ...  9.4342671e-05
-   4.5168381e-05  4.6784760e-05]
- [-1.4427575e-05  1.6440329e-04 -3.6619451e-05 ...  9.3616291e-05
-   4.5763059e-05  4.5811074e-05]
- [-1.4579851e-05  1.6460735e-04 -3.6263224e-05 ...  9.3344534e-05
-   4.5383680e-05  4.6080735e-05]
- ...
- [-1.5039257e-05  1.6447270e-04 -3.6737292e-05 ...  9.3520779e-05
-   4.5483328e-05  4.6451682e-05]
- [-1.4935455e-05  1.6422680e-04 -3.6111807e-05 ...  9.3738447e-05
-   4.5600951e-05  4.6324229e-05]
- [-1.5208254e-05  1.6490888e-04 -3.6824356e-05 ...  9.3817427e-05
-   4.5392517e-05  4.7051675e-05]]
-zmplp2 value  [[-1.5399430e-05  1.6493401e-04 -3.6443536e-05 ...  9.4342671e-05
-   4.5168381e-05  4.6784760e-05]
- [-1.4427575e-05  1.6440329e-04 -3.6619451e-05 ...  9.3616291e-05
-   4.5763059e-05  4.5811074e-05]
- [-1.4579851e-05  1.6460735e-04 -3.6263224e-05 ...  9.3344534e-05
-   4.5383680e-05  4.6080735e-05]
- ...
- [-1.5039257e-05  1.6447270e-04 -3.6737292e-05 ...  9.3520779e-05
-   4.5483328e-05  4.6451682e-05]
- [-1.4935455e-05  1.6422680e-04 -3.6111807e-05 ...  9.3738447e-05
-   4.5600951e-05  4.6324229e-05]
- [-1.5208254e-05  1.6490888e-04 -3.6824356e-05 ...  9.3817427e-05
-   4.5392517e-05  4.7051675e-05]]
-check the surrounding 
-z_mlp2 [[-7.6996139e-06  8.2478575e-05 -1.8221204e-05 ...  4.7175126e-05
-   2.2585060e-05  2.3393311e-05]
- [-7.2136986e-06  8.2213148e-05 -1.8309154e-05 ...  4.6811874e-05
-   2.2882421e-05  2.2906430e-05]
- [-7.2898351e-06  8.2315200e-05 -1.8131052e-05 ...  4.6675974e-05
-   2.2692717e-05  2.3041272e-05]
- ...
- [-7.5195317e-06  8.2247861e-05 -1.8368073e-05 ...  4.6764115e-05
-   2.2742544e-05  2.3226759e-05]
- [-7.4676327e-06  8.2124876e-05 -1.8055349e-05 ...  4.6872960e-05
-   2.2801361e-05  2.3163027e-05]
- [-7.6040292e-06  8.2466009e-05 -1.8411602e-05 ...  4.6912461e-05
-   2.2697135e-05  2.3526780e-05]]
-cheack w_mlp2 [[-7.6996139e-06  8.2478575e-05 -1.8221204e-05 ...  4.7175126e-05
-   2.2585060e-05  2.3393311e-05]
- [-7.2136986e-06  8.2213148e-05 -1.8309154e-05 ...  4.6811874e-05
-   2.2882421e-05  2.2906430e-05]
- [-7.2898351e-06  8.2315200e-05 -1.8131052e-05 ...  4.6675974e-05
-   2.2692717e-05  2.3041272e-05]
- ...
- [-7.5195317e-06  8.2247861e-05 -1.8368073e-05 ...  4.6764115e-05
-   2.2742544e-05  2.3226759e-05]
- [-7.4676327e-06  8.2124876e-05 -1.8055349e-05 ...  4.6872960e-05
-   2.2801361e-05  2.3163027e-05]
- [-7.6040292e-06  8.2466009e-05 -1.8411602e-05 ...  4.6912461e-05
-   2.2697135e-05  2.3526780e-05]]
-block.mlp.e_mlp.mu [[ 2.32690982e-05 -2.44843570e-04  1.93018259e-05 ... -1.08312415e-05
-  -8.78743413e-06  2.86653267e-05]
- [ 2.32986968e-05 -2.44836352e-04  1.93087144e-05 ... -1.08374343e-05
-  -8.76888953e-06  2.86539598e-05]
- [ 2.32941256e-05 -2.44827708e-04  1.93208307e-05 ... -1.08345675e-05
-  -8.77238926e-06  2.86577015e-05]
- ...
- [ 2.32807706e-05 -2.44823197e-04  1.93107498e-05 ... -1.08427157e-05
-  -8.77696675e-06  2.86671166e-05]
- [ 2.32797320e-05 -2.44825264e-04  1.93065953e-05 ... -1.08369950e-05
-  -8.77678121e-06  2.86685481e-05]
- [ 2.32747589e-05 -2.44829745e-04  1.93193791e-05 ... -1.08448148e-05
-  -8.77167713e-06  2.86621216e-05]]
-block.mlp.W_mlp2.outputs [[ 2.32690982e-05 -2.44843570e-04  1.93018259e-05 ... -1.08312415e-05
-  -8.78743413e-06  2.86653267e-05]
- [ 2.32986968e-05 -2.44836352e-04  1.93087144e-05 ... -1.08374343e-05
-  -8.76888953e-06  2.86539598e-05]
- [ 2.32941256e-05 -2.44827708e-04  1.93208307e-05 ... -1.08345675e-05
-  -8.77238926e-06  2.86577015e-05]
- ...
- [ 2.32807706e-05 -2.44823197e-04  1.93107498e-05 ... -1.08427157e-05
-  -8.77696675e-06  2.86671166e-05]
- [ 2.32797320e-05 -2.44825264e-04  1.93065953e-05 ... -1.08369950e-05
-  -8.77678121e-06  2.86685481e-05]
- [ 2.32747589e-05 -2.44829745e-04  1.93193791e-05 ... -1.08448148e-05
-  -8.77167713e-06  2.86621216e-05]]
+  L_embed (L1) = -1.984684416811433e-08
+  L_out   (L4) = -8.779207829462399e-13
+  Block 0 attention error = -4.745877627519712e-13
+  Block 0 mlp error 1   = -2.4650236279261106e-12
+  Block 0 mlp error 2   = -1.9296757969300415e-08
 ts=4:
-  L_embed (L1) = -3.4096383790644617e-15
-  L_out   (L4) = -0.00011692114640027285
-  Block 0 attention error = -1.7016203441959366e-13
-  Block 0 mlp error 1   = -3.2588963222224265e-05
-  Block 0 mlp error 2   = -2.117937647483359e-08
-block.mlp.e_mlp1.mu: [[-2.4148665e-05  1.6355158e-04 -4.3810960e-05 ...  9.6935706e-05
-   5.1168547e-05  4.9833237e-05]
- [-2.3541239e-05  1.6306785e-04 -4.4608318e-05 ...  9.6639364e-05
-   5.2111223e-05  4.9149436e-05]
- [-2.4014511e-05  1.6305271e-04 -4.4913104e-05 ...  9.6499876e-05
-   5.2109688e-05  4.9597103e-05]
- ...
- [-2.4060615e-05  1.6329870e-04 -4.4492634e-05 ...  9.6598982e-05
-   5.1695526e-05  4.9768310e-05]
- [-2.4185265e-05  1.6299561e-04 -4.4294633e-05 ...  9.7004595e-05
-   5.2054787e-05  4.9796505e-05]
- [-2.4093262e-05  1.6363074e-04 -4.4386052e-05 ...  9.6653464e-05
-   5.1498246e-05  5.0234052e-05]]
-wmlpq outputs value  [[-2.4148665e-05  1.6355158e-04 -4.3810960e-05 ...  9.6935706e-05
-   5.1168547e-05  4.9833237e-05]
- [-2.3541239e-05  1.6306785e-04 -4.4608318e-05 ...  9.6639364e-05
-   5.2111223e-05  4.9149436e-05]
- [-2.4014511e-05  1.6305271e-04 -4.4913104e-05 ...  9.6499876e-05
-   5.2109688e-05  4.9597103e-05]
- ...
- [-2.4060615e-05  1.6329870e-04 -4.4492634e-05 ...  9.6598982e-05
-   5.1695526e-05  4.9768310e-05]
- [-2.4185265e-05  1.6299561e-04 -4.4294633e-05 ...  9.7004595e-05
-   5.2054787e-05  4.9796505e-05]
- [-2.4093262e-05  1.6363074e-04 -4.4386052e-05 ...  9.6653464e-05
-   5.1498246e-05  5.0234052e-05]]
-block.mlp.e_mlp1.target: [[-2.1945201e-05  1.6391266e-04 -4.2348773e-05 ...  9.6883552e-05
-   4.9492752e-05  4.9375853e-05]
- [-2.1337662e-05  1.6342879e-04 -4.3145854e-05 ...  9.6587217e-05
-   5.0435403e-05  4.8691836e-05]
- [-2.1810743e-05  1.6341366e-04 -4.3450156e-05 ...  9.6448042e-05
-   5.0433729e-05  4.9138966e-05]
- ...
- [-2.1856951e-05  1.6365912e-04 -4.3030755e-05 ...  9.6547214e-05
-   5.0019691e-05  4.9310576e-05]
- [-2.1981194e-05  1.6335608e-04 -4.2832777e-05 ...  9.6952979e-05
-   5.0379233e-05  4.9338265e-05]
- [-2.1889478e-05  1.6399134e-04 -4.2924221e-05 ...  9.6601667e-05
-   4.9822887e-05  4.9776172e-05]]
-zmplp2 value  [[-2.1945201e-05  1.6391266e-04 -4.2348773e-05 ...  9.6883552e-05
-   4.9492752e-05  4.9375853e-05]
- [-2.1337662e-05  1.6342879e-04 -4.3145854e-05 ...  9.6587217e-05
-   5.0435403e-05  4.8691836e-05]
- [-2.1810743e-05  1.6341366e-04 -4.3450156e-05 ...  9.6448042e-05
-   5.0433729e-05  4.9138966e-05]
- ...
- [-2.1856951e-05  1.6365912e-04 -4.3030755e-05 ...  9.6547214e-05
-   5.0019691e-05  4.9310576e-05]
- [-2.1981194e-05  1.6335608e-04 -4.2832777e-05 ...  9.6952979e-05
-   5.0379233e-05  4.9338265e-05]
- [-2.1889478e-05  1.6399134e-04 -4.2924221e-05 ...  9.6601667e-05
-   4.9822887e-05  4.9776172e-05]]
-check the surrounding 
-z_mlp2 [[-1.09723969e-05  8.19677589e-05 -2.11736242e-05 ...  4.84457705e-05
-   2.47474163e-05  2.46889649e-05]
- [-1.06686375e-05  8.17257605e-05 -2.15721357e-05 ...  4.82975811e-05
-   2.52187838e-05  2.43469276e-05]
- [-1.09051689e-05  8.17181935e-05 -2.17242759e-05 ...  4.82279829e-05
-   2.52179470e-05  2.45705105e-05]
- ...
- [-1.09282728e-05  8.18409535e-05 -2.15145901e-05 ...  4.82775722e-05
-   2.50109097e-05  2.46563231e-05]
- [-1.09903913e-05  8.16893880e-05 -2.14156080e-05 ...  4.84804877e-05
-   2.51906968e-05  2.46701675e-05]
- [-1.09445355e-05  8.20071145e-05 -2.14613283e-05 ...  4.83048061e-05
-   2.49125005e-05  2.48891392e-05]]
-cheack w_mlp2 [[-1.09723969e-05  8.19677589e-05 -2.11736242e-05 ...  4.84457705e-05
-   2.47474163e-05  2.46889649e-05]
- [-1.06686375e-05  8.17257605e-05 -2.15721357e-05 ...  4.82975811e-05
-   2.52187838e-05  2.43469276e-05]
- [-1.09051689e-05  8.17181935e-05 -2.17242759e-05 ...  4.82279829e-05
-   2.52179470e-05  2.45705105e-05]
- ...
- [-1.09282728e-05  8.18409535e-05 -2.15145901e-05 ...  4.82775722e-05
-   2.50109097e-05  2.46563231e-05]
- [-1.09903913e-05  8.16893880e-05 -2.14156080e-05 ...  4.84804877e-05
-   2.51906968e-05  2.46701675e-05]
- [-1.09445355e-05  8.20071145e-05 -2.14613283e-05 ...  4.83048061e-05
-   2.49125005e-05  2.48891392e-05]]
-block.mlp.e_mlp.mu [[ 2.3193345e-05 -2.4479890e-04  1.9075405e-05 ... -1.0544889e-05
-  -8.6241107e-06  2.8560606e-05]
- [ 2.3218159e-05 -2.4479770e-04  1.9074721e-05 ... -1.0551531e-05
-  -8.6060836e-06  2.8550920e-05]
- [ 2.3203642e-05 -2.4479142e-04  1.9073841e-05 ... -1.0549495e-05
-  -8.6083492e-06  2.8555534e-05]
- ...
- [ 2.3205146e-05 -2.4478495e-04  1.9082876e-05 ... -1.0556421e-05
-  -8.6151467e-06  2.8564045e-05]
- [ 2.3199165e-05 -2.4478987e-04  1.9071849e-05 ... -1.0551102e-05
-  -8.6147456e-06  2.8566348e-05]
- [ 2.3199027e-05 -2.4478833e-04  1.9092224e-05 ... -1.0558459e-05
-  -8.6091404e-06  2.8558221e-05]]
-block.mlp.W_mlp2.outputs [[ 2.3193345e-05 -2.4479890e-04  1.9075405e-05 ... -1.0544889e-05
-  -8.6241107e-06  2.8560606e-05]
- [ 2.3218159e-05 -2.4479770e-04  1.9074721e-05 ... -1.0551531e-05
-  -8.6060836e-06  2.8550920e-05]
- [ 2.3203642e-05 -2.4479142e-04  1.9073841e-05 ... -1.0549495e-05
-  -8.6083492e-06  2.8555534e-05]
- ...
- [ 2.3205146e-05 -2.4478495e-04  1.9082876e-05 ... -1.0556421e-05
-  -8.6151467e-06  2.8564045e-05]
- [ 2.3199165e-05 -2.4478987e-04  1.9071849e-05 ... -1.0551102e-05
-  -8.6147456e-06  2.8566348e-05]
- [ 2.3199027e-05 -2.4478833e-04  1.9092224e-05 ... -1.0558459e-05
-  -8.6091404e-06  2.8558221e-05]]
+  L_embed (L1) = -3.5253587497689233e-15
+  L_out   (L4) = -7.476671191886108e-13
+  Block 0 attention error = -1.7016382335317826e-13
+  Block 0 mlp error 1   = -2.87045018830534e-12
+  Block 0 mlp error 2   = -9.091475673423527e-15
 ts=5:
-  L_embed (L1) = -1.122815016419039e-15
-  L_out   (L4) = -0.0001071133156074211
-  Block 0 attention error = -1.5296857197487074e-19
-  Block 0 mlp error 1   = -1.6155163393705152e-05
-  Block 0 mlp error 2   = -7.700342763428125e-08
-block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833001e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111642e-05  4.9149174e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912635e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492212e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294175e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833001e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111642e-05  4.9149174e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912635e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492212e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294175e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-block.mlp.e_mlp1.target: [[-1.9042591e-05  1.6421441e-04 -4.1134022e-05 ...  9.6252188e-05
-   4.8232858e-05  4.8585651e-05]
- [-1.8435319e-05  1.6373076e-04 -4.1931198e-05 ...  9.5955627e-05
-   4.9175331e-05  4.7902133e-05]
- [-1.8908577e-05  1.6371558e-04 -4.2236108e-05 ...  9.5816111e-05
-   4.9173741e-05  4.8349852e-05]
- ...
- [-1.8954670e-05  1.6396183e-04 -4.1815074e-05 ...  9.5915129e-05
-   4.8759706e-05  4.8520731e-05]
- [-1.9079376e-05  1.6365855e-04 -4.1617292e-05 ...  9.6320502e-05
-   4.9118829e-05  4.8549322e-05]
- [-1.8987364e-05  1.6429376e-04 -4.1708714e-05 ...  9.5969779e-05
-   4.8562400e-05  4.8986567e-05]]
-zmplp2 value  [[-1.9042591e-05  1.6421441e-04 -4.1134022e-05 ...  9.6252188e-05
-   4.8232858e-05  4.8585651e-05]
- [-1.8435319e-05  1.6373076e-04 -4.1931198e-05 ...  9.5955627e-05
-   4.9175331e-05  4.7902133e-05]
- [-1.8908577e-05  1.6371558e-04 -4.2236108e-05 ...  9.5816111e-05
-   4.9173741e-05  4.8349852e-05]
- ...
- [-1.8954670e-05  1.6396183e-04 -4.1815074e-05 ...  9.5915129e-05
-   4.8759706e-05  4.8520731e-05]
- [-1.9079376e-05  1.6365855e-04 -4.1617292e-05 ...  9.6320502e-05
-   4.9118829e-05  4.8549322e-05]
- [-1.8987364e-05  1.6429376e-04 -4.1708714e-05 ...  9.5969779e-05
-   4.8562400e-05  4.8986567e-05]]
-check the surrounding 
-z_mlp2 [[-9.5211408e-06  8.2118677e-05 -2.0566291e-05 ...  4.8130034e-05
-   2.4117418e-05  2.4293829e-05]
- [-9.2175151e-06  8.1876788e-05 -2.0964850e-05 ...  4.7981732e-05
-   2.4588695e-05  2.3952043e-05]
- [-9.4541365e-06  8.1869199e-05 -2.1117294e-05 ...  4.7911963e-05
-   2.4587900e-05  2.4175921e-05]
- ...
- [-9.4771813e-06  8.1992352e-05 -2.0906795e-05 ...  4.7961479e-05
-   2.4380864e-05  2.4261366e-05]
- [-9.5395335e-06  8.1840670e-05 -2.0807909e-05 ...  4.8164202e-05
-   2.4560442e-05  2.4275665e-05]
- [-9.4935285e-06  8.2158367e-05 -2.0853617e-05 ...  4.7988808e-05
-   2.4282204e-05  2.4494306e-05]]
-cheack w_mlp2 [[-9.5211408e-06  8.2118677e-05 -2.0566291e-05 ...  4.8130034e-05
-   2.4117418e-05  2.4293829e-05]
- [-9.2175151e-06  8.1876788e-05 -2.0964850e-05 ...  4.7981732e-05
-   2.4588695e-05  2.3952043e-05]
- [-9.4541365e-06  8.1869199e-05 -2.1117294e-05 ...  4.7911963e-05
-   2.4587900e-05  2.4175921e-05]
- ...
- [-9.4771813e-06  8.1992352e-05 -2.0906795e-05 ...  4.7961479e-05
-   2.4380864e-05  2.4261366e-05]
- [-9.5395335e-06  8.1840670e-05 -2.0807909e-05 ...  4.8164202e-05
-   2.4560442e-05  2.4275665e-05]
- [-9.4935285e-06  8.2158367e-05 -2.0853617e-05 ...  4.7988808e-05
-   2.4282204e-05  2.4494306e-05]]
-block.mlp.e_mlp.mu [[ 2.3224868e-05 -2.4486741e-04  1.9184921e-05 ... -1.0726170e-05
-  -8.7297958e-06  2.8628399e-05]
- [ 2.3249662e-05 -2.4486618e-04  1.9184261e-05 ... -1.0732826e-05
-  -8.7117705e-06  2.8618746e-05]
- [ 2.3235201e-05 -2.4485990e-04  1.9183401e-05 ... -1.0730799e-05
-  -8.7140179e-06  2.8623370e-05]
- ...
- [ 2.3236673e-05 -2.4485344e-04  1.9192408e-05 ... -1.0737664e-05
-  -8.7208555e-06  2.8631843e-05]
- [ 2.3230727e-05 -2.4485833e-04  1.9181432e-05 ... -1.0732377e-05
-  -8.7204371e-06  2.8634129e-05]
- [ 2.3230565e-05 -2.4485681e-04  1.9201778e-05 ... -1.0739728e-05
-  -8.7148319e-06  2.8626004e-05]]
-block.mlp.W_mlp2.outputs [[ 2.3224868e-05 -2.4486741e-04  1.9184921e-05 ... -1.0726170e-05
-  -8.7297958e-06  2.8628399e-05]
- [ 2.3249662e-05 -2.4486618e-04  1.9184261e-05 ... -1.0732826e-05
-  -8.7117705e-06  2.8618746e-05]
- [ 2.3235201e-05 -2.4485990e-04  1.9183401e-05 ... -1.0730799e-05
-  -8.7140179e-06  2.8623370e-05]
- ...
- [ 2.3236673e-05 -2.4485344e-04  1.9192408e-05 ... -1.0737664e-05
-  -8.7208555e-06  2.8631843e-05]
- [ 2.3230727e-05 -2.4485833e-04  1.9181432e-05 ... -1.0732377e-05
-  -8.7204371e-06  2.8634129e-05]
- [ 2.3230565e-05 -2.4485681e-04  1.9201778e-05 ... -1.0739728e-05
-  -8.7148319e-06  2.8626004e-05]]
+  L_embed (L1) = -1.1228148046608022e-15
+  L_out   (L4) = -4.142599620542836e-13
+  Block 0 attention error = -1.5251413962584942e-19
+  Block 0 mlp error 1   = -3.454124464750963e-13
+  Block 0 mlp error 2   = -9.597450804465883e-15
 ts=6:
   L_embed (L1) = -0.0
-  L_out   (L4) = -0.0001129902302636765
+  L_out   (L4) = -4.84405430264262e-13
   Block 0 attention error = -6.131508602291995e-20
-  Block 0 mlp error 1   = -2.5549390556989238e-05
-  Block 0 mlp error 2   = -3.8586243533700326e-08
-block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607896e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294175e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363067e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607896e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294175e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363067e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-block.mlp.e_mlp1.target: [[-2.0885769e-05  1.6402862e-04 -4.1865362e-05 ...  9.6680444e-05
-   4.8991722e-05  4.9097038e-05]
- [-2.0278332e-05  1.6354496e-04 -4.2662567e-05 ...  9.6384189e-05
-   4.9934308e-05  4.8413225e-05]
- [-2.0751484e-05  1.6352984e-04 -4.2967200e-05 ...  9.6244868e-05
-   4.9932787e-05  4.8860606e-05]
- ...
- [-2.0797577e-05  1.6377574e-04 -4.2546973e-05 ...  9.6343938e-05
-   4.9518552e-05  4.9031918e-05]
- [-2.0922100e-05  1.6347261e-04 -4.2349136e-05 ...  9.6749558e-05
-   4.9877886e-05  4.9060098e-05]
- [-2.0830268e-05  1.6410775e-04 -4.2440468e-05 ...  9.6398377e-05
-   4.9321461e-05  4.9497685e-05]]
-zmplp2 value  [[-2.0885769e-05  1.6402862e-04 -4.1865362e-05 ...  9.6680444e-05
-   4.8991722e-05  4.9097038e-05]
- [-2.0278332e-05  1.6354496e-04 -4.2662567e-05 ...  9.6384189e-05
-   4.9934308e-05  4.8413225e-05]
- [-2.0751484e-05  1.6352984e-04 -4.2967200e-05 ...  9.6244868e-05
-   4.9932787e-05  4.8860606e-05]
- ...
- [-2.0797577e-05  1.6377574e-04 -4.2546973e-05 ...  9.6343938e-05
-   4.9518552e-05  4.9031918e-05]
- [-2.0922100e-05  1.6347261e-04 -4.2349136e-05 ...  9.6749558e-05
-   4.9877886e-05  4.9060098e-05]
- [-2.0830268e-05  1.6410775e-04 -4.2440468e-05 ...  9.6398377e-05
-   4.9321461e-05  4.9497685e-05]]
-check the surrounding 
-z_mlp2 [[-1.04426990e-05  8.20257555e-05 -2.09319351e-05 ...  4.83441981e-05
-   2.44968833e-05  2.45495467e-05]
- [-1.01389905e-05  8.17838591e-05 -2.13305102e-05 ...  4.81960451e-05
-   2.49682162e-05  2.42076112e-05]
- [-1.03755592e-05  8.17762921e-05 -2.14828160e-05 ...  4.81263742e-05
-   2.49674558e-05  2.44313196e-05]
- ...
- [-1.03986049e-05  8.18992776e-05 -2.12727155e-05 ...  4.81759198e-05
-   2.47603202e-05  2.45169813e-05]
- [-1.04608625e-05  8.17476757e-05 -2.11738061e-05 ...  4.83787626e-05
-   2.49400018e-05  2.45310730e-05]
- [-1.04149503e-05  8.20653295e-05 -2.12194682e-05 ...  4.82031428e-05
-   2.46617656e-05  2.47498847e-05]]
-cheack w_mlp2 [[-1.04426990e-05  8.20257555e-05 -2.09319351e-05 ...  4.83441981e-05
-   2.44968833e-05  2.45495467e-05]
- [-1.01389905e-05  8.17838591e-05 -2.13305102e-05 ...  4.81960451e-05
-   2.49682162e-05  2.42076112e-05]
- [-1.03755592e-05  8.17762921e-05 -2.14828160e-05 ...  4.81263742e-05
-   2.49674558e-05  2.44313196e-05]
- ...
- [-1.03986049e-05  8.18992776e-05 -2.12727155e-05 ...  4.81759198e-05
-   2.47603202e-05  2.45169813e-05]
- [-1.04608625e-05  8.17476757e-05 -2.11738061e-05 ...  4.83787626e-05
-   2.49400018e-05  2.45310730e-05]
- [-1.04149503e-05  8.20653295e-05 -2.12194682e-05 ...  4.82031428e-05
-   2.46617656e-05  2.47498847e-05]]
-block.mlp.e_mlp.mu [[ 2.3201053e-05 -2.4481484e-04  1.9114199e-05 ... -1.0613347e-05
-  -8.6618311e-06  2.8587539e-05]
- [ 2.3225855e-05 -2.4481365e-04  1.9113526e-05 ... -1.0619991e-05
-  -8.6438113e-06  2.8577871e-05]
- [ 2.3211362e-05 -2.4480736e-04  1.9112649e-05 ... -1.0617959e-05
-  -8.6460714e-06  2.8582488e-05]
- ...
- [ 2.3212862e-05 -2.4480090e-04  1.9121682e-05 ... -1.0624850e-05
-  -8.6528889e-06  2.8590985e-05]
- [ 2.3206901e-05 -2.4480582e-04  1.9110683e-05 ... -1.0619546e-05
-  -8.6524797e-06  2.8593277e-05]
- [ 2.3206750e-05 -2.4480428e-04  1.9131041e-05 ... -1.0626905e-05
-  -8.6468681e-06  2.8585149e-05]]
-block.mlp.W_mlp2.outputs [[ 2.3201053e-05 -2.4481484e-04  1.9114199e-05 ... -1.0613347e-05
-  -8.6618311e-06  2.8587539e-05]
- [ 2.3225855e-05 -2.4481365e-04  1.9113526e-05 ... -1.0619991e-05
-  -8.6438113e-06  2.8577871e-05]
- [ 2.3211362e-05 -2.4480736e-04  1.9112649e-05 ... -1.0617959e-05
-  -8.6460714e-06  2.8582488e-05]
- ...
- [ 2.3212862e-05 -2.4480090e-04  1.9121682e-05 ... -1.0624850e-05
-  -8.6528889e-06  2.8590985e-05]
- [ 2.3206901e-05 -2.4480582e-04  1.9110683e-05 ... -1.0619546e-05
-  -8.6524797e-06  2.8593277e-05]
- [ 2.3206750e-05 -2.4480428e-04  1.9131041e-05 ... -1.0626905e-05
-  -8.6468681e-06  2.8585149e-05]]
+  Block 0 mlp error 1   = -2.8983052394702946e-13
+  Block 0 mlp error 2   = -1.1695078135155507e-15
 ts=7:
   L_embed (L1) = -0.0
-  L_out   (L4) = -0.00010930088319582865
+  L_out   (L4) = -4.4906339389215455e-13
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = -1.9492834326229058e-05
-  Block 0 mlp error 2   = -6.051890011349315e-08
-block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-block.mlp.e_mlp1.target: [[-1.9727428e-05  1.6414469e-04 -4.1419924e-05 ...  9.6402291e-05
-   4.8528338e-05  4.8771402e-05]
- [-1.9120036e-05  1.6366102e-04 -4.2217081e-05 ...  9.6105905e-05
-   4.9470895e-05  4.8087688e-05]
- [-1.9593237e-05  1.6364588e-04 -4.2521802e-05 ...  9.5966512e-05
-   4.9469370e-05  4.8535174e-05]
- ...
- [-1.9639338e-05  1.6389192e-04 -4.2101274e-05 ...  9.6065560e-05
-   4.9055183e-05  4.8706366e-05]
- [-1.9763909e-05  1.6358872e-04 -4.1903433e-05 ...  9.6471071e-05
-   4.9414448e-05  4.8734684e-05]
- [-1.9672018e-05  1.6422389e-04 -4.1994848e-05 ...  9.6120079e-05
-   4.8858001e-05  4.9172158e-05]]
-zmplp2 value  [[-1.9727428e-05  1.6414469e-04 -4.1419924e-05 ...  9.6402291e-05
-   4.8528338e-05  4.8771402e-05]
- [-1.9120036e-05  1.6366102e-04 -4.2217081e-05 ...  9.6105905e-05
-   4.9470895e-05  4.8087688e-05]
- [-1.9593237e-05  1.6364588e-04 -4.2521802e-05 ...  9.5966512e-05
-   4.9469370e-05  4.8535174e-05]
- ...
- [-1.9639338e-05  1.6389192e-04 -4.2101274e-05 ...  9.6065560e-05
-   4.9055183e-05  4.8706366e-05]
- [-1.9763909e-05  1.6358872e-04 -4.1903433e-05 ...  9.6471071e-05
-   4.9414448e-05  4.8734684e-05]
- [-1.9672018e-05  1.6422389e-04 -4.1994848e-05 ...  9.6120079e-05
-   4.8858001e-05  4.9172158e-05]]
-check the surrounding 
-z_mlp2 [[-9.8635483e-06  8.2083810e-05 -2.0709231e-05 ...  4.8205100e-05
-   2.4265173e-05  2.4386713e-05]
- [-9.5598634e-06  8.1841907e-05 -2.1107780e-05 ...  4.8056881e-05
-   2.4736488e-05  2.4044826e-05]
- [-9.7964548e-06  8.1834332e-05 -2.1260130e-05 ...  4.7987174e-05
-   2.4735726e-05  2.4268591e-05]
- ...
- [-9.8195051e-06  8.1957391e-05 -2.1049884e-05 ...  4.8036709e-05
-   2.4528616e-05  2.4354193e-05]
- [-9.8817882e-06  8.1805745e-05 -2.0950969e-05 ...  4.8239497e-05
-   2.4708264e-05  2.4368353e-05]
- [-9.8358450e-06  8.2123421e-05 -2.0996673e-05 ...  4.8063968e-05
-   2.4430017e-05  2.4587109e-05]]
-cheack w_mlp2 [[-9.8635483e-06  8.2083810e-05 -2.0709231e-05 ...  4.8205100e-05
-   2.4265173e-05  2.4386713e-05]
- [-9.5598634e-06  8.1841907e-05 -2.1107780e-05 ...  4.8056881e-05
-   2.4736488e-05  2.4044826e-05]
- [-9.7964548e-06  8.1834332e-05 -2.1260130e-05 ...  4.7987174e-05
-   2.4735726e-05  2.4268591e-05]
- ...
- [-9.8195051e-06  8.1957391e-05 -2.1049884e-05 ...  4.8036709e-05
-   2.4528616e-05  2.4354193e-05]
- [-9.8817882e-06  8.1805745e-05 -2.0950969e-05 ...  4.8239497e-05
-   2.4708264e-05  2.4368353e-05]
- [-9.8358450e-06  8.2123421e-05 -2.0996673e-05 ...  4.8063968e-05
-   2.4430017e-05  2.4587109e-05]]
-block.mlp.e_mlp.mu [[ 2.3217308e-05 -2.4485149e-04  1.9159119e-05 ... -1.0683401e-05
-  -8.7050003e-06  2.8612238e-05]
- [ 2.3242108e-05 -2.4485029e-04  1.9158453e-05 ... -1.0690050e-05
-  -8.6869786e-06  2.8602575e-05]
- [ 2.3227625e-05 -2.4484401e-04  1.9157584e-05 ... -1.0688020e-05
-  -8.6892360e-06  2.8607195e-05]
- ...
- [ 2.3229119e-05 -2.4483755e-04  1.9166608e-05 ... -1.0694901e-05
-  -8.6960599e-06  2.8615683e-05]
- [ 2.3223161e-05 -2.4484243e-04  1.9155619e-05 ... -1.0689604e-05
-  -8.6956470e-06  2.8617973e-05]
- [ 2.3223007e-05 -2.4484092e-04  1.9175970e-05 ... -1.0696959e-05
-  -8.6900363e-06  2.8609844e-05]]
-block.mlp.W_mlp2.outputs [[ 2.3217308e-05 -2.4485149e-04  1.9159119e-05 ... -1.0683401e-05
-  -8.7050003e-06  2.8612238e-05]
- [ 2.3242108e-05 -2.4485029e-04  1.9158453e-05 ... -1.0690050e-05
-  -8.6869786e-06  2.8602575e-05]
- [ 2.3227625e-05 -2.4484401e-04  1.9157584e-05 ... -1.0688020e-05
-  -8.6892360e-06  2.8607195e-05]
- ...
- [ 2.3229119e-05 -2.4483755e-04  1.9166608e-05 ... -1.0694901e-05
-  -8.6960599e-06  2.8615683e-05]
- [ 2.3223161e-05 -2.4484243e-04  1.9155619e-05 ... -1.0689604e-05
-  -8.6956470e-06  2.8617973e-05]
- [ 2.3223007e-05 -2.4484092e-04  1.9175970e-05 ... -1.0696959e-05
-  -8.6900363e-06  2.8609844e-05]]
+  Block 0 mlp error 1   = -1.6067765065512496e-13
+  Block 0 mlp error 2   = -1.0177601669490483e-15
 ts=8:
   L_embed (L1) = -0.0
-  L_out   (L4) = -0.00011155531683471054
+  L_out   (L4) = -4.612514797192047e-13
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = -2.3126733140088618e-05
-  Block 0 mlp error 2   = -4.639113271309725e-08
-block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-block.mlp.e_mlp1.target: [[-2.0450902e-05  1.6407191e-04 -4.1692958e-05 ...  9.6579184e-05
-   4.8813668e-05  4.8976384e-05]
- [-1.9843505e-05  1.6358825e-04 -4.2490137e-05 ...  9.6282849e-05
-   4.9756240e-05  4.8292633e-05]
- [-2.0316693e-05  1.6357312e-04 -4.2794829e-05 ...  9.6143493e-05
-   4.9754719e-05  4.8740079e-05]
- ...
- [-2.0362773e-05  1.6381910e-04 -4.2374413e-05 ...  9.6242533e-05
-   4.9340510e-05  4.8911312e-05]
- [-2.0487345e-05  1.6351591e-04 -4.2176580e-05 ...  9.6648102e-05
-   4.9699807e-05  4.8939582e-05]
- [-2.0395462e-05  1.6415110e-04 -4.2267959e-05 ...  9.6297030e-05
-   4.9143364e-05  4.9377093e-05]]
-zmplp2 value  [[-2.0450902e-05  1.6407191e-04 -4.1692958e-05 ...  9.6579184e-05
-   4.8813668e-05  4.8976384e-05]
- [-1.9843505e-05  1.6358825e-04 -4.2490137e-05 ...  9.6282849e-05
-   4.9756240e-05  4.8292633e-05]
- [-2.0316693e-05  1.6357312e-04 -4.2794829e-05 ...  9.6143493e-05
-   4.9754719e-05  4.8740079e-05]
- ...
- [-2.0362773e-05  1.6381910e-04 -4.2374413e-05 ...  9.6242533e-05
-   4.9340510e-05  4.8911312e-05]
- [-2.0487345e-05  1.6351591e-04 -4.2176580e-05 ...  9.6648102e-05
-   4.9699807e-05  4.8939582e-05]
- [-2.0395462e-05  1.6415110e-04 -4.2267959e-05 ...  9.6297030e-05
-   4.9143364e-05  4.9377093e-05]]
-check the surrounding 
-z_mlp2 [[-1.02252725e-05  8.20474088e-05 -2.08457386e-05 ...  4.82935648e-05
-   2.44078492e-05  2.44892144e-05]
- [-9.92158402e-06  8.18055123e-05 -2.12442992e-05 ...  4.81453681e-05
-   2.48791730e-05  2.41473099e-05]
- [-1.01581709e-05  8.17979453e-05 -2.13966341e-05 ...  4.80756789e-05
-   2.48784127e-05  2.43710510e-05]
- ...
- [-1.01812093e-05  8.19209672e-05 -2.11864444e-05 ...  4.81252064e-05
-   2.46712898e-05  2.44566727e-05]
- [-1.02434942e-05  8.17693290e-05 -2.10875332e-05 ...  4.83280273e-05
-   2.48509550e-05  2.44708099e-05]
- [-1.01975538e-05  8.20870191e-05 -2.11332190e-05 ...  4.81524621e-05
-   2.45727097e-05  2.46895852e-05]]
-cheack w_mlp2 [[-1.02252725e-05  8.20474088e-05 -2.08457386e-05 ...  4.82935648e-05
-   2.44078492e-05  2.44892144e-05]
- [-9.92158402e-06  8.18055123e-05 -2.12442992e-05 ...  4.81453681e-05
-   2.48791730e-05  2.41473099e-05]
- [-1.01581709e-05  8.17979453e-05 -2.13966341e-05 ...  4.80756789e-05
-   2.48784127e-05  2.43710510e-05]
- ...
- [-1.01812093e-05  8.19209672e-05 -2.11864444e-05 ...  4.81252064e-05
-   2.46712898e-05  2.44566727e-05]
- [-1.02434942e-05  8.17693290e-05 -2.10875332e-05 ...  4.83280273e-05
-   2.48509550e-05  2.44708099e-05]
- [-1.01975538e-05  8.20870191e-05 -2.11332190e-05 ...  4.81524621e-05
-   2.45727097e-05  2.46895852e-05]]
-block.mlp.e_mlp.mu [[ 2.32067050e-05 -2.44827155e-04  1.91308591e-05 ... -1.06399566e-05
-  -8.67782182e-06  2.85972492e-05]
- [ 2.32315069e-05 -2.44825962e-04  1.91301879e-05 ... -1.06466023e-05
-  -8.65979928e-06  2.85875849e-05]
- [ 2.32170205e-05 -2.44819676e-04  1.91293166e-05 ... -1.06445705e-05
-  -8.66205755e-06  2.85922015e-05]
- ...
- [ 2.32185157e-05 -2.44813215e-04  1.91383442e-05 ... -1.06514563e-05
-  -8.66888058e-06  2.86006925e-05]
- [ 2.32125567e-05 -2.44818104e-04  1.91273502e-05 ... -1.06461548e-05
-  -8.66846767e-06  2.86029826e-05]
- [ 2.32124039e-05 -2.44816591e-04  1.91477047e-05 ... -1.06535135e-05
-  -8.66285791e-06  2.85948554e-05]]
-block.mlp.W_mlp2.outputs [[ 2.32067050e-05 -2.44827155e-04  1.91308591e-05 ... -1.06399566e-05
-  -8.67782182e-06  2.85972492e-05]
- [ 2.32315069e-05 -2.44825962e-04  1.91301879e-05 ... -1.06466023e-05
-  -8.65979928e-06  2.85875849e-05]
- [ 2.32170205e-05 -2.44819676e-04  1.91293166e-05 ... -1.06445705e-05
-  -8.66205755e-06  2.85922015e-05]
- ...
- [ 2.32185157e-05 -2.44813215e-04  1.91383442e-05 ... -1.06514563e-05
-  -8.66888058e-06  2.86006925e-05]
- [ 2.32125567e-05 -2.44818104e-04  1.91273502e-05 ... -1.06461548e-05
-  -8.66846767e-06  2.86029826e-05]
- [ 2.32124039e-05 -2.44816591e-04  1.91477047e-05 ... -1.06535135e-05
-  -8.66285791e-06  2.85948554e-05]]
+  Block 0 mlp error 1   = -1.873149259399437e-13
+  Block 0 mlp error 2   = -6.120198973298913e-16
 ts=9:
   L_embed (L1) = -0.0
-  L_out   (L4) = -0.00011015273776138201
+  L_out   (L4) = -4.563872066723484e-13
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = -2.084286643366795e-05
-  Block 0 mlp error 2   = -5.486395338039074e-08
-block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-block.mlp.e_mlp1.target: [[-2.0000718e-05  1.6411752e-04 -4.1524920e-05 ...  9.6468008e-05
-   4.8637288e-05  4.8848218e-05]
- [-1.9393314e-05  1.6363386e-04 -4.2322088e-05 ...  9.6171651e-05
-   4.9579852e-05  4.8164478e-05]
- [-1.9866502e-05  1.6361872e-04 -4.2626791e-05 ...  9.6032280e-05
-   4.9578328e-05  4.8611939e-05]
- ...
- [-1.9912604e-05  1.6386472e-04 -4.2206331e-05 ...  9.6131327e-05
-   4.9164129e-05  4.8783160e-05]
- [-2.0037161e-05  1.6356153e-04 -4.2008491e-05 ...  9.6536867e-05
-   4.9523409e-05  4.8811442e-05]
- [-1.9945284e-05  1.6419672e-04 -4.2099888e-05 ...  9.6185831e-05
-   4.8966966e-05  4.9248945e-05]]
-zmplp2 value  [[-2.0000718e-05  1.6411752e-04 -4.1524920e-05 ...  9.6468008e-05
-   4.8637288e-05  4.8848218e-05]
- [-1.9393314e-05  1.6363386e-04 -4.2322088e-05 ...  9.6171651e-05
-   4.9579852e-05  4.8164478e-05]
- [-1.9866502e-05  1.6361872e-04 -4.2626791e-05 ...  9.6032280e-05
-   4.9578328e-05  4.8611939e-05]
- ...
- [-1.9912604e-05  1.6386472e-04 -4.2206331e-05 ...  9.6131327e-05
-   4.9164129e-05  4.8783160e-05]
- [-2.0037161e-05  1.6356153e-04 -4.2008491e-05 ...  9.6536867e-05
-   4.9523409e-05  4.8811442e-05]
- [-1.9945284e-05  1.6419672e-04 -4.2099888e-05 ...  9.6185831e-05
-   4.8966966e-05  4.9248945e-05]]
-check the surrounding 
-z_mlp2 [[-1.0000189e-05  8.2070226e-05 -2.0761727e-05 ...  4.8237966e-05
-   2.4319650e-05  2.4425126e-05]
- [-9.6964977e-06  8.1828322e-05 -2.1160282e-05 ...  4.8089762e-05
-   2.4790972e-05  2.4083227e-05]
- [-9.9330828e-06  8.1820755e-05 -2.1312622e-05 ...  4.8020065e-05
-   2.4790210e-05  2.4306975e-05]
- ...
- [-9.9561339e-06  8.1943792e-05 -2.1102405e-05 ...  4.8069593e-05
-   2.4583092e-05  2.4392592e-05]
- [-1.0018410e-05  8.1792154e-05 -2.1003494e-05 ...  4.8272399e-05
-   2.4762749e-05  2.4406736e-05]
- [-9.9724730e-06  8.2109829e-05 -2.1049191e-05 ...  4.8096856e-05
-   2.4484505e-05  2.4625506e-05]]
-cheack w_mlp2 [[-1.0000189e-05  8.2070226e-05 -2.0761727e-05 ...  4.8237966e-05
-   2.4319650e-05  2.4425126e-05]
- [-9.6964977e-06  8.1828322e-05 -2.1160282e-05 ...  4.8089762e-05
-   2.4790972e-05  2.4083227e-05]
- [-9.9330828e-06  8.1820755e-05 -2.1312622e-05 ...  4.8020065e-05
-   2.4790210e-05  2.4306975e-05]
- ...
- [-9.9561339e-06  8.1943792e-05 -2.1102405e-05 ...  4.8069593e-05
-   2.4583092e-05  2.4392592e-05]
- [-1.0018410e-05  8.1792154e-05 -2.1003494e-05 ...  4.8272399e-05
-   2.4762749e-05  2.4406736e-05]
- [-9.9724730e-06  8.2109829e-05 -2.1049191e-05 ...  4.8096856e-05
-   2.4484505e-05  2.4625506e-05]]
-block.mlp.e_mlp.mu [[ 2.32134571e-05 -2.44842900e-04  1.91485324e-05 ... -1.06668767e-05
-  -8.69483392e-06  2.86063823e-05]
- [ 2.32382572e-05 -2.44841678e-04  1.91478630e-05 ... -1.06735251e-05
-  -8.67681320e-06  2.85967199e-05]
- [ 2.32237726e-05 -2.44835392e-04  1.91469935e-05 ... -1.06714933e-05
-  -8.67907056e-06  2.86013383e-05]
- ...
- [ 2.32252660e-05 -2.44828931e-04  1.91560175e-05 ... -1.06783773e-05
-  -8.68589359e-06  2.86098257e-05]
- [ 2.32193088e-05 -2.44833820e-04  1.91450272e-05 ... -1.06730795e-05
-  -8.68548159e-06  2.86121176e-05]
- [ 2.32191542e-05 -2.44832307e-04  1.91653780e-05 ... -1.06804364e-05
-  -8.67987183e-06  2.86039904e-05]]
-block.mlp.W_mlp2.outputs [[ 2.32134571e-05 -2.44842900e-04  1.91485324e-05 ... -1.06668767e-05
-  -8.69483392e-06  2.86063823e-05]
- [ 2.32382572e-05 -2.44841678e-04  1.91478630e-05 ... -1.06735251e-05
-  -8.67681320e-06  2.85967199e-05]
- [ 2.32237726e-05 -2.44835392e-04  1.91469935e-05 ... -1.06714933e-05
-  -8.67907056e-06  2.86013383e-05]
- ...
- [ 2.32252660e-05 -2.44828931e-04  1.91560175e-05 ... -1.06783773e-05
-  -8.68589359e-06  2.86098257e-05]
- [ 2.32193088e-05 -2.44833820e-04  1.91450272e-05 ... -1.06730795e-05
-  -8.68548159e-06  2.86121176e-05]
- [ 2.32191542e-05 -2.44832307e-04  1.91653780e-05 ... -1.06804364e-05
-  -8.67987183e-06  2.86039904e-05]]
+  Block 0 mlp error 1   = -1.7371271521932075e-13
+  Block 0 mlp error 2   = -6.974120415996759e-16
 ts=10:
   L_embed (L1) = -0.0
-  L_out   (L4) = -0.00011101638665422797
+  L_out   (L4) = -4.582205925460214e-13
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = -2.223924093414098e-05
-  Block 0 mlp error 2   = -4.954024035441762e-08
-block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-block.mlp.e_mlp1.target: [[-2.0280220e-05  1.6408898e-04 -4.1628580e-05 ...  9.6537420e-05
-   4.8746508e-05  4.8928028e-05]
- [-1.9672827e-05  1.6360532e-04 -4.2425756e-05 ...  9.6241070e-05
-   4.9689075e-05  4.8244285e-05]
- [-2.0146015e-05  1.6359020e-04 -4.2730455e-05 ...  9.6101707e-05
-   4.9687555e-05  4.8691742e-05]
- ...
- [-2.0192103e-05  1.6383619e-04 -4.2310014e-05 ...  9.6200747e-05
-   4.9273352e-05  4.8862963e-05]
- [-2.0316673e-05  1.6353300e-04 -4.2112177e-05 ...  9.6606302e-05
-   4.9632639e-05  4.8891245e-05]
- [-2.0224788e-05  1.6416819e-04 -4.2203563e-05 ...  9.6255251e-05
-   4.9076196e-05  4.9328748e-05]]
-zmplp2 value  [[-2.0280220e-05  1.6408898e-04 -4.1628580e-05 ...  9.6537420e-05
-   4.8746508e-05  4.8928028e-05]
- [-1.9672827e-05  1.6360532e-04 -4.2425756e-05 ...  9.6241070e-05
-   4.9689075e-05  4.8244285e-05]
- [-2.0146015e-05  1.6359020e-04 -4.2730455e-05 ...  9.6101707e-05
-   4.9687555e-05  4.8691742e-05]
- ...
- [-2.0192103e-05  1.6383619e-04 -4.2310014e-05 ...  9.6200747e-05
-   4.9273352e-05  4.8862963e-05]
- [-2.0316673e-05  1.6353300e-04 -4.2112177e-05 ...  9.6606302e-05
-   4.9632639e-05  4.8891245e-05]
- [-2.0224788e-05  1.6416819e-04 -4.2203563e-05 ...  9.6255251e-05
-   4.9076196e-05  4.9328748e-05]]
-check the surrounding 
-z_mlp2 [[-1.01399346e-05  8.20559435e-05 -2.08135534e-05 ...  4.82726755e-05
-   2.43742652e-05  2.44650328e-05]
- [-9.83624977e-06  8.18140470e-05 -2.12121122e-05 ...  4.81244751e-05
-   2.48455890e-05  2.41231337e-05]
- [-1.00728348e-05  8.18064873e-05 -2.13644507e-05 ...  4.80547824e-05
-   2.48448287e-05  2.43468803e-05]
- ...
- [-1.00958778e-05  8.19295165e-05 -2.11542447e-05 ...  4.81043135e-05
-   2.46377094e-05  2.44324983e-05]
- [-1.01581609e-05  8.17778709e-05 -2.10553353e-05 ...  4.83071235e-05
-   2.48173674e-05  2.44466391e-05]
- [-1.01122205e-05  8.20955611e-05 -2.11010210e-05 ...  4.81315656e-05
-   2.45391220e-05  2.46654090e-05]]
-cheack w_mlp2 [[-1.01399346e-05  8.20559435e-05 -2.08135534e-05 ...  4.82726755e-05
-   2.43742652e-05  2.44650328e-05]
- [-9.83624977e-06  8.18140470e-05 -2.12121122e-05 ...  4.81244751e-05
-   2.48455890e-05  2.41231337e-05]
- [-1.00728348e-05  8.18064873e-05 -2.13644507e-05 ...  4.80547824e-05
-   2.48448287e-05  2.43468803e-05]
- ...
- [-1.00958778e-05  8.19295165e-05 -2.11542447e-05 ...  4.81043135e-05
-   2.46377094e-05  2.44324983e-05]
- [-1.01581609e-05  8.17778709e-05 -2.10553353e-05 ...  4.83071235e-05
-   2.48173674e-05  2.44466391e-05]
- [-1.01122205e-05  8.20955611e-05 -2.11010210e-05 ...  4.81315656e-05
-   2.45391220e-05  2.46654090e-05]]
-block.mlp.e_mlp.mu [[ 2.3209215e-05 -2.4483289e-04  1.9137522e-05 ... -1.0650203e-05
-  -8.6842247e-06  2.8600796e-05]
- [ 2.3234015e-05 -2.4483170e-04  1.9136853e-05 ... -1.0656851e-05
-  -8.6662039e-06  2.8591134e-05]
- [ 2.3219529e-05 -2.4482538e-04  1.9135981e-05 ... -1.0654820e-05
-  -8.6684613e-06  2.8595752e-05]
- ...
- [ 2.3221024e-05 -2.4481895e-04  1.9145007e-05 ... -1.0661705e-05
-  -8.6752852e-06  2.8604241e-05]
- [ 2.3215065e-05 -2.4482384e-04  1.9134015e-05 ... -1.0656404e-05
-  -8.6748723e-06  2.8606531e-05]
- [ 2.3214912e-05 -2.4482229e-04  1.9154368e-05 ... -1.0663763e-05
-  -8.6692626e-06  2.8598404e-05]]
-block.mlp.W_mlp2.outputs [[ 2.3209215e-05 -2.4483289e-04  1.9137522e-05 ... -1.0650203e-05
-  -8.6842247e-06  2.8600796e-05]
- [ 2.3234015e-05 -2.4483170e-04  1.9136853e-05 ... -1.0656851e-05
-  -8.6662039e-06  2.8591134e-05]
- [ 2.3219529e-05 -2.4482538e-04  1.9135981e-05 ... -1.0654820e-05
-  -8.6684613e-06  2.8595752e-05]
- ...
- [ 2.3221024e-05 -2.4481895e-04  1.9145007e-05 ... -1.0661705e-05
-  -8.6752852e-06  2.8604241e-05]
- [ 2.3215065e-05 -2.4482384e-04  1.9134015e-05 ... -1.0656404e-05
-  -8.6748723e-06  2.8606531e-05]
- [ 2.3214912e-05 -2.4482229e-04  1.9154368e-05 ... -1.0663763e-05
-  -8.6692626e-06  2.8598404e-05]]
+  Block 0 mlp error 1   = -1.7839312113025058e-13
+  Block 0 mlp error 2   = -6.536542666049595e-16
 ts=11:
   L_embed (L1) = -0.0
-  L_out   (L4) = -0.00011048091982956976
+  L_out   (L4) = -4.575117411656504e-13
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = -2.137011688319035e-05
-  Block 0 mlp error 2   = -5.2794710825310176e-08
-block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-block.mlp.e_mlp1.target: [[-2.0106920e-05  1.6410679e-04 -4.1564548e-05 ...  9.6494252e-05
-   4.8678834e-05  4.8878454e-05]
- [-1.9499519e-05  1.6362313e-04 -4.2361717e-05 ...  9.6197895e-05
-   4.9621398e-05  4.8194714e-05]
- [-1.9972707e-05  1.6360800e-04 -4.2666416e-05 ...  9.6058531e-05
-   4.9619877e-05  4.8642170e-05]
- ...
- [-2.0018802e-05  1.6385400e-04 -4.2245971e-05 ...  9.6157572e-05
-   4.9205675e-05  4.8813392e-05]
- [-2.0143365e-05  1.6355081e-04 -4.2048130e-05 ...  9.6563119e-05
-   4.9564958e-05  4.8841674e-05]
- [-2.0051488e-05  1.6418600e-04 -4.2139523e-05 ...  9.6212076e-05
-   4.9008519e-05  4.9279177e-05]]
-zmplp2 value  [[-2.0106920e-05  1.6410679e-04 -4.1564548e-05 ...  9.6494252e-05
-   4.8678834e-05  4.8878454e-05]
- [-1.9499519e-05  1.6362313e-04 -4.2361717e-05 ...  9.6197895e-05
-   4.9621398e-05  4.8194714e-05]
- [-1.9972707e-05  1.6360800e-04 -4.2666416e-05 ...  9.6058531e-05
-   4.9619877e-05  4.8642170e-05]
- ...
- [-2.0018802e-05  1.6385400e-04 -4.2245971e-05 ...  9.6157572e-05
-   4.9205675e-05  4.8813392e-05]
- [-2.0143365e-05  1.6355081e-04 -4.2048130e-05 ...  9.6563119e-05
-   4.9564958e-05  4.8841674e-05]
- [-2.0051488e-05  1.6418600e-04 -4.2139523e-05 ...  9.6212076e-05
-   4.9008519e-05  4.9279177e-05]]
-check the surrounding 
-z_mlp2 [[-1.0053287e-05  8.2064849e-05 -2.0781541e-05 ...  4.8251088e-05
-   2.4340427e-05  2.4440244e-05]
- [-9.7495977e-06  8.1822960e-05 -2.1180096e-05 ...  4.8102887e-05
-   2.4811747e-05  2.4098345e-05]
- [-9.9861845e-06  8.1815386e-05 -2.1332435e-05 ...  4.8033195e-05
-   2.4810986e-05  2.4322091e-05]
- ...
- [-1.0009230e-05  8.1938422e-05 -2.1122225e-05 ...  4.8082722e-05
-   2.4603867e-05  2.4407711e-05]
- [-1.0071510e-05  8.1786791e-05 -2.1023314e-05 ...  4.8285525e-05
-   2.4783525e-05  2.4421854e-05]
- [-1.0025573e-05  8.2104467e-05 -2.1069005e-05 ...  4.8109978e-05
-   2.4505282e-05  2.4640622e-05]]
-cheack w_mlp2 [[-1.0053287e-05  8.2064849e-05 -2.0781541e-05 ...  4.8251088e-05
-   2.4340427e-05  2.4440244e-05]
- [-9.7495977e-06  8.1822960e-05 -2.1180096e-05 ...  4.8102887e-05
-   2.4811747e-05  2.4098345e-05]
- [-9.9861845e-06  8.1815386e-05 -2.1332435e-05 ...  4.8033195e-05
-   2.4810986e-05  2.4322091e-05]
- ...
- [-1.0009230e-05  8.1938422e-05 -2.1122225e-05 ...  4.8082722e-05
-   2.4603867e-05  2.4407711e-05]
- [-1.0071510e-05  8.1786791e-05 -2.1023314e-05 ...  4.8285525e-05
-   2.4783525e-05  2.4421854e-05]
- [-1.0025573e-05  8.2104467e-05 -2.1069005e-05 ...  4.8109978e-05
-   2.4505282e-05  2.4640622e-05]]
-block.mlp.e_mlp.mu [[ 2.32118618e-05 -2.44839175e-04  1.91443651e-05 ... -1.06605276e-05
-  -8.69082305e-06  2.86042232e-05]
- [ 2.32366619e-05 -2.44837982e-04  1.91436975e-05 ... -1.06671741e-05
-  -8.67280141e-06  2.85945589e-05]
- [ 2.32221755e-05 -2.44831695e-04  1.91428244e-05 ... -1.06651432e-05
-  -8.67505878e-06  2.85991773e-05]
- ...
- [ 2.32236707e-05 -2.44825234e-04  1.91518502e-05 ... -1.06720272e-05
-  -8.68188272e-06  2.86076665e-05]
- [ 2.32177117e-05 -2.44830124e-04  1.91408581e-05 ... -1.06667276e-05
-  -8.68146981e-06  2.86099566e-05]
- [ 2.32175589e-05 -2.44828610e-04  1.91612125e-05 ... -1.06740845e-05
-  -8.67586004e-06  2.86018294e-05]]
-block.mlp.W_mlp2.outputs [[ 2.32118618e-05 -2.44839175e-04  1.91443651e-05 ... -1.06605276e-05
-  -8.69082305e-06  2.86042232e-05]
- [ 2.32366619e-05 -2.44837982e-04  1.91436975e-05 ... -1.06671741e-05
-  -8.67280141e-06  2.85945589e-05]
- [ 2.32221755e-05 -2.44831695e-04  1.91428244e-05 ... -1.06651432e-05
-  -8.67505878e-06  2.85991773e-05]
- ...
- [ 2.32236707e-05 -2.44825234e-04  1.91518502e-05 ... -1.06720272e-05
-  -8.68188272e-06  2.86076665e-05]
- [ 2.32177117e-05 -2.44830124e-04  1.91408581e-05 ... -1.06667276e-05
-  -8.68146981e-06  2.86099566e-05]
- [ 2.32175589e-05 -2.44828610e-04  1.91612125e-05 ... -1.06740845e-05
-  -8.67586004e-06  2.86018294e-05]]
+  Block 0 mlp error 1   = -1.7651806123557268e-13
+  Block 0 mlp error 2   = -6.688982126775767e-16
 ts=12:
   L_embed (L1) = -0.0
-  L_out   (L4) = -0.00011081160482717678
+  L_out   (L4) = -4.57783767490727e-13
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = -2.1905394532950595e-05
-  Block 0 mlp error 2   = -5.076921993918404e-08
-block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-block.mlp.e_mlp1.target: [[-2.0214284e-05  1.6409571e-04 -4.1604133e-05 ...  9.6521035e-05
-   4.8720769e-05  4.8909198e-05]
- [-1.9606887e-05  1.6361204e-04 -4.2401305e-05 ...  9.6224685e-05
-   4.9663337e-05  4.8225458e-05]
- [-2.0080075e-05  1.6359691e-04 -4.2706004e-05 ...  9.6085321e-05
-   4.9661812e-05  4.8672915e-05]
- ...
- [-2.0126168e-05  1.6384291e-04 -4.2285559e-05 ...  9.6184362e-05
-   4.9247614e-05  4.8844136e-05]
- [-2.0250734e-05  1.6353972e-04 -4.2087722e-05 ...  9.6589916e-05
-   4.9606897e-05  4.8872418e-05]
- [-2.0158852e-05  1.6417490e-04 -4.2179112e-05 ...  9.6238866e-05
-   4.9050454e-05  4.9309921e-05]]
-zmplp2 value  [[-2.0214284e-05  1.6409571e-04 -4.1604133e-05 ...  9.6521035e-05
-   4.8720769e-05  4.8909198e-05]
- [-1.9606887e-05  1.6361204e-04 -4.2401305e-05 ...  9.6224685e-05
-   4.9663337e-05  4.8225458e-05]
- [-2.0080075e-05  1.6359691e-04 -4.2706004e-05 ...  9.6085321e-05
-   4.9661812e-05  4.8672915e-05]
- ...
- [-2.0126168e-05  1.6384291e-04 -4.2285559e-05 ...  9.6184362e-05
-   4.9247614e-05  4.8844136e-05]
- [-2.0250734e-05  1.6353972e-04 -4.2087722e-05 ...  9.6589916e-05
-   4.9606897e-05  4.8872418e-05]
- [-2.0158852e-05  1.6417490e-04 -4.2179112e-05 ...  9.6238866e-05
-   4.9050454e-05  4.9309921e-05]]
-check the surrounding 
-z_mlp2 [[-1.01069681e-05  8.20593050e-05 -2.08013298e-05 ...  4.82644828e-05
-   2.43613958e-05  2.44556159e-05]
- [-9.80327968e-06  8.18174085e-05 -2.11998886e-05 ...  4.81162824e-05
-   2.48327196e-05  2.41137186e-05]
- [-1.00398656e-05  8.18098415e-05 -2.13522253e-05 ...  4.80465897e-05
-   2.48319575e-05  2.43374670e-05]
- ...
- [-1.00629113e-05  8.19328779e-05 -2.11420192e-05 ...  4.80961207e-05
-   2.46248401e-05  2.44230851e-05]
- [-1.01251935e-05  8.17812324e-05 -2.10431081e-05 ...  4.82989308e-05
-   2.48044944e-05  2.44372259e-05]
- [-1.00792531e-05  8.20989153e-05 -2.10887993e-05 ...  4.81233728e-05
-   2.45262509e-05  2.46559957e-05]]
-cheack w_mlp2 [[-1.01069681e-05  8.20593050e-05 -2.08013298e-05 ...  4.82644828e-05
-   2.43613958e-05  2.44556159e-05]
- [-9.80327968e-06  8.18174085e-05 -2.11998886e-05 ...  4.81162824e-05
-   2.48327196e-05  2.41137186e-05]
- [-1.00398656e-05  8.18098415e-05 -2.13522253e-05 ...  4.80465897e-05
-   2.48319575e-05  2.43374670e-05]
- ...
- [-1.00629113e-05  8.19328779e-05 -2.11420192e-05 ...  4.80961207e-05
-   2.46248401e-05  2.44230851e-05]
- [-1.01251935e-05  8.17812324e-05 -2.10431081e-05 ...  4.82989308e-05
-   2.48044944e-05  2.44372259e-05]
- [-1.00792531e-05  8.20989153e-05 -2.10887993e-05 ...  4.81233728e-05
-   2.45262509e-05  2.46559957e-05]]
-block.mlp.e_mlp.mu [[ 2.3210217e-05 -2.4483525e-04  1.9140120e-05 ... -1.0654137e-05
-  -8.6867267e-06  2.8602117e-05]
- [ 2.3235018e-05 -2.4483405e-04  1.9139450e-05 ... -1.0660785e-05
-  -8.6687060e-06  2.8592453e-05]
- [ 2.3220531e-05 -2.4482774e-04  1.9138577e-05 ... -1.0658752e-05
-  -8.6709633e-06  2.8597073e-05]
- ...
- [ 2.3222026e-05 -2.4482131e-04  1.9147605e-05 ... -1.0665637e-05
-  -8.6777864e-06  2.8605560e-05]
- [ 2.3216069e-05 -2.4482619e-04  1.9136613e-05 ... -1.0660338e-05
-  -8.6773744e-06  2.8607850e-05]
- [ 2.3215915e-05 -2.4482465e-04  1.9156965e-05 ... -1.0667694e-05
-  -8.6717637e-06  2.8599723e-05]]
-block.mlp.W_mlp2.outputs [[ 2.3210217e-05 -2.4483525e-04  1.9140120e-05 ... -1.0654137e-05
-  -8.6867267e-06  2.8602117e-05]
- [ 2.3235018e-05 -2.4483405e-04  1.9139450e-05 ... -1.0660785e-05
-  -8.6687060e-06  2.8592453e-05]
- [ 2.3220531e-05 -2.4482774e-04  1.9138577e-05 ... -1.0658752e-05
-  -8.6709633e-06  2.8597073e-05]
- ...
- [ 2.3222026e-05 -2.4482131e-04  1.9147605e-05 ... -1.0665637e-05
-  -8.6777864e-06  2.8605560e-05]
- [ 2.3216069e-05 -2.4482619e-04  1.9136613e-05 ... -1.0660338e-05
-  -8.6773744e-06  2.8607850e-05]
- [ 2.3215915e-05 -2.4482465e-04  1.9156965e-05 ... -1.0667694e-05
-  -8.6717637e-06  2.8599723e-05]]
+  Block 0 mlp error 1   = -1.7722561157333672e-13
+  Block 0 mlp error 2   = -6.627283717502172e-16
 ts=13:
   L_embed (L1) = -0.0
-  L_out   (L4) = -0.00011060683755204082
+  L_out   (L4) = -4.576787083002132e-13
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = -2.157346170861274e-05
-  Block 0 mlp error 2   = -5.201665942422551e-08
-block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-block.mlp.e_mlp1.target: [[-2.0147801e-05  1.6410260e-04 -4.1579649e-05 ...  9.6504431e-05
-   4.8694790e-05  4.8890150e-05]
- [-1.9540403e-05  1.6361894e-04 -4.2376822e-05 ...  9.6208081e-05
-   4.9637354e-05  4.8206406e-05]
- [-2.0013591e-05  1.6360381e-04 -4.2681520e-05 ...  9.6068718e-05
-   4.9635830e-05  4.8653863e-05]
- ...
- [-2.0059684e-05  1.6384981e-04 -4.2261076e-05 ...  9.6167765e-05
-   4.9221631e-05  4.8825088e-05]
- [-2.0184249e-05  1.6354662e-04 -4.2063239e-05 ...  9.6573305e-05
-   4.9580914e-05  4.8853370e-05]
- [-2.0092370e-05  1.6418179e-04 -4.2154628e-05 ...  9.6222262e-05
-   4.9024471e-05  4.9290873e-05]]
-zmplp2 value  [[-2.0147801e-05  1.6410260e-04 -4.1579649e-05 ...  9.6504431e-05
-   4.8694790e-05  4.8890150e-05]
- [-1.9540403e-05  1.6361894e-04 -4.2376822e-05 ...  9.6208081e-05
-   4.9637354e-05  4.8206406e-05]
- [-2.0013591e-05  1.6360381e-04 -4.2681520e-05 ...  9.6068718e-05
-   4.9635830e-05  4.8653863e-05]
- ...
- [-2.0059684e-05  1.6384981e-04 -4.2261076e-05 ...  9.6167765e-05
-   4.9221631e-05  4.8825088e-05]
- [-2.0184249e-05  1.6354662e-04 -4.2063239e-05 ...  9.6573305e-05
-   4.9580914e-05  4.8853370e-05]
- [-2.0092370e-05  1.6418179e-04 -4.2154628e-05 ...  9.6222262e-05
-   4.9024471e-05  4.9290873e-05]]
-check the surrounding 
-z_mlp2 [[-1.00737279e-05  8.20627538e-05 -2.07890880e-05 ...  4.82561773e-05
-   2.43484046e-05  2.44460916e-05]
- [-9.77003856e-06  8.18208646e-05 -2.11876486e-05 ...  4.81079805e-05
-   2.48197248e-05  2.41041907e-05]
- [-1.00066245e-05  8.18132903e-05 -2.13399871e-05 ...  4.80382878e-05
-   2.48189626e-05  2.43279374e-05]
- ...
- [-1.00296711e-05  8.19363268e-05 -2.11297775e-05 ...  4.80878189e-05
-   2.46118452e-05  2.44135590e-05]
- [-1.00919515e-05  8.17846885e-05 -2.10308681e-05 ...  4.82906180e-05
-   2.47915032e-05  2.44277016e-05]
- [-1.00460120e-05  8.21023641e-05 -2.10765575e-05 ...  4.81150710e-05
-   2.45132578e-05  2.46464715e-05]]
-cheack w_mlp2 [[-1.00737279e-05  8.20627538e-05 -2.07890880e-05 ...  4.82561773e-05
-   2.43484046e-05  2.44460916e-05]
- [-9.77003856e-06  8.18208646e-05 -2.11876486e-05 ...  4.81079805e-05
-   2.48197248e-05  2.41041907e-05]
- [-1.00066245e-05  8.18132903e-05 -2.13399871e-05 ...  4.80382878e-05
-   2.48189626e-05  2.43279374e-05]
- ...
- [-1.00296711e-05  8.19363268e-05 -2.11297775e-05 ...  4.80878189e-05
-   2.46118452e-05  2.44135590e-05]
- [-1.00919515e-05  8.17846885e-05 -2.10308681e-05 ...  4.82906180e-05
-   2.47915032e-05  2.44277016e-05]
- [-1.00460120e-05  8.21023641e-05 -2.10765575e-05 ...  4.81150710e-05
-   2.45132578e-05  2.46464715e-05]]
-block.mlp.e_mlp.mu [[ 2.32112361e-05 -2.44837691e-04  1.91427516e-05 ... -1.06580919e-05
-  -8.68926691e-06  2.86034156e-05]
- [ 2.32360362e-05 -2.44836498e-04  1.91420822e-05 ... -1.06647394e-05
-  -8.67124618e-06  2.85937494e-05]
- [ 2.32215498e-05 -2.44830211e-04  1.91412109e-05 ... -1.06627076e-05
-  -8.67350263e-06  2.85983697e-05]
- ...
- [ 2.32230450e-05 -2.44823750e-04  1.91502368e-05 ... -1.06695925e-05
-  -8.68032566e-06  2.86068571e-05]
- [ 2.32170878e-05 -2.44828640e-04  1.91392428e-05 ... -1.06642938e-05
-  -8.67991366e-06  2.86091472e-05]
- [ 2.32169332e-05 -2.44827126e-04  1.91595973e-05 ... -1.06716507e-05
-  -8.67430390e-06  2.86010218e-05]]
-block.mlp.W_mlp2.outputs [[ 2.32112361e-05 -2.44837691e-04  1.91427516e-05 ... -1.06580919e-05
-  -8.68926691e-06  2.86034156e-05]
- [ 2.32360362e-05 -2.44836498e-04  1.91420822e-05 ... -1.06647394e-05
-  -8.67124618e-06  2.85937494e-05]
- [ 2.32215498e-05 -2.44830211e-04  1.91412109e-05 ... -1.06627076e-05
-  -8.67350263e-06  2.85983697e-05]
- ...
- [ 2.32230450e-05 -2.44823750e-04  1.91502368e-05 ... -1.06695925e-05
-  -8.68032566e-06  2.86068571e-05]
- [ 2.32170878e-05 -2.44828640e-04  1.91392428e-05 ... -1.06642938e-05
-  -8.67991366e-06  2.86091472e-05]
- [ 2.32169332e-05 -2.44827126e-04  1.91595973e-05 ... -1.06716507e-05
-  -8.67430390e-06  2.86010218e-05]]
+  Block 0 mlp error 1   = -1.769514303964423e-13
+  Block 0 mlp error 2   = -6.650885231786229e-16
 ts=14:
   L_embed (L1) = -0.0
-  L_out   (L4) = -0.00011073343921452761
+  L_out   (L4) = -4.577192032513555e-13
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = -2.177848909923341e-05
-  Block 0 mlp error 2   = -5.124309154780349e-08
-block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-block.mlp.e_mlp1.target: [[-2.0188956e-05  1.6409831e-04 -4.1594794e-05 ...  9.6514719e-05
-   4.8710881e-05  4.8901944e-05]
- [-1.9581559e-05  1.6361466e-04 -4.2391966e-05 ...  9.6218369e-05
-   4.9653449e-05  4.8218204e-05]
- [-2.0054749e-05  1.6359953e-04 -4.2696669e-05 ...  9.6078998e-05
-   4.9651924e-05  4.8665661e-05]
- ...
- [-2.0100841e-05  1.6384551e-04 -4.2276224e-05 ...  9.6178046e-05
-   4.9237726e-05  4.8836882e-05]
- [-2.0225407e-05  1.6354234e-04 -4.2078384e-05 ...  9.6583593e-05
-   4.9597009e-05  4.8865164e-05]
- [-2.0133524e-05  1.6417752e-04 -4.2169773e-05 ...  9.6232550e-05
-   4.9040566e-05  4.9302667e-05]]
-zmplp2 value  [[-2.0188956e-05  1.6409831e-04 -4.1594794e-05 ...  9.6514719e-05
-   4.8710881e-05  4.8901944e-05]
- [-1.9581559e-05  1.6361466e-04 -4.2391966e-05 ...  9.6218369e-05
-   4.9653449e-05  4.8218204e-05]
- [-2.0054749e-05  1.6359953e-04 -4.2696669e-05 ...  9.6078998e-05
-   4.9651924e-05  4.8665661e-05]
- ...
- [-2.0100841e-05  1.6384551e-04 -4.2276224e-05 ...  9.6178046e-05
-   4.9237726e-05  4.8836882e-05]
- [-2.0225407e-05  1.6354234e-04 -4.2078384e-05 ...  9.6583593e-05
-   4.9597009e-05  4.8865164e-05]
- [-2.0133524e-05  1.6417752e-04 -4.2169773e-05 ...  9.6232550e-05
-   4.9040566e-05  4.9302667e-05]]
-check the surrounding 
-z_mlp2 [[-1.00943043e-05  8.20606074e-05 -2.07966605e-05 ...  4.82613250e-05
-   2.43564500e-05  2.44519888e-05]
- [-9.79061588e-06  8.18187254e-05 -2.11952192e-05 ...  4.81131246e-05
-   2.48277756e-05  2.41100915e-05]
- [-1.00272036e-05  8.18111512e-05 -2.13475578e-05 ...  4.80434283e-05
-   2.48270135e-05  2.43338400e-05]
- ...
- [-1.00502475e-05  8.19341803e-05 -2.11373517e-05 ...  4.80929630e-05
-   2.46198961e-05  2.44194580e-05]
- [-1.01125297e-05  8.17825421e-05 -2.10384387e-05 ...  4.82957694e-05
-   2.47995504e-05  2.44335988e-05]
- [-1.00665893e-05  8.21002250e-05 -2.10841299e-05 ...  4.81202151e-05
-   2.45213050e-05  2.46523687e-05]]
-cheack w_mlp2 [[-1.00943043e-05  8.20606074e-05 -2.07966605e-05 ...  4.82613250e-05
-   2.43564500e-05  2.44519888e-05]
- [-9.79061588e-06  8.18187254e-05 -2.11952192e-05 ...  4.81131246e-05
-   2.48277756e-05  2.41100915e-05]
- [-1.00272036e-05  8.18111512e-05 -2.13475578e-05 ...  4.80434283e-05
-   2.48270135e-05  2.43338400e-05]
- ...
- [-1.00502475e-05  8.19341803e-05 -2.11373517e-05 ...  4.80929630e-05
-   2.46198961e-05  2.44194580e-05]
- [-1.01125297e-05  8.17825421e-05 -2.10384387e-05 ...  4.82957694e-05
-   2.47995504e-05  2.44335988e-05]
- [-1.00665893e-05  8.21002250e-05 -2.10841299e-05 ...  4.81202151e-05
-   2.45213050e-05  2.46523687e-05]]
-block.mlp.e_mlp.mu [[ 2.32106049e-05 -2.44836177e-04  1.91411200e-05 ... -1.06556436e-05
-  -8.68769257e-06  2.86026152e-05]
- [ 2.32354050e-05 -2.44834984e-04  1.91404506e-05 ... -1.06622920e-05
-  -8.66967275e-06  2.85929509e-05]
- [ 2.32209204e-05 -2.44828669e-04  1.91395811e-05 ... -1.06602602e-05
-  -8.67193012e-06  2.85975675e-05]
- ...
- [ 2.32224138e-05 -2.44822208e-04  1.91486051e-05 ... -1.06671441e-05
-  -8.67875315e-06  2.86060567e-05]
- [ 2.32164548e-05 -2.44827097e-04  1.91376130e-05 ... -1.06618445e-05
-  -8.67834024e-06  2.86083487e-05]
- [ 2.32163020e-05 -2.44825584e-04  1.91579675e-05 ... -1.06692032e-05
-  -8.67272956e-06  2.86002214e-05]]
-block.mlp.W_mlp2.outputs [[ 2.32106049e-05 -2.44836177e-04  1.91411200e-05 ... -1.06556436e-05
-  -8.68769257e-06  2.86026152e-05]
- [ 2.32354050e-05 -2.44834984e-04  1.91404506e-05 ... -1.06622920e-05
-  -8.66967275e-06  2.85929509e-05]
- [ 2.32209204e-05 -2.44828669e-04  1.91395811e-05 ... -1.06602602e-05
-  -8.67193012e-06  2.85975675e-05]
- ...
- [ 2.32224138e-05 -2.44822208e-04  1.91486051e-05 ... -1.06671441e-05
-  -8.67875315e-06  2.86060567e-05]
- [ 2.32164548e-05 -2.44827097e-04  1.91376130e-05 ... -1.06618445e-05
-  -8.67834024e-06  2.86083487e-05]
- [ 2.32163020e-05 -2.44825584e-04  1.91579675e-05 ... -1.06692032e-05
-  -8.67272956e-06  2.86002214e-05]]
+  Block 0 mlp error 1   = -1.770569910304609e-13
+  Block 0 mlp error 2   = -6.641576339695904e-16
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -4.577035907400717e-13
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.7701610305603105e-13
+  Block 0 mlp error 2   = -6.645201640710153e-16
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -4.577096622722376e-13
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.7703179688247778e-13
+  Block 0 mlp error 2   = -6.64379027206179e-16
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -4.577073312375668e-13
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.7702573890283901e-13
+  Block 0 mlp error 2   = -6.644301668203695e-16
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -4.577081985993048e-13
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.7702820546278142e-13
+  Block 0 mlp error 2   = -6.644086204197737e-16
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -4.57707873338653e-13
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.7702722968082618e-13
+  Block 0 mlp error 2   = -6.644172495679239e-16
+  Batch 0: EFE = -0.0000, CE = 16.1181, PPL = 10000055.0000
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.6523282527923584
+  L_out   (L4) = -0.0022450871765613556
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.793147571850568e-06
+  Block 0 mlp error 2   = -1.3896689779357985e-05
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -0.0011217795545235276
+  Block 0 attention error = -2.4696810214663856e-06
+  Block 0 mlp error 1   = -1.697274498724255e-08
+  Block 0 mlp error 2   = -3.2237831959491814e-08
+ts=2:
+  L_embed (L1) = -1.3444022783914988e-08
+  L_out   (L4) = -0.001493567368015647
+  Block 0 attention error = -4.148036168771796e-06
+  Block 0 mlp error 1   = -0.000699445721693337
+  Block 0 mlp error 2   = -1.077158895412822e-08
+ts=3:
+  L_embed (L1) = -1.9846659427003033e-08
+  L_out   (L4) = -0.0013372787507250905
+  Block 0 attention error = -4.667190028548318e-13
+  Block 0 mlp error 1   = -0.00026196142425760627
+  Block 0 mlp error 2   = -2.5732681478984887e-06
+ts=4:
+  L_embed (L1) = -3.5028054387570935e-15
+  L_out   (L4) = -0.0013974743196740746
+  Block 0 attention error = -1.7015531236612425e-13
+  Block 0 mlp error 1   = -0.0004091610899195075
+  Block 0 mlp error 2   = -9.831819625105709e-07
+ts=5:
+  L_embed (L1) = -1.1227845232329378e-15
+  L_out   (L4) = -0.001373379840515554
+  Block 0 attention error = -1.586645764470021e-19
+  Block 0 mlp error 1   = -0.0003470552619546652
+  Block 0 mlp error 2   = -1.5427091284436756e-06
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.001382912159897387
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -0.00037103635258972645
+  Block 0 mlp error 2   = -1.3053085012870724e-06
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0013791092205792665
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00036141049349680543
+  Block 0 mlp error 2   = -1.3974859029985964e-06
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.001380626461468637
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00036522868322208524
+  Block 0 mlp error 2   = -1.3602716535388026e-06
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.001380019006319344
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0003637010813690722
+  Block 0 mlp error 2   = -1.3751146070717368e-06
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0013802628964185715
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0003643122618086636
+  Block 0 mlp error 2   = -1.3691435469809221e-06
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0013801647583022714
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0003640669456217438
+  Block 0 mlp error 2   = -1.3715475688513834e-06
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0013802043395116925
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0003641658404376358
+  Block 0 mlp error 2   = -1.370576569570403e-06
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0013801881577819586
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0003641254152171314
+  Block 0 mlp error 2   = -1.3709689028473804e-06
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0013801946770399809
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00036414212081581354
+  Block 0 mlp error 2   = -1.3708108781429473e-06
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0013801921159029007
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.000364135077688843
+  Block 0 mlp error 2   = -1.370874315398396e-06
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.001380193280056119
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0003641375806182623
+  Block 0 mlp error 2   = -1.3708475989915314e-06
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0013801928143948317
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0003641365037765354
+  Block 0 mlp error 2   = -1.370857944493764e-06
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0013801930472254753
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00036413688212633133
+  Block 0 mlp error 2   = -1.370853851767606e-06
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0013801928143948317
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0003641367075033486
+  Block 0 mlp error 2   = -1.3708554433833342e-06
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.6576250195503235
+  L_out   (L4) = -0.00014245697821024805
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.035687303869054e-07
+  Block 0 mlp error 2   = -2.126443177985493e-05
+ts=1:
+  L_embed (L1) = -0.5772592425346375
+  L_out   (L4) = -0.00011884491686942056
+  Block 0 attention error = -2.9673665267182514e-06
+  Block 0 mlp error 1   = -1.951580053116686e-08
+  Block 0 mlp error 2   = -2.39866881912576e-09
+ts=2:
+  L_embed (L1) = -1.690473894200295e-08
+  L_out   (L4) = -0.00012726039858534932
+  Block 0 attention error = -4.148058451391989e-06
+  Block 0 mlp error 1   = -1.4665124581370037e-05
+  Block 0 mlp error 2   = -1.3341959537171988e-08
+ts=3:
+  L_embed (L1) = -1.9846883247964797e-08
+  L_out   (L4) = -0.00012334156781435013
+  Block 0 attention error = -4.91945134802052e-13
+  Block 0 mlp error 1   = -4.590836397255771e-06
+  Block 0 mlp error 2   = -5.723433815774115e-08
+ts=4:
+  L_embed (L1) = -3.621779898286669e-15
+  L_out   (L4) = -0.0001249706110684201
+  Block 0 attention error = -1.701600150930474e-13
+  Block 0 mlp error 1   = -8.221510142902844e-06
+  Block 0 mlp error 2   = -1.5614315174161675e-08
+ts=5:
+  L_embed (L1) = -1.1228145929025653e-15
+  L_out   (L4) = -0.00012425638851709664
+  Block 0 attention error = -1.5301635457994275e-19
+  Block 0 mlp error 1   = -6.5286226345051546e-06
+  Block 0 mlp error 2   = -2.818339339683007e-08
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.000124563550343737
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -7.235651082737604e-06
+  Block 0 mlp error 2   = -2.229802298359118e-08
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00012442999286577106
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -6.925009984115604e-06
+  Block 0 mlp error 2   = -2.476389937555723e-08
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00012448792404029518
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.058822120598052e-06
+  Block 0 mlp error 2   = -2.3677040772440705e-08
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00012446270557120442
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.000543973845197e-06
+  Block 0 mlp error 2   = -2.414653366145103e-08
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00012447369226720184
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.0258511186693795e-06
+  Block 0 mlp error 2   = -2.3941499449620096e-08
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0001244689046870917
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.014828042883892e-06
+  Block 0 mlp error 2   = -2.4030795131579907e-08
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0001244710001628846
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.019630174909253e-06
+  Block 0 mlp error 2   = -2.3991786335386678e-08
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0001244700833922252
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.0175319706322625e-06
+  Block 0 mlp error 2   = -2.4008828702903884e-08
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00012447047629393637
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.01844874129165e-06
+  Block 0 mlp error 2   = -2.400138043867628e-08
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0001244702871190384
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.018045835138764e-06
+  Block 0 mlp error 2   = -2.400463472440606e-08
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.000124470388982445
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.0182209128688555e-06
+  Block 0 mlp error 2   = -2.4003199428079824e-08
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0001244703307747841
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.018147698545363e-06
+  Block 0 mlp error 2   = -2.4003828258400972e-08
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00012447034532669932
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.018178621365223e-06
+  Block 0 mlp error 2   = -2.4003556475804544e-08
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00012447034532669932
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.0181667979341e-06
+  Block 0 mlp error 2   = -2.4003673715355944e-08
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.6207212209701538
+  L_out   (L4) = -0.0009808376198634505
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.971069650608115e-06
+  Block 0 mlp error 2   = -1.5952186004142277e-05
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -0.00046845339238643646
+  Block 0 attention error = -2.2047795482649235e-06
+  Block 0 mlp error 1   = -1.3118889086172203e-08
+  Block 0 mlp error 2   = -6.156689380532043e-09
+ts=2:
+  L_embed (L1) = -1.1454184267734036e-08
+  L_out   (L4) = -0.000666098902001977
+  Block 0 attention error = -4.1480416257400066e-06
+  Block 0 mlp error 1   = -0.000333946431055665
+  Block 0 mlp error 2   = -1.0151445017925198e-08
+ts=3:
+  L_embed (L1) = -1.9846773113840754e-08
+  L_out   (L4) = -0.0005663636839017272
+  Block 0 attention error = -4.2348362230132386e-13
+  Block 0 mlp error 1   = -9.79910691967234e-05
+  Block 0 mlp error 2   = -1.1559467338884133e-06
+ts=4:
+  L_embed (L1) = -3.3043587482260934e-15
+  L_out   (L4) = -0.0006110370741225779
+  Block 0 attention error = -1.701611264002742e-13
+  Block 0 mlp error 1   = -0.00019004810019396245
+  Block 0 mlp error 2   = -3.1460615446121665e-07
+ts=5:
+  L_embed (L1) = -1.122815016419039e-15
+  L_out   (L4) = -0.0005898440722376108
+  Block 0 attention error = -1.4622575751285645e-19
+  Block 0 mlp error 1   = -0.00014342405484057963
+  Block 0 mlp error 2   = -6.114945563240326e-07
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0005996481631882489
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -0.0001643170544411987
+  Block 0 mlp error 2   = -4.608353947332944e-07
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0005950500490143895
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00015438825357705355
+  Block 0 mlp error 2   = -5.284578605824208e-07
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00059719622367993
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00015898645506240427
+  Block 0 mlp error 2   = -4.962672619512887e-07
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0005961906863376498
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00015682746015954763
+  Block 0 mlp error 2   = -5.111969585414045e-07
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0005966615281067789
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00015783580602146685
+  Block 0 mlp error 2   = -5.041775921199587e-07
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0005964406882412732
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0001573631598148495
+  Block 0 mlp error 2   = -5.074606406196835e-07
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0005965442978776991
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00015758447989355773
+  Block 0 mlp error 2   = -5.059197292212048e-07
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0005964956944808364
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00015748059377074242
+  Block 0 mlp error 2   = -5.066424364486011e-07
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0005965184536762536
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0001575294736539945
+  Block 0 mlp error 2   = -5.063028538643266e-07
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0005965077434666455
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00015750651073176414
+  Block 0 mlp error 2   = -5.064620154371369e-07
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.000596512749325484
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00015751743922010064
+  Block 0 mlp error 2   = -5.063875505584292e-07
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0005965104792267084
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00015751217142678797
+  Block 0 mlp error 2   = -5.064225092610286e-07
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0005965115269646049
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00015751461614854634
+  Block 0 mlp error 2   = -5.064059678261401e-07
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0005965110030956566
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00015751345199532807
+  Block 0 mlp error 2   = -5.064139259047806e-07
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.6650532484054565
+  L_out   (L4) = -0.0014847510028630495
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -4.133322818233864e-06
+  Block 0 mlp error 2   = -2.5138335786323296e-06
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -0.0005150843062438071
+  Block 0 attention error = -2.7205146579944994e-06
+  Block 0 mlp error 1   = -1.4908710932459712e-09
+  Block 0 mlp error 2   = -1.2467872956278825e-08
+ts=2:
+  L_embed (L1) = -1.544606931247472e-08
+  L_out   (L4) = -0.0009190948330797255
+  Block 0 attention error = -4.148087100475095e-06
+  Block 0 mlp error 1   = -0.0006469873478636146
+  Block 0 mlp error 2   = -1.2953488948141967e-08
+ts=3:
+  L_embed (L1) = -1.984714259606335e-08
+  L_out   (L4) = -0.0006948681548237801
+  Block 0 attention error = -4.807759550716495e-13
+  Block 0 mlp error 1   = -0.00016129363211803138
+  Block 0 mlp error 2   = -2.0004817997687496e-06
+ts=4:
+  L_embed (L1) = -3.5530173401120916e-15
+  L_out   (L4) = -0.0008031424367800355
+  Block 0 attention error = -1.7016477203007918e-13
+  Block 0 mlp error 1   = -0.000365760934073478
+  Block 0 mlp error 2   = -4.7347077725135023e-07
+ts=5:
+  L_embed (L1) = -1.1228145929025653e-15
+  L_out   (L4) = -0.0007468731491826475
+  Block 0 attention error = -1.3989867885683248e-19
+  Block 0 mlp error 1   = -0.0002518078836146742
+  Block 0 mlp error 2   = -1.073018438546569e-06
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0007751035154797137
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -0.00030689244158566
+  Block 0 mlp error 2   = -7.387661185020988e-07
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.000760652415920049
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0002782082883641124
+  Block 0 mlp error 2   = -9.0041567091248e-07
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0007679861155338585
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0002926157903857529
+  Block 0 mlp error 2   = -8.162005542544648e-07
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0007642429554834962
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0002852321485988796
+  Block 0 mlp error 2   = -8.58516955304367e-07
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0007661498966626823
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00028898188611492515
+  Block 0 mlp error 2   = -8.368219255316944e-07
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00076517672277987
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.000287066912278533
+  Block 0 mlp error 2   = -8.478444897264126e-07
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0007656732341274619
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00028804293833673
+  Block 0 mlp error 2   = -8.422130122198723e-07
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0007654197979718447
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0002875443606171757
+  Block 0 mlp error 2   = -8.45084059619694e-07
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0007655491936020553
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00028779928106814623
+  Block 0 mlp error 2   = -8.436180678472738e-07
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0007654831279069185
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0002876690705306828
+  Block 0 mlp error 2   = -8.443653882750368e-07
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0007655167137272656
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00028773536905646324
+  Block 0 mlp error 2   = -8.439837415608054e-07
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0007654995424672961
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0002877012884709984
+  Block 0 mlp error 2   = -8.441784302704036e-07
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.000765508390031755
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0002877191291190684
+  Block 0 mlp error 2   = -8.440798069386801e-07
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0007655039080418646
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00028771007782779634
+  Block 0 mlp error 2   = -8.441301133643719e-07
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.6813540458679199
+  L_out   (L4) = -0.0008229627273976803
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -4.293145138944965e-06
+  Block 0 mlp error 2   = -2.8061112971045077e-06
+ts=1:
+  L_embed (L1) = -0.5772592425346375
+  L_out   (L4) = -0.0002451439795549959
+  Block 0 attention error = -2.8087556529499125e-06
+  Block 0 mlp error 1   = -1.5840291300861509e-09
+  Block 0 mlp error 2   = -1.2774935775894392e-08
+ts=2:
+  L_embed (L1) = -1.546691663634192e-08
+  L_out   (L4) = -0.0005085894372314215
+  Block 0 attention error = -4.14800251746783e-06
+  Block 0 mlp error 1   = -0.0003983590577263385
+  Block 0 mlp error 2   = -1.2645787528242636e-08
+ts=3:
+  L_embed (L1) = -1.984657771458842e-08
+  L_out   (L4) = -0.0003457643324509263
+  Block 0 attention error = -5.002986957006184e-13
+  Block 0 mlp error 1   = -8.021810208447278e-05
+  Block 0 mlp error 2   = -1.129328552451625e-06
+ts=4:
+  L_embed (L1) = -3.719376728535204e-15
+  L_out   (L4) = -0.00043132834252901375
+  Block 0 attention error = -1.7015481092261947e-13
+  Block 0 mlp error 1   = -0.0002267841628054157
+  Block 0 mlp error 2   = -2.1284068907334586e-07
+ts=5:
+  L_embed (L1) = -1.122783252683517e-15
+  L_out   (L4) = -0.0003818972909357399
+  Block 0 attention error = -1.6675348518427866e-19
+  Block 0 mlp error 1   = -0.00013573854812420905
+  Block 0 mlp error 2   = -5.975694534754439e-07
+ts=6:
+  L_embed (L1) = -6.617444900424222e-24
+  L_out   (L4) = -0.00040904656634666026
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -0.00018365701544098556
+  Block 0 mlp error 2   = -3.5886432669940405e-07
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0003936700813937932
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0001559125230414793
+  Block 0 mlp error 2   = -4.844461614084139e-07
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00040224322583526373
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00017116713570430875
+  Block 0 mlp error 2   = -4.117593448427215e-07
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0003974152496084571
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00016251859779004008
+  Block 0 mlp error 2   = -4.517207230492204e-07
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.000400121120037511
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00016734373639337718
+  Block 0 mlp error 2   = -4.290655226668605e-07
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00039859962998889387
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00016462503117509186
+  Block 0 mlp error 2   = -4.417048842242366e-07
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00039945394382812083
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00016614941705483943
+  Block 0 mlp error 2   = -4.3458334175738855e-07
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0003989737306255847
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00016529185813851655
+  Block 0 mlp error 2   = -4.385761087633e-07
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0003992435522377491
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00016577308997511864
+  Block 0 mlp error 2   = -4.363300831755623e-07
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0003990918630734086
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00016550300642848015
+  Block 0 mlp error 2   = -4.375914670617931e-07
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00039917713729664683
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0001656549284234643
+  Block 0 mlp error 2   = -4.368824306766328e-07
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00039912917418405414
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00016556939226575196
+  Block 0 mlp error 2   = -4.372813862119074e-07
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00039915612433105707
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00016561729717068374
+  Block 0 mlp error 2   = -4.370569399725355e-07
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00039914099033921957
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.000165590550750494
+  Block 0 mlp error 2   = -4.3718276288018387e-07
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.6919248104095459
+  L_out   (L4) = -0.0001678133849054575
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -6.867524007247994e-06
+  Block 0 mlp error 2   = -5.2595737543015275e-06
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -8.935638470575213e-05
+  Block 0 attention error = -3.092140332228155e-06
+  Block 0 mlp error 1   = -2.977267987702703e-09
+  Block 0 mlp error 2   = -1.9184499322477677e-08
+ts=2:
+  L_embed (L1) = -1.695956797220788e-08
+  L_out   (L4) = -0.00012841797433793545
+  Block 0 attention error = -4.1479738683847245e-06
+  Block 0 mlp error 1   = -5.59746622457169e-05
+  Block 0 mlp error 2   = -1.362726465004016e-08
+ts=3:
+  L_embed (L1) = -1.9846364551767692e-08
+  L_out   (L4) = -0.00010166372521780431
+  Block 0 attention error = -4.999111476340634e-13
+  Block 0 mlp error 1   = -8.775212336331606e-06
+  Block 0 mlp error 2   = -1.72233427520041e-07
+ts=4:
+  L_embed (L1) = -3.673876659707545e-15
+  L_out   (L4) = -0.00011692135740304366
+  Block 0 attention error = -1.70159025758565e-13
+  Block 0 mlp error 1   = -3.258942888351157e-05
+  Block 0 mlp error 2   = -2.1177546827289007e-08
+ts=5:
+  L_embed (L1) = -1.1228162869684599e-15
+  L_out   (L4) = -0.00010711320646805689
+  Block 0 attention error = -1.5317503108588514e-19
+  Block 0 mlp error 1   = -1.6154986951733008e-05
+  Block 0 mlp error 2   = -7.700472792748769e-08
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011299031029921025
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -2.55495251622051e-05
+  Block 0 mlp error 2   = -3.85857283902169e-08
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00010930084681604058
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.9492777937557548e-05
+  Block 0 mlp error 2   = -6.051921985772424e-08
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011155536049045622
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.312676951987669e-05
+  Block 0 mlp error 2   = -4.6390969288268025e-08
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011015272320946679
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.084284642478451e-05
+  Block 0 mlp error 2   = -5.486404219823271e-08
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011101640848210081
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.2239257305045612e-05
+  Block 0 mlp error 2   = -4.9540190616426116e-08
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011048089800169691
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.137011324521154e-05
+  Block 0 mlp error 2   = -5.279474990516064e-08
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011081159755121917
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.1905398170929402e-05
+  Block 0 mlp error 2   = -5.0769202175615646e-08
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011060684482799843
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.157346170861274e-05
+  Block 0 mlp error 2   = -5.201668429322126e-08
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011073342466261238
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.1778494556201622e-05
+  Block 0 mlp error 2   = -5.124308799508981e-08
 ts=15:
   L_embed (L1) = -0.0
   L_out   (L4) = -0.00011065509170293808
   Block 0 attention error = -0.0
   Block 0 mlp error 1   = -2.165149817301426e-05
-  Block 0 mlp error 2   = -5.172088179961065e-08
-block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-block.mlp.e_mlp1.target: [[-2.0163485e-05  1.6410097e-04 -4.1585427e-05 ...  9.6508353e-05
-   4.8700917e-05  4.8894643e-05]
- [-1.9556086e-05  1.6361731e-04 -4.2382599e-05 ...  9.6212003e-05
-   4.9643480e-05  4.8210903e-05]
- [-2.0029274e-05  1.6360218e-04 -4.2687298e-05 ...  9.6072632e-05
-   4.9641960e-05  4.8658359e-05]
- ...
- [-2.0075368e-05  1.6384818e-04 -4.2266853e-05 ...  9.6171680e-05
-   4.9227758e-05  4.8829581e-05]
- [-2.0199934e-05  1.6354499e-04 -4.2069012e-05 ...  9.6577227e-05
-   4.9587041e-05  4.8857863e-05]
- [-2.0108051e-05  1.6418018e-04 -4.2160405e-05 ...  9.6226184e-05
-   4.9030601e-05  4.9295366e-05]]
-zmplp2 value  [[-2.0163485e-05  1.6410097e-04 -4.1585427e-05 ...  9.6508353e-05
-   4.8700917e-05  4.8894643e-05]
- [-1.9556086e-05  1.6361731e-04 -4.2382599e-05 ...  9.6212003e-05
-   4.9643480e-05  4.8210903e-05]
- [-2.0029274e-05  1.6360218e-04 -4.2687298e-05 ...  9.6072632e-05
-   4.9641960e-05  4.8658359e-05]
- ...
- [-2.0075368e-05  1.6384818e-04 -4.2266853e-05 ...  9.6171680e-05
-   4.9227758e-05  4.8829581e-05]
- [-2.0199934e-05  1.6354499e-04 -4.2069012e-05 ...  9.6577227e-05
-   4.9587041e-05  4.8857863e-05]
- [-2.0108051e-05  1.6418018e-04 -4.2160405e-05 ...  9.6226184e-05
-   4.9030601e-05  4.9295366e-05]]
-check the surrounding 
-z_mlp2 [[-1.0081570e-05  8.2061939e-05 -2.0791977e-05 ...  4.8258138e-05
-   2.4351468e-05  2.4448338e-05]
- [-9.7778802e-06  8.1820050e-05 -2.1190537e-05 ...  4.8109941e-05
-   2.4822790e-05  2.4106439e-05]
- [-1.0014466e-05  8.1812475e-05 -2.1342876e-05 ...  4.8040245e-05
-   2.4822028e-05  2.4330186e-05]
- ...
- [-1.0037512e-05  8.1935512e-05 -2.1132666e-05 ...  4.8089776e-05
-   2.4614912e-05  2.4415805e-05]
- [-1.0099793e-05  8.1783874e-05 -2.1033753e-05 ...  4.8292586e-05
-   2.4794566e-05  2.4429948e-05]
- [-1.0053853e-05  8.2101556e-05 -2.1079446e-05 ...  4.8117032e-05
-   2.4516323e-05  2.4648718e-05]]
-cheack w_mlp2 [[-1.0081570e-05  8.2061939e-05 -2.0791977e-05 ...  4.8258138e-05
-   2.4351468e-05  2.4448338e-05]
- [-9.7778802e-06  8.1820050e-05 -2.1190537e-05 ...  4.8109941e-05
-   2.4822790e-05  2.4106439e-05]
- [-1.0014466e-05  8.1812475e-05 -2.1342876e-05 ...  4.8040245e-05
-   2.4822028e-05  2.4330186e-05]
- ...
- [-1.0037512e-05  8.1935512e-05 -2.1132666e-05 ...  4.8089776e-05
-   2.4614912e-05  2.4415805e-05]
- [-1.0099793e-05  8.1783874e-05 -2.1033753e-05 ...  4.8292586e-05
-   2.4794566e-05  2.4429948e-05]
- [-1.0053853e-05  8.2101556e-05 -2.1079446e-05 ...  4.8117032e-05
-   2.4516323e-05  2.4648718e-05]]
-block.mlp.e_mlp.mu [[ 2.32109960e-05 -2.44837109e-04  1.91421295e-05 ... -1.06571588e-05
-  -8.68866846e-06  2.86031081e-05]
- [ 2.32357961e-05 -2.44835916e-04  1.91414601e-05 ... -1.06638054e-05
-  -8.67064591e-06  2.85934439e-05]
- [ 2.32213097e-05 -2.44829629e-04  1.91405907e-05 ... -1.06617745e-05
-  -8.67290328e-06  2.85980641e-05]
- ...
- [ 2.32228049e-05 -2.44823168e-04  1.91496165e-05 ... -1.06686603e-05
-  -8.67972722e-06  2.86065515e-05]
- [ 2.32168459e-05 -2.44828057e-04  1.91386225e-05 ... -1.06633597e-05
-  -8.67931431e-06  2.86088416e-05]
- [ 2.32166931e-05 -2.44826544e-04  1.91589770e-05 ... -1.06707175e-05
-  -8.67370545e-06  2.86007162e-05]]
-block.mlp.W_mlp2.outputs [[ 2.32109960e-05 -2.44837109e-04  1.91421295e-05 ... -1.06571588e-05
-  -8.68866846e-06  2.86031081e-05]
- [ 2.32357961e-05 -2.44835916e-04  1.91414601e-05 ... -1.06638054e-05
-  -8.67064591e-06  2.85934439e-05]
- [ 2.32213097e-05 -2.44829629e-04  1.91405907e-05 ... -1.06617745e-05
-  -8.67290328e-06  2.85980641e-05]
- ...
- [ 2.32228049e-05 -2.44823168e-04  1.91496165e-05 ... -1.06686603e-05
-  -8.67972722e-06  2.86065515e-05]
- [ 2.32168459e-05 -2.44828057e-04  1.91386225e-05 ... -1.06633597e-05
-  -8.67931431e-06  2.86088416e-05]
- [ 2.32166931e-05 -2.44826544e-04  1.91589770e-05 ... -1.06707175e-05
-  -8.67370545e-06  2.86007162e-05]]
+  Block 0 mlp error 2   = -5.172088535232433e-08
 ts=16:
   L_embed (L1) = -0.0
-  L_out   (L4) = -0.00011070356413256377
+  L_out   (L4) = -0.00011070355685660616
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = -2.173002576455474e-05
+  Block 0 mlp error 1   = -2.1730027583544143e-05
   Block 0 mlp error 2   = -5.142500114629911e-08
-block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-block.mlp.e_mlp1.target: [[-2.0179248e-05  1.6409933e-04 -4.1591222e-05 ...  9.6512289e-05
-   4.8707087e-05  4.8899165e-05]
- [-1.9571849e-05  1.6361567e-04 -4.2388394e-05 ...  9.6215939e-05
-   4.9649650e-05  4.8215421e-05]
- [-2.0045038e-05  1.6360053e-04 -4.2693093e-05 ...  9.6076576e-05
-   4.9648130e-05  4.8662878e-05]
- ...
- [-2.0091133e-05  1.6384653e-04 -4.2272648e-05 ...  9.6175616e-05
-   4.9233931e-05  4.8834099e-05]
- [-2.0215697e-05  1.6354334e-04 -4.2074811e-05 ...  9.6581163e-05
-   4.9593214e-05  4.8862381e-05]
- [-2.0123814e-05  1.6417852e-04 -4.2166201e-05 ...  9.6230120e-05
-   4.9036771e-05  4.9299884e-05]]
-zmplp2 value  [[-2.0179248e-05  1.6409933e-04 -4.1591222e-05 ...  9.6512289e-05
-   4.8707087e-05  4.8899165e-05]
- [-1.9571849e-05  1.6361567e-04 -4.2388394e-05 ...  9.6215939e-05
-   4.9649650e-05  4.8215421e-05]
- [-2.0045038e-05  1.6360053e-04 -4.2693093e-05 ...  9.6076576e-05
-   4.9648130e-05  4.8662878e-05]
- ...
- [-2.0091133e-05  1.6384653e-04 -4.2272648e-05 ...  9.6175616e-05
-   4.9233931e-05  4.8834099e-05]
- [-2.0215697e-05  1.6354334e-04 -4.2074811e-05 ...  9.6581163e-05
-   4.9593214e-05  4.8862381e-05]
- [-2.0123814e-05  1.6417852e-04 -4.2166201e-05 ...  9.6230120e-05
-   4.9036771e-05  4.9299884e-05]]
-check the surrounding 
-z_mlp2 [[-1.00894513e-05  8.20611167e-05 -2.07948742e-05 ...  4.82601063e-05
-   2.43545528e-05  2.44505991e-05]
- [-9.78576099e-06  8.18192275e-05 -2.11934348e-05 ...  4.81119096e-05
-   2.48258766e-05  2.41086982e-05]
- [-1.00223479e-05  8.18116532e-05 -2.13457697e-05 ...  4.80422168e-05
-   2.48251163e-05  2.43324484e-05]
- ...
- [-1.00453935e-05  8.19346897e-05 -2.11355637e-05 ...  4.80917479e-05
-   2.46179989e-05  2.44180646e-05]
- [-1.01076748e-05  8.17830442e-05 -2.10366525e-05 ...  4.82945543e-05
-   2.47976532e-05  2.44322073e-05]
- [-1.00617344e-05  8.21007270e-05 -2.10823437e-05 ...  4.81190000e-05
-   2.45194078e-05  2.46509771e-05]]
-cheack w_mlp2 [[-1.00894513e-05  8.20611167e-05 -2.07948742e-05 ...  4.82601063e-05
-   2.43545528e-05  2.44505991e-05]
- [-9.78576099e-06  8.18192275e-05 -2.11934348e-05 ...  4.81119096e-05
-   2.48258766e-05  2.41086982e-05]
- [-1.00223479e-05  8.18116532e-05 -2.13457697e-05 ...  4.80422168e-05
-   2.48251163e-05  2.43324484e-05]
- ...
- [-1.00453935e-05  8.19346897e-05 -2.11355637e-05 ...  4.80917479e-05
-   2.46179989e-05  2.44180646e-05]
- [-1.01076748e-05  8.17830442e-05 -2.10366525e-05 ...  4.82945543e-05
-   2.47976532e-05  2.44322073e-05]
- [-1.00617344e-05  8.21007270e-05 -2.10823437e-05 ...  4.81190000e-05
-   2.45194078e-05  2.46509771e-05]]
-block.mlp.e_mlp.mu [[ 2.3210754e-05 -2.4483653e-04  1.9141504e-05 ... -1.0656221e-05
-  -8.6880646e-06  2.8602803e-05]
- [ 2.3235552e-05 -2.4483533e-04  1.9140834e-05 ... -1.0662869e-05
-  -8.6700429e-06  2.8593138e-05]
- [ 2.3221068e-05 -2.4482905e-04  1.9139965e-05 ... -1.0660839e-05
-  -8.6723012e-06  2.8597757e-05]
- ...
- [ 2.3222563e-05 -2.4482259e-04  1.9148991e-05 ... -1.0667722e-05
-  -8.6791242e-06  2.8606246e-05]
- [ 2.3216606e-05 -2.4482748e-04  1.9137999e-05 ... -1.0662423e-05
-  -8.6787113e-06  2.8608536e-05]
- [ 2.3216451e-05 -2.4482596e-04  1.9158351e-05 ... -1.0669779e-05
-  -8.6731015e-06  2.8600411e-05]]
-block.mlp.W_mlp2.outputs [[ 2.3210754e-05 -2.4483653e-04  1.9141504e-05 ... -1.0656221e-05
-  -8.6880646e-06  2.8602803e-05]
- [ 2.3235552e-05 -2.4483533e-04  1.9140834e-05 ... -1.0662869e-05
-  -8.6700429e-06  2.8593138e-05]
- [ 2.3221068e-05 -2.4482905e-04  1.9139965e-05 ... -1.0660839e-05
-  -8.6723012e-06  2.8597757e-05]
- ...
- [ 2.3222563e-05 -2.4482259e-04  1.9148991e-05 ... -1.0667722e-05
-  -8.6791242e-06  2.8606246e-05]
- [ 2.3216606e-05 -2.4482748e-04  1.9137999e-05 ... -1.0662423e-05
-  -8.6787113e-06  2.8608536e-05]
- [ 2.3216451e-05 -2.4482596e-04  1.9158351e-05 ... -1.0669779e-05
-  -8.6731015e-06  2.8600411e-05]]
 ts=17:
   L_embed (L1) = -0.0
-  L_out   (L4) = -0.0001106735726352781
+  L_out   (L4) = -0.00011067356535932049
   Block 0 attention error = -0.0
   Block 0 mlp error 1   = -2.1681433281628415e-05
-  Block 0 mlp error 2   = -5.160794458447526e-08
-block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-block.mlp.e_mlp1.target: [[-2.0169493e-05  1.6410035e-04 -4.1587635e-05 ...  9.6509852e-05
-   4.8703267e-05  4.8896367e-05]
- [-1.9562096e-05  1.6361669e-04 -4.2384807e-05 ...  9.6213502e-05
-   4.9645831e-05  4.8212623e-05]
- [-2.0035284e-05  1.6360155e-04 -4.2689506e-05 ...  9.6074138e-05
-   4.9644310e-05  4.8660080e-05]
- ...
- [-2.0081376e-05  1.6384755e-04 -4.2269061e-05 ...  9.6173178e-05
-   4.9230108e-05  4.8831302e-05]
- [-2.0205942e-05  1.6354436e-04 -4.2071224e-05 ...  9.6578726e-05
-   4.9589391e-05  4.8859587e-05]
- [-2.0114061e-05  1.6417955e-04 -4.2162614e-05 ...  9.6227683e-05
-   4.9032951e-05  4.9297087e-05]]
-zmplp2 value  [[-2.0169493e-05  1.6410035e-04 -4.1587635e-05 ...  9.6509852e-05
-   4.8703267e-05  4.8896367e-05]
- [-1.9562096e-05  1.6361669e-04 -4.2384807e-05 ...  9.6213502e-05
-   4.9645831e-05  4.8212623e-05]
- [-2.0035284e-05  1.6360155e-04 -4.2689506e-05 ...  9.6074138e-05
-   4.9644310e-05  4.8660080e-05]
- ...
- [-2.0081376e-05  1.6384755e-04 -4.2269061e-05 ...  9.6173178e-05
-   4.9230108e-05  4.8831302e-05]
- [-2.0205942e-05  1.6354436e-04 -4.2071224e-05 ...  9.6578726e-05
-   4.9589391e-05  4.8859587e-05]
- [-2.0114061e-05  1.6417955e-04 -4.2162614e-05 ...  9.6227683e-05
-   4.9032951e-05  4.9297087e-05]]
-check the surrounding 
-z_mlp2 [[-1.0084574e-05  8.2061626e-05 -2.0793081e-05 ...  4.8258888e-05
-   2.4352643e-05  2.4449200e-05]
- [-9.7808852e-06  8.1819737e-05 -2.1191641e-05 ...  4.8110691e-05
-   2.4823967e-05  2.4107299e-05]
- [-1.0017471e-05  8.1812163e-05 -2.1343976e-05 ...  4.8040998e-05
-   2.4823205e-05  2.4331046e-05]
- ...
- [-1.0040515e-05  8.1935199e-05 -2.1133770e-05 ...  4.8090529e-05
-   2.4616087e-05  2.4416666e-05]
- [-1.0102797e-05  8.1783553e-05 -2.1034859e-05 ...  4.8293336e-05
-   2.4795741e-05  2.4430810e-05]
- [-1.0056858e-05  8.2101244e-05 -2.1080550e-05 ...  4.8117781e-05
-   2.4517498e-05  2.4649578e-05]]
-cheack w_mlp2 [[-1.0084574e-05  8.2061626e-05 -2.0793081e-05 ...  4.8258888e-05
-   2.4352643e-05  2.4449200e-05]
- [-9.7808852e-06  8.1819737e-05 -2.1191641e-05 ...  4.8110691e-05
-   2.4823967e-05  2.4107299e-05]
- [-1.0017471e-05  8.1812163e-05 -2.1343976e-05 ...  4.8040998e-05
-   2.4823205e-05  2.4331046e-05]
- ...
- [-1.0040515e-05  8.1935199e-05 -2.1133770e-05 ...  4.8090529e-05
-   2.4616087e-05  2.4416666e-05]
- [-1.0102797e-05  8.1783553e-05 -2.1034859e-05 ...  4.8293336e-05
-   2.4795741e-05  2.4430810e-05]
- [-1.0056858e-05  8.2101244e-05 -2.1080550e-05 ...  4.8117781e-05
-   2.4517498e-05  2.4649578e-05]]
-block.mlp.e_mlp.mu [[ 2.3210903e-05 -2.4483691e-04  1.9141891e-05 ... -1.0656802e-05
-  -8.6884384e-06  2.8602992e-05]
- [ 2.3235703e-05 -2.4483568e-04  1.9141222e-05 ... -1.0663449e-05
-  -8.6704158e-06  2.8593327e-05]
- [ 2.3221219e-05 -2.4482940e-04  1.9140351e-05 ... -1.0661417e-05
-  -8.6726750e-06  2.8597946e-05]
- ...
- [ 2.3222712e-05 -2.4482294e-04  1.9149378e-05 ... -1.0668303e-05
-  -8.6794962e-06  2.8606435e-05]
- [ 2.3216755e-05 -2.4482782e-04  1.9138386e-05 ... -1.0663002e-05
-  -8.6790833e-06  2.8608725e-05]
- [ 2.3216602e-05 -2.4482631e-04  1.9158739e-05 ... -1.0670360e-05
-  -8.6734753e-06  2.8600600e-05]]
-block.mlp.W_mlp2.outputs [[ 2.3210903e-05 -2.4483691e-04  1.9141891e-05 ... -1.0656802e-05
-  -8.6884384e-06  2.8602992e-05]
- [ 2.3235703e-05 -2.4483568e-04  1.9141222e-05 ... -1.0663449e-05
-  -8.6704158e-06  2.8593327e-05]
- [ 2.3221219e-05 -2.4482940e-04  1.9140351e-05 ... -1.0661417e-05
-  -8.6726750e-06  2.8597946e-05]
- ...
- [ 2.3222712e-05 -2.4482294e-04  1.9149378e-05 ... -1.0668303e-05
-  -8.6794962e-06  2.8606435e-05]
- [ 2.3216755e-05 -2.4482782e-04  1.9138386e-05 ... -1.0663002e-05
-  -8.6790833e-06  2.8608725e-05]
- [ 2.3216602e-05 -2.4482631e-04  1.9158739e-05 ... -1.0670360e-05
-  -8.6734753e-06  2.8600600e-05]]
+  Block 0 mlp error 2   = -5.16079552426163e-08
 ts=18:
   L_embed (L1) = -0.0
-  L_out   (L4) = -0.00011069211905123666
+  L_out   (L4) = -0.00011069212632719427
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = -2.17114866245538e-05
+  Block 0 mlp error 1   = -2.1711490262532607e-05
   Block 0 mlp error 2   = -5.1494733810386606e-08
-block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-block.mlp.e_mlp1.target: [[-2.0175528e-05  1.6409972e-04 -4.1589854e-05 ...  9.6511365e-05
-   4.8705631e-05  4.8898099e-05]
- [-1.9568131e-05  1.6361606e-04 -4.2387030e-05 ...  9.6215015e-05
-   4.9648195e-05  4.8214355e-05]
- [-2.0041321e-05  1.6360093e-04 -4.2691725e-05 ...  9.6075644e-05
-   4.9646675e-05  4.8661812e-05]
- ...
- [-2.0087413e-05  1.6384691e-04 -4.2271284e-05 ...  9.6174692e-05
-   4.9232476e-05  4.8833033e-05]
- [-2.0211977e-05  1.6354374e-04 -4.2073443e-05 ...  9.6580239e-05
-   4.9591759e-05  4.8861315e-05]
- [-2.0120096e-05  1.6417891e-04 -4.2164833e-05 ...  9.6229189e-05
-   4.9035316e-05  4.9298818e-05]]
-zmplp2 value  [[-2.0175528e-05  1.6409972e-04 -4.1589854e-05 ...  9.6511365e-05
-   4.8705631e-05  4.8898099e-05]
- [-1.9568131e-05  1.6361606e-04 -4.2387030e-05 ...  9.6215015e-05
-   4.9648195e-05  4.8214355e-05]
- [-2.0041321e-05  1.6360093e-04 -4.2691725e-05 ...  9.6075644e-05
-   4.9646675e-05  4.8661812e-05]
- ...
- [-2.0087413e-05  1.6384691e-04 -4.2271284e-05 ...  9.6174692e-05
-   4.9232476e-05  4.8833033e-05]
- [-2.0211977e-05  1.6354374e-04 -4.2073443e-05 ...  9.6580239e-05
-   4.9591759e-05  4.8861315e-05]
- [-2.0120096e-05  1.6417891e-04 -4.2164833e-05 ...  9.6229189e-05
-   4.9035316e-05  4.9298818e-05]]
-check the surrounding 
-z_mlp2 [[-1.0087591e-05  8.2061313e-05 -2.0794190e-05 ...  4.8259644e-05
-   2.4353825e-05  2.4450066e-05]
- [-9.7839020e-06  8.1819424e-05 -2.1192753e-05 ...  4.8111448e-05
-   2.4825149e-05  2.4108165e-05]
- [-1.0020490e-05  8.1811850e-05 -2.1345086e-05 ...  4.8041751e-05
-   2.4824389e-05  2.4331912e-05]
- ...
- [-1.0043534e-05  8.1934879e-05 -2.1134882e-05 ...  4.8091286e-05
-   2.4617271e-05  2.4417532e-05]
- [-1.0105815e-05  8.1783241e-05 -2.1035969e-05 ...  4.8294092e-05
-   2.4796926e-05  2.4431674e-05]
- [-1.0059875e-05  8.2100923e-05 -2.1081660e-05 ...  4.8118534e-05
-   2.4518680e-05  2.4650444e-05]]
-cheack w_mlp2 [[-1.0087591e-05  8.2061313e-05 -2.0794190e-05 ...  4.8259644e-05
-   2.4353825e-05  2.4450066e-05]
- [-9.7839020e-06  8.1819424e-05 -2.1192753e-05 ...  4.8111448e-05
-   2.4825149e-05  2.4108165e-05]
- [-1.0020490e-05  8.1811850e-05 -2.1345086e-05 ...  4.8041751e-05
-   2.4824389e-05  2.4331912e-05]
- ...
- [-1.0043534e-05  8.1934879e-05 -2.1134882e-05 ...  4.8091286e-05
-   2.4617271e-05  2.4417532e-05]
- [-1.0105815e-05  8.1783241e-05 -2.1035969e-05 ...  4.8294092e-05
-   2.4796926e-05  2.4431674e-05]
- [-1.0059875e-05  8.2100923e-05 -2.1081660e-05 ...  4.8118534e-05
-   2.4518680e-05  2.4650444e-05]]
-block.mlp.e_mlp.mu [[ 2.32108123e-05 -2.44836672e-04  1.91416530e-05 ... -1.06564421e-05
-  -8.68820734e-06  2.86028753e-05]
- [ 2.32356106e-05 -2.44835479e-04  1.91409836e-05 ... -1.06630905e-05
-  -8.67018571e-06  2.85932110e-05]
- [ 2.32211260e-05 -2.44829163e-04  1.91401123e-05 ... -1.06610587e-05
-  -8.67244398e-06  2.85978294e-05]
- ...
- [ 2.32226212e-05 -2.44822731e-04  1.91491381e-05 ... -1.06679436e-05
-  -8.67926610e-06  2.86063168e-05]
- [ 2.32166622e-05 -2.44827621e-04  1.91381459e-05 ... -1.06626439e-05
-  -8.67885319e-06  2.86086088e-05]
- [ 2.32165075e-05 -2.44826078e-04  1.91584986e-05 ... -1.06700008e-05
-  -8.67324343e-06  2.86004833e-05]]
-block.mlp.W_mlp2.outputs [[ 2.32108123e-05 -2.44836672e-04  1.91416530e-05 ... -1.06564421e-05
-  -8.68820734e-06  2.86028753e-05]
- [ 2.32356106e-05 -2.44835479e-04  1.91409836e-05 ... -1.06630905e-05
-  -8.67018571e-06  2.85932110e-05]
- [ 2.32211260e-05 -2.44829163e-04  1.91401123e-05 ... -1.06610587e-05
-  -8.67244398e-06  2.85978294e-05]
- ...
- [ 2.32226212e-05 -2.44822731e-04  1.91491381e-05 ... -1.06679436e-05
-  -8.67926610e-06  2.86063168e-05]
- [ 2.32166622e-05 -2.44827621e-04  1.91381459e-05 ... -1.06626439e-05
-  -8.67885319e-06  2.86086088e-05]
- [ 2.32165075e-05 -2.44826078e-04  1.91584986e-05 ... -1.06700008e-05
-  -8.67324343e-06  2.86004833e-05]]
 ts=19:
   L_embed (L1) = -0.0
-  L_out   (L4) = -0.00011068063759012148
+  L_out   (L4) = -0.00011068064486607909
   Block 0 attention error = -0.0
   Block 0 mlp error 1   = -2.169289655284956e-05
-  Block 0 mlp error 2   = -5.156476134970944e-08
-block.mlp.e_mlp1.mu: [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-wmlpq outputs value  [[-2.4148845e-05  1.6355154e-04 -4.3810604e-05 ...  9.6935793e-05
-   5.1168907e-05  4.9833005e-05]
- [-2.3541432e-05  1.6306779e-04 -4.4607892e-05 ...  9.6639436e-05
-   5.2111638e-05  4.9149177e-05]
- [-2.4014740e-05  1.6305267e-04 -4.4912638e-05 ...  9.6499985e-05
-   5.2110154e-05  4.9596798e-05]
- ...
- [-2.4060799e-05  1.6329862e-04 -4.4492208e-05 ...  9.6599026e-05
-   5.1695919e-05  4.9768092e-05]
- [-2.4185467e-05  1.6299552e-04 -4.4294171e-05 ...  9.7004631e-05
-   5.2055220e-05  4.9796261e-05]
- [-2.4093439e-05  1.6363068e-04 -4.4385666e-05 ...  9.6653515e-05
-   5.1498613e-05  5.0233833e-05]]
-block.mlp.e_mlp1.target: [[-2.0171796e-05  1.6410010e-04 -4.1588482e-05 ...  9.6510426e-05
-   4.8704169e-05  4.8897025e-05]
- [-1.9564395e-05  1.6361645e-04 -4.2385655e-05 ...  9.6214077e-05
-   4.9646733e-05  4.8213285e-05]
- [-2.0037585e-05  1.6360132e-04 -4.2690353e-05 ...  9.6074713e-05
-   4.9645208e-05  4.8660742e-05]
- ...
- [-2.0083678e-05  1.6384730e-04 -4.2269909e-05 ...  9.6173753e-05
-   4.9231010e-05  4.8831964e-05]
- [-2.0208243e-05  1.6354413e-04 -4.2072068e-05 ...  9.6579301e-05
-   4.9590293e-05  4.8860245e-05]
- [-2.0116360e-05  1.6417931e-04 -4.2163461e-05 ...  9.6228257e-05
-   4.9033850e-05  4.9297749e-05]]
-zmplp2 value  [[-2.0171796e-05  1.6410010e-04 -4.1588482e-05 ...  9.6510426e-05
-   4.8704169e-05  4.8897025e-05]
- [-1.9564395e-05  1.6361645e-04 -4.2385655e-05 ...  9.6214077e-05
-   4.9646733e-05  4.8213285e-05]
- [-2.0037585e-05  1.6360132e-04 -4.2690353e-05 ...  9.6074713e-05
-   4.9645208e-05  4.8660742e-05]
- ...
- [-2.0083678e-05  1.6384730e-04 -4.2269909e-05 ...  9.6173753e-05
-   4.9231010e-05  4.8831964e-05]
- [-2.0208243e-05  1.6354413e-04 -4.2072068e-05 ...  9.6579301e-05
-   4.9590293e-05  4.8860245e-05]
- [-2.0116360e-05  1.6417931e-04 -4.2163461e-05 ...  9.6228257e-05
-   4.9033850e-05  4.9297749e-05]]
-check the surrounding 
-z_mlp2 [[-1.0085725e-05  8.2061502e-05 -2.0793505e-05 ...  4.8259175e-05
-   2.4353094e-05  2.4449530e-05]
- [-9.7820339e-06  8.1819620e-05 -2.1192065e-05 ...  4.8110978e-05
-   2.4824418e-05  2.4107630e-05]
- [-1.0018622e-05  8.1812046e-05 -2.1344400e-05 ...  4.8041285e-05
-   2.4823656e-05  2.4331377e-05]
- ...
- [-1.0041666e-05  8.1935075e-05 -2.1134194e-05 ...  4.8090817e-05
-   2.4616538e-05  2.4416997e-05]
- [-1.0103948e-05  8.1783437e-05 -2.1035281e-05 ...  4.8293623e-05
-   2.4796193e-05  2.4431140e-05]
- [-1.0058007e-05  8.2101120e-05 -2.1080974e-05 ...  4.8118069e-05
-   2.4517947e-05  2.4649909e-05]]
-cheack w_mlp2 [[-1.0085725e-05  8.2061502e-05 -2.0793505e-05 ...  4.8259175e-05
-   2.4353094e-05  2.4449530e-05]
- [-9.7820339e-06  8.1819620e-05 -2.1192065e-05 ...  4.8110978e-05
-   2.4824418e-05  2.4107630e-05]
- [-1.0018622e-05  8.1812046e-05 -2.1344400e-05 ...  4.8041285e-05
-   2.4823656e-05  2.4331377e-05]
- ...
- [-1.0041666e-05  8.1935075e-05 -2.1134194e-05 ...  4.8090817e-05
-   2.4616538e-05  2.4416997e-05]
- [-1.0103948e-05  8.1783437e-05 -2.1035281e-05 ...  4.8293623e-05
-   2.4796193e-05  2.4431140e-05]
- [-1.0058007e-05  8.2101120e-05 -2.1080974e-05 ...  4.8118069e-05
-   2.4517947e-05  2.4649909e-05]]
-block.mlp.e_mlp.mu [[ 2.32108687e-05 -2.44836818e-04  1.91418003e-05 ... -1.06566658e-05
-  -8.68835104e-06  2.86029463e-05]
- [ 2.32356688e-05 -2.44835624e-04  1.91411309e-05 ... -1.06633124e-05
-  -8.67032850e-06  2.85932838e-05]
- [ 2.32211823e-05 -2.44829309e-04  1.91402596e-05 ... -1.06612806e-05
-  -8.67258677e-06  2.85979022e-05]
- ...
- [ 2.32226776e-05 -2.44822848e-04  1.91492854e-05 ... -1.06681655e-05
-  -8.67940798e-06  2.86063896e-05]
- [ 2.32167185e-05 -2.44827737e-04  1.91382933e-05 ... -1.06628668e-05
-  -8.67899689e-06  2.86086815e-05]
- [ 2.32165658e-05 -2.44826224e-04  1.91586478e-05 ... -1.06702246e-05
-  -8.67338713e-06  2.86005543e-05]]
-block.mlp.W_mlp2.outputs [[ 2.32108687e-05 -2.44836818e-04  1.91418003e-05 ... -1.06566658e-05
-  -8.68835104e-06  2.86029463e-05]
- [ 2.32356688e-05 -2.44835624e-04  1.91411309e-05 ... -1.06633124e-05
-  -8.67032850e-06  2.85932838e-05]
- [ 2.32211823e-05 -2.44829309e-04  1.91402596e-05 ... -1.06612806e-05
-  -8.67258677e-06  2.85979022e-05]
- ...
- [ 2.32226776e-05 -2.44822848e-04  1.91492854e-05 ... -1.06681655e-05
-  -8.67940798e-06  2.86063896e-05]
- [ 2.32167185e-05 -2.44827737e-04  1.91382933e-05 ... -1.06628668e-05
-  -8.67899689e-06  2.86086815e-05]
- [ 2.32165658e-05 -2.44826224e-04  1.91586478e-05 ... -1.06702246e-05
-  -8.67338713e-06  2.86005543e-05]]
-
-Before evolve():
-  Output weights = [[-0.0025796  -0.00536817 -0.00385617 ...  0.00600005  0.00163745
-   0.00190573]
- [ 0.00058702 -0.00665626  0.00323455 ...  0.00898084  0.00200509
-  -0.00502799]
- [-0.00849051  0.01034883  0.00085245 ...  0.00403775 -0.00024235
-  -0.00982084]
- ...
- [-0.00488323 -0.00145556 -0.00792412 ...  0.00384715 -0.00224172
-   0.00048926]
- [-0.00405312  0.00653957 -0.00534301 ... -0.00641004 -0.0027866
-   0.00079404]
- [-0.0096973   0.00649236 -0.00672544 ... -0.00890862 -0.00064916
-   0.0036834 ]]
-
-After evolve():
-  Output weights = [[-0.0026543  -0.00529168 -0.00378787 ...  0.00592968  0.0015669
-   0.00184266]
- [ 0.00067049 -0.00673975  0.0031636  ...  0.00905736  0.00208351
-  -0.00497872]
- [-0.00856553  0.0104256   0.00092108 ...  0.00396705 -0.00031326
-  -0.0098842 ]
- ...
- [-0.00480919 -0.00153142 -0.00799189 ...  0.00391696 -0.00217177
-   0.00055201]
- [-0.00397944  0.00646407 -0.0054105  ... -0.00634055 -0.00271699
-   0.00085662]
- [-0.00977745  0.0065739  -0.00665373 ... -0.00898322 -0.00072469
-   0.00362061]]
-  Weights updated ✅
+  Block 0 mlp error 2   = -5.1564757796995764e-08
 Block 0 errors: attn=0.0, mlp=0.0
 ts=0:
-  L_embed (L1) = -0.6844906210899353
-  L_out   (L4) = -0.0001636339002288878
+  L_embed (L1) = -0.6721631288528442
+  L_out   (L4) = -0.00016363358008675277
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = -1.2667929695453495e-05
-  Block 0 mlp error 2   = -5.374660304369172e-06
-block.mlp.e_mlp1.mu: [[ 1.45383010e-05  1.83694312e-04 -1.05065319e-05 ...  7.79384791e-05
-   1.90815936e-05  1.95535449e-05]
- [ 1.44703254e-05  1.82614225e-04 -1.08645490e-05 ...  7.74994114e-05
-   1.99922633e-05  1.90330938e-05]
- [ 1.44208161e-05  1.83462544e-04 -1.07922315e-05 ...  7.78093454e-05
-   1.94995846e-05  1.92614643e-05]
- ...
- [ 1.46445900e-05  1.83101758e-04 -1.02631648e-05 ...  7.67348611e-05
-   1.96125475e-05  1.92984753e-05]
- [ 1.44790738e-05  1.82712654e-04 -9.32803687e-06 ...  7.77146415e-05
-   1.97788977e-05  1.92216994e-05]
- [ 1.45273589e-05  1.83038748e-04 -9.88387183e-06 ...  7.72983913e-05
-   1.97550908e-05  1.96588280e-05]]
-wmlpq outputs value  [[ 1.45383010e-05  1.83694312e-04 -1.05065319e-05 ...  7.79384791e-05
-   1.90815936e-05  1.95535449e-05]
- [ 1.44703254e-05  1.82614225e-04 -1.08645490e-05 ...  7.74994114e-05
-   1.99922633e-05  1.90330938e-05]
- [ 1.44208161e-05  1.83462544e-04 -1.07922315e-05 ...  7.78093454e-05
-   1.94995846e-05  1.92614643e-05]
- ...
- [ 1.46445900e-05  1.83101758e-04 -1.02631648e-05 ...  7.67348611e-05
-   1.96125475e-05  1.92984753e-05]
- [ 1.44790738e-05  1.82712654e-04 -9.32803687e-06 ...  7.77146415e-05
-   1.97788977e-05  1.92216994e-05]
- [ 1.45273589e-05  1.83038748e-04 -9.88387183e-06 ...  7.72983913e-05
-   1.97550908e-05  1.96588280e-05]]
-block.mlp.e_mlp1.target: [[-2.4053545e-05  1.6427366e-04 -4.1886706e-05 ...  9.6698554e-05
-   4.8809074e-05  4.9894148e-05]
- [-2.2653567e-05  1.6379007e-04 -4.2108364e-05 ...  9.6049305e-05
-   5.0143226e-05  4.8338330e-05]
- [-2.3285938e-05  1.6370983e-04 -4.1955187e-05 ...  9.6415621e-05
-   4.9709975e-05  4.9098253e-05]
- ...
- [-2.3659151e-05  1.6420164e-04 -4.1672902e-05 ...  9.6700867e-05
-   4.9394639e-05  4.9372335e-05]
- [-2.3820854e-05  1.6441531e-04 -4.1286959e-05 ...  9.6805728e-05
-   4.9831739e-05  4.9033890e-05]
- [-2.3757355e-05  1.6460019e-04 -4.1768802e-05 ...  9.6449890e-05
-   4.9773542e-05  4.9559938e-05]]
-zmplp2 value  [[-2.4053545e-05  1.6427366e-04 -4.1886706e-05 ...  9.6698554e-05
-   4.8809074e-05  4.9894148e-05]
- [-2.2653567e-05  1.6379007e-04 -4.2108364e-05 ...  9.6049305e-05
-   5.0143226e-05  4.8338330e-05]
- [-2.3285938e-05  1.6370983e-04 -4.1955187e-05 ...  9.6415621e-05
-   4.9709975e-05  4.9098253e-05]
- ...
- [-2.3659151e-05  1.6420164e-04 -4.1672902e-05 ...  9.6700867e-05
-   4.9394639e-05  4.9372335e-05]
- [-2.3820854e-05  1.6441531e-04 -4.1286959e-05 ...  9.6805728e-05
-   4.9831739e-05  4.9033890e-05]
- [-2.3757355e-05  1.6460019e-04 -4.1768802e-05 ...  9.6449890e-05
-   4.9773542e-05  4.9559938e-05]]
-check the surrounding 
-z_mlp2 [[-1.2026526e-05  8.2148319e-05 -2.0942607e-05 ...  4.8353253e-05
-   2.4405552e-05  2.4948133e-05]
- [-1.1326564e-05  8.1906452e-05 -2.1053429e-05 ...  4.8028582e-05
-   2.5072683e-05  2.4170158e-05]
- [-1.1642739e-05  8.1866325e-05 -2.0976844e-05 ...  4.8211765e-05
-   2.4856039e-05  2.4550154e-05]
- ...
- [-1.1829337e-05  8.2112296e-05 -2.0835711e-05 ...  4.8354410e-05
-   2.4698358e-05  2.4687206e-05]
- [-1.1910186e-05  8.2219158e-05 -2.0642756e-05 ...  4.8406851e-05
-   2.4916926e-05  2.4517967e-05]
- [-1.1878436e-05  8.2311621e-05 -2.0883659e-05 ...  4.8228907e-05
-   2.4887824e-05  2.4781015e-05]]
-cheack w_mlp2 [[-1.2026526e-05  8.2148319e-05 -2.0942607e-05 ...  4.8353253e-05
-   2.4405552e-05  2.4948133e-05]
- [-1.1326564e-05  8.1906452e-05 -2.1053429e-05 ...  4.8028582e-05
-   2.5072683e-05  2.4170158e-05]
- [-1.1642739e-05  8.1866325e-05 -2.0976844e-05 ...  4.8211765e-05
-   2.4856039e-05  2.4550154e-05]
- ...
- [-1.1829337e-05  8.2112296e-05 -2.0835711e-05 ...  4.8354410e-05
-   2.4698358e-05  2.4687206e-05]
- [-1.1910186e-05  8.2219158e-05 -2.0642756e-05 ...  4.8406851e-05
-   2.4916926e-05  2.4517967e-05]
- [-1.1878436e-05  8.2311621e-05 -2.0883659e-05 ...  4.8228907e-05
-   2.4887824e-05  2.4781015e-05]]
-block.mlp.e_mlp.mu [[ 6.8639951e-05 -2.7642932e-04  6.4730863e-05 ... -5.4807228e-05
-  -5.2499821e-05  8.2387378e-05]
- [ 6.8677611e-05 -2.7642291e-04  6.4730622e-05 ... -5.4812190e-05
-  -5.2468473e-05  8.2357976e-05]
- [ 6.8661313e-05 -2.7641127e-04  6.4733402e-05 ... -5.4812426e-05
-  -5.2480529e-05  8.2360762e-05]
- ...
- [ 6.8667578e-05 -2.7641017e-04  6.4734137e-05 ... -5.4849828e-05
-  -5.2487016e-05  8.2393330e-05]
- [ 6.8651840e-05 -2.7643502e-04  6.4699954e-05 ... -5.4832537e-05
-  -5.2479143e-05  8.2411032e-05]
- [ 6.8651600e-05 -2.7643066e-04  6.4729116e-05 ... -5.4837205e-05
-  -5.2477983e-05  8.2399849e-05]]
-block.mlp.W_mlp2.outputs [[ 6.8639951e-05 -2.7642932e-04  6.4730863e-05 ... -5.4807228e-05
-  -5.2499821e-05  8.2387378e-05]
- [ 6.8677611e-05 -2.7642291e-04  6.4730622e-05 ... -5.4812190e-05
-  -5.2468473e-05  8.2357976e-05]
- [ 6.8661313e-05 -2.7641127e-04  6.4733402e-05 ... -5.4812426e-05
-  -5.2480529e-05  8.2360762e-05]
- ...
- [ 6.8667578e-05 -2.7641017e-04  6.4734137e-05 ... -5.4849828e-05
-  -5.2487016e-05  8.2393330e-05]
- [ 6.8651840e-05 -2.7643502e-04  6.4699954e-05 ... -5.4832537e-05
-  -5.2479143e-05  8.2411032e-05]
- [ 6.8651600e-05 -2.7643066e-04  6.4729116e-05 ... -5.4837205e-05
-  -5.2477983e-05  8.2399849e-05]]
+  Block 0 mlp error 1   = -1.266897925233934e-05
+  Block 0 mlp error 2   = -5.398964276537299e-06
 ts=1:
   L_embed (L1) = -0.5772591829299927
-  L_out   (L4) = -9.704477270133793e-05
-  Block 0 attention error = -2.784565822366858e-06
-  Block 0 mlp error 1   = -2.7564652782530175e-09
-  Block 0 mlp error 2   = -3.1921771892484685e-08
-block.mlp.e_mlp1.mu: [[ 1.45383010e-05  1.83694312e-04 -1.05065319e-05 ...  7.79384791e-05
-   1.90815936e-05  1.95535449e-05]
- [ 1.44703254e-05  1.82614225e-04 -1.08645490e-05 ...  7.74994114e-05
-   1.99922633e-05  1.90330938e-05]
- [ 1.44208161e-05  1.83462544e-04 -1.07922315e-05 ...  7.78093454e-05
-   1.94995846e-05  1.92614643e-05]
- ...
- [ 1.46445900e-05  1.83101758e-04 -1.02631648e-05 ...  7.67348611e-05
-   1.96125475e-05  1.92984753e-05]
- [ 1.44790738e-05  1.82712654e-04 -9.32803687e-06 ...  7.77146415e-05
-   1.97788977e-05  1.92216994e-05]
- [ 1.45273589e-05  1.83038748e-04 -9.88387183e-06 ...  7.72983913e-05
-   1.97550908e-05  1.96588280e-05]]
-wmlpq outputs value  [[ 1.45383010e-05  1.83694312e-04 -1.05065319e-05 ...  7.79384791e-05
-   1.90815936e-05  1.95535449e-05]
- [ 1.44703254e-05  1.82614225e-04 -1.08645490e-05 ...  7.74994114e-05
-   1.99922633e-05  1.90330938e-05]
- [ 1.44208161e-05  1.83462544e-04 -1.07922315e-05 ...  7.78093454e-05
-   1.94995846e-05  1.92614643e-05]
- ...
- [ 1.46445900e-05  1.83101758e-04 -1.02631648e-05 ...  7.67348611e-05
-   1.96125475e-05  1.92984753e-05]
- [ 1.44790738e-05  1.82712654e-04 -9.32803687e-06 ...  7.77146415e-05
-   1.97788977e-05  1.92216994e-05]
- [ 1.45273589e-05  1.83038748e-04 -9.88387183e-06 ...  7.72983913e-05
-   1.97550908e-05  1.96588280e-05]]
-block.mlp.e_mlp1.target: [[ 8.0278114e-06  1.8479541e-04 -9.5652395e-06 ...  7.8408098e-05
-   2.2706074e-05  2.1834536e-05]
- [ 7.9597812e-06  1.8371602e-04 -9.9232348e-06 ...  7.7969511e-05
-   2.3616043e-05  2.1314523e-05]
- [ 7.9104866e-06  1.8456431e-04 -9.8512537e-06 ...  7.8279380e-05
-   2.3123774e-05  2.1542573e-05]
- ...
- [ 8.1340841e-06  1.8420430e-04 -9.3204435e-06 ...  7.7204801e-05
-   2.3236234e-05  2.1579081e-05]
- [ 7.9685506e-06  1.8381471e-04 -8.3864543e-06 ...  7.8184428e-05
-   2.3402074e-05  2.1503376e-05]
- [ 8.0166064e-06  1.8414079e-04 -8.9417190e-06 ...  7.7768433e-05
-   2.3378478e-05  2.1939926e-05]]
-zmplp2 value  [[ 8.0278114e-06  1.8479541e-04 -9.5652395e-06 ...  7.8408098e-05
-   2.2706074e-05  2.1834536e-05]
- [ 7.9597812e-06  1.8371602e-04 -9.9232348e-06 ...  7.7969511e-05
-   2.3616043e-05  2.1314523e-05]
- [ 7.9104866e-06  1.8456431e-04 -9.8512537e-06 ...  7.8279380e-05
-   2.3123774e-05  2.1542573e-05]
- ...
- [ 8.1340841e-06  1.8420430e-04 -9.3204435e-06 ...  7.7204801e-05
-   2.3236234e-05  2.1579081e-05]
- [ 7.9685506e-06  1.8381471e-04 -8.3864543e-06 ...  7.8184428e-05
-   2.3402074e-05  2.1503376e-05]
- [ 8.0166064e-06  1.8414079e-04 -8.9417190e-06 ...  7.7768433e-05
-   2.3378478e-05  2.1939926e-05]]
-check the surrounding 
-z_mlp2 [[ 4.0139330e-06  9.2412236e-05 -4.7825811e-06 ...  3.9206665e-05
-   1.1353256e-05  1.0917471e-05]
- [ 3.9799174e-06  9.1872367e-05 -4.9615755e-06 ...  3.8987346e-05
-   1.1808260e-05  1.0657454e-05]
- [ 3.9552701e-06  9.2296643e-05 -4.9255859e-06 ...  3.9142298e-05
-   1.1562114e-05  1.0771484e-05]
- ...
- [ 4.0670702e-06  9.2116585e-05 -4.6601849e-06 ...  3.8604936e-05
-   1.1618347e-05  1.0789739e-05]
- [ 3.9843026e-06  9.1921735e-05 -4.1931971e-06 ...  3.9094815e-05
-   1.1701270e-05  1.0751885e-05]
- [ 4.0083305e-06  9.2084818e-05 -4.4708254e-06 ...  3.8886788e-05
-   1.1689472e-05  1.0970169e-05]]
-cheack w_mlp2 [[ 4.0139330e-06  9.2412236e-05 -4.7825811e-06 ...  3.9206665e-05
-   1.1353256e-05  1.0917471e-05]
- [ 3.9799174e-06  9.1872367e-05 -4.9615755e-06 ...  3.8987346e-05
-   1.1808260e-05  1.0657454e-05]
- [ 3.9552701e-06  9.2296643e-05 -4.9255859e-06 ...  3.9142298e-05
-   1.1562114e-05  1.0771484e-05]
- ...
- [ 4.0670702e-06  9.2116585e-05 -4.6601849e-06 ...  3.8604936e-05
-   1.1618347e-05  1.0789739e-05]
- [ 3.9843026e-06  9.1921735e-05 -4.1931971e-06 ...  3.9094815e-05
-   1.1701270e-05  1.0751885e-05]
- [ 4.0083305e-06  9.2084818e-05 -4.4708254e-06 ...  3.8886788e-05
-   1.1689472e-05  1.0970169e-05]]
-block.mlp.e_mlp.mu [[ 6.9053349e-05 -2.7715130e-04  6.6338063e-05 ... -5.6481738e-05
-  -5.2325671e-05  8.3956955e-05]
- [ 6.9069021e-05 -2.7713121e-04  6.6323075e-05 ... -5.6484405e-05
-  -5.2311763e-05  8.3943487e-05]
- [ 6.9052934e-05 -2.7713313e-04  6.6329078e-05 ... -5.6477285e-05
-  -5.2322255e-05  8.3951207e-05]
- ...
- [ 6.9098212e-05 -2.7712146e-04  6.6360546e-05 ... -5.6515186e-05
-  -5.2318959e-05  8.3981671e-05]
- [ 6.9086622e-05 -2.7712627e-04  6.6347551e-05 ... -5.6509216e-05
-  -5.2322437e-05  8.3965067e-05]
- [ 6.9085836e-05 -2.7712199e-04  6.6361878e-05 ... -5.6517270e-05
-  -5.2302748e-05  8.3945197e-05]]
-block.mlp.W_mlp2.outputs [[ 6.9053349e-05 -2.7715130e-04  6.6338063e-05 ... -5.6481738e-05
-  -5.2325671e-05  8.3956955e-05]
- [ 6.9069021e-05 -2.7713121e-04  6.6323075e-05 ... -5.6484405e-05
-  -5.2311763e-05  8.3943487e-05]
- [ 6.9052934e-05 -2.7713313e-04  6.6329078e-05 ... -5.6477285e-05
-  -5.2322255e-05  8.3951207e-05]
- ...
- [ 6.9098212e-05 -2.7712146e-04  6.6360546e-05 ... -5.6515186e-05
-  -5.2318959e-05  8.3981671e-05]
- [ 6.9086622e-05 -2.7712627e-04  6.6347551e-05 ... -5.6509216e-05
-  -5.2322437e-05  8.3965067e-05]
- [ 6.9085836e-05 -2.7712199e-04  6.6361878e-05 ... -5.6517270e-05
-  -5.2302748e-05  8.3945197e-05]]
+  L_out   (L4) = -9.704555850476027e-05
+  Block 0 attention error = -2.602232825665851e-06
+  Block 0 mlp error 1   = -2.775564666990249e-09
+  Block 0 mlp error 2   = -3.192655739781003e-08
 ts=2:
-  L_embed (L1) = -1.523263826186394e-08
-  L_out   (L4) = -0.00013396574649959803
-  Block 0 attention error = -4.147936579101952e-06
-  Block 0 mlp error 1   = -5.004288686905056e-05
-  Block 0 mlp error 2   = -1.1763540364029268e-08
-block.mlp.e_mlp1.mu: [[ 1.5303332e-05  1.8213075e-04 -8.3585492e-06 ...  7.5760196e-05
-   1.9376195e-05  1.9279723e-05]
- [ 1.6277814e-05  1.8160022e-04 -8.5327902e-06 ...  7.5033269e-05
-   1.9969335e-05  1.8304598e-05]
- [ 1.6126663e-05  1.8180438e-04 -8.1755279e-06 ...  7.4761010e-05
-   1.9589057e-05  1.8573812e-05]
- ...
- [ 1.5665639e-05  1.8166931e-04 -8.6510427e-06 ...  7.4937881e-05
-   1.9689893e-05  1.8945540e-05]
- [ 1.5770789e-05  1.8142378e-04 -8.0245582e-06 ...  7.5155607e-05
-   1.9806314e-05  1.8817027e-05]
- [ 1.5495625e-05  1.8210569e-04 -8.7391682e-06 ...  7.5235090e-05
-   1.9599369e-05  1.9545942e-05]]
-wmlpq outputs value  [[ 1.5303332e-05  1.8213075e-04 -8.3585492e-06 ...  7.5760196e-05
-   1.9376195e-05  1.9279723e-05]
- [ 1.6277814e-05  1.8160022e-04 -8.5327902e-06 ...  7.5033269e-05
-   1.9969335e-05  1.8304598e-05]
- [ 1.6126663e-05  1.8180438e-04 -8.1755279e-06 ...  7.4761010e-05
-   1.9589057e-05  1.8573812e-05]
- ...
- [ 1.5665639e-05  1.8166931e-04 -8.6510427e-06 ...  7.4937881e-05
-   1.9689893e-05  1.8945540e-05]
- [ 1.5770789e-05  1.8142378e-04 -8.0245582e-06 ...  7.5155607e-05
-   1.9806314e-05  1.8817027e-05]
- [ 1.5495625e-05  1.8210569e-04 -8.7391682e-06 ...  7.5235090e-05
-   1.9599369e-05  1.9545942e-05]]
-block.mlp.e_mlp1.target: [[ 1.45126232e-05  1.83662967e-04 -1.05959525e-05 ...  7.79535258e-05
-   1.90895134e-05  1.95957982e-05]
- [ 1.44448177e-05  1.82583055e-04 -1.09543862e-05 ...  7.75140652e-05
-   2.00001305e-05  1.90751070e-05]
- [ 1.43950529e-05  1.83431082e-04 -1.08816748e-05 ...  7.78241520e-05
-   1.95074936e-05  1.93036431e-05]
- ...
- [ 1.46208877e-05  1.83070020e-04 -1.03528591e-05 ...  7.67499369e-05
-   1.96200945e-05  1.93394389e-05]
- [ 1.44554488e-05  1.82681440e-04 -9.41783583e-06 ...  7.77292298e-05
-   1.97871541e-05  1.92625066e-05]
- [ 1.45035456e-05  1.83007869e-04 -9.97367079e-06 ...  7.73130450e-05
-   1.97634163e-05  1.97000518e-05]]
-zmplp2 value  [[ 1.45126232e-05  1.83662967e-04 -1.05959525e-05 ...  7.79535258e-05
-   1.90895134e-05  1.95957982e-05]
- [ 1.44448177e-05  1.82583055e-04 -1.09543862e-05 ...  7.75140652e-05
-   2.00001305e-05  1.90751070e-05]
- [ 1.43950529e-05  1.83431082e-04 -1.08816748e-05 ...  7.78241520e-05
-   1.95074936e-05  1.93036431e-05]
- ...
- [ 1.46208877e-05  1.83070020e-04 -1.03528591e-05 ...  7.67499369e-05
-   1.96200945e-05  1.93394389e-05]
- [ 1.44554488e-05  1.82681440e-04 -9.41783583e-06 ...  7.77292298e-05
-   1.97871541e-05  1.92625066e-05]
- [ 1.45035456e-05  1.83007869e-04 -9.97367079e-06 ...  7.73130450e-05
-   1.97634163e-05  1.97000518e-05]]
-check the surrounding 
-z_mlp2 [[ 7.2564017e-06  9.1845832e-05 -5.2979281e-06 ...  3.8979349e-05
-   9.5449113e-06  9.7980628e-06]
- [ 7.2224975e-06  9.1305708e-05 -5.4771422e-06 ...  3.8759586e-05
-   1.0000235e-05  9.5377081e-06]
- [ 7.1976147e-06  9.1729853e-05 -5.4407869e-06 ...  3.8914655e-05
-   9.7539087e-06  9.6519807e-06]
- ...
- [ 7.3105343e-06  9.1549271e-05 -5.1763841e-06 ...  3.8377475e-05
-   9.8102109e-06  9.6698786e-06]
- [ 7.2278131e-06  9.1354916e-05 -4.7088802e-06 ...  3.8867187e-05
-   9.8937435e-06  9.6314116e-06]
- [ 7.2518628e-06  9.1518181e-05 -4.9867931e-06 ...  3.8659065e-05
-   9.8818746e-06  9.8501914e-06]]
-cheack w_mlp2 [[ 7.2564017e-06  9.1845832e-05 -5.2979281e-06 ...  3.8979349e-05
-   9.5449113e-06  9.7980628e-06]
- [ 7.2224975e-06  9.1305708e-05 -5.4771422e-06 ...  3.8759586e-05
-   1.0000235e-05  9.5377081e-06]
- [ 7.1976147e-06  9.1729853e-05 -5.4407869e-06 ...  3.8914655e-05
-   9.7539087e-06  9.6519807e-06]
- ...
- [ 7.3105343e-06  9.1549271e-05 -5.1763841e-06 ...  3.8377475e-05
-   9.8102109e-06  9.6698786e-06]
- [ 7.2278131e-06  9.1354916e-05 -4.7088802e-06 ...  3.8867187e-05
-   9.8937435e-06  9.6314116e-06]
- [ 7.2518628e-06  9.1518181e-05 -4.9867931e-06 ...  3.8659065e-05
-   9.8818746e-06  9.8501914e-06]]
-block.mlp.e_mlp.mu [[ 6.9188798e-05 -2.7768515e-04  6.6550412e-05 ... -5.6492485e-05
-  -5.2485713e-05  8.3958621e-05]
- [ 6.9204609e-05 -2.7766507e-04  6.6535431e-05 ... -5.6495155e-05
-  -5.2471700e-05  8.3945015e-05]
- [ 6.9188471e-05 -2.7766693e-04  6.6541441e-05 ... -5.6488057e-05
-  -5.2482210e-05  8.3952749e-05]
- ...
- [ 6.9233654e-05 -2.7765529e-04  6.6572866e-05 ... -5.6526016e-05
-  -5.2478896e-05  8.3983250e-05]
- [ 6.9222056e-05 -2.7766015e-04  6.6559754e-05 ... -5.6519995e-05
-  -5.2482381e-05  8.3966741e-05]
- [ 6.9221278e-05 -2.7765587e-04  6.6574154e-05 ... -5.6528053e-05
-  -5.2462721e-05  8.3946885e-05]]
-block.mlp.W_mlp2.outputs [[ 6.9188798e-05 -2.7768515e-04  6.6550412e-05 ... -5.6492485e-05
-  -5.2485713e-05  8.3958621e-05]
- [ 6.9204609e-05 -2.7766507e-04  6.6535431e-05 ... -5.6495155e-05
-  -5.2471700e-05  8.3945015e-05]
- [ 6.9188471e-05 -2.7766693e-04  6.6541441e-05 ... -5.6488057e-05
-  -5.2482210e-05  8.3952749e-05]
- ...
- [ 6.9233654e-05 -2.7765529e-04  6.6572866e-05 ... -5.6526016e-05
-  -5.2478896e-05  8.3983250e-05]
- [ 6.9222056e-05 -2.7766015e-04  6.6559754e-05 ... -5.6519995e-05
-  -5.2482381e-05  8.3966741e-05]
- [ 6.9221278e-05 -2.7765587e-04  6.6574154e-05 ... -5.6528053e-05
-  -5.2462721e-05  8.3946885e-05]]
+  L_embed (L1) = -1.412992034488525e-08
+  L_out   (L4) = -0.0001339662412647158
+  Block 0 attention error = -4.148046627960866e-06
+  Block 0 mlp error 1   = -5.004279955755919e-05
+  Block 0 mlp error 2   = -1.153615336590974e-08
 ts=3:
-  L_embed (L1) = -1.9846211785079504e-08
-  L_out   (L4) = -0.00010605782154016197
-  Block 0 attention error = -4.628146824114943e-13
-  Block 0 mlp error 1   = -5.825652351632016e-06
-  Block 0 mlp error 2   = -1.0806802919205438e-07
-block.mlp.e_mlp1.mu: [[ 1.32672449e-05  1.81619078e-04 -1.21886696e-05 ...  7.74407672e-05
-   2.15378241e-05  2.06683944e-05]
- [ 1.38807745e-05  1.81136333e-04 -1.29812006e-05 ...  7.71426785e-05
-   2.24760897e-05  1.99807164e-05]
- [ 1.34118864e-05  1.81122174e-04 -1.32823598e-05 ...  7.70017723e-05
-   2.24712348e-05  2.04253683e-05]
- ...
- [ 1.33603935e-05  1.81366893e-04 -1.28666725e-05 ...  7.71028208e-05
-   2.20611564e-05  2.06003697e-05]
- [ 1.32393425e-05  1.81064519e-04 -1.26657715e-05 ...  7.75072986e-05
-   2.24177384e-05  2.06261448e-05]
- [ 1.33250933e-05  1.81698648e-04 -1.27620806e-05 ...  7.71579143e-05
-   2.18657115e-05  2.10676262e-05]]
-wmlpq outputs value  [[ 1.32672449e-05  1.81619078e-04 -1.21886696e-05 ...  7.74407672e-05
-   2.15378241e-05  2.06683944e-05]
- [ 1.38807745e-05  1.81136333e-04 -1.29812006e-05 ...  7.71426785e-05
-   2.24760897e-05  1.99807164e-05]
- [ 1.34118864e-05  1.81122174e-04 -1.32823598e-05 ...  7.70017723e-05
-   2.24712348e-05  2.04253683e-05]
- ...
- [ 1.33603935e-05  1.81366893e-04 -1.28666725e-05 ...  7.71028208e-05
-   2.20611564e-05  2.06003697e-05]
- [ 1.32393425e-05  1.81064519e-04 -1.26657715e-05 ...  7.75072986e-05
-   2.24177384e-05  2.06261448e-05]
- [ 1.33250933e-05  1.81698648e-04 -1.27620806e-05 ...  7.71579143e-05
-   2.18657115e-05  2.10676262e-05]]
-block.mlp.e_mlp1.target: [[ 8.30616773e-06  1.81516065e-04 -1.16011479e-05 ...  7.58774622e-05
-   2.29550060e-05  2.20117290e-05]
- [ 9.28067675e-06  1.80985837e-04 -1.17753843e-05 ...  7.51507105e-05
-   2.35478547e-05  2.10367907e-05]
- [ 9.12957603e-06  1.81189986e-04 -1.14182549e-05 ...  7.48784369e-05
-   2.31677423e-05  2.13058775e-05]
- ...
- [ 8.66845949e-06  1.81055206e-04 -1.18930775e-05 ...  7.50553008e-05
-   2.32683888e-05  2.16774188e-05]
- [ 8.77364255e-06  1.80809482e-04 -1.12670350e-05 ...  7.52729538e-05
-   2.33846004e-05  2.15493110e-05]
- [ 8.49838034e-06  1.81491385e-04 -1.19814185e-05 ...  7.53525310e-05
-   2.31777467e-05  2.22780036e-05]]
-zmplp2 value  [[ 8.30616773e-06  1.81516065e-04 -1.16011479e-05 ...  7.58774622e-05
-   2.29550060e-05  2.20117290e-05]
- [ 9.28067675e-06  1.80985837e-04 -1.17753843e-05 ...  7.51507105e-05
-   2.35478547e-05  2.10367907e-05]
- [ 9.12957603e-06  1.81189986e-04 -1.14182549e-05 ...  7.48784369e-05
-   2.31677423e-05  2.13058775e-05]
- ...
- [ 8.66845949e-06  1.81055206e-04 -1.18930775e-05 ...  7.50553008e-05
-   2.32683888e-05  2.16774188e-05]
- [ 8.77364255e-06  1.80809482e-04 -1.12670350e-05 ...  7.52729538e-05
-   2.33846004e-05  2.15493110e-05]
- [ 8.49838034e-06  1.81491385e-04 -1.19814185e-05 ...  7.53525310e-05
-   2.31777467e-05  2.22780036e-05]]
-check the surrounding 
-z_mlp2 [[ 4.15311297e-06  9.07720532e-05 -5.80051665e-06 ...  3.79411831e-05
-   1.14777276e-05  1.10060701e-05]
- [ 4.64037475e-06  9.05068591e-05 -5.88763305e-06 ...  3.75777599e-05
-   1.17741629e-05  1.05185836e-05]
- [ 4.56482348e-06  9.06089554e-05 -5.70907150e-06 ...  3.74416049e-05
-   1.15841003e-05  1.06531315e-05]
- ...
- [ 4.33426158e-06  9.05415436e-05 -5.94647827e-06 ...  3.75300478e-05
-   1.16344245e-05  1.08389095e-05]
- [ 4.38685402e-06  9.04186527e-05 -5.63346384e-06 ...  3.76388853e-05
-   1.16925330e-05  1.07748529e-05]
- [ 4.24922109e-06  9.07597132e-05 -5.99064788e-06 ...  3.76786811e-05
-   1.15891025e-05  1.11392128e-05]]
-cheack w_mlp2 [[ 4.15311297e-06  9.07720532e-05 -5.80051665e-06 ...  3.79411831e-05
-   1.14777276e-05  1.10060701e-05]
- [ 4.64037475e-06  9.05068591e-05 -5.88763305e-06 ...  3.75777599e-05
-   1.17741629e-05  1.05185836e-05]
- [ 4.56482348e-06  9.06089554e-05 -5.70907150e-06 ...  3.74416049e-05
-   1.15841003e-05  1.06531315e-05]
- ...
- [ 4.33426158e-06  9.05415436e-05 -5.94647827e-06 ...  3.75300478e-05
-   1.16344245e-05  1.08389095e-05]
- [ 4.38685402e-06  9.04186527e-05 -5.63346384e-06 ...  3.76388853e-05
-   1.16925330e-05  1.07748529e-05]
- [ 4.24922109e-06  9.07597132e-05 -5.99064788e-06 ...  3.76786811e-05
-   1.15891025e-05  1.11392128e-05]]
-block.mlp.e_mlp.mu [[ 6.9224210e-05 -2.7744193e-04  6.6350440e-05 ... -5.6136905e-05
-  -5.2235984e-05  8.3808329e-05]
- [ 6.9253780e-05 -2.7743471e-04  6.6357410e-05 ... -5.6143206e-05
-  -5.2217478e-05  8.3797044e-05]
- [ 6.9249269e-05 -2.7742604e-04  6.6369641e-05 ... -5.6140478e-05
-  -5.2221047e-05  8.3800893e-05]
- ...
- [ 6.9235677e-05 -2.7742155e-04  6.6359280e-05 ... -5.6148285e-05
-  -5.2225438e-05  8.3810010e-05]
- [ 6.9234819e-05 -2.7742362e-04  6.6355402e-05 ... -5.6142828e-05
-  -5.2225470e-05  8.3811668e-05]
- [ 6.9229682e-05 -2.7742816e-04  6.6367917e-05 ... -5.6150326e-05
-  -5.2220163e-05  8.3804982e-05]]
-block.mlp.W_mlp2.outputs [[ 6.9224210e-05 -2.7744193e-04  6.6350440e-05 ... -5.6136905e-05
-  -5.2235984e-05  8.3808329e-05]
- [ 6.9253780e-05 -2.7743471e-04  6.6357410e-05 ... -5.6143206e-05
-  -5.2217478e-05  8.3797044e-05]
- [ 6.9249269e-05 -2.7742604e-04  6.6369641e-05 ... -5.6140478e-05
-  -5.2221047e-05  8.3800893e-05]
- ...
- [ 6.9235677e-05 -2.7742155e-04  6.6359280e-05 ... -5.6148285e-05
-  -5.2225438e-05  8.3810010e-05]
- [ 6.9234819e-05 -2.7742362e-04  6.6355402e-05 ... -5.6142828e-05
-  -5.2225470e-05  8.3811668e-05]
- [ 6.9229682e-05 -2.7742816e-04  6.6367917e-05 ... -5.6150326e-05
-  -5.2220163e-05  8.3804982e-05]]
+  L_embed (L1) = -1.984690811696055e-08
+  L_out   (L4) = -0.00010605759598547593
+  Block 0 attention error = -4.525112381158214e-13
+  Block 0 mlp error 1   = -5.825442713103257e-06
+  Block 0 mlp error 2   = -1.080687468402175e-07
 ts=4:
-  L_embed (L1) = -3.3838796836219848e-15
-  L_out   (L4) = -0.00012330796744208783
-  Block 0 attention error = -1.7015863273527748e-13
-  Block 0 mlp error 1   = -3.053377440664917e-05
-  Block 0 mlp error 2   = -1.2596363951900003e-08
-block.mlp.e_mlp1.mu: [[ 1.32675223e-05  1.81619456e-04 -1.21895118e-05 ...  7.74409200e-05
-   2.15374039e-05  2.06689347e-05]
- [ 1.38810465e-05  1.81136798e-04 -1.29821965e-05 ...  7.71429040e-05
-   2.24755804e-05  1.99813585e-05]
- [ 1.34122374e-05  1.81122668e-04 -1.32834703e-05 ...  7.70019833e-05
-   2.24706873e-05  2.04260832e-05]
- ...
- [ 1.33603344e-05  1.81367403e-04 -1.28675792e-05 ...  7.71029372e-05
-   2.20609018e-05  2.06011264e-05]
- [ 1.32392815e-05  1.81065057e-04 -1.26667546e-05 ...  7.75074222e-05
-   2.24174564e-05  2.06269669e-05]
- [ 1.33250614e-05  1.81699099e-04 -1.27629110e-05 ...  7.71579944e-05
-   2.18654859e-05  2.10683320e-05]]
-wmlpq outputs value  [[ 1.32675223e-05  1.81619456e-04 -1.21895118e-05 ...  7.74409200e-05
-   2.15374039e-05  2.06689347e-05]
- [ 1.38810465e-05  1.81136798e-04 -1.29821965e-05 ...  7.71429040e-05
-   2.24755804e-05  1.99813585e-05]
- [ 1.34122374e-05  1.81122668e-04 -1.32834703e-05 ...  7.70019833e-05
-   2.24706873e-05  2.04260832e-05]
- ...
- [ 1.33603344e-05  1.81367403e-04 -1.28675792e-05 ...  7.71029372e-05
-   2.20609018e-05  2.06011264e-05]
- [ 1.32392815e-05  1.81065057e-04 -1.26667546e-05 ...  7.75074222e-05
-   2.24174564e-05  2.06269669e-05]
- [ 1.33250614e-05  1.81699099e-04 -1.27629110e-05 ...  7.71579944e-05
-   2.18654859e-05  2.10683320e-05]]
-block.mlp.e_mlp1.target: [[ 1.11013433e-05  1.81549403e-04 -1.35558894e-05 ...  7.70981933e-05
-   2.30387413e-05  2.18060140e-05]
- [ 1.17147392e-05  1.81066411e-04 -1.43479392e-05 ...  7.68003811e-05
-   2.39770325e-05  2.11182778e-05]
- [ 1.12462931e-05  1.81052441e-04 -1.46489083e-05 ...  7.66598096e-05
-   2.39718665e-05  2.15623513e-05]
- ...
- [ 1.11936979e-05  1.81296869e-04 -1.42344379e-05 ...  7.67607344e-05
-   2.35621937e-05  2.17384077e-05]
- [ 1.10729115e-05  1.80994291e-04 -1.40333905e-05 ...  7.71655905e-05
-   2.39187684e-05  2.17637917e-05]
- [ 1.11584068e-05  1.81628217e-04 -1.41295659e-05 ...  7.68158498e-05
-   2.33670744e-05  2.22053495e-05]]
-zmplp2 value  [[ 1.11013433e-05  1.81549403e-04 -1.35558894e-05 ...  7.70981933e-05
-   2.30387413e-05  2.18060140e-05]
- [ 1.17147392e-05  1.81066411e-04 -1.43479392e-05 ...  7.68003811e-05
-   2.39770325e-05  2.11182778e-05]
- [ 1.12462931e-05  1.81052441e-04 -1.46489083e-05 ...  7.66598096e-05
-   2.39718665e-05  2.15623513e-05]
- ...
- [ 1.11936979e-05  1.81296869e-04 -1.42344379e-05 ...  7.67607344e-05
-   2.35621937e-05  2.17384077e-05]
- [ 1.10729115e-05  1.80994291e-04 -1.40333905e-05 ...  7.71655905e-05
-   2.39187684e-05  2.17637917e-05]
- [ 1.11584068e-05  1.81628217e-04 -1.41295659e-05 ...  7.68158498e-05
-   2.33670744e-05  2.22053495e-05]]
-check the surrounding 
-z_mlp2 [[ 5.5507239e-06  9.0788722e-05 -6.7778665e-06 ...  3.8551625e-05
-   1.1519597e-05  1.0903210e-05]
- [ 5.8574283e-06  9.0547161e-05 -7.1738823e-06 ...  3.8402701e-05
-   1.1988761e-05  1.0559329e-05]
- [ 5.6232002e-06  9.0540161e-05 -7.3243632e-06 ...  3.8332404e-05
-   1.1986178e-05  1.0781374e-05]
- ...
- [ 5.5969022e-06  9.0662419e-05 -7.1171326e-06 ...  3.8382874e-05
-   1.1781332e-05  1.0869405e-05]
- [ 5.5365081e-06  9.0511086e-05 -7.0166116e-06 ...  3.8585331e-05
-   1.1959628e-05  1.0882097e-05]
- [ 5.5792566e-06  9.0828151e-05 -7.0646979e-06 ...  3.8410435e-05
-   1.1683770e-05  1.1102885e-05]]
-cheack w_mlp2 [[ 5.5507239e-06  9.0788722e-05 -6.7778665e-06 ...  3.8551625e-05
-   1.1519597e-05  1.0903210e-05]
- [ 5.8574283e-06  9.0547161e-05 -7.1738823e-06 ...  3.8402701e-05
-   1.1988761e-05  1.0559329e-05]
- [ 5.6232002e-06  9.0540161e-05 -7.3243632e-06 ...  3.8332404e-05
-   1.1986178e-05  1.0781374e-05]
- ...
- [ 5.5969022e-06  9.0662419e-05 -7.1171326e-06 ...  3.8382874e-05
-   1.1781332e-05  1.0869405e-05]
- [ 5.5365081e-06  9.0511086e-05 -7.0166116e-06 ...  3.8585331e-05
-   1.1959628e-05  1.0882097e-05]
- [ 5.5792566e-06  9.0828151e-05 -7.0646979e-06 ...  3.8410435e-05
-   1.1683770e-05  1.1102885e-05]]
-block.mlp.e_mlp.mu [[ 6.9226735e-05 -2.7763392e-04  6.6473032e-05 ... -5.6410765e-05
-  -5.2402487e-05  8.3904859e-05]
- [ 6.9251779e-05 -2.7763273e-04  6.6472836e-05 ... -5.6417954e-05
-  -5.2384792e-05  8.3895655e-05]
- [ 6.9237562e-05 -2.7762647e-04  6.6472428e-05 ... -5.6416411e-05
-  -5.2387397e-05  8.3900704e-05]
- ...
- [ 6.9238689e-05 -2.7762001e-04  6.6480825e-05 ... -5.6422643e-05
-  -5.2393683e-05  8.3908606e-05]
- [ 6.9233065e-05 -2.7762490e-04  6.6470318e-05 ... -5.6417855e-05
-  -5.2393665e-05  8.3911356e-05]
- [ 6.9232461e-05 -2.7762336e-04  6.6489971e-05 ... -5.6424462e-05
-  -5.2387502e-05  8.3902545e-05]]
-block.mlp.W_mlp2.outputs [[ 6.9226735e-05 -2.7763392e-04  6.6473032e-05 ... -5.6410765e-05
-  -5.2402487e-05  8.3904859e-05]
- [ 6.9251779e-05 -2.7763273e-04  6.6472836e-05 ... -5.6417954e-05
-  -5.2384792e-05  8.3895655e-05]
- [ 6.9237562e-05 -2.7762647e-04  6.6472428e-05 ... -5.6416411e-05
-  -5.2387397e-05  8.3900704e-05]
- ...
- [ 6.9238689e-05 -2.7762001e-04  6.6480825e-05 ... -5.6422643e-05
-  -5.2393683e-05  8.3908606e-05]
- [ 6.9233065e-05 -2.7762490e-04  6.6470318e-05 ... -5.6417855e-05
-  -5.2393665e-05  8.3911356e-05]
- [ 6.9232461e-05 -2.7762336e-04  6.6489971e-05 ... -5.6424462e-05
-  -5.2387502e-05  8.3902545e-05]]
+  L_embed (L1) = -3.2890719211105214e-15
+  L_out   (L4) = -0.0001233081566169858
+  Block 0 attention error = -1.7015894444340207e-13
+  Block 0 mlp error 1   = -3.053410182474181e-05
+  Block 0 mlp error 2   = -1.2595850584773416e-08
 ts=5:
-  L_embed (L1) = -1.1228145929025653e-15
-  L_out   (L4) = -0.00011106063902843744
-  Block 0 attention error = -1.4911644356099957e-19
-  Block 0 mlp error 1   = -1.1786880349973217e-05
-  Block 0 mlp error 2   = -6.465056401339098e-08
-block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891517e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686964e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810947e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891517e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686964e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810947e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-block.mlp.e_mlp1.target: [[ 7.8025541e-06  1.8111970e-04 -1.4734030e-05 ...  7.7548393e-05
-   2.4319699e-05  2.2799513e-05]
- [ 8.4160056e-06  1.8063722e-04 -1.5526650e-05 ...  7.7250093e-05
-   2.5257639e-05  2.2112185e-05]
- [ 7.9471029e-06  1.8062297e-04 -1.5827971e-05 ...  7.7109151e-05
-   2.5252739e-05  2.2557033e-05]
- ...
- [ 7.8956909e-06  1.8086789e-04 -1.5411506e-05 ...  7.7210127e-05
-   2.4842961e-05  2.2731405e-05]
- [ 7.7746172e-06  1.8056549e-04 -1.5211000e-05 ...  7.7614313e-05
-   2.5199470e-05  2.2757635e-05]
- [ 7.8604098e-06  1.8119969e-04 -1.5307138e-05 ...  7.7265307e-05
-   2.4647583e-05  2.3198760e-05]]
-zmplp2 value  [[ 7.8025541e-06  1.8111970e-04 -1.4734030e-05 ...  7.7548393e-05
-   2.4319699e-05  2.2799513e-05]
- [ 8.4160056e-06  1.8063722e-04 -1.5526650e-05 ...  7.7250093e-05
-   2.5257639e-05  2.2112185e-05]
- [ 7.9471029e-06  1.8062297e-04 -1.5827971e-05 ...  7.7109151e-05
-   2.5252739e-05  2.2557033e-05]
- ...
- [ 7.8956909e-06  1.8086789e-04 -1.5411506e-05 ...  7.7210127e-05
-   2.4842961e-05  2.2731405e-05]
- [ 7.7746172e-06  1.8056549e-04 -1.5211000e-05 ...  7.7614313e-05
-   2.5199470e-05  2.2757635e-05]
- [ 7.8604098e-06  1.8119969e-04 -1.5307138e-05 ...  7.7265307e-05
-   2.4647583e-05  2.3198760e-05]]
-check the surrounding 
-z_mlp2 [[ 3.90130299e-06  9.05738052e-05 -7.36692255e-06 ...  3.87767577e-05
-   1.21601015e-05  1.13999786e-05]
- [ 4.20803281e-06  9.03324835e-05 -7.76322213e-06 ...  3.86275897e-05
-   1.26290906e-05  1.10563005e-05]
- [ 3.97357826e-06  9.03253604e-05 -7.91387902e-06 ...  3.85571075e-05
-   1.26266405e-05  1.12787329e-05]
- ...
- [ 3.94787185e-06  9.04478657e-05 -7.70565202e-06 ...  3.86075990e-05
-   1.24217422e-05  1.13659216e-05]
- [ 3.88733451e-06  9.02966203e-05 -7.60540206e-06 ...  3.88097178e-05
-   1.26000050e-05  1.13790384e-05]
- [ 3.93023129e-06  9.06138084e-05 -7.65346886e-06 ...  3.86351967e-05
-   1.23240497e-05  1.15996090e-05]]
-cheack w_mlp2 [[ 3.90130299e-06  9.05738052e-05 -7.36692255e-06 ...  3.87767577e-05
-   1.21601015e-05  1.13999786e-05]
- [ 4.20803281e-06  9.03324835e-05 -7.76322213e-06 ...  3.86275897e-05
-   1.26290906e-05  1.10563005e-05]
- [ 3.97357826e-06  9.03253604e-05 -7.91387902e-06 ...  3.85571075e-05
-   1.26266405e-05  1.12787329e-05]
- ...
- [ 3.94787185e-06  9.04478657e-05 -7.70565202e-06 ...  3.86075990e-05
-   1.24217422e-05  1.13659216e-05]
- [ 3.88733451e-06  9.02966203e-05 -7.60540206e-06 ...  3.88097178e-05
-   1.26000050e-05  1.13790384e-05]
- [ 3.93023129e-06  9.06138084e-05 -7.65346886e-06 ...  3.86351967e-05
-   1.23240497e-05  1.15996090e-05]]
-block.mlp.e_mlp.mu [[ 6.9186637e-05 -2.7751044e-04  6.6349574e-05 ... -5.6227655e-05
-  -5.2285286e-05  8.3846106e-05]
- [ 6.9211703e-05 -2.7750924e-04  6.6349421e-05 ... -5.6234865e-05
-  -5.2267584e-05  8.3836901e-05]
- [ 6.9197537e-05 -2.7750296e-04  6.6349028e-05 ... -5.6233341e-05
-  -5.2270152e-05  8.3841973e-05]
- ...
- [ 6.9198504e-05 -2.7749653e-04  6.6357323e-05 ... -5.6239449e-05
-  -5.2276482e-05  8.3849758e-05]
- [ 6.9192924e-05 -2.7750139e-04  6.6346845e-05 ... -5.6234687e-05
-  -5.2276453e-05  8.3852538e-05]
- [ 6.9192305e-05 -2.7749990e-04  6.6366491e-05 ... -5.6241279e-05
-  -5.2270334e-05  8.3843763e-05]]
-block.mlp.W_mlp2.outputs [[ 6.9186637e-05 -2.7751044e-04  6.6349574e-05 ... -5.6227655e-05
-  -5.2285286e-05  8.3846106e-05]
- [ 6.9211703e-05 -2.7750924e-04  6.6349421e-05 ... -5.6234865e-05
-  -5.2267584e-05  8.3836901e-05]
- [ 6.9197537e-05 -2.7750296e-04  6.6349028e-05 ... -5.6233341e-05
-  -5.2270152e-05  8.3841973e-05]
- ...
- [ 6.9198504e-05 -2.7749653e-04  6.6357323e-05 ... -5.6239449e-05
-  -5.2276482e-05  8.3849758e-05]
- [ 6.9192924e-05 -2.7750139e-04  6.6346845e-05 ... -5.6234687e-05
-  -5.2276453e-05  8.3852538e-05]
- [ 6.9192305e-05 -2.7749990e-04  6.6366491e-05 ... -5.6241279e-05
-  -5.2270334e-05  8.3843763e-05]]
+  L_embed (L1) = -1.1228162869684599e-15
+  L_out   (L4) = -0.00011106052261311561
+  Block 0 attention error = -1.4990283382959608e-19
+  Block 0 mlp error 1   = -1.1786731192842126e-05
+  Block 0 mlp error 2   = -6.465138824296446e-08
 ts=6:
-  L_embed (L1) = -0.0
-  L_out   (L4) = -0.00011899690434802324
+  L_embed (L1) = -6.617444900424222e-24
+  L_out   (L4) = -0.0001189969916595146
   Block 0 attention error = -6.131508602291995e-20
-  Block 0 mlp error 1   = -2.339341699553188e-05
-  Block 0 mlp error 2   = -2.5186205121485727e-08
-block.mlp.e_mlp1.mu: [[ 1.32673449e-05  1.81619427e-04 -1.21891517e-05 ...  7.74410073e-05
-   2.15377622e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817690e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671527e-05 ...  7.71029809e-05
-   2.20612874e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178857e-05  2.06267214e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625244e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-wmlpq outputs value  [[ 1.32673449e-05  1.81619427e-04 -1.21891517e-05 ...  7.74410073e-05
-   2.15377622e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817690e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671527e-05 ...  7.71029809e-05
-   2.20612874e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178857e-05  2.06267214e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625244e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-block.mlp.e_mlp1.target: [[ 1.00394736e-05  1.81435025e-04 -1.39732101e-05 ...  7.71937048e-05
-   2.35000371e-05  2.21627652e-05]
- [ 1.06529606e-05  1.80952396e-04 -1.47657029e-05 ...  7.68958053e-05
-   2.44381445e-05  2.14751981e-05]
- [ 1.01843143e-05  1.80938325e-04 -1.50668584e-05 ...  7.67550591e-05
-   2.44332477e-05  2.19196118e-05]
- ...
- [ 1.01322339e-05  1.81182986e-04 -1.46511975e-05 ...  7.68559185e-05
-   2.40234403e-05  2.20948878e-05]
- [ 1.00112984e-05  1.80880539e-04 -1.44505002e-05 ...  7.72604399e-05
-   2.43800332e-05  2.21207192e-05]
- [ 1.00969082e-05  1.81514552e-04 -1.45465810e-05 ...  7.69109538e-05
-   2.38281900e-05  2.25620952e-05]]
-zmplp2 value  [[ 1.00394736e-05  1.81435025e-04 -1.39732101e-05 ...  7.71937048e-05
-   2.35000371e-05  2.21627652e-05]
- [ 1.06529606e-05  1.80952396e-04 -1.47657029e-05 ...  7.68958053e-05
-   2.44381445e-05  2.14751981e-05]
- [ 1.01843143e-05  1.80938325e-04 -1.50668584e-05 ...  7.67550591e-05
-   2.44332477e-05  2.19196118e-05]
- ...
- [ 1.01322339e-05  1.81182986e-04 -1.46511975e-05 ...  7.68559185e-05
-   2.40234403e-05  2.20948878e-05]
- [ 1.00112984e-05  1.80880539e-04 -1.44505002e-05 ...  7.72604399e-05
-   2.43800332e-05  2.21207192e-05]
- [ 1.00969082e-05  1.81514552e-04 -1.45465810e-05 ...  7.69109538e-05
-   2.38281900e-05  2.25620952e-05]]
-check the surrounding 
-z_mlp2 [[ 5.01978002e-06  9.07315189e-05 -6.98652184e-06 ...  3.85993881e-05
-   1.17502541e-05  1.10815909e-05]
- [ 5.32652848e-06  9.04901317e-05 -7.38275821e-06 ...  3.84504201e-05
-   1.22193269e-05  1.07377946e-05]
- [ 5.09220126e-06  9.04830958e-05 -7.53333234e-06 ...  3.83800361e-05
-   1.22168785e-05  1.09600114e-05]
- ...
- [ 5.06616061e-06  9.06054556e-05 -7.32550780e-06 ...  3.84304731e-05
-   1.20119666e-05  1.10476522e-05]
- [ 5.00569195e-06  9.04541885e-05 -7.22516143e-06 ...  3.86327629e-05
-   1.21902694e-05  1.10605679e-05]
- [ 5.04849731e-06  9.07712965e-05 -7.27320048e-06 ...  3.84579944e-05
-   1.19143360e-05  1.12812641e-05]]
-cheack w_mlp2 [[ 5.01978002e-06  9.07315189e-05 -6.98652184e-06 ...  3.85993881e-05
-   1.17502541e-05  1.10815909e-05]
- [ 5.32652848e-06  9.04901317e-05 -7.38275821e-06 ...  3.84504201e-05
-   1.22193269e-05  1.07377946e-05]
- [ 5.09220126e-06  9.04830958e-05 -7.53333234e-06 ...  3.83800361e-05
-   1.22168785e-05  1.09600114e-05]
- ...
- [ 5.06616061e-06  9.06054556e-05 -7.32550780e-06 ...  3.84304731e-05
-   1.20119666e-05  1.10476522e-05]
- [ 5.00569195e-06  9.04541885e-05 -7.22516143e-06 ...  3.86327629e-05
-   1.21902694e-05  1.10605679e-05]
- [ 5.04849731e-06  9.07712965e-05 -7.27320048e-06 ...  3.84579944e-05
-   1.19143360e-05  1.12812641e-05]]
-block.mlp.e_mlp.mu [[ 6.9217094e-05 -2.7759807e-04  6.6433175e-05 ... -5.6352215e-05
-  -5.2366220e-05  8.3885636e-05]
- [ 6.9242145e-05 -2.7759688e-04  6.6433000e-05 ... -5.6359411e-05
-  -5.2348529e-05  8.3876439e-05]
- [ 6.9227950e-05 -2.7759062e-04  6.6432600e-05 ... -5.6357876e-05
-  -5.2351119e-05  8.3881489e-05]
- ...
- [ 6.9228998e-05 -2.7758416e-04  6.6440938e-05 ... -5.6364042e-05
-  -5.2357420e-05  8.3889339e-05]
- [ 6.9223395e-05 -2.7758905e-04  6.6430446e-05 ... -5.6359266e-05
-  -5.2357402e-05  8.3892104e-05]
- [ 6.9222784e-05 -2.7758753e-04  6.6450099e-05 ... -5.6365865e-05
-  -5.2351257e-05  8.3883308e-05]]
-block.mlp.W_mlp2.outputs [[ 6.9217094e-05 -2.7759807e-04  6.6433175e-05 ... -5.6352215e-05
-  -5.2366220e-05  8.3885636e-05]
- [ 6.9242145e-05 -2.7759688e-04  6.6433000e-05 ... -5.6359411e-05
-  -5.2348529e-05  8.3876439e-05]
- [ 6.9227950e-05 -2.7759062e-04  6.6432600e-05 ... -5.6357876e-05
-  -5.2351119e-05  8.3881489e-05]
- ...
- [ 6.9228998e-05 -2.7758416e-04  6.6440938e-05 ... -5.6364042e-05
-  -5.2357420e-05  8.3889339e-05]
- [ 6.9223395e-05 -2.7758905e-04  6.6430446e-05 ... -5.6359266e-05
-  -5.2357402e-05  8.3892104e-05]
- [ 6.9222784e-05 -2.7758753e-04  6.6450099e-05 ... -5.6365865e-05
-  -5.2351257e-05  8.3883308e-05]]
+  Block 0 mlp error 1   = -2.339355523872655e-05
+  Block 0 mlp error 2   = -2.518587116639992e-08
 ts=7:
   L_embed (L1) = -0.0
-  L_out   (L4) = -0.00011352167348377407
+  L_out   (L4) = -0.00011352160800015554
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = -1.514183259132551e-05
-  Block 0 mlp error 2   = -4.960785560115255e-08
-block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-block.mlp.e_mlp1.target: [[ 8.5280208e-06  1.8121210e-04 -1.4473396e-05 ...  7.7451892e-05
-   2.4037057e-05  2.2578419e-05]
- [ 9.1415241e-06  1.8072952e-04 -1.5265898e-05 ...  7.7153825e-05
-   2.4975110e-05  2.1890923e-05]
- [ 8.6727678e-06  1.8071537e-04 -1.5567097e-05 ...  7.7013006e-05
-   2.4970237e-05  2.2335484e-05]
- ...
- [ 8.6209548e-06  1.8096012e-04 -1.5151152e-05 ...  7.7113902e-05
-   2.4560399e-05  2.2510449e-05]
- [ 8.4999756e-06  1.8065771e-04 -1.4950507e-05 ...  7.7518285e-05
-   2.4916977e-05  2.2536424e-05]
- [ 8.5856555e-06  1.8129181e-04 -1.5046648e-05 ...  7.7168996e-05
-   2.4365088e-05  2.2977718e-05]]
-zmplp2 value  [[ 8.5280208e-06  1.8121210e-04 -1.4473396e-05 ...  7.7451892e-05
-   2.4037057e-05  2.2578419e-05]
- [ 9.1415241e-06  1.8072952e-04 -1.5265898e-05 ...  7.7153825e-05
-   2.4975110e-05  2.1890923e-05]
- [ 8.6727678e-06  1.8071537e-04 -1.5567097e-05 ...  7.7013006e-05
-   2.4970237e-05  2.2335484e-05]
- ...
- [ 8.6209548e-06  1.8096012e-04 -1.5151152e-05 ...  7.7113902e-05
-   2.4560399e-05  2.2510449e-05]
- [ 8.4999756e-06  1.8065771e-04 -1.4950507e-05 ...  7.7518285e-05
-   2.4916977e-05  2.2536424e-05]
- [ 8.5856555e-06  1.8129181e-04 -1.5046648e-05 ...  7.7168996e-05
-   2.4365088e-05  2.2977718e-05]]
-check the surrounding 
-z_mlp2 [[ 4.2640413e-06  9.0620029e-05 -7.2366083e-06 ...  3.8728500e-05
-   1.2018775e-05  1.1289426e-05]
- [ 4.5707975e-06  9.0378657e-05 -7.6328497e-06 ...  3.8579448e-05
-   1.2487820e-05  1.0945665e-05]
- [ 4.3364157e-06  9.0371585e-05 -7.7834457e-06 ...  3.8509028e-05
-   1.2485383e-05  1.1167955e-05]
- ...
- [ 4.3105092e-06  9.0493995e-05 -7.5754788e-06 ...  3.8559483e-05
-   1.2280456e-05  1.1255441e-05]
- [ 4.2500187e-06  9.0342743e-05 -7.4751588e-06 ...  3.8761696e-05
-   1.2458753e-05  1.1268428e-05]
- [ 4.2928591e-06  9.0659887e-05 -7.5232269e-06 ...  3.8587033e-05
-   1.2182797e-05  1.1489084e-05]]
-cheack w_mlp2 [[ 4.2640413e-06  9.0620029e-05 -7.2366083e-06 ...  3.8728500e-05
-   1.2018775e-05  1.1289426e-05]
- [ 4.5707975e-06  9.0378657e-05 -7.6328497e-06 ...  3.8579448e-05
-   1.2487820e-05  1.0945665e-05]
- [ 4.3364157e-06  9.0371585e-05 -7.7834457e-06 ...  3.8509028e-05
-   1.2485383e-05  1.1167955e-05]
- ...
- [ 4.3105092e-06  9.0493995e-05 -7.5754788e-06 ...  3.8559483e-05
-   1.2280456e-05  1.1255441e-05]
- [ 4.2500187e-06  9.0342743e-05 -7.4751588e-06 ...  3.8761696e-05
-   1.2458753e-05  1.1268428e-05]
- [ 4.2928591e-06  9.0659887e-05 -7.5232269e-06 ...  3.8587033e-05
-   1.2182797e-05  1.1489084e-05]]
-block.mlp.e_mlp.mu [[ 6.9195368e-05 -2.7753730e-04  6.6376670e-05 ... -5.6267807e-05
-  -5.2310887e-05  8.3859108e-05]
- [ 6.9220434e-05 -2.7753611e-04  6.6376509e-05 ... -5.6275010e-05
-  -5.2293191e-05  8.3849904e-05]
- [ 6.9206246e-05 -2.7752985e-04  6.6376102e-05 ... -5.6273475e-05
-  -5.2295774e-05  8.3854968e-05]
- ...
- [ 6.9207257e-05 -2.7752339e-04  6.6384426e-05 ... -5.6279619e-05
-  -5.2302086e-05  8.3862782e-05]
- [ 6.9201669e-05 -2.7752828e-04  6.6373941e-05 ... -5.6274850e-05
-  -5.2302068e-05  8.3865554e-05]
- [ 6.9201051e-05 -2.7752676e-04  6.6393586e-05 ... -5.6281446e-05
-  -5.2295931e-05  8.3856772e-05]]
-block.mlp.W_mlp2.outputs [[ 6.9195368e-05 -2.7753730e-04  6.6376670e-05 ... -5.6267807e-05
-  -5.2310887e-05  8.3859108e-05]
- [ 6.9220434e-05 -2.7753611e-04  6.6376509e-05 ... -5.6275010e-05
-  -5.2293191e-05  8.3849904e-05]
- [ 6.9206246e-05 -2.7752985e-04  6.6376102e-05 ... -5.6273475e-05
-  -5.2295774e-05  8.3854968e-05]
- ...
- [ 6.9207257e-05 -2.7752339e-04  6.6384426e-05 ... -5.6279619e-05
-  -5.2302086e-05  8.3862782e-05]
- [ 6.9201669e-05 -2.7752828e-04  6.6373941e-05 ... -5.6274850e-05
-  -5.2302068e-05  8.3865554e-05]
- [ 6.9201051e-05 -2.7752676e-04  6.6393586e-05 ... -5.6281446e-05
-  -5.2295931e-05  8.3856772e-05]]
+  Block 0 mlp error 1   = -1.5141757103265263e-05
+  Block 0 mlp error 2   = -4.960817889809732e-08
 ts=8:
   L_embed (L1) = -0.0
-  L_out   (L4) = -0.00011714520223904401
+  L_out   (L4) = -0.0001171452458947897
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = -2.0490841052378528e-05
-  Block 0 mlp error 2   = -3.224393552159199e-08
-block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-block.mlp.e_mlp1.target: [[ 9.54752340e-06  1.81366617e-04 -1.41409801e-05 ...  7.72709900e-05
-   2.36808301e-05  2.23035931e-05]
- [ 1.01609985e-05  1.80884017e-04 -1.49334865e-05 ...  7.69729886e-05
-   2.46189138e-05  2.16160770e-05]
- [ 9.69228131e-06  1.80869887e-04 -1.52346702e-05 ...  7.68322061e-05
-   2.46140298e-05  2.20605816e-05]
- ...
- [ 9.64037372e-06  1.81114607e-04 -1.48188301e-05 ...  7.69330873e-05
-   2.42042061e-05  2.22356630e-05]
- [ 9.51939910e-06  1.80812174e-04 -1.46181710e-05 ...  7.73375214e-05
-   2.45607916e-05  2.22615836e-05]
- [ 9.60505895e-06  1.81446245e-04 -1.47142819e-05 ...  7.69881517e-05
-   2.40089212e-05  2.27029050e-05]]
-zmplp2 value  [[ 9.54752340e-06  1.81366617e-04 -1.41409801e-05 ...  7.72709900e-05
-   2.36808301e-05  2.23035931e-05]
- [ 1.01609985e-05  1.80884017e-04 -1.49334865e-05 ...  7.69729886e-05
-   2.46189138e-05  2.16160770e-05]
- [ 9.69228131e-06  1.80869887e-04 -1.52346702e-05 ...  7.68322061e-05
-   2.46140298e-05  2.20605816e-05]
- ...
- [ 9.64037372e-06  1.81114607e-04 -1.48188301e-05 ...  7.69330873e-05
-   2.42042061e-05  2.22356630e-05]
- [ 9.51939910e-06  1.80812174e-04 -1.46181710e-05 ...  7.73375214e-05
-   2.45607916e-05  2.22615836e-05]
- [ 9.60505895e-06  1.81446245e-04 -1.47142819e-05 ...  7.69881517e-05
-   2.40089212e-05  2.27029050e-05]]
-check the surrounding 
-z_mlp2 [[ 4.77380036e-06  9.06973073e-05 -7.07040499e-06 ...  3.86380379e-05
-   1.18406533e-05  1.11520076e-05]
- [ 5.08054336e-06  9.04559274e-05 -7.46664909e-06 ...  3.84890191e-05
-   1.23097152e-05  1.08082368e-05]
- [ 4.84618067e-06  9.04488625e-05 -7.61723595e-06 ...  3.84186169e-05
-   1.23072732e-05  1.10304982e-05]
- ...
- [ 4.82022642e-06  9.05712586e-05 -7.40932137e-06 ...  3.84690611e-05
-   1.21023522e-05  1.11180425e-05]
- [ 4.75973820e-06  9.04199987e-05 -7.30899501e-06 ...  3.86713036e-05
-   1.22806523e-05  1.11310028e-05]
- [ 4.80256904e-06  9.07371286e-05 -7.35704862e-06 ...  3.84966006e-05
-   1.20047071e-05  1.13516717e-05]]
-cheack w_mlp2 [[ 4.77380036e-06  9.06973073e-05 -7.07040499e-06 ...  3.86380379e-05
-   1.18406533e-05  1.11520076e-05]
- [ 5.08054336e-06  9.04559274e-05 -7.46664909e-06 ...  3.84890191e-05
-   1.23097152e-05  1.08082368e-05]
- [ 4.84618067e-06  9.04488625e-05 -7.61723595e-06 ...  3.84186169e-05
-   1.23072732e-05  1.10304982e-05]
- ...
- [ 4.82022642e-06  9.05712586e-05 -7.40932137e-06 ...  3.84690611e-05
-   1.21023522e-05  1.11180425e-05]
- [ 4.75973820e-06  9.04199987e-05 -7.30899501e-06 ...  3.86713036e-05
-   1.22806523e-05  1.11310028e-05]
- [ 4.80256904e-06  9.07371286e-05 -7.35704862e-06 ...  3.84966006e-05
-   1.20047071e-05  1.13516717e-05]]
-block.mlp.e_mlp.mu [[ 6.9210400e-05 -2.7757892e-04  6.6414803e-05 ... -5.6324861e-05
-  -5.2348500e-05  8.3876912e-05]
- [ 6.9235459e-05 -2.7757772e-04  6.6414636e-05 ... -5.6332061e-05
-  -5.2330804e-05  8.3867708e-05]
- [ 6.9221271e-05 -2.7757147e-04  6.6414235e-05 ... -5.6330529e-05
-  -5.2333391e-05  8.3872765e-05]
- ...
- [ 6.9222297e-05 -2.7756501e-04  6.6422566e-05 ... -5.6336681e-05
-  -5.2339699e-05  8.3880594e-05]
- [ 6.9216701e-05 -2.7756990e-04  6.6412074e-05 ... -5.6331908e-05
-  -5.2339677e-05  8.3883366e-05]
- [ 6.9216090e-05 -2.7756838e-04  6.6431727e-05 ... -5.6338507e-05
-  -5.2333540e-05  8.3874576e-05]]
-block.mlp.W_mlp2.outputs [[ 6.9210400e-05 -2.7757892e-04  6.6414803e-05 ... -5.6324861e-05
-  -5.2348500e-05  8.3876912e-05]
- [ 6.9235459e-05 -2.7757772e-04  6.6414636e-05 ... -5.6332061e-05
-  -5.2330804e-05  8.3867708e-05]
- [ 6.9221271e-05 -2.7757147e-04  6.6414235e-05 ... -5.6330529e-05
-  -5.2333391e-05  8.3872765e-05]
- ...
- [ 6.9222297e-05 -2.7756501e-04  6.6422566e-05 ... -5.6336681e-05
-  -5.2339699e-05  8.3880594e-05]
- [ 6.9216701e-05 -2.7756990e-04  6.6412074e-05 ... -5.6331908e-05
-  -5.2339677e-05  8.3883366e-05]
- [ 6.9216090e-05 -2.7756838e-04  6.6431727e-05 ... -5.6338507e-05
-  -5.2333540e-05  8.3874576e-05]]
+  Block 0 mlp error 1   = -2.0490897441050038e-05
+  Block 0 mlp error 2   = -3.224375788590805e-08
 ts=9:
   L_embed (L1) = -0.0
-  L_out   (L4) = -0.00011467808508314192
+  L_out   (L4) = -0.00011467804870335385
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = -1.6798854630906135e-05
-  Block 0 mlp error 2   = -4.349715965190626e-08
-block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-block.mlp.e_mlp1.target: [[ 8.8604429e-06  1.8126074e-04 -1.4363197e-05 ...  7.7395373e-05
-   2.3918803e-05  2.2486660e-05]
- [ 9.4739426e-06  1.8077815e-04 -1.5155694e-05 ...  7.7097342e-05
-   2.4856870e-05  2.1799147e-05]
- [ 9.0052117e-06  1.8076402e-04 -1.5456884e-05 ...  7.6956545e-05
-   2.4851988e-05  2.2243672e-05]
- ...
- [ 8.9533360e-06  1.8100876e-04 -1.5041006e-05 ...  7.7057433e-05
-   2.4442161e-05  2.2418712e-05]
- [ 8.8323668e-06  1.8070632e-04 -1.4840349e-05 ...  7.7461853e-05
-   2.4798739e-05  2.2444648e-05]
- [ 8.9180303e-06  1.8134041e-04 -1.4936474e-05 ...  7.7112512e-05
-   2.4246865e-05  2.2885964e-05]]
-zmplp2 value  [[ 8.8604429e-06  1.8126074e-04 -1.4363197e-05 ...  7.7395373e-05
-   2.3918803e-05  2.2486660e-05]
- [ 9.4739426e-06  1.8077815e-04 -1.5155694e-05 ...  7.7097342e-05
-   2.4856870e-05  2.1799147e-05]
- [ 9.0052117e-06  1.8076402e-04 -1.5456884e-05 ...  7.6956545e-05
-   2.4851988e-05  2.2243672e-05]
- ...
- [ 8.9533360e-06  1.8100876e-04 -1.5041006e-05 ...  7.7057433e-05
-   2.4442161e-05  2.2418712e-05]
- [ 8.8323668e-06  1.8070632e-04 -1.4840349e-05 ...  7.7461853e-05
-   2.4798739e-05  2.2444648e-05]
- [ 8.9180303e-06  1.8134041e-04 -1.4936474e-05 ...  7.7112512e-05
-   2.4246865e-05  2.2885964e-05]]
-check the surrounding 
-z_mlp2 [[ 4.43025465e-06  9.06443456e-05 -7.18151114e-06 ...  3.87002365e-05
-   1.19596452e-05  1.12435455e-05]
- [ 4.73700948e-06  9.04029730e-05 -7.57774933e-06 ...  3.85511994e-05
-   1.24286989e-05  1.08997765e-05]
- [ 4.50264042e-06  9.03959080e-05 -7.72834119e-06 ...  3.84807900e-05
-   1.24262579e-05  1.11220470e-05]
- ...
- [ 4.47670209e-06  9.05183188e-05 -7.52040614e-06 ...  3.85312414e-05
-   1.22213351e-05  1.12095695e-05]
- [ 4.41621660e-06  9.03670589e-05 -7.42008069e-06 ...  3.87334803e-05
-   1.23996315e-05  1.12225380e-05]
- [ 4.45904925e-06  9.06841888e-05 -7.46814248e-06 ...  3.85587882e-05
-   1.21236826e-05  1.14432041e-05]]
-cheack w_mlp2 [[ 4.43025465e-06  9.06443456e-05 -7.18151114e-06 ...  3.87002365e-05
-   1.19596452e-05  1.12435455e-05]
- [ 4.73700948e-06  9.04029730e-05 -7.57774933e-06 ...  3.85511994e-05
-   1.24286989e-05  1.08997765e-05]
- [ 4.50264042e-06  9.03959080e-05 -7.72834119e-06 ...  3.84807900e-05
-   1.24262579e-05  1.11220470e-05]
- ...
- [ 4.47670209e-06  9.05183188e-05 -7.52040614e-06 ...  3.85312414e-05
-   1.22213351e-05  1.12095695e-05]
- [ 4.41621660e-06  9.03670589e-05 -7.42008069e-06 ...  3.87334803e-05
-   1.23996315e-05  1.12225380e-05]
- [ 4.45904925e-06  9.06841888e-05 -7.46814248e-06 ...  3.85587882e-05
-   1.21236826e-05  1.14432041e-05]]
-block.mlp.e_mlp.mu [[ 6.9200149e-05 -2.7755063e-04  6.6389090e-05 ... -5.6286353e-05
-  -5.2323026e-05  8.3864958e-05]
- [ 6.9225207e-05 -2.7754944e-04  6.6388930e-05 ... -5.6293553e-05
-  -5.2305331e-05  8.3855761e-05]
- [ 6.9211019e-05 -2.7754315e-04  6.6388522e-05 ... -5.6292021e-05
-  -5.2307914e-05  8.3860818e-05]
- ...
- [ 6.9212037e-05 -2.7753672e-04  6.6396853e-05 ... -5.6298170e-05
-  -5.2314226e-05  8.3868639e-05]
- [ 6.9206442e-05 -2.7754158e-04  6.6386361e-05 ... -5.6293396e-05
-  -5.2314204e-05  8.3871411e-05]
- [ 6.9205831e-05 -2.7754006e-04  6.6406006e-05 ... -5.6299992e-05
-  -5.2308067e-05  8.3862622e-05]]
-block.mlp.W_mlp2.outputs [[ 6.9200149e-05 -2.7755063e-04  6.6389090e-05 ... -5.6286353e-05
-  -5.2323026e-05  8.3864958e-05]
- [ 6.9225207e-05 -2.7754944e-04  6.6388930e-05 ... -5.6293553e-05
-  -5.2305331e-05  8.3855761e-05]
- [ 6.9211019e-05 -2.7754315e-04  6.6388522e-05 ... -5.6292021e-05
-  -5.2307914e-05  8.3860818e-05]
- ...
- [ 6.9212037e-05 -2.7753672e-04  6.6396853e-05 ... -5.6298170e-05
-  -5.2314226e-05  8.3868639e-05]
- [ 6.9206442e-05 -2.7754158e-04  6.6386361e-05 ... -5.6293396e-05
-  -5.2314204e-05  8.3871411e-05]
- [ 6.9205831e-05 -2.7754006e-04  6.6406006e-05 ... -5.6299992e-05
-  -5.2308067e-05  8.3862622e-05]]
+  Block 0 mlp error 1   = -1.679881097516045e-05
+  Block 0 mlp error 2   = -4.349727689145766e-08
 ts=10:
   L_embed (L1) = -0.0
-  L_out   (L4) = -0.00011632640962488949
+  L_out   (L4) = -0.00011632643145276234
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = -1.9242510461481288e-05
-  Block 0 mlp error 2   = -3.572865381329393e-08
-block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-block.mlp.e_mlp1.target: [[ 9.32328840e-06  1.81332784e-04 -1.42141616e-05 ...  7.73106804e-05
-   2.37592230e-05  2.23641782e-05]
- [ 9.93676804e-06  1.80850198e-04 -1.50066671e-05 ...  7.70126644e-05
-   2.46972995e-05  2.16766675e-05]
- [ 9.46804175e-06  1.80836068e-04 -1.53078545e-05 ...  7.68718746e-05
-   2.46924174e-05  2.21211849e-05]
- ...
- [ 9.41615690e-06  1.81080788e-04 -1.48919898e-05 ...  7.69727558e-05
-   2.42825918e-05  2.22962390e-05]
- [ 9.29518228e-06  1.80778370e-04 -1.46913344e-05 ...  7.73771826e-05
-   2.46391737e-05  2.23221723e-05]
- [ 9.38084759e-06  1.81412441e-04 -1.47874525e-05 ...  7.70278348e-05
-   2.40872996e-05  2.27634882e-05]]
-zmplp2 value  [[ 9.32328840e-06  1.81332784e-04 -1.42141616e-05 ...  7.73106804e-05
-   2.37592230e-05  2.23641782e-05]
- [ 9.93676804e-06  1.80850198e-04 -1.50066671e-05 ...  7.70126644e-05
-   2.46972995e-05  2.16766675e-05]
- [ 9.46804175e-06  1.80836068e-04 -1.53078545e-05 ...  7.68718746e-05
-   2.46924174e-05  2.21211849e-05]
- ...
- [ 9.41615690e-06  1.81080788e-04 -1.48919898e-05 ...  7.69727558e-05
-   2.42825918e-05  2.22962390e-05]
- [ 9.29518228e-06  1.80778370e-04 -1.46913344e-05 ...  7.73771826e-05
-   2.46391737e-05  2.23221723e-05]
- [ 9.38084759e-06  1.81412441e-04 -1.47874525e-05 ...  7.70278348e-05
-   2.40872996e-05  2.27634882e-05]]
-check the surrounding 
-z_mlp2 [[ 4.66168149e-06  9.06803762e-05 -7.10699442e-06 ...  3.86578831e-05
-   1.18798525e-05  1.11823028e-05]
- [ 4.96842586e-06  9.04390181e-05 -7.50323807e-06 ...  3.85088570e-05
-   1.23489090e-05  1.08385339e-05]
- [ 4.73405908e-06  9.04319459e-05 -7.65382720e-06 ...  3.84384512e-05
-   1.23464679e-05  1.10608007e-05]
- ...
- [ 4.70811619e-06  9.05543493e-05 -7.44590079e-06 ...  3.84889026e-05
-   1.21415460e-05  1.11483305e-05]
- [ 4.64762752e-06  9.04030821e-05 -7.34557534e-06 ...  3.86911379e-05
-   1.23198452e-05  1.11612981e-05]
- [ 4.69046108e-06  9.07202266e-05 -7.39363304e-06 ...  3.85164421e-05
-   1.20438972e-05  1.13819651e-05]]
-cheack w_mlp2 [[ 4.66168149e-06  9.06803762e-05 -7.10699442e-06 ...  3.86578831e-05
-   1.18798525e-05  1.11823028e-05]
- [ 4.96842586e-06  9.04390181e-05 -7.50323807e-06 ...  3.85088570e-05
-   1.23489090e-05  1.08385339e-05]
- [ 4.73405908e-06  9.04319459e-05 -7.65382720e-06 ...  3.84384512e-05
-   1.23464679e-05  1.10608007e-05]
- ...
- [ 4.70811619e-06  9.05543493e-05 -7.44590079e-06 ...  3.84889026e-05
-   1.21415460e-05  1.11483305e-05]
- [ 4.64762752e-06  9.04030821e-05 -7.34557534e-06 ...  3.86911379e-05
-   1.23198452e-05  1.11612981e-05]
- [ 4.69046108e-06  9.07202266e-05 -7.39363304e-06 ...  3.85164421e-05
-   1.20438972e-05  1.13819651e-05]]
-block.mlp.e_mlp.mu [[ 6.9207090e-05 -2.7756978e-04  6.6406421e-05 ... -5.6312321e-05
-  -5.2340241e-05  8.3872983e-05]
- [ 6.9232148e-05 -2.7756859e-04  6.6406254e-05 ... -5.6319521e-05
-  -5.2322546e-05  8.3863779e-05]
- [ 6.9217960e-05 -2.7756233e-04  6.6405846e-05 ... -5.6317989e-05
-  -5.2325129e-05  8.3868836e-05]
- ...
- [ 6.9218986e-05 -2.7755587e-04  6.6414184e-05 ... -5.6324137e-05
-  -5.2331441e-05  8.3876672e-05]
- [ 6.9213391e-05 -2.7756076e-04  6.6403692e-05 ... -5.6319368e-05
-  -5.2331419e-05  8.3879437e-05]
- [ 6.9212780e-05 -2.7755924e-04  6.6423338e-05 ... -5.6325964e-05
-  -5.2325282e-05  8.3870647e-05]]
-block.mlp.W_mlp2.outputs [[ 6.9207090e-05 -2.7756978e-04  6.6406421e-05 ... -5.6312321e-05
-  -5.2340241e-05  8.3872983e-05]
- [ 6.9232148e-05 -2.7756859e-04  6.6406254e-05 ... -5.6319521e-05
-  -5.2322546e-05  8.3863779e-05]
- [ 6.9217960e-05 -2.7756233e-04  6.6405846e-05 ... -5.6317989e-05
-  -5.2325129e-05  8.3868836e-05]
- ...
- [ 6.9218986e-05 -2.7755587e-04  6.6414184e-05 ... -5.6324137e-05
-  -5.2331441e-05  8.3876672e-05]
- [ 6.9213391e-05 -2.7756076e-04  6.6403692e-05 ... -5.6319368e-05
-  -5.2331419e-05  8.3879437e-05]
- [ 6.9212780e-05 -2.7755924e-04  6.6423338e-05 ... -5.6325964e-05
-  -5.2325282e-05  8.3870647e-05]]
+  Block 0 mlp error 1   = -1.9242525013396516e-05
+  Block 0 mlp error 2   = -3.5728579206306676e-08
 ts=11:
   L_embed (L1) = -0.0
-  L_out   (L4) = -0.00011521088890731335
+  L_out   (L4) = -0.0001152108670794405
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = -1.7578437109477818e-05
-  Block 0 mlp error 2   = -4.086992788643329e-08
-block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-block.mlp.e_mlp1.target: [[ 9.0115664e-06  1.8128396e-04 -1.4314296e-05 ...  7.7368051e-05
-   2.3866451e-05  2.2446338e-05]
- [ 9.6250606e-06  1.8080136e-04 -1.5106796e-05 ...  7.7070028e-05
-   2.4804522e-05  2.1758824e-05]
- [ 9.1563352e-06  1.8078725e-04 -1.5407984e-05 ...  7.6929231e-05
-   2.4799640e-05  2.2203345e-05]
- ...
- [ 9.1044494e-06  1.8103197e-04 -1.4992115e-05 ...  7.7030119e-05
-   2.4389812e-05  2.2378394e-05]
- [ 8.9834793e-06  1.8072955e-04 -1.4791456e-05 ...  7.7434539e-05
-   2.4746392e-05  2.2404327e-05]
- [ 9.0691428e-06  1.8136362e-04 -1.4887579e-05 ...  7.7085191e-05
-   2.4194518e-05  2.2845645e-05]]
-zmplp2 value  [[ 9.0115664e-06  1.8128396e-04 -1.4314296e-05 ...  7.7368051e-05
-   2.3866451e-05  2.2446338e-05]
- [ 9.6250606e-06  1.8080136e-04 -1.5106796e-05 ...  7.7070028e-05
-   2.4804522e-05  2.1758824e-05]
- [ 9.1563352e-06  1.8078725e-04 -1.5407984e-05 ...  7.6929231e-05
-   2.4799640e-05  2.2203345e-05]
- ...
- [ 9.1044494e-06  1.8103197e-04 -1.4992115e-05 ...  7.7030119e-05
-   2.4389812e-05  2.2378394e-05]
- [ 8.9834793e-06  1.8072955e-04 -1.4791456e-05 ...  7.7434539e-05
-   2.4746392e-05  2.2404327e-05]
- [ 9.0691428e-06  1.8136362e-04 -1.4887579e-05 ...  7.7085191e-05
-   2.4194518e-05  2.2845645e-05]]
-check the surrounding 
-z_mlp2 [[ 4.50581774e-06  9.06559653e-05 -7.15706119e-06 ...  3.86865722e-05
-   1.19334672e-05  1.12233829e-05]
- [ 4.81256984e-06  9.04145927e-05 -7.55330075e-06 ...  3.85375388e-05
-   1.24025228e-05  1.08796130e-05]
- [ 4.57820306e-06  9.04075350e-05 -7.70389124e-06 ...  3.84671330e-05
-   1.24000817e-05  1.11018826e-05]
- ...
- [ 4.55226018e-06  9.05299239e-05 -7.49596211e-06 ...  3.85175845e-05
-   1.21951589e-05  1.11894105e-05]
- [ 4.49177378e-06  9.03786713e-05 -7.39563438e-06 ...  3.87198234e-05
-   1.23734571e-05  1.12023772e-05]
- [ 4.53460643e-06  9.06958085e-05 -7.44369527e-06 ...  3.85451240e-05
-   1.20975083e-05  1.14230443e-05]]
-cheack w_mlp2 [[ 4.50581774e-06  9.06559653e-05 -7.15706119e-06 ...  3.86865722e-05
-   1.19334672e-05  1.12233829e-05]
- [ 4.81256984e-06  9.04145927e-05 -7.55330075e-06 ...  3.85375388e-05
-   1.24025228e-05  1.08796130e-05]
- [ 4.57820306e-06  9.04075350e-05 -7.70389124e-06 ...  3.84671330e-05
-   1.24000817e-05  1.11018826e-05]
- ...
- [ 4.55226018e-06  9.05299239e-05 -7.49596211e-06 ...  3.85175845e-05
-   1.21951589e-05  1.11894105e-05]
- [ 4.49177378e-06  9.03786713e-05 -7.39563438e-06 ...  3.87198234e-05
-   1.23734571e-05  1.12023772e-05]
- [ 4.53460643e-06  9.06958085e-05 -7.44369527e-06 ...  3.85451240e-05
-   1.20975083e-05  1.14230443e-05]]
-block.mlp.e_mlp.mu [[ 6.9202404e-05 -2.7755683e-04  6.6394743e-05 ... -5.6294819e-05
-  -5.2328625e-05  8.3867591e-05]
- [ 6.9227463e-05 -2.7755563e-04  6.6394583e-05 ... -5.6302018e-05
-  -5.2310930e-05  8.3858387e-05]
- [ 6.9213274e-05 -2.7754938e-04  6.6394176e-05 ... -5.6300487e-05
-  -5.2313513e-05  8.3863444e-05]
- ...
- [ 6.9214300e-05 -2.7754292e-04  6.6402506e-05 ... -5.6306635e-05
-  -5.2319821e-05  8.3871273e-05]
- [ 6.9208705e-05 -2.7754781e-04  6.6392015e-05 ... -5.6301866e-05
-  -5.2319803e-05  8.3874045e-05]
- [ 6.9208094e-05 -2.7754629e-04  6.6411667e-05 ... -5.6308461e-05
-  -5.2313662e-05  8.3865256e-05]]
-block.mlp.W_mlp2.outputs [[ 6.9202404e-05 -2.7755683e-04  6.6394743e-05 ... -5.6294819e-05
-  -5.2328625e-05  8.3867591e-05]
- [ 6.9227463e-05 -2.7755563e-04  6.6394583e-05 ... -5.6302018e-05
-  -5.2310930e-05  8.3858387e-05]
- [ 6.9213274e-05 -2.7754938e-04  6.6394176e-05 ... -5.6300487e-05
-  -5.2313513e-05  8.3863444e-05]
- ...
- [ 6.9214300e-05 -2.7754292e-04  6.6402506e-05 ... -5.6306635e-05
-  -5.2319821e-05  8.3871273e-05]
- [ 6.9208705e-05 -2.7754781e-04  6.6392015e-05 ... -5.6301866e-05
-  -5.2319803e-05  8.3874045e-05]
- [ 6.9208094e-05 -2.7754629e-04  6.6411667e-05 ... -5.6308461e-05
-  -5.2313662e-05  8.3865256e-05]]
+  Block 0 mlp error 1   = -1.7578413462615572e-05
+  Block 0 mlp error 2   = -4.086998472985215e-08
 ts=12:
   L_embed (L1) = -0.0
   L_out   (L4) = -0.00011595938121899962
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = -1.8690248907660134e-05
-  Block 0 mlp error 2   = -3.7368486971445236e-08
-block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-block.mlp.e_mlp1.target: [[ 9.2214850e-06  1.8131697e-04 -1.4246951e-05 ...  7.7329300e-05
-   2.3794324e-05  2.2391141e-05]
- [ 9.8349692e-06  1.8083438e-04 -1.5039454e-05 ...  7.7031276e-05
-   2.4732399e-05  2.1703630e-05]
- [ 9.3662420e-06  1.8082025e-04 -1.5340642e-05 ...  7.6890487e-05
-   2.4727517e-05  2.2148150e-05]
- ...
- [ 9.3143590e-06  1.8106497e-04 -1.4924774e-05 ...  7.6991368e-05
-   2.4317691e-05  2.2323200e-05]
- [ 9.1933844e-06  1.8076255e-04 -1.4724119e-05 ...  7.7395795e-05
-   2.4674271e-05  2.2349135e-05]
- [ 9.2790497e-06  1.8139662e-04 -1.4820238e-05 ...  7.7046447e-05
-   2.4122397e-05  2.2790451e-05]]
-zmplp2 value  [[ 9.2214850e-06  1.8131697e-04 -1.4246951e-05 ...  7.7329300e-05
-   2.3794324e-05  2.2391141e-05]
- [ 9.8349692e-06  1.8083438e-04 -1.5039454e-05 ...  7.7031276e-05
-   2.4732399e-05  2.1703630e-05]
- [ 9.3662420e-06  1.8082025e-04 -1.5340642e-05 ...  7.6890487e-05
-   2.4727517e-05  2.2148150e-05]
- ...
- [ 9.3143590e-06  1.8106497e-04 -1.4924774e-05 ...  7.6991368e-05
-   2.4317691e-05  2.2323200e-05]
- [ 9.1933844e-06  1.8076255e-04 -1.4724119e-05 ...  7.7395795e-05
-   2.4674271e-05  2.2349135e-05]
- [ 9.2790497e-06  1.8139662e-04 -1.4820238e-05 ...  7.7046447e-05
-   2.4122397e-05  2.2790451e-05]]
-check the surrounding 
-z_mlp2 [[ 4.6107789e-06  9.0672467e-05 -7.1233890e-06 ...  3.8667193e-05
-   1.1897403e-05  1.1195784e-05]
- [ 4.9175255e-06  9.0431102e-05 -7.5196303e-06 ...  3.8518163e-05
-   1.2366460e-05  1.0852015e-05]
- [ 4.6831583e-06  9.0424037e-05 -7.6702199e-06 ...  3.8447761e-05
-   1.2364019e-05  1.1074283e-05]
- ...
- [ 4.6572168e-06  9.0546426e-05 -7.4622931e-06 ...  3.8498209e-05
-   1.2159097e-05  1.1161812e-05]
- [ 4.5967286e-06  9.0395173e-05 -7.3619672e-06 ...  3.8700447e-05
-   1.2337395e-05  1.1174780e-05]
- [ 4.6395612e-06  9.0712310e-05 -7.4100253e-06 ...  3.8525748e-05
-   1.2061446e-05  1.1395447e-05]]
-cheack w_mlp2 [[ 4.6107789e-06  9.0672467e-05 -7.1233890e-06 ...  3.8667193e-05
-   1.1897403e-05  1.1195784e-05]
- [ 4.9175255e-06  9.0431102e-05 -7.5196303e-06 ...  3.8518163e-05
-   1.2366460e-05  1.0852015e-05]
- [ 4.6831583e-06  9.0424037e-05 -7.6702199e-06 ...  3.8447761e-05
-   1.2364019e-05  1.1074283e-05]
- ...
- [ 4.6572168e-06  9.0546426e-05 -7.4622931e-06 ...  3.8498209e-05
-   1.2159097e-05  1.1161812e-05]
- [ 4.5967286e-06  9.0395173e-05 -7.3619672e-06 ...  3.8700447e-05
-   1.2337395e-05  1.1174780e-05]
- [ 4.6395612e-06  9.0712310e-05 -7.4100253e-06 ...  3.8525748e-05
-   1.2061446e-05  1.1395447e-05]]
-block.mlp.e_mlp.mu [[ 6.9205562e-05 -2.7756556e-04  6.6402608e-05 ... -5.6306613e-05
-  -5.2336458e-05  8.3871222e-05]
- [ 6.9230620e-05 -2.7756440e-04  6.6402441e-05 ... -5.6313809e-05
-  -5.2318763e-05  8.3862018e-05]
- [ 6.9216432e-05 -2.7755811e-04  6.6402041e-05 ... -5.6312278e-05
-  -5.2321346e-05  8.3867075e-05]
- ...
- [ 6.9217458e-05 -2.7755165e-04  6.6410372e-05 ... -5.6318429e-05
-  -5.2327654e-05  8.3874904e-05]
- [ 6.9211863e-05 -2.7755654e-04  6.6399880e-05 ... -5.6313656e-05
-  -5.2327636e-05  8.3877676e-05]
- [ 6.9211252e-05 -2.7755502e-04  6.6419532e-05 ... -5.6320256e-05
-  -5.2321499e-05  8.3868879e-05]]
-block.mlp.W_mlp2.outputs [[ 6.9205562e-05 -2.7756556e-04  6.6402608e-05 ... -5.6306613e-05
-  -5.2336458e-05  8.3871222e-05]
- [ 6.9230620e-05 -2.7756440e-04  6.6402441e-05 ... -5.6313809e-05
-  -5.2318763e-05  8.3862018e-05]
- [ 6.9216432e-05 -2.7755811e-04  6.6402041e-05 ... -5.6312278e-05
-  -5.2321346e-05  8.3867075e-05]
- ...
- [ 6.9217458e-05 -2.7755165e-04  6.6410372e-05 ... -5.6318429e-05
-  -5.2327654e-05  8.3874904e-05]
- [ 6.9211863e-05 -2.7755654e-04  6.6399880e-05 ... -5.6313656e-05
-  -5.2327636e-05  8.3877676e-05]
- [ 6.9211252e-05 -2.7755502e-04  6.6419532e-05 ... -5.6320256e-05
-  -5.2321499e-05  8.3868879e-05]]
+  Block 0 mlp error 1   = -1.869026164058596e-05
+  Block 0 mlp error 2   = -3.736844433888109e-08
 ts=13:
   L_embed (L1) = -0.0
   L_out   (L4) = -0.00011545421875780448
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = -1.793777300918009e-05
-  Block 0 mlp error 2   = -3.9707835242097644e-08
-block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-block.mlp.e_mlp1.target: [[ 9.0801295e-06  1.8129469e-04 -1.4292268e-05 ...  7.7355435e-05
-   2.3842866e-05  2.2428258e-05]
- [ 9.6936219e-06  1.8081210e-04 -1.5084770e-05 ...  7.7057419e-05
-   2.4780938e-05  2.1740743e-05]
- [ 9.2248956e-06  1.8079797e-04 -1.5385956e-05 ...  7.6916622e-05
-   2.4776054e-05  2.2185264e-05]
- ...
- [ 9.1730126e-06  1.8104269e-04 -1.4970089e-05 ...  7.7017503e-05
-   2.4366231e-05  2.2360313e-05]
- [ 9.0520389e-06  1.8074027e-04 -1.4769432e-05 ...  7.7421930e-05
-   2.4722809e-05  2.2386248e-05]
- [ 9.1377015e-06  1.8137434e-04 -1.4865553e-05 ...  7.7072582e-05
-   2.4170935e-05  2.2827564e-05]]
-zmplp2 value  [[ 9.0801295e-06  1.8129469e-04 -1.4292268e-05 ...  7.7355435e-05
-   2.3842866e-05  2.2428258e-05]
- [ 9.6936219e-06  1.8081210e-04 -1.5084770e-05 ...  7.7057419e-05
-   2.4780938e-05  2.1740743e-05]
- [ 9.2248956e-06  1.8079797e-04 -1.5385956e-05 ...  7.6916622e-05
-   2.4776054e-05  2.2185264e-05]
- ...
- [ 9.1730126e-06  1.8104269e-04 -1.4970089e-05 ...  7.7017503e-05
-   2.4366231e-05  2.2360313e-05]
- [ 9.0520389e-06  1.8074027e-04 -1.4769432e-05 ...  7.7421930e-05
-   2.4722809e-05  2.2386248e-05]
- [ 9.1377015e-06  1.8137434e-04 -1.4865553e-05 ...  7.7072582e-05
-   2.4170935e-05  2.2827564e-05]]
-check the surrounding 
-z_mlp2 [[ 4.54009978e-06  9.06613277e-05 -7.14604721e-06 ...  3.86802640e-05
-   1.19216747e-05  1.12143425e-05]
- [ 4.84685097e-06  9.04199624e-05 -7.54228768e-06 ...  3.85312342e-05
-   1.23907303e-05  1.08705726e-05]
- [ 4.61248419e-06  9.04128974e-05 -7.69287726e-06 ...  3.84608284e-05
-   1.23882883e-05  1.10928413e-05]
- ...
- [ 4.58654222e-06  9.05352863e-05 -7.48494904e-06 ...  3.85112762e-05
-   1.21833682e-05  1.11803693e-05]
- [ 4.52605445e-06  9.03840337e-05 -7.38462268e-06 ...  3.87135151e-05
-   1.23616655e-05  1.11933377e-05]
- [ 4.56888620e-06  9.07011708e-05 -7.43268220e-06 ...  3.85388194e-05
-   1.20857167e-05  1.14140039e-05]]
-cheack w_mlp2 [[ 4.54009978e-06  9.06613277e-05 -7.14604721e-06 ...  3.86802640e-05
-   1.19216747e-05  1.12143425e-05]
- [ 4.84685097e-06  9.04199624e-05 -7.54228768e-06 ...  3.85312342e-05
-   1.23907303e-05  1.08705726e-05]
- [ 4.61248419e-06  9.04128974e-05 -7.69287726e-06 ...  3.84608284e-05
-   1.23882883e-05  1.10928413e-05]
- ...
- [ 4.58654222e-06  9.05352863e-05 -7.48494904e-06 ...  3.85112762e-05
-   1.21833682e-05  1.11803693e-05]
- [ 4.52605445e-06  9.03840337e-05 -7.38462268e-06 ...  3.87135151e-05
-   1.23616655e-05  1.11933377e-05]
- [ 4.56888620e-06  9.07011708e-05 -7.43268220e-06 ...  3.85388194e-05
-   1.20857167e-05  1.14140039e-05]]
-block.mlp.e_mlp.mu [[ 6.9203437e-05 -2.7755968e-04  6.6397311e-05 ... -5.6298668e-05
-  -5.2331179e-05  8.3868777e-05]
- [ 6.9228496e-05 -2.7755849e-04  6.6397144e-05 ... -5.6305867e-05
-  -5.2313484e-05  8.3859573e-05]
- [ 6.9214308e-05 -2.7755223e-04  6.6396744e-05 ... -5.6304336e-05
-  -5.2316067e-05  8.3864630e-05]
- ...
- [ 6.9215333e-05 -2.7754577e-04  6.6405075e-05 ... -5.6310484e-05
-  -5.2322375e-05  8.3872459e-05]
- [ 6.9209738e-05 -2.7755066e-04  6.6394583e-05 ... -5.6305715e-05
-  -5.2322357e-05  8.3875231e-05]
- [ 6.9209120e-05 -2.7754914e-04  6.6414228e-05 ... -5.6312310e-05
-  -5.2316220e-05  8.3866442e-05]]
-block.mlp.W_mlp2.outputs [[ 6.9203437e-05 -2.7755968e-04  6.6397311e-05 ... -5.6298668e-05
-  -5.2331179e-05  8.3868777e-05]
- [ 6.9228496e-05 -2.7755849e-04  6.6397144e-05 ... -5.6305867e-05
-  -5.2313484e-05  8.3859573e-05]
- [ 6.9214308e-05 -2.7755223e-04  6.6396744e-05 ... -5.6304336e-05
-  -5.2316067e-05  8.3864630e-05]
- ...
- [ 6.9215333e-05 -2.7754577e-04  6.6405075e-05 ... -5.6310484e-05
-  -5.2322375e-05  8.3872459e-05]
- [ 6.9209738e-05 -2.7755066e-04  6.6394583e-05 ... -5.6305715e-05
-  -5.2322357e-05  8.3875231e-05]
- [ 6.9209120e-05 -2.7754914e-04  6.6414228e-05 ... -5.6312310e-05
-  -5.2316220e-05  8.3866442e-05]]
+  Block 0 mlp error 1   = -1.7937760276254267e-05
+  Block 0 mlp error 2   = -3.9707863663807075e-08
 ts=14:
   L_embed (L1) = -0.0
   L_out   (L4) = -0.00011579383863136172
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = -1.8442675354890525e-05
-  Block 0 mlp error 2   = -3.8124465362443516e-08
-block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-block.mlp.e_mlp1.target: [[ 9.1753118e-06  1.8130972e-04 -1.4261765e-05 ...  7.7337820e-05
-   2.3810187e-05  2.2403286e-05]
- [ 9.7888005e-06  1.8082712e-04 -1.5054267e-05 ...  7.7039804e-05
-   2.4748262e-05  2.1715774e-05]
- [ 9.3200724e-06  1.8081299e-04 -1.5355456e-05 ...  7.6899007e-05
-   2.4743380e-05  2.2160295e-05]
- ...
- [ 9.2681894e-06  1.8105772e-04 -1.4939587e-05 ...  7.6999888e-05
-   2.4333553e-05  2.2335345e-05]
- [ 9.1472157e-06  1.8075529e-04 -1.4738930e-05 ...  7.7404315e-05
-   2.4690135e-05  2.2361279e-05]
- [ 9.2328810e-06  1.8138936e-04 -1.4835051e-05 ...  7.7054967e-05
-   2.4138260e-05  2.2802597e-05]]
-zmplp2 value  [[ 9.1753118e-06  1.8130972e-04 -1.4261765e-05 ...  7.7337820e-05
-   2.3810187e-05  2.2403286e-05]
- [ 9.7888005e-06  1.8082712e-04 -1.5054267e-05 ...  7.7039804e-05
-   2.4748262e-05  2.1715774e-05]
- [ 9.3200724e-06  1.8081299e-04 -1.5355456e-05 ...  7.6899007e-05
-   2.4743380e-05  2.2160295e-05]
- ...
- [ 9.2681894e-06  1.8105772e-04 -1.4939587e-05 ...  7.6999888e-05
-   2.4333553e-05  2.2335345e-05]
- [ 9.1472157e-06  1.8075529e-04 -1.4738930e-05 ...  7.7404315e-05
-   2.4690135e-05  2.2361279e-05]
- [ 9.2328810e-06  1.8138936e-04 -1.4835051e-05 ...  7.7054967e-05
-   2.4138260e-05  2.2802597e-05]]
-check the surrounding 
-z_mlp2 [[ 4.58769182e-06  9.06688438e-05 -7.13079544e-06 ...  3.86714528e-05
-   1.19053348e-05  1.12018570e-05]
- [ 4.89444119e-06  9.04274712e-05 -7.52703681e-06 ...  3.85224266e-05
-   1.23743921e-05  1.08580880e-05]
- [ 4.66007350e-06  9.04204062e-05 -7.67762685e-06 ...  3.84520208e-05
-   1.23719510e-05  1.10803558e-05]
- ...
- [ 4.63413107e-06  9.05428024e-05 -7.46969909e-06 ...  3.85024687e-05
-   1.21670282e-05  1.11678855e-05]
- [ 4.57364331e-06  9.03915425e-05 -7.36937272e-06 ...  3.87047075e-05
-   1.23453265e-05  1.11808522e-05]
- [ 4.61647687e-06  9.07086796e-05 -7.41743179e-06 ...  3.85300082e-05
-   1.20693776e-05  1.14015202e-05]]
-cheack w_mlp2 [[ 4.58769182e-06  9.06688438e-05 -7.13079544e-06 ...  3.86714528e-05
-   1.19053348e-05  1.12018570e-05]
- [ 4.89444119e-06  9.04274712e-05 -7.52703681e-06 ...  3.85224266e-05
-   1.23743921e-05  1.08580880e-05]
- [ 4.66007350e-06  9.04204062e-05 -7.67762685e-06 ...  3.84520208e-05
-   1.23719510e-05  1.10803558e-05]
- ...
- [ 4.63413107e-06  9.05428024e-05 -7.46969909e-06 ...  3.85024687e-05
-   1.21670282e-05  1.11678855e-05]
- [ 4.57364331e-06  9.03915425e-05 -7.36937272e-06 ...  3.87047075e-05
-   1.23453265e-05  1.11808522e-05]
- [ 4.61647687e-06  9.07086796e-05 -7.41743179e-06 ...  3.85300082e-05
-   1.20693776e-05  1.14015202e-05]]
-block.mlp.e_mlp.mu [[ 6.9204871e-05 -2.7756364e-04  6.6400877e-05 ... -5.6304019e-05
-  -5.2334733e-05  8.3870422e-05]
- [ 6.9229929e-05 -2.7756247e-04  6.6400717e-05 ... -5.6311219e-05
-  -5.2317038e-05  8.3861218e-05]
- [ 6.9215741e-05 -2.7755619e-04  6.6400309e-05 ... -5.6309684e-05
-  -5.2319625e-05  8.3866275e-05]
- ...
- [ 6.9216767e-05 -2.7754973e-04  6.6408640e-05 ... -5.6315836e-05
-  -5.2325933e-05  8.3874103e-05]
- [ 6.9211164e-05 -2.7755462e-04  6.6398148e-05 ... -5.6311063e-05
-  -5.2325911e-05  8.3876868e-05]
- [ 6.9210553e-05 -2.7755310e-04  6.6417801e-05 ... -5.6317662e-05
-  -5.2319774e-05  8.3868086e-05]]
-block.mlp.W_mlp2.outputs [[ 6.9204871e-05 -2.7756364e-04  6.6400877e-05 ... -5.6304019e-05
-  -5.2334733e-05  8.3870422e-05]
- [ 6.9229929e-05 -2.7756247e-04  6.6400717e-05 ... -5.6311219e-05
-  -5.2317038e-05  8.3861218e-05]
- [ 6.9215741e-05 -2.7755619e-04  6.6400309e-05 ... -5.6309684e-05
-  -5.2319625e-05  8.3866275e-05]
- ...
- [ 6.9216767e-05 -2.7754973e-04  6.6408640e-05 ... -5.6315836e-05
-  -5.2325933e-05  8.3874103e-05]
- [ 6.9211164e-05 -2.7755462e-04  6.6398148e-05 ... -5.6311063e-05
-  -5.2325911e-05  8.3876868e-05]
- [ 6.9210553e-05 -2.7755310e-04  6.6417801e-05 ... -5.6317662e-05
-  -5.2319774e-05  8.3868086e-05]]
+  Block 0 mlp error 1   = -1.844268263084814e-05
+  Block 0 mlp error 2   = -3.8124440493447764e-08
 ts=15:
   L_embed (L1) = -0.0
-  L_out   (L4) = -0.00011556491517694667
+  L_out   (L4) = -0.00011556490062503144
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = -1.810188769013621e-05
-  Block 0 mlp error 2   = -3.918686886095202e-08
-block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-block.mlp.e_mlp1.target: [[ 9.11122243e-06  1.81299591e-04 -1.42823001e-05 ...  7.73496868e-05
-   2.38321900e-05  2.24200921e-05]
- [ 9.72471116e-06  1.80816991e-04 -1.50748019e-05 ...  7.70516708e-05
-   2.47702628e-05  2.17325796e-05]
- [ 9.25598579e-06  1.80802861e-04 -1.53759902e-05 ...  7.69108738e-05
-   2.47653788e-05  2.21770988e-05]
- ...
- [ 9.20410184e-06  1.81047595e-04 -1.49601228e-05 ...  7.70117549e-05
-   2.43555533e-05  2.23521492e-05]
- [ 9.08312904e-06  1.80745163e-04 -1.47594637e-05 ...  7.74161817e-05
-   2.47121334e-05  2.23780826e-05]
- [ 9.16879071e-06  1.81379233e-04 -1.48555855e-05 ...  7.70668339e-05
-   2.41602611e-05  2.28193985e-05]]
-zmplp2 value  [[ 9.11122243e-06  1.81299591e-04 -1.42823001e-05 ...  7.73496868e-05
-   2.38321900e-05  2.24200921e-05]
- [ 9.72471116e-06  1.80816991e-04 -1.50748019e-05 ...  7.70516708e-05
-   2.47702628e-05  2.17325796e-05]
- [ 9.25598579e-06  1.80802861e-04 -1.53759902e-05 ...  7.69108738e-05
-   2.47653788e-05  2.21770988e-05]
- ...
- [ 9.20410184e-06  1.81047595e-04 -1.49601228e-05 ...  7.70117549e-05
-   2.43555533e-05  2.23521492e-05]
- [ 9.08312904e-06  1.80745163e-04 -1.47594637e-05 ...  7.74161817e-05
-   2.47121334e-05  2.23780826e-05]
- [ 9.16879071e-06  1.81379233e-04 -1.48555855e-05 ...  7.70668339e-05
-   2.41602611e-05  2.28193985e-05]]
-check the surrounding 
-z_mlp2 [[ 4.55564668e-06  9.06637797e-05 -7.14106318e-06 ...  3.86773900e-05
-   1.19163369e-05  1.12102598e-05]
- [ 4.86239605e-06  9.04224071e-05 -7.53730410e-06 ...  3.85283602e-05
-   1.23853924e-05  1.08664908e-05]
- [ 4.62802927e-06  9.04153421e-05 -7.68789414e-06 ...  3.84579544e-05
-   1.23829504e-05  1.10887586e-05]
- ...
- [ 4.60208730e-06  9.05377383e-05 -7.47996592e-06 ...  3.85084022e-05
-   1.21780295e-05  1.11762874e-05]
- [ 4.54159954e-06  9.03864784e-05 -7.37963865e-06 ...  3.87106411e-05
-   1.23563277e-05  1.11892550e-05]
- [ 4.58443128e-06  9.07036156e-05 -7.42769907e-06 ...  3.85359417e-05
-   1.20803797e-05  1.14099212e-05]]
-cheack w_mlp2 [[ 4.55564668e-06  9.06637797e-05 -7.14106318e-06 ...  3.86773900e-05
-   1.19163369e-05  1.12102598e-05]
- [ 4.86239605e-06  9.04224071e-05 -7.53730410e-06 ...  3.85283602e-05
-   1.23853924e-05  1.08664908e-05]
- [ 4.62802927e-06  9.04153421e-05 -7.68789414e-06 ...  3.84579544e-05
-   1.23829504e-05  1.10887586e-05]
- ...
- [ 4.60208730e-06  9.05377383e-05 -7.47996592e-06 ...  3.85084022e-05
-   1.21780295e-05  1.11762874e-05]
- [ 4.54159954e-06  9.03864784e-05 -7.37963865e-06 ...  3.87106411e-05
-   1.23563277e-05  1.11892550e-05]
- [ 4.58443128e-06  9.07036156e-05 -7.42769907e-06 ...  3.85359417e-05
-   1.20803797e-05  1.14099212e-05]]
-block.mlp.e_mlp.mu [[ 6.9203903e-05 -2.7756099e-04  6.6398476e-05 ... -5.6300414e-05
-  -5.2332340e-05  8.3869316e-05]
- [ 6.9228961e-05 -2.7755980e-04  6.6398308e-05 ... -5.6307617e-05
-  -5.2314645e-05  8.3860112e-05]
- [ 6.9214773e-05 -2.7755351e-04  6.6397908e-05 ... -5.6306082e-05
-  -5.2317228e-05  8.3865169e-05]
- ...
- [ 6.9215799e-05 -2.7754708e-04  6.6406239e-05 ... -5.6312234e-05
-  -5.2323539e-05  8.3872997e-05]
- [ 6.9210204e-05 -2.7755194e-04  6.6395747e-05 ... -5.6307461e-05
-  -5.2323518e-05  8.3875770e-05]
- [ 6.9209593e-05 -2.7755043e-04  6.6415399e-05 ... -5.6314057e-05
-  -5.2317380e-05  8.3866980e-05]]
-block.mlp.W_mlp2.outputs [[ 6.9203903e-05 -2.7756099e-04  6.6398476e-05 ... -5.6300414e-05
-  -5.2332340e-05  8.3869316e-05]
- [ 6.9228961e-05 -2.7755980e-04  6.6398308e-05 ... -5.6307617e-05
-  -5.2314645e-05  8.3860112e-05]
- [ 6.9214773e-05 -2.7755351e-04  6.6397908e-05 ... -5.6306082e-05
-  -5.2317228e-05  8.3865169e-05]
- ...
- [ 6.9215799e-05 -2.7754708e-04  6.6406239e-05 ... -5.6312234e-05
-  -5.2323539e-05  8.3872997e-05]
- [ 6.9210204e-05 -2.7755194e-04  6.6395747e-05 ... -5.6307461e-05
-  -5.2323518e-05  8.3875770e-05]
- [ 6.9209593e-05 -2.7755043e-04  6.6415399e-05 ... -5.6314057e-05
-  -5.2317380e-05  8.3866980e-05]]
+  Block 0 mlp error 1   = -1.8101880414178595e-05
+  Block 0 mlp error 2   = -3.9186872413665697e-08
 ts=16:
   L_embed (L1) = -0.0
-  L_out   (L4) = -0.00011571893992368132
+  L_out   (L4) = -0.00011571894719963893
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = -1.8331007595406845e-05
-  Block 0 mlp error 2   = -3.846982465915971e-08
-block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-block.mlp.e_mlp1.target: [[ 9.1543770e-06  1.8130642e-04 -1.4268474e-05 ...  7.7341690e-05
-   2.3817376e-05  2.2408780e-05]
- [ 9.7678649e-06  1.8082382e-04 -1.5060977e-05 ...  7.7043675e-05
-   2.4755449e-05  2.1721267e-05]
- [ 9.2991395e-06  1.8080969e-04 -1.5362164e-05 ...  7.6902877e-05
-   2.4750567e-05  2.2165787e-05]
- ...
- [ 9.2472546e-06  1.8105442e-04 -1.4946295e-05 ...  7.7003766e-05
-   2.4340741e-05  2.2340837e-05]
- [ 9.1262809e-06  1.8075199e-04 -1.4745639e-05 ...  7.7408185e-05
-   2.4697321e-05  2.2366770e-05]
- [ 9.2119453e-06  1.8138606e-04 -1.4841760e-05 ...  7.7058838e-05
-   2.4145447e-05  2.2808088e-05]]
-zmplp2 value  [[ 9.1543770e-06  1.8130642e-04 -1.4268474e-05 ...  7.7341690e-05
-   2.3817376e-05  2.2408780e-05]
- [ 9.7678649e-06  1.8082382e-04 -1.5060977e-05 ...  7.7043675e-05
-   2.4755449e-05  2.1721267e-05]
- [ 9.2991395e-06  1.8080969e-04 -1.5362164e-05 ...  7.6902877e-05
-   2.4750567e-05  2.2165787e-05]
- ...
- [ 9.2472546e-06  1.8105442e-04 -1.4946295e-05 ...  7.7003766e-05
-   2.4340741e-05  2.2340837e-05]
- [ 9.1262809e-06  1.8075199e-04 -1.4745639e-05 ...  7.7408185e-05
-   2.4697321e-05  2.2366770e-05]
- [ 9.2119453e-06  1.8138606e-04 -1.4841760e-05 ...  7.7058838e-05
-   2.4145447e-05  2.2808088e-05]]
-check the surrounding 
-z_mlp2 [[ 4.57722399e-06  9.06671921e-05 -7.13415011e-06 ...  3.86733882e-05
-   1.19089291e-05  1.12046037e-05]
- [ 4.88397336e-06  9.04258195e-05 -7.53039149e-06 ...  3.85243620e-05
-   1.23779855e-05  1.08608347e-05]
- [ 4.64960704e-06  9.04187546e-05 -7.68098107e-06 ...  3.84539562e-05
-   1.23755444e-05  1.10831024e-05]
- ...
- [ 4.62366370e-06  9.05411507e-05 -7.47305285e-06 ...  3.85044077e-05
-   1.21706234e-05  1.11706313e-05]
- [ 4.56317593e-06  9.03898908e-05 -7.37272649e-06 ...  3.87066430e-05
-   1.23489199e-05  1.11835989e-05]
- [ 4.60600904e-06  9.07070280e-05 -7.42078646e-06 ...  3.85319436e-05
-   1.20729710e-05  1.14042659e-05]]
-cheack w_mlp2 [[ 4.57722399e-06  9.06671921e-05 -7.13415011e-06 ...  3.86733882e-05
-   1.19089291e-05  1.12046037e-05]
- [ 4.88397336e-06  9.04258195e-05 -7.53039149e-06 ...  3.85243620e-05
-   1.23779855e-05  1.08608347e-05]
- [ 4.64960704e-06  9.04187546e-05 -7.68098107e-06 ...  3.84539562e-05
-   1.23755444e-05  1.10831024e-05]
- ...
- [ 4.62366370e-06  9.05411507e-05 -7.47305285e-06 ...  3.85044077e-05
-   1.21706234e-05  1.11706313e-05]
- [ 4.56317593e-06  9.03898908e-05 -7.37272649e-06 ...  3.87066430e-05
-   1.23489199e-05  1.11835989e-05]
- [ 4.60600904e-06  9.07070280e-05 -7.42078646e-06 ...  3.85319436e-05
-   1.20729710e-05  1.14042659e-05]]
-block.mlp.e_mlp.mu [[ 6.9204551e-05 -2.7756277e-04  6.6400098e-05 ... -5.6302841e-05
-  -5.2333951e-05  8.3870058e-05]
- [ 6.9229616e-05 -2.7756160e-04  6.6399931e-05 ... -5.6310040e-05
-  -5.2316256e-05  8.3860854e-05]
- [ 6.9215428e-05 -2.7755531e-04  6.6399523e-05 ... -5.6308509e-05
-  -5.2318843e-05  8.3865918e-05]
- ...
- [ 6.9216447e-05 -2.7754885e-04  6.6407854e-05 ... -5.6314657e-05
-  -5.2325151e-05  8.3873740e-05]
- [ 6.9210852e-05 -2.7755374e-04  6.6397362e-05 ... -5.6309887e-05
-  -5.2325129e-05  8.3876512e-05]
- [ 6.9210240e-05 -2.7755223e-04  6.6417015e-05 ... -5.6316483e-05
-  -5.2318992e-05  8.3867722e-05]]
-block.mlp.W_mlp2.outputs [[ 6.9204551e-05 -2.7756277e-04  6.6400098e-05 ... -5.6302841e-05
-  -5.2333951e-05  8.3870058e-05]
- [ 6.9229616e-05 -2.7756160e-04  6.6399931e-05 ... -5.6310040e-05
-  -5.2316256e-05  8.3860854e-05]
- [ 6.9215428e-05 -2.7755531e-04  6.6399523e-05 ... -5.6308509e-05
-  -5.2318843e-05  8.3865918e-05]
- ...
- [ 6.9216447e-05 -2.7754885e-04  6.6407854e-05 ... -5.6314657e-05
-  -5.2325151e-05  8.3873740e-05]
- [ 6.9210852e-05 -2.7755374e-04  6.6397362e-05 ... -5.6309887e-05
-  -5.2325129e-05  8.3876512e-05]
- [ 6.9210240e-05 -2.7755223e-04  6.6417015e-05 ... -5.6316483e-05
-  -5.2318992e-05  8.3867722e-05]]
+  Block 0 mlp error 1   = -1.833100577641744e-05
+  Block 0 mlp error 2   = -3.8469810448305e-08
 ts=17:
   L_embed (L1) = -0.0
-  L_out   (L4) = -0.00011561519204406068
+  L_out   (L4) = -0.00011561517749214545
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = -1.8176575395045802e-05
-  Block 0 mlp error 2   = -3.895187816738144e-08
-block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-block.mlp.e_mlp1.target: [[ 9.12531868e-06  1.81301817e-04 -1.42777835e-05 ...  7.73470747e-05
-   2.38273497e-05  2.24163960e-05]
- [ 9.73880742e-06  1.80819217e-04 -1.50702854e-05 ...  7.70490587e-05
-   2.47654225e-05  2.17288816e-05]
- [ 9.27008296e-06  1.80805087e-04 -1.53714736e-05 ...  7.69082617e-05
-   2.47605403e-05  2.21734026e-05]
- ...
- [ 9.21819810e-06  1.81049822e-04 -1.49556054e-05 ...  7.70091501e-05
-   2.43507147e-05  2.23484531e-05]
- [ 9.09722439e-06  1.80747389e-04 -1.47549472e-05 ...  7.74135697e-05
-   2.47072949e-05  2.23743864e-05]
- [ 9.18288788e-06  1.81381460e-04 -1.48510680e-05 ...  7.70642218e-05
-   2.41554208e-05  2.28157023e-05]]
-zmplp2 value  [[ 9.12531868e-06  1.81301817e-04 -1.42777835e-05 ...  7.73470747e-05
-   2.38273497e-05  2.24163960e-05]
- [ 9.73880742e-06  1.80819217e-04 -1.50702854e-05 ...  7.70490587e-05
-   2.47654225e-05  2.17288816e-05]
- [ 9.27008296e-06  1.80805087e-04 -1.53714736e-05 ...  7.69082617e-05
-   2.47605403e-05  2.21734026e-05]
- ...
- [ 9.21819810e-06  1.81049822e-04 -1.49556054e-05 ...  7.70091501e-05
-   2.43507147e-05  2.23484531e-05]
- [ 9.09722439e-06  1.80747389e-04 -1.47549472e-05 ...  7.74135697e-05
-   2.47072949e-05  2.23743864e-05]
- [ 9.18288788e-06  1.81381460e-04 -1.48510680e-05 ...  7.70642218e-05
-   2.41554208e-05  2.28157023e-05]]
-check the surrounding 
-z_mlp2 [[ 4.56269481e-06  9.06648929e-05 -7.13880490e-06 ...  3.86760839e-05
-   1.19139158e-05  1.12084117e-05]
- [ 4.86944418e-06  9.04235203e-05 -7.53504582e-06 ...  3.85270541e-05
-   1.23829723e-05  1.08646418e-05]
- [ 4.63507786e-06  9.04164554e-05 -7.68563586e-06 ...  3.84566483e-05
-   1.23805312e-05  1.10869105e-05]
- ...
- [ 4.60913543e-06  9.05388515e-05 -7.47770719e-06 ...  3.85070998e-05
-   1.21756102e-05  1.11744394e-05]
- [ 4.54864767e-06  9.03875916e-05 -7.37738037e-06 ...  3.87093351e-05
-   1.23539066e-05  1.11874069e-05]
- [ 4.59147986e-06  9.07047288e-05 -7.42544034e-06 ...  3.85346357e-05
-   1.20779596e-05  1.14080731e-05]]
-cheack w_mlp2 [[ 4.56269481e-06  9.06648929e-05 -7.13880490e-06 ...  3.86760839e-05
-   1.19139158e-05  1.12084117e-05]
- [ 4.86944418e-06  9.04235203e-05 -7.53504582e-06 ...  3.85270541e-05
-   1.23829723e-05  1.08646418e-05]
- [ 4.63507786e-06  9.04164554e-05 -7.68563586e-06 ...  3.84566483e-05
-   1.23805312e-05  1.10869105e-05]
- ...
- [ 4.60913543e-06  9.05388515e-05 -7.47770719e-06 ...  3.85070998e-05
-   1.21756102e-05  1.11744394e-05]
- [ 4.54864767e-06  9.03875916e-05 -7.37738037e-06 ...  3.87093351e-05
-   1.23539066e-05  1.11874069e-05]
- [ 4.59147986e-06  9.07047288e-05 -7.42544034e-06 ...  3.85346357e-05
-   1.20779596e-05  1.14080731e-05]]
-block.mlp.e_mlp.mu [[ 6.9204114e-05 -2.7756157e-04  6.6399007e-05 ... -5.6301207e-05
-  -5.2332864e-05  8.3869556e-05]
- [ 6.9229180e-05 -2.7756038e-04  6.6398839e-05 ... -5.6308407e-05
-  -5.2315168e-05  8.3860352e-05]
- [ 6.9214984e-05 -2.7755409e-04  6.6398432e-05 ... -5.6306875e-05
-  -5.2317755e-05  8.3865416e-05]
- ...
- [ 6.9216010e-05 -2.7754766e-04  6.6406770e-05 ... -5.6313023e-05
-  -5.2324063e-05  8.3873245e-05]
- [ 6.9210415e-05 -2.7755252e-04  6.6396278e-05 ... -5.6308254e-05
-  -5.2324045e-05  8.3876010e-05]
- [ 6.9209804e-05 -2.7755104e-04  6.6415923e-05 ... -5.6314850e-05
-  -5.2317908e-05  8.3867220e-05]]
-block.mlp.W_mlp2.outputs [[ 6.9204114e-05 -2.7756157e-04  6.6399007e-05 ... -5.6301207e-05
-  -5.2332864e-05  8.3869556e-05]
- [ 6.9229180e-05 -2.7756038e-04  6.6398839e-05 ... -5.6308407e-05
-  -5.2315168e-05  8.3860352e-05]
- [ 6.9214984e-05 -2.7755409e-04  6.6398432e-05 ... -5.6306875e-05
-  -5.2317755e-05  8.3865416e-05]
- ...
- [ 6.9216010e-05 -2.7754766e-04  6.6406770e-05 ... -5.6313023e-05
-  -5.2324063e-05  8.3873245e-05]
- [ 6.9210415e-05 -2.7755252e-04  6.6396278e-05 ... -5.6308254e-05
-  -5.2324045e-05  8.3876010e-05]
- [ 6.9209804e-05 -2.7755104e-04  6.6415923e-05 ... -5.6314850e-05
-  -5.2317908e-05  8.3867220e-05]]
+  Block 0 mlp error 1   = -1.8176571757066995e-05
+  Block 0 mlp error 2   = -3.8951881720095116e-08
 ts=18:
   L_embed (L1) = -0.0
   L_out   (L4) = -0.00011568503396119922
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = -1.828047970775515e-05
-  Block 0 mlp error 2   = -3.86269540797457e-08
-block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-block.mlp.e_mlp1.target: [[ 9.1448846e-06  1.8130490e-04 -1.4271514e-05 ...  7.7343451e-05
-   2.3820634e-05  2.2411268e-05]
- [ 9.7583725e-06  1.8082232e-04 -1.5064017e-05 ...  7.7045435e-05
-   2.4758707e-05  2.1723754e-05]
- [ 9.2896453e-06  1.8080819e-04 -1.5365205e-05 ...  7.6904638e-05
-   2.4753825e-05  2.2168275e-05]
- ...
- [ 9.2377613e-06  1.8105292e-04 -1.4949337e-05 ...  7.7005519e-05
-   2.4343999e-05  2.2343325e-05]
- [ 9.1167894e-06  1.8075049e-04 -1.4748681e-05 ...  7.7409946e-05
-   2.4700579e-05  2.2369259e-05]
- [ 9.2024538e-06  1.8138456e-04 -1.4844802e-05 ...  7.7060598e-05
-   2.4148707e-05  2.2810576e-05]]
-zmplp2 value  [[ 9.1448846e-06  1.8130490e-04 -1.4271514e-05 ...  7.7343451e-05
-   2.3820634e-05  2.2411268e-05]
- [ 9.7583725e-06  1.8082232e-04 -1.5064017e-05 ...  7.7045435e-05
-   2.4758707e-05  2.1723754e-05]
- [ 9.2896453e-06  1.8080819e-04 -1.5365205e-05 ...  7.6904638e-05
-   2.4753825e-05  2.2168275e-05]
- ...
- [ 9.2377613e-06  1.8105292e-04 -1.4949337e-05 ...  7.7005519e-05
-   2.4343999e-05  2.2343325e-05]
- [ 9.1167894e-06  1.8075049e-04 -1.4748681e-05 ...  7.7409946e-05
-   2.4700579e-05  2.2369259e-05]
- [ 9.2024538e-06  1.8138456e-04 -1.4844802e-05 ...  7.7060598e-05
-   2.4148707e-05  2.2810576e-05]]
-check the surrounding 
-z_mlp2 [[ 4.57247779e-06  9.06664354e-05 -7.13567033e-06 ...  3.86742686e-05
-   1.19105580e-05  1.12058478e-05]
- [ 4.87922716e-06  9.04250701e-05 -7.53191171e-06 ...  3.85252424e-05
-   1.23796144e-05  1.08620779e-05]
- [ 4.64485902e-06  9.04180051e-05 -7.68250175e-06 ...  3.84548366e-05
-   1.23771733e-05  1.10843466e-05]
- ...
- [ 4.61891705e-06  9.05404013e-05 -7.47457398e-06 ...  3.85052845e-05
-   1.21722524e-05  1.11718755e-05]
- [ 4.55843019e-06  9.03891414e-05 -7.37424716e-06 ...  3.87075233e-05
-   1.23505488e-05  1.11848431e-05]
- [ 4.60126330e-06  9.07062786e-05 -7.42230714e-06 ...  3.85328240e-05
-   1.20746026e-05  1.14055101e-05]]
-cheack w_mlp2 [[ 4.57247779e-06  9.06664354e-05 -7.13567033e-06 ...  3.86742686e-05
-   1.19105580e-05  1.12058478e-05]
- [ 4.87922716e-06  9.04250701e-05 -7.53191171e-06 ...  3.85252424e-05
-   1.23796144e-05  1.08620779e-05]
- [ 4.64485902e-06  9.04180051e-05 -7.68250175e-06 ...  3.84548366e-05
-   1.23771733e-05  1.10843466e-05]
- ...
- [ 4.61891705e-06  9.05404013e-05 -7.47457398e-06 ...  3.85052845e-05
-   1.21722524e-05  1.11718755e-05]
- [ 4.55843019e-06  9.03891414e-05 -7.37424716e-06 ...  3.87075233e-05
-   1.23505488e-05  1.11848431e-05]
- [ 4.60126330e-06  9.07062786e-05 -7.42230714e-06 ...  3.85328240e-05
-   1.20746026e-05  1.14055101e-05]]
-block.mlp.e_mlp.mu [[ 6.9204412e-05 -2.7756239e-04  6.6399742e-05 ... -5.6302310e-05
-  -5.2333598e-05  8.3869898e-05]
- [ 6.9229471e-05 -2.7756119e-04  6.6399574e-05 ... -5.6309505e-05
-  -5.2315903e-05  8.3860694e-05]
- [ 6.9215283e-05 -2.7755491e-04  6.6399167e-05 ... -5.6307974e-05
-  -5.2318486e-05  8.3865751e-05]
- ...
- [ 6.9216308e-05 -2.7754848e-04  6.6407498e-05 ... -5.6314122e-05
-  -5.2324795e-05  8.3873580e-05]
- [ 6.9210706e-05 -2.7755334e-04  6.6397006e-05 ... -5.6309353e-05
-  -5.2324776e-05  8.3876352e-05]
- [ 6.9210095e-05 -2.7755185e-04  6.6416658e-05 ... -5.6315952e-05
-  -5.2318639e-05  8.3867562e-05]]
-block.mlp.W_mlp2.outputs [[ 6.9204412e-05 -2.7756239e-04  6.6399742e-05 ... -5.6302310e-05
-  -5.2333598e-05  8.3869898e-05]
- [ 6.9229471e-05 -2.7756119e-04  6.6399574e-05 ... -5.6309505e-05
-  -5.2315903e-05  8.3860694e-05]
- [ 6.9215283e-05 -2.7755491e-04  6.6399167e-05 ... -5.6307974e-05
-  -5.2318486e-05  8.3865751e-05]
- ...
- [ 6.9216308e-05 -2.7754848e-04  6.6407498e-05 ... -5.6314122e-05
-  -5.2324795e-05  8.3873580e-05]
- [ 6.9210706e-05 -2.7755334e-04  6.6397006e-05 ... -5.6309353e-05
-  -5.2324776e-05  8.3876352e-05]
- [ 6.9210095e-05 -2.7755185e-04  6.6416658e-05 ... -5.6315952e-05
-  -5.2318639e-05  8.3867562e-05]]
+  Block 0 mlp error 1   = -1.828047606977634e-05
+  Block 0 mlp error 2   = -3.8626946974318344e-08
 ts=19:
   L_embed (L1) = -0.0
-  L_out   (L4) = -0.00011563798761926591
+  L_out   (L4) = -0.0001156379803433083
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = -1.821046316763386e-05
-  Block 0 mlp error 2   = -3.8845556105115975e-08
-block.mlp.e_mlp1.mu: [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-wmlpq outputs value  [[ 1.32673458e-05  1.81619427e-04 -1.21891526e-05 ...  7.74410073e-05
-   2.15377604e-05  2.06686982e-05]
- [ 1.38808591e-05  1.81136740e-04 -1.29817681e-05 ...  7.71429768e-05
-   2.24759915e-05  1.99810966e-05]
- [ 1.34120146e-05  1.81122625e-04 -1.32829982e-05 ...  7.70020924e-05
-   2.24711457e-05  2.04257758e-05]
- ...
- [ 1.33601570e-05  1.81367315e-04 -1.28671518e-05 ...  7.71029809e-05
-   2.20612892e-05  2.06009026e-05]
- [ 1.32390860e-05  1.81064970e-04 -1.26662899e-05 ...  7.75074586e-05
-   2.24178839e-05  2.06267196e-05]
- [ 1.33248905e-05  1.81699026e-04 -1.27625235e-05 ...  7.71580453e-05
-   2.18658515e-05  2.10681101e-05]]
-block.mlp.e_mlp1.target: [[ 9.1317106e-06  1.8130282e-04 -1.4275736e-05 ...  7.7345896e-05
-   2.3825156e-05  2.2414721e-05]
- [ 9.7451984e-06  1.8082024e-04 -1.5068237e-05 ...  7.7047873e-05
-   2.4763229e-05  2.1727208e-05]
- [ 9.2764731e-06  1.8080611e-04 -1.5369425e-05 ...  7.6907083e-05
-   2.4758348e-05  2.2171727e-05]
- ...
- [ 9.2245882e-06  1.8105083e-04 -1.4953557e-05 ...  7.7007964e-05
-   2.4348521e-05  2.2346778e-05]
- [ 9.1036154e-06  1.8074841e-04 -1.4752900e-05 ...  7.7412384e-05
-   2.4705101e-05  2.2372711e-05]
- [ 9.1892780e-06  1.8138248e-04 -1.4849021e-05 ...  7.7063036e-05
-   2.4153227e-05  2.2814027e-05]]
-zmplp2 value  [[ 9.1317106e-06  1.8130282e-04 -1.4275736e-05 ...  7.7345896e-05
-   2.3825156e-05  2.2414721e-05]
- [ 9.7451984e-06  1.8082024e-04 -1.5068237e-05 ...  7.7047873e-05
-   2.4763229e-05  2.1727208e-05]
- [ 9.2764731e-06  1.8080611e-04 -1.5369425e-05 ...  7.6907083e-05
-   2.4758348e-05  2.2171727e-05]
- ...
- [ 9.2245882e-06  1.8105083e-04 -1.4953557e-05 ...  7.7007964e-05
-   2.4348521e-05  2.2346778e-05]
- [ 9.1036154e-06  1.8074841e-04 -1.4752900e-05 ...  7.7412384e-05
-   2.4705101e-05  2.2372711e-05]
- [ 9.1892780e-06  1.8138248e-04 -1.4849021e-05 ...  7.7063036e-05
-   2.4153227e-05  2.2814027e-05]]
-check the surrounding 
-z_mlp2 [[ 4.5658908e-06  9.0665395e-05 -7.1377813e-06 ...  3.8675495e-05
-   1.1912819e-05  1.1207574e-05]
- [ 4.8726397e-06  9.0424030e-05 -7.5340217e-06 ...  3.8526461e-05
-   1.2381875e-05  1.0863805e-05]
- [ 4.6382729e-06  9.0416965e-05 -7.6846118e-06 ...  3.8456059e-05
-   1.2379435e-05  1.1086073e-05]
- ...
- [ 4.6123305e-06  9.0539354e-05 -7.4766831e-06 ...  3.8506507e-05
-   1.2174513e-05  1.1173602e-05]
- [ 4.5518432e-06  9.0388101e-05 -7.3763567e-06 ...  3.8708742e-05
-   1.2352810e-05  1.1186569e-05]
- [ 4.5946749e-06  9.0705238e-05 -7.4244167e-06 ...  3.8534043e-05
-   1.2076863e-05  1.1407235e-05]]
-cheack w_mlp2 [[ 4.5658908e-06  9.0665395e-05 -7.1377813e-06 ...  3.8675495e-05
-   1.1912819e-05  1.1207574e-05]
- [ 4.8726397e-06  9.0424030e-05 -7.5340217e-06 ...  3.8526461e-05
-   1.2381875e-05  1.0863805e-05]
- [ 4.6382729e-06  9.0416965e-05 -7.6846118e-06 ...  3.8456059e-05
-   1.2379435e-05  1.1086073e-05]
- ...
- [ 4.6123305e-06  9.0539354e-05 -7.4766831e-06 ...  3.8506507e-05
-   1.2174513e-05  1.1173602e-05]
- [ 4.5518432e-06  9.0388101e-05 -7.3763567e-06 ...  3.8708742e-05
-   1.2352810e-05  1.1186569e-05]
- [ 4.5946749e-06  9.0705238e-05 -7.4244167e-06 ...  3.8534043e-05
-   1.2076863e-05  1.1407235e-05]]
-block.mlp.e_mlp.mu [[ 6.9204209e-05 -2.7756183e-04  6.6399247e-05 ... -5.6301567e-05
-  -5.2333104e-05  8.3869665e-05]
- [ 6.9229274e-05 -2.7756064e-04  6.6399080e-05 ... -5.6308767e-05
-  -5.2315409e-05  8.3860468e-05]
- [ 6.9215086e-05 -2.7755438e-04  6.6398679e-05 ... -5.6307235e-05
-  -5.2317995e-05  8.3865525e-05]
- ...
- [ 6.9216105e-05 -2.7754792e-04  6.6407003e-05 ... -5.6313384e-05
-  -5.2324303e-05  8.3873354e-05]
- [ 6.9210510e-05 -2.7755278e-04  6.6396518e-05 ... -5.6308614e-05
-  -5.2324285e-05  8.3876119e-05]
- [ 6.9209898e-05 -2.7755130e-04  6.6416163e-05 ... -5.6315210e-05
-  -5.2318144e-05  8.3867330e-05]]
-block.mlp.W_mlp2.outputs [[ 6.9204209e-05 -2.7756183e-04  6.6399247e-05 ... -5.6301567e-05
-  -5.2333104e-05  8.3869665e-05]
- [ 6.9229274e-05 -2.7756064e-04  6.6399080e-05 ... -5.6308767e-05
-  -5.2315409e-05  8.3860468e-05]
- [ 6.9215086e-05 -2.7755438e-04  6.6398679e-05 ... -5.6307235e-05
-  -5.2317995e-05  8.3865525e-05]
- ...
- [ 6.9216105e-05 -2.7754792e-04  6.6407003e-05 ... -5.6313384e-05
-  -5.2324303e-05  8.3873354e-05]
- [ 6.9210510e-05 -2.7755278e-04  6.6396518e-05 ... -5.6308614e-05
-  -5.2324285e-05  8.3876119e-05]
- [ 6.9209898e-05 -2.7755130e-04  6.6416163e-05 ... -5.6315210e-05
-  -5.2318144e-05  8.3867330e-05]]
-
-Before evolve():
-  Output weights = [[-0.0026543  -0.00529168 -0.00378787 ...  0.00592968  0.0015669
-   0.00184266]
- [ 0.00067049 -0.00673975  0.0031636  ...  0.00905736  0.00208351
-  -0.00497872]
- [-0.00856553  0.0104256   0.00092108 ...  0.00396705 -0.00031326
-  -0.0098842 ]
- ...
- [-0.00480919 -0.00153142 -0.00799189 ...  0.00391696 -0.00217177
-   0.00055201]
- [-0.00397944  0.00646407 -0.0054105  ... -0.00634055 -0.00271699
-   0.00085662]
- [-0.00977745  0.0065739  -0.00665373 ... -0.00898322 -0.00072469
-   0.00362061]]
-
-After evolve():
-  Output weights = [[-0.00272027 -0.00522461 -0.0037265  ...  0.0058667   0.00150395
-   0.00178536]
- [ 0.00074067 -0.0068172   0.00313244 ...  0.00910014  0.00213277
-  -0.00497631]
- [-0.00863186  0.01049279  0.00098328 ...  0.00390334 -0.00037688
-  -0.00994254]
- ...
- [-0.00474369 -0.0015978  -0.0080534  ...  0.00397993 -0.00210895
-   0.00060991]
- [-0.00391424  0.00639803 -0.00547189 ... -0.00627774 -0.00265438
-   0.00091456]
- [-0.00984775  0.0066459  -0.00659213 ... -0.00904766 -0.00079015
-   0.00356762]]
-  Weights updated ✅
+  Block 0 mlp error 1   = -1.8210461348644458e-05
+  Block 0 mlp error 2   = -3.8845559657829654e-08
 Block 0 errors: attn=0.0, mlp=0.0
 ts=0:
-  L_embed (L1) = -0.6684989929199219
-  L_out   (L4) = -0.0005726884119212627
+  L_embed (L1) = -0.6716957092285156
+  L_out   (L4) = -0.0005726937670260668
   Block 0 attention error = -0.0
-  Block 0 mlp error 1   = -1.742136555549223e-05
-  Block 0 mlp error 2   = -2.4828977984725498e-06
-block.mlp.e_mlp1.mu: [[ 4.0831310e-05  1.9438272e-04  1.3391029e-05 ...  6.0076225e-05
-  -1.9762051e-06  6.0894871e-07]
- [ 4.1194719e-05  1.9336827e-04  1.2480600e-05 ...  5.9166301e-05
-  -1.5237692e-06 -1.7646363e-07]
- [ 4.0908038e-05  1.9374784e-04  1.2815918e-05 ...  5.9343674e-05
-  -1.6853193e-06  4.2332090e-07]
- ...
- [ 4.1267853e-05  1.9411973e-04  1.3041876e-05 ...  5.9532606e-05
-  -2.0918137e-06 -2.0437130e-07]
- [ 4.0775492e-05  1.9338867e-04  1.3584834e-05 ...  5.9369559e-05
-  -1.7189495e-06 -3.3460310e-08]
- [ 4.0860647e-05  1.9371997e-04  1.2877128e-05 ...  5.9171707e-05
-  -1.9580930e-06  5.6261007e-07]]
-wmlpq outputs value  [[ 4.0831310e-05  1.9438272e-04  1.3391029e-05 ...  6.0076225e-05
-  -1.9762051e-06  6.0894871e-07]
- [ 4.1194719e-05  1.9336827e-04  1.2480600e-05 ...  5.9166301e-05
-  -1.5237692e-06 -1.7646363e-07]
- [ 4.0908038e-05  1.9374784e-04  1.2815918e-05 ...  5.9343674e-05
-  -1.6853193e-06  4.2332090e-07]
- ...
- [ 4.1267853e-05  1.9411973e-04  1.3041876e-05 ...  5.9532606e-05
-  -2.0918137e-06 -2.0437130e-07]
- [ 4.0775492e-05  1.9338867e-04  1.3584834e-05 ...  5.9369559e-05
-  -1.7189495e-06 -3.3460310e-08]
- [ 4.0860647e-05  1.9371997e-04  1.2877128e-05 ...  5.9171707e-05
-  -1.9580930e-06  5.6261007e-07]]
-block.mlp.e_mlp1.target: [[ 1.45383010e-05  1.83694312e-04 -1.05065319e-05 ...  7.79384791e-05
-   1.90815936e-05  1.95535449e-05]
- [ 1.44703254e-05  1.82614225e-04 -1.08645490e-05 ...  7.74994114e-05
-   1.99922633e-05  1.90330938e-05]
- [ 1.44208161e-05  1.83462544e-04 -1.07922315e-05 ...  7.78093454e-05
-   1.94995846e-05  1.92614643e-05]
- ...
- [ 1.46445900e-05  1.83101758e-04 -1.02631648e-05 ...  7.67348611e-05
-   1.96125475e-05  1.92984753e-05]
- [ 1.44790738e-05  1.82712654e-04 -9.32803687e-06 ...  7.77146415e-05
-   1.97788977e-05  1.92216994e-05]
- [ 1.45273589e-05  1.83038748e-04 -9.88387183e-06 ...  7.72983913e-05
-   1.97550908e-05  1.96588280e-05]]
-zmplp2 value  [[ 1.45383010e-05  1.83694312e-04 -1.05065319e-05 ...  7.79384791e-05
-   1.90815936e-05  1.95535449e-05]
- [ 1.44703254e-05  1.82614225e-04 -1.08645490e-05 ...  7.74994114e-05
-   1.99922633e-05  1.90330938e-05]
- [ 1.44208161e-05  1.83462544e-04 -1.07922315e-05 ...  7.78093454e-05
-   1.94995846e-05  1.92614643e-05]
- ...
- [ 1.46445900e-05  1.83101758e-04 -1.02631648e-05 ...  7.67348611e-05
-   1.96125475e-05  1.92984753e-05]
- [ 1.44790738e-05  1.82712654e-04 -9.32803687e-06 ...  7.77146415e-05
-   1.97788977e-05  1.92216994e-05]
- [ 1.45273589e-05  1.83038748e-04 -9.88387183e-06 ...  7.72983913e-05
-   1.97550908e-05  1.96588280e-05]]
-check the surrounding 
-z_mlp2 [[ 7.2692405e-06  9.1861511e-05 -5.2532191e-06 ...  3.8971823e-05
-   9.5409514e-06  9.7769353e-06]
- [ 7.2352514e-06  9.1321308e-05 -5.4322240e-06 ...  3.8752260e-05
-   9.9963017e-06  9.5167015e-06]
- [ 7.2104967e-06  9.1745598e-05 -5.3960662e-06 ...  3.8907252e-05
-   9.7499542e-06  9.6308904e-06]
- ...
- [ 7.3223869e-06  9.1565140e-05 -5.1315369e-06 ...  3.8369937e-05
-   9.8064374e-06  9.6493968e-06]
- [ 7.2396256e-06  9.1370530e-05 -4.6639816e-06 ...  3.8859893e-05
-   9.8896153e-06  9.6110070e-06]
- [ 7.2637695e-06  9.1533635e-05 -4.9418945e-06 ...  3.8651739e-05
-   9.8777118e-06  9.8295777e-06]]
-cheack w_mlp2 [[ 7.2692405e-06  9.1861511e-05 -5.2532191e-06 ...  3.8971823e-05
-   9.5409514e-06  9.7769353e-06]
- [ 7.2352514e-06  9.1321308e-05 -5.4322240e-06 ...  3.8752260e-05
-   9.9963017e-06  9.5167015e-06]
- [ 7.2104967e-06  9.1745598e-05 -5.3960662e-06 ...  3.8907252e-05
-   9.7499542e-06  9.6308904e-06]
- ...
- [ 7.3223869e-06  9.1565140e-05 -5.1315369e-06 ...  3.8369937e-05
-   9.8064374e-06  9.6493968e-06]
- [ 7.2396256e-06  9.1370530e-05 -4.6639816e-06 ...  3.8859893e-05
-   9.8896153e-06  9.6110070e-06]
- [ 7.2637695e-06  9.1533635e-05 -4.9418945e-06 ...  3.8651739e-05
-   9.8777118e-06  9.8295777e-06]]
-block.mlp.e_mlp.mu [[ 1.01638114e-04 -2.71098397e-04  9.84585276e-05 ... -8.83929097e-05
-  -8.41065848e-05  1.22066551e-04]
- [ 1.01653706e-04 -2.71078432e-04  9.84433864e-05 ... -8.83954272e-05
-  -8.40924549e-05  1.22052865e-04]
- [ 1.01637641e-04 -2.71080295e-04  9.84494618e-05 ... -8.83883768e-05
-  -8.41030342e-05  1.22060657e-04]
- ...
- [ 1.01682686e-04 -2.71068799e-04  9.84807193e-05 ... -8.84261317e-05
-  -8.40994762e-05  1.22090976e-04]
- [ 1.01671088e-04 -2.71073572e-04  9.84676590e-05 ... -8.84201509e-05
-  -8.41029760e-05  1.22074416e-04]
- [ 1.01670419e-04 -2.71069264e-04  9.84821527e-05 ... -8.84283218e-05
-  -8.40833891e-05  1.22054633e-04]]
-block.mlp.W_mlp2.outputs [[ 1.01638114e-04 -2.71098397e-04  9.84585276e-05 ... -8.83929097e-05
-  -8.41065848e-05  1.22066551e-04]
- [ 1.01653706e-04 -2.71078432e-04  9.84433864e-05 ... -8.83954272e-05
-  -8.40924549e-05  1.22052865e-04]
- [ 1.01637641e-04 -2.71080295e-04  9.84494618e-05 ... -8.83883768e-05
-  -8.41030342e-05  1.22060657e-04]
- ...
- [ 1.01682686e-04 -2.71068799e-04  9.84807193e-05 ... -8.84261317e-05
-  -8.40994762e-05  1.22090976e-04]
- [ 1.01671088e-04 -2.71073572e-04  9.84676590e-05 ... -8.84201509e-05
-  -8.41029760e-05  1.22074416e-04]
- [ 1.01670419e-04 -2.71069264e-04  9.84821527e-05 ... -8.84283218e-05
-  -8.40833891e-05  1.22054633e-04]]
+  Block 0 mlp error 1   = -1.7422000382794067e-05
+  Block 0 mlp error 2   = -2.46681065618759e-06
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -0.000127095976495184
+  Block 0 attention error = -2.8300919439061545e-06
+  Block 0 mlp error 1   = -1.0812427619910636e-09
+  Block 0 mlp error 2   = -4.0112038135475814e-08
+ts=2:
+  L_embed (L1) = -1.5691686172658592e-08
+  L_out   (L4) = -0.00039420888060703874
+  Block 0 attention error = -4.148010702920146e-06
+  Block 0 mlp error 1   = -0.0003465150366537273
+  Block 0 mlp error 2   = -1.239742708492031e-08
+ts=3:
+  L_embed (L1) = -1.9846652321575675e-08
+  L_out   (L4) = -0.000177120920852758
+  Block 0 attention error = -4.81924504643072e-13
+  Block 0 mlp error 1   = -2.9638355044880882e-05
+  Block 0 mlp error 2   = -6.501593929897354e-07
+ts=4:
+  L_embed (L1) = -3.5830696455642005e-15
+  L_out   (L4) = -0.000320268765790388
+  Block 0 attention error = -1.701642434815201e-13
+  Block 0 mlp error 1   = -0.00022151958546601236
+  Block 0 mlp error 2   = -5.983041262425104e-08
+ts=5:
+  L_embed (L1) = -1.1227828291670433e-15
+  L_out   (L4) = -0.0002099577832268551
+  Block 0 attention error = -1.5287554000535266e-19
+  Block 0 mlp error 1   = -6.481791206169873e-05
+  Block 0 mlp error 2   = -4.2973340441676555e-07
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00028606675914488733
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -0.00016832476831041276
+  Block 0 mlp error 2   = -1.2792753523171996e-07
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0002291035052621737
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.844150579534471e-05
+  Block 0 mlp error 2   = -3.270906461239065e-07
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0002693237329367548
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00014357856707647443
+  Block 0 mlp error 2   = -1.733351808752559e-07
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00023969044559635222
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00010229181498289108
+  Block 0 mlp error 2   = -2.794048725718312e-07
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0002608650247566402
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00013144563126843423
+  Block 0 mlp error 2   = -1.9995273703443672e-07
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0002453938068356365
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00010996233322657645
+  Block 0 mlp error 2   = -2.560405221174733e-07
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00025651761097833514
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00012531326501630247
+  Block 0 mlp error 2   = -2.1470064837103564e-07
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0002484257274772972
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00011409646685933694
+  Block 0 mlp error 2   = -2.442359345877776e-07
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00025426270440220833
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00012216134928166866
+  Block 0 mlp error 2   = -2.2265223265094392e-07
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.000250026467256248
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00011629430809989572
+  Block 0 mlp error 2   = -2.3816997440917476e-07
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0002530873753130436
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00012052613601554185
+  Block 0 mlp error 2   = -2.2688055878461455e-07
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0002508686447981745
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00011745486699510366
+  Block 0 mlp error 2   = -2.3502350643411773e-07
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0002524732262827456
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00011967416503466666
+  Block 0 mlp error 2   = -2.2911351038601424e-07
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0002513108483981341
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0001180654508061707
+  Block 0 mlp error 2   = -2.3338381538451358e-07
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.6815862059593201
+  L_out   (L4) = -0.0008056986262090504
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.7428570572519675e-05
+  Block 0 mlp error 2   = -9.71826466411585e-07
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -0.00010889515397138894
+  Block 0 attention error = -2.6683328542276286e-06
+  Block 0 mlp error 1   = -2.5581470275426454e-10
+  Block 0 mlp error 2   = -3.6889026944209036e-08
+ts=2:
+  L_embed (L1) = -1.5007948661605042e-08
+  L_out   (L4) = -0.0005629743100143969
+  Block 0 attention error = -4.148028438066831e-06
+  Block 0 mlp error 1   = -0.0005636061541736126
+  Block 0 mlp error 2   = -1.2088572809432208e-08
+ts=3:
+  L_embed (L1) = -1.984657771458842e-08
+  L_out   (L4) = -0.00016967349802143872
+  Block 0 attention error = -4.639908791383152e-13
+  Block 0 mlp error 1   = -3.348960308358073e-05
+  Block 0 mlp error 2   = -9.629815167500055e-07
+ts=4:
+  L_embed (L1) = -3.4429392676275277e-15
+  L_out   (L4) = -0.0004464351513888687
+  Block 0 attention error = -1.7016290178133164e-13
+  Block 0 mlp error 1   = -0.0003826279134955257
+  Block 0 mlp error 2   = -6.340634683965618e-08
+ts=5:
+  L_embed (L1) = -1.1227862172988323e-15
+  L_out   (L4) = -0.00021658673358615488
+  Block 0 attention error = -1.5001208629393843e-19
+  Block 0 mlp error 1   = -7.879447366576642e-05
+  Block 0 mlp error 2   = -6.731953021699155e-07
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0003848531923722476
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -0.000292944663669914
+  Block 0 mlp error 2   = -1.431431542187056e-07
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00024886714527383447
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00011485878349049017
+  Block 0 mlp error 2   = -5.16296211117151e-07
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0003507149522192776
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0002452692424412817
+  Block 0 mlp error 2   = -2.0585609661338822e-07
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0002697840391192585
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00013983447570353746
+  Block 0 mlp error 2   = -4.330277647568437e-07
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0003312196640763432
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00021880216081626713
+  Block 0 mlp error 2   = -2.4927567210397683e-07
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00028289930196478963
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0001560435921419412
+  Block 0 mlp error 2   = -3.8684265746269375e-07
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0003198754566255957
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00020368295372463763
+  Block 0 mlp error 2   = -2.774767153823632e-07
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0002909720642492175
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00016621117538306862
+  Block 0 mlp error 2   = -3.6047433127350814e-07
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0003131962730549276
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0001948842837009579
+  Block 0 mlp error 2   = -2.951774717985245e-07
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00029588842880912125
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00017247037612833083
+  Block 0 mlp error 2   = -3.4513539048930397e-07
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00030923495069146156
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00018970455857925117
+  Block 0 mlp error 2   = -3.060783626551711e-07
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00029886403353884816
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00017628265777602792
+  Block 0 mlp error 2   = -3.3610621130719665e-07
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0003068751539103687
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0001866326347226277
+  Block 0 mlp error 2   = -3.1271906664187554e-07
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00030065845930948853
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00017859030049294233
+  Block 0 mlp error 2   = -3.30752385480082e-07
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.6723898649215698
+  L_out   (L4) = -0.0006369845359586179
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.2917307685711421e-05
+  Block 0 mlp error 2   = -1.8621736899149255e-06
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -7.345384801737964e-05
+  Block 0 attention error = -2.595678324723849e-06
+  Block 0 mlp error 1   = -6.657613349503322e-10
+  Block 0 mlp error 2   = -2.531056253474162e-08
+ts=2:
+  L_embed (L1) = -1.425093820728307e-08
+  L_out   (L4) = -0.0004761991440318525
+  Block 0 attention error = -4.148004336457234e-06
+  Block 0 mlp error 1   = -0.0004766554629895836
+  Block 0 mlp error 2   = -1.13627685038864e-08
+ts=3:
+  L_embed (L1) = -1.9846567056447384e-08
+  L_out   (L4) = -0.0001072445375029929
+  Block 0 attention error = -4.566391210471255e-13
+  Block 0 mlp error 1   = -1.7538364772917703e-05
+  Block 0 mlp error 2   = -7.284741627699987e-07
+ts=4:
+  L_embed (L1) = -3.385202537327359e-15
+  L_out   (L4) = -0.0003859545395243913
+  Block 0 attention error = -1.7014760097817244e-13
+  Block 0 mlp error 1   = -0.00034902174957096577
+  Block 0 mlp error 2   = -3.169776263689528e-08
+ts=5:
+  L_embed (L1) = -1.1227828291670433e-15
+  L_out   (L4) = -0.0001378450106130913
+  Block 0 attention error = -1.480260773419869e-19
+  Block 0 mlp error 1   = -4.411570625961758e-05
+  Block 0 mlp error 2   = -5.487103749146627e-07
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0003310116590000689
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -0.00027476431569084525
+  Block 0 mlp error 2   = -7.388464240420944e-08
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00016281094576697797
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -6.922616012161598e-05
+  Block 0 mlp error 2   = -4.326519729147549e-07
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0002963587176054716
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0002292782301083207
+  Block 0 mlp error 2   = -1.1284596013183545e-07
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00018188325338996947
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.986922330223024e-05
+  Block 0 mlp error 2   = -3.6170473549645976e-07
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00027398555539548397
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00020055372442584485
+  Block 0 mlp error 2   = -1.4483867971648579e-07
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00019589059229474515
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.000105664374132175
+  Block 0 mlp error 2   = -3.169407705172489e-07
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00025929274852387607
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00018200406339019537
+  Block 0 mlp error 2   = -1.6934296809267835e-07
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00020593353838194162
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00011726997036021203
+  Block 0 mlp error 2   = -2.8804976182073005e-07
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0002495225053280592
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00016982298984657973
+  Block 0 mlp error 2   = -1.873629003057431e-07
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00021302566165104508
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00012559257447719574
+  Block 0 mlp error 2   = -2.6908477934739494e-07
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00024296647461596876
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0001617231173440814
+  Block 0 mlp error 2   = -2.0029202119076217e-07
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00021798518719151616
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00013147051504347473
+  Block 0 mlp error 2   = -2.564783585512487e-07
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0002385386760579422
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0001562880934216082
+  Block 0 mlp error 2   = -2.0942668754742044e-07
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00022143099340610206
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00013558086357079446
+  Block 0 mlp error 2   = -2.4802145048852253e-07
+  Batch 10: EFE = -0.0004, CE = 12.6987, PPL = 327317.7188
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.6738680601119995
+  L_out   (L4) = -0.00029255333356559277
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -6.95694143360015e-06
+  Block 0 mlp error 2   = -3.3702556265780004e-06
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -5.5893058743095025e-05
+  Block 0 attention error = -2.6511293071962427e-06
+  Block 0 mlp error 1   = -1.2681629080191215e-09
+  Block 0 mlp error 2   = -1.3001407950241628e-08
+ts=2:
+  L_embed (L1) = -1.4386346336436873e-08
+  L_out   (L4) = -0.0002429530577501282
+  Block 0 attention error = -4.148020707361866e-06
+  Block 0 mlp error 1   = -0.00021035876125097275
+  Block 0 mlp error 2   = -1.1740453942366003e-08
+ts=3:
+  L_embed (L1) = -1.984657771458842e-08
+  L_out   (L4) = -6.375578959705308e-05
+  Block 0 attention error = -4.748148488969983e-13
+  Block 0 mlp error 1   = -3.96483937947778e-06
+  Block 0 mlp error 2   = -2.8739995627802273e-07
+ts=4:
+  L_embed (L1) = -3.5334779840848294e-15
+  L_out   (L4) = -0.0002102449507219717
+  Block 0 attention error = -1.70154336584169e-13
+  Block 0 mlp error 1   = -0.0001685370079940185
+  Block 0 mlp error 2   = -7.156265802166217e-09
+ts=5:
+  L_embed (L1) = -1.1228145929025653e-15
+  L_out   (L4) = -7.198043022071943e-05
+  Block 0 attention error = -1.6222913035104038e-19
+  Block 0 mlp error 1   = -1.0404191016277764e-05
+  Block 0 mlp error 2   = -2.3450058961316245e-07
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0001870970445452258
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -0.00013981547090224922
+  Block 0 mlp error 2   = -1.6431242144676617e-08
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -7.994440966285765e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.758333746693097e-05
+  Block 0 mlp error 2   = -1.9473462486985227e-07
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00017034751363098621
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00011936200462514535
+  Block 0 mlp error 2   = -2.631451145873598e-08
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -8.714705472812057e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.4604285499663092e-05
+  Block 0 mlp error 2   = -1.6648604628244357e-07
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00015805901784915477
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00010454619769006968
+  Block 0 mlp error 2   = -3.5943727993981156e-08
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -9.337731171399355e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.0965959012974054e-05
+  Block 0 mlp error 2   = -1.460374789985508e-07
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00014894291234668344
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -9.367466554977e-05
+  Block 0 mlp error 2   = -4.467578662570304e-08
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -9.861221769824624e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.647160338005051e-05
+  Block 0 mlp error 2   = -1.310386039676814e-07
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00014211666712071747
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.560994319850579e-05
+  Block 0 mlp error 2   = -5.2240022085925375e-08
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00010292527440469712
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -4.109875226276927e-05
+  Block 0 mlp error 2   = -1.1991525639132306e-07
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00013696456153411418
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.957136404002085e-05
+  Block 0 mlp error 2   = -5.860160001702752e-08
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0001064302705344744
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -4.491159779718146e-05
+  Block 0 mlp error 2   = -1.1158870449889946e-07
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0001330503000644967
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.501402433263138e-05
+  Block 0 mlp error 2   = -6.384615858223697e-08
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00010925054812105373
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -4.8010468162829056e-05
+  Block 0 mlp error 2   = -1.0530590799362471e-07
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.6751381158828735
+  L_out   (L4) = -6.821119313826784e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.4825528726069024e-06
+  Block 0 mlp error 2   = -4.395686119096354e-06
 ts=1:
   L_embed (L1) = -0.5772592425346375
-  L_out   (L4) = -0.00012709747534245253
-  Block 0 attention error = -2.761925088634598e-06
-  Block 0 mlp error 1   = -1.0896611390975863e-09
-  Block 0 mlp error 2   = -4.011039322904253e-08
-block.mlp.e_mlp1.mu: [[ 4.0831310e-05  1.9438272e-04  1.3391029e-05 ...  6.0076225e-05
-  -1.9762051e-06  6.0894871e-07]
- [ 4.1194719e-05  1.9336827e-04  1.2480600e-05 ...  5.9166301e-05
-  -1.5237692e-06 -1.7646363e-07]
- [ 4.0908038e-05  1.9374784e-04  1.2815918e-05 ...  5.9343674e-05
-  -1.6853193e-06  4.2332090e-07]
- ...
- [ 4.1267853e-05  1.9411973e-04  1.3041876e-05 ...  5.9532606e-05
-  -2.0918137e-06 -2.0437130e-07]
- [ 4.0775492e-05  1.9338867e-04  1.3584834e-05 ...  5.9369559e-05
-  -1.7189495e-06 -3.3460310e-08]
- [ 4.0860647e-05  1.9371997e-04  1.2877128e-05 ...  5.9171707e-05
-  -1.9580930e-06  5.6261007e-07]]
-wmlpq outputs value  [[ 4.0831310e-05  1.9438272e-04  1.3391029e-05 ...  6.0076225e-05
-  -1.9762051e-06  6.0894871e-07]
- [ 4.1194719e-05  1.9336827e-04  1.2480600e-05 ...  5.9166301e-05
-  -1.5237692e-06 -1.7646363e-07]
- [ 4.0908038e-05  1.9374784e-04  1.2815918e-05 ...  5.9343674e-05
-  -1.6853193e-06  4.2332090e-07]
- ...
- [ 4.1267853e-05  1.9411973e-04  1.3041876e-05 ...  5.9532606e-05
-  -2.0918137e-06 -2.0437130e-07]
- [ 4.0775492e-05  1.9338867e-04  1.3584834e-05 ...  5.9369559e-05
-  -1.7189495e-06 -3.3460310e-08]
- [ 4.0860647e-05  1.9371997e-04  1.2877128e-05 ...  5.9171707e-05
-  -1.9580930e-06  5.6261007e-07]]
-block.mlp.e_mlp1.target: [[3.38486134e-05 1.95188724e-04 1.41245091e-05 ... 6.09369708e-05
-  7.91216735e-07 3.09982715e-06]
- [3.42121530e-05 1.94175154e-04 1.32136865e-05 ... 6.00271342e-05
-  1.24290273e-06 2.31461854e-06]
- [3.39254220e-05 1.94554406e-04 1.35490591e-05 ... 6.02045911e-05
-  1.08180211e-06 2.91424840e-06]
- ...
- [3.42871135e-05 1.94926790e-04 1.37765064e-05 ... 6.03937078e-05
-  6.74457624e-07 2.28484532e-06]
- [3.37948150e-05 1.94195760e-04 1.43182215e-05 ... 6.02300170e-05
-  1.04751598e-06 2.45666888e-06]
- [3.38795508e-05 1.94527383e-04 1.36110866e-05 ... 6.00324893e-05
-  8.08649929e-07 3.05257890e-06]]
-zmplp2 value  [[3.38486134e-05 1.95188724e-04 1.41245091e-05 ... 6.09369708e-05
-  7.91216735e-07 3.09982715e-06]
- [3.42121530e-05 1.94175154e-04 1.32136865e-05 ... 6.00271342e-05
-  1.24290273e-06 2.31461854e-06]
- [3.39254220e-05 1.94554406e-04 1.35490591e-05 ... 6.02045911e-05
-  1.08180211e-06 2.91424840e-06]
- ...
- [3.42871135e-05 1.94926790e-04 1.37765064e-05 ... 6.03937078e-05
-  6.74457624e-07 2.28484532e-06]
- [3.37948150e-05 1.94195760e-04 1.43182215e-05 ... 6.02300170e-05
-  1.04751598e-06 2.45666888e-06]
- [3.38795508e-05 1.94527383e-04 1.36110866e-05 ... 6.00324893e-05
-  8.08649929e-07 3.05257890e-06]]
-check the surrounding 
-z_mlp2 [[1.6924794e-05 9.7610566e-05 7.0623396e-06 ... 3.0470066e-05
-  3.9560865e-07 1.5499177e-06]
- [1.7106575e-05 9.7103621e-05 6.6069174e-06 ... 3.0015102e-05
-  6.2145205e-07 1.1573117e-06]
- [1.6963200e-05 9.7293312e-05 6.7746078e-06 ... 3.0103838e-05
-  5.4090157e-07 1.4571278e-06]
- ...
- [1.7144057e-05 9.7479555e-05 6.8883337e-06 ... 3.0198406e-05
-  3.3722901e-07 1.1424248e-06]
- [1.6897893e-05 9.7113923e-05 7.1591976e-06 ... 3.0116553e-05
-  5.2375850e-07 1.2283371e-06]
- [1.6940265e-05 9.7279793e-05 6.8056220e-06 ... 3.0017780e-05
-  4.0432525e-07 1.5262934e-06]]
-cheack w_mlp2 [[1.6924794e-05 9.7610566e-05 7.0623396e-06 ... 3.0470066e-05
-  3.9560865e-07 1.5499177e-06]
- [1.7106575e-05 9.7103621e-05 6.6069174e-06 ... 3.0015102e-05
-  6.2145205e-07 1.1573117e-06]
- [1.6963200e-05 9.7293312e-05 6.7746078e-06 ... 3.0103838e-05
-  5.4090157e-07 1.4571278e-06]
- ...
- [1.7144057e-05 9.7479555e-05 6.8883337e-06 ... 3.0198406e-05
-  3.3722901e-07 1.1424248e-06]
- [1.6897893e-05 9.7113923e-05 7.1591976e-06 ... 3.0116553e-05
-  5.2375850e-07 1.2283371e-06]
- [1.6940265e-05 9.7279793e-05 6.8056220e-06 ... 3.0017780e-05
-  4.0432525e-07 1.5262934e-06]]
-block.mlp.e_mlp.mu [[ 1.01743746e-04 -2.71098193e-04  9.92898713e-05 ... -8.96318816e-05
-  -8.39655768e-05  1.23199410e-04]
- [ 1.01773374e-04 -2.71086406e-04  9.92749119e-05 ... -8.96434285e-05
-  -8.39454369e-05  1.23199672e-04]
- [ 1.01756414e-04 -2.71086930e-04  9.92785644e-05 ... -8.96386191e-05
-  -8.39479908e-05  1.23194128e-04]
- ...
- [ 1.01742291e-04 -2.71086174e-04  9.93032736e-05 ... -8.96182319e-05
-  -8.39822897e-05  1.23236445e-04]
- [ 1.01749400e-04 -2.71076773e-04  9.92920104e-05 ... -8.96330239e-05
-  -8.39725908e-05  1.23235019e-04]
- [ 1.01743346e-04 -2.71067955e-04  9.93116919e-05 ... -8.96363636e-05
-  -8.39663771e-05  1.23225982e-04]]
-block.mlp.W_mlp2.outputs [[ 1.01743746e-04 -2.71098193e-04  9.92898713e-05 ... -8.96318816e-05
-  -8.39655768e-05  1.23199410e-04]
- [ 1.01773374e-04 -2.71086406e-04  9.92749119e-05 ... -8.96434285e-05
-  -8.39454369e-05  1.23199672e-04]
- [ 1.01756414e-04 -2.71086930e-04  9.92785644e-05 ... -8.96386191e-05
-  -8.39479908e-05  1.23194128e-04]
- ...
- [ 1.01742291e-04 -2.71086174e-04  9.93032736e-05 ... -8.96182319e-05
-  -8.39822897e-05  1.23236445e-04]
- [ 1.01749400e-04 -2.71076773e-04  9.92920104e-05 ... -8.96330239e-05
-  -8.39725908e-05  1.23235019e-04]
- [ 1.01743346e-04 -2.71067955e-04  9.93116919e-05 ... -8.96363636e-05
-  -8.39663771e-05  1.23225982e-04]]
+  L_out   (L4) = -4.827875454793684e-05
+  Block 0 attention error = -2.8072263376088813e-06
+  Block 0 mlp error 1   = -1.5632282135413789e-09
+  Block 0 mlp error 2   = -4.945491127728019e-09
 ts=2:
-  L_embed (L1) = -1.495991597266766e-08
-  L_out   (L4) = -0.00039420698885805905
-  Block 0 attention error = -4.148054813413182e-06
-  Block 0 mlp error 1   = -0.00034651136957108974
-  Block 0 mlp error 2   = -1.2180271014017308e-08
-block.mlp.e_mlp1.mu: [[ 4.19025164e-05  1.93614047e-04  1.48537874e-05 ...  5.78403560e-05
-  -2.12024656e-06 -6.07666266e-07]
- [ 4.28787171e-05  1.93083659e-04  1.46808206e-05 ...  5.71130186e-05
-  -1.52834014e-06 -1.58367402e-06]
- [ 4.27284540e-05  1.93287939e-04  1.50387441e-05 ...  5.68405012e-05
-  -1.90925812e-06 -1.31493175e-06]
- ...
- [ 4.22662451e-05  1.93152737e-04  1.45623508e-05 ...  5.70176780e-05
-  -1.80757206e-06 -9.42589509e-07]
- [ 4.23723250e-05  1.92907348e-04  1.51895565e-05 ...  5.72350982e-05
-  -1.69183829e-06 -1.07163351e-06]
- [ 4.20953584e-05  1.93589090e-04  1.44736259e-05 ...  5.73150137e-05
-  -1.89750097e-06 -3.41810733e-07]]
-wmlpq outputs value  [[ 4.19025164e-05  1.93614047e-04  1.48537874e-05 ...  5.78403560e-05
-  -2.12024656e-06 -6.07666266e-07]
- [ 4.28787171e-05  1.93083659e-04  1.46808206e-05 ...  5.71130186e-05
-  -1.52834014e-06 -1.58367402e-06]
- [ 4.27284540e-05  1.93287939e-04  1.50387441e-05 ...  5.68405012e-05
-  -1.90925812e-06 -1.31493175e-06]
- ...
- [ 4.22662451e-05  1.93152737e-04  1.45623508e-05 ...  5.70176780e-05
-  -1.80757206e-06 -9.42589509e-07]
- [ 4.23723250e-05  1.92907348e-04  1.51895565e-05 ...  5.72350982e-05
-  -1.69183829e-06 -1.07163351e-06]
- [ 4.20953584e-05  1.93589090e-04  1.44736259e-05 ...  5.73150137e-05
-  -1.89750097e-06 -3.41810733e-07]]
-block.mlp.e_mlp1.target: [[ 4.0824154e-05  1.9436570e-04  1.3336520e-05 ...  6.0086124e-05
-  -1.9755028e-06  6.2665254e-07]
- [ 4.1187406e-05  1.9335130e-04  1.2427417e-05 ...  5.9176215e-05
-  -1.5229566e-06 -1.5882665e-07]
- [ 4.0900646e-05  1.9373100e-04  1.2762183e-05 ...  5.9353693e-05
-  -1.6848037e-06  4.4091485e-07]
- ...
- [ 4.1259136e-05  1.9410180e-04  1.2986859e-05 ...  5.9542144e-05
-  -2.0903401e-06 -1.8529045e-07]
- [ 4.0767485e-05  1.9337087e-04  1.3530223e-05 ...  5.9380109e-05
-  -1.7180867e-06 -1.5439355e-08]
- [ 4.0852545e-05  1.9370193e-04  1.2822626e-05 ...  5.9182359e-05
-  -1.9571839e-06  5.8019418e-07]]
-zmplp2 value  [[ 4.0824154e-05  1.9436570e-04  1.3336520e-05 ...  6.0086124e-05
-  -1.9755028e-06  6.2665254e-07]
- [ 4.1187406e-05  1.9335130e-04  1.2427417e-05 ...  5.9176215e-05
-  -1.5229566e-06 -1.5882665e-07]
- [ 4.0900646e-05  1.9373100e-04  1.2762183e-05 ...  5.9353693e-05
-  -1.6848037e-06  4.4091485e-07]
- ...
- [ 4.1259136e-05  1.9410180e-04  1.2986859e-05 ...  5.9542144e-05
-  -2.0903401e-06 -1.8529045e-07]
- [ 4.0767485e-05  1.9337087e-04  1.3530223e-05 ...  5.9380109e-05
-  -1.7180867e-06 -1.5439355e-08]
- [ 4.0852545e-05  1.9370193e-04  1.2822626e-05 ...  5.9182359e-05
-  -1.9571839e-06  5.8019418e-07]]
-check the surrounding 
-z_mlp2 [[ 2.0412788e-05  9.7198914e-05  6.6683356e-06 ...  3.0044599e-05
-  -9.8774967e-07  3.1332647e-07]
- [ 2.0594425e-05  9.6691554e-05  6.2137742e-06 ...  2.9589599e-05
-  -7.6147728e-07 -7.9413319e-08]
- [ 2.0451034e-05  9.6881471e-05  6.3811608e-06 ...  2.9678347e-05
-  -8.4240065e-07  2.2045751e-07]
- ...
- [ 2.0630294e-05  9.7066935e-05  6.4935011e-06 ...  2.9772580e-05
-  -1.0451682e-06 -9.2645202e-08]
- [ 2.0384450e-05  9.6701340e-05  6.7651899e-06 ...  2.9691555e-05
-  -8.5904207e-07 -7.7196773e-09]
- [ 2.0426984e-05  9.6866934e-05  6.4113833e-06 ...  2.9592671e-05
-  -9.7859038e-07  2.9009723e-07]]
-cheack w_mlp2 [[ 2.0412788e-05  9.7198914e-05  6.6683356e-06 ...  3.0044599e-05
-  -9.8774967e-07  3.1332647e-07]
- [ 2.0594425e-05  9.6691554e-05  6.2137742e-06 ...  2.9589599e-05
-  -7.6147728e-07 -7.9413319e-08]
- [ 2.0451034e-05  9.6881471e-05  6.3811608e-06 ...  2.9678347e-05
-  -8.4240065e-07  2.2045751e-07]
- ...
- [ 2.0630294e-05  9.7066935e-05  6.4935011e-06 ...  2.9772580e-05
-  -1.0451682e-06 -9.2645202e-08]
- [ 2.0384450e-05  9.6701340e-05  6.7651899e-06 ...  2.9691555e-05
-  -8.5904207e-07 -7.7196773e-09]
- [ 2.0426984e-05  9.6866934e-05  6.4113833e-06 ...  2.9592671e-05
-  -9.7859038e-07  2.9009723e-07]]
-block.mlp.e_mlp.mu [[ 1.0190634e-04 -2.7163108e-04  9.9524339e-05 ... -8.9692243e-05
-  -8.4150495e-05  1.2323441e-04]
- [ 1.0193595e-04 -2.7161921e-04  9.9509343e-05 ... -8.9703790e-05
-  -8.4130348e-05  1.2323463e-04]
- [ 1.0191895e-04 -2.7161973e-04  9.9513018e-05 ... -8.9698966e-05
-  -8.4132938e-05  1.2322911e-04]
- ...
- [ 1.0190504e-04 -2.7161889e-04  9.9537865e-05 ... -8.9678848e-05
-  -8.4167121e-05  1.2327159e-04]
- [ 1.0191209e-04 -2.7160955e-04  9.9526558e-05 ... -8.9693567e-05
-  -8.4157466e-05  1.2327006e-04]
- [ 1.0190604e-04 -2.7160073e-04  9.9546254e-05 ... -8.9696929e-05
-  -8.4151157e-05  1.2326095e-04]]
-block.mlp.W_mlp2.outputs [[ 1.0190634e-04 -2.7163108e-04  9.9524339e-05 ... -8.9692243e-05
-  -8.4150495e-05  1.2323441e-04]
- [ 1.0193595e-04 -2.7161921e-04  9.9509343e-05 ... -8.9703790e-05
-  -8.4130348e-05  1.2323463e-04]
- [ 1.0191895e-04 -2.7161973e-04  9.9513018e-05 ... -8.9698966e-05
-  -8.4132938e-05  1.2322911e-04]
- ...
- [ 1.0190504e-04 -2.7161889e-04  9.9537865e-05 ... -8.9678848e-05
-  -8.4167121e-05  1.2327159e-04]
- [ 1.0191209e-04 -2.7160955e-04  9.9526558e-05 ... -8.9693567e-05
-  -8.4157466e-05  1.2327006e-04]
- [ 1.0190604e-04 -2.7160073e-04  9.9546254e-05 ... -8.9696929e-05
-  -8.4151157e-05  1.2326095e-04]]
+  L_embed (L1) = -1.5991115986935256e-08
+  L_out   (L4) = -6.577366002602503e-05
+  Block 0 attention error = -4.148032530792989e-06
+  Block 0 mlp error 1   = -1.8663322407519445e-05
+  Block 0 mlp error 2   = -1.2195474852205734e-08
 ts=3:
-  L_embed (L1) = -1.98466985068535e-08
-  L_out   (L4) = -0.00017712166300043464
-  Block 0 attention error = -4.831872749133659e-13
-  Block 0 mlp error 1   = -2.963900078611914e-05
-  Block 0 mlp error 2   = -6.501508664769062e-07
-block.mlp.e_mlp1.mu: [[3.98809134e-05 1.93105516e-04 1.10352985e-05 ... 5.95145284e-05
-  3.01918135e-08 7.71615760e-07]
- [4.04987113e-05 1.92623411e-04 1.02460963e-05 ... 5.92149590e-05
-  9.65232630e-07 8.14488317e-08]
- [4.00329845e-05 1.92609892e-04 9.94742550e-06 ... 5.90727359e-05
-  9.57979864e-07 5.24120821e-07]
- ...
- [3.99772252e-05 1.92853724e-04 1.03598777e-05 ... 5.91754870e-05
-  5.51209723e-07 7.01827730e-07]
- [3.98586963e-05 1.92551815e-04 1.05628087e-05 ... 5.95789497e-05
-  9.05884235e-07 7.26033818e-07]
- [3.99401106e-05 1.93185275e-04 1.04631290e-05 ... 5.92310753e-05
-  3.57102863e-07 1.17002492e-06]]
-wmlpq outputs value  [[3.98809134e-05 1.93105516e-04 1.10352985e-05 ... 5.95145284e-05
-  3.01918135e-08 7.71615760e-07]
- [4.04987113e-05 1.92623411e-04 1.02460963e-05 ... 5.92149590e-05
-  9.65232630e-07 8.14488317e-08]
- [4.00329845e-05 1.92609892e-04 9.94742550e-06 ... 5.90727359e-05
-  9.57979864e-07 5.24120821e-07]
- ...
- [3.99772252e-05 1.92853724e-04 1.03598777e-05 ... 5.91754870e-05
-  5.51209723e-07 7.01827730e-07]
- [3.98586963e-05 1.92551815e-04 1.05628087e-05 ... 5.95789497e-05
-  9.05884235e-07 7.26033818e-07]
- [3.99401106e-05 1.93185275e-04 1.04631290e-05 ... 5.92310753e-05
-  3.57102863e-07 1.17002492e-06]]
-block.mlp.e_mlp1.target: Traceback (most recent call last):
-  File "/content/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/train.py", line 79, in <module>
+  L_embed (L1) = -1.984657771458842e-08
+  L_out   (L4) = -4.851201447308995e-05
+  Block 0 attention error = -4.914122494342754e-13
+  Block 0 mlp error 1   = -1.1946681865993014e-07
+  Block 0 mlp error 2   = -3.631415523841497e-08
+ts=4:
+  L_embed (L1) = -3.568847962379801e-15
+  L_out   (L4) = -6.389247573679313e-05
+  Block 0 attention error = -1.7016387756328688e-13
+  Block 0 mlp error 1   = -1.649151454330422e-05
+  Block 0 mlp error 2   = -2.485639194471645e-10
+ts=5:
+  L_embed (L1) = -1.1228117341663684e-15
+  L_out   (L4) = -4.8778823838802055e-05
+  Block 0 attention error = -1.6200829897688286e-19
+  Block 0 mlp error 1   = -3.0948297080612974e-07
+  Block 0 mlp error 2   = -2.0519873800139976e-08
+ts=6:
+  L_embed (L1) = -6.617444900424222e-24
+  L_out   (L4) = -6.234330066945404e-05
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -1.4740276128577534e-05
+  Block 0 mlp error 2   = -5.218739884682577e-10
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -4.908294431515969e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -5.541235736927774e-07
+  Block 0 mlp error 2   = -1.8340404750460948e-08
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -6.104925705585629e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.328690086666029e-05
+  Block 0 mlp error 2   = -8.339696710990552e-10
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -4.940814687870443e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.380274607588944e-07
+  Block 0 mlp error 2   = -1.6546941594697273e-08
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -5.996252002660185e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.2071628589183092e-05
+  Block 0 mlp error 2   = -1.188455334144578e-09
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -4.97395740239881e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.142570340562088e-06
+  Block 0 mlp error 2   = -1.5049735679895093e-08
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -5.904618228669278e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.105085902963765e-05
+  Block 0 mlp error 2   = -1.566811791420264e-09
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -5.0066362746292725e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.4531967735820217e-06
+  Block 0 mlp error 2   = -1.3792398334544487e-08
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -5.827076529385522e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.0190177818003576e-05
+  Block 0 mlp error 2   = -1.951971251301643e-09
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -5.0381164328427985e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.7596029238120536e-06
+  Block 0 mlp error 2   = -1.2732149556882177e-08
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -5.761235297541134e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -9.461860827286728e-06
+  Block 0 mlp error 2   = -2.331473680783347e-09
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -5.067928577773273e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.0548468455672264e-06
+  Block 0 mlp error 2   = -1.1834870861093805e-08
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -5.705149669665843e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.84347264218377e-06
+  Block 0 mlp error 2   = -2.6968665078896947e-09
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -5.0957954954355955e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.334495547984261e-06
+  Block 0 mlp error 2   = -1.1072915917509363e-08
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.6503740549087524
+  L_out   (L4) = -7.578152872156352e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -5.870319910172839e-07
+  Block 0 mlp error 2   = -4.310640179028269e-06
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -3.582000863389112e-05
+  Block 0 attention error = -2.743375262070913e-06
+  Block 0 mlp error 1   = -1.445986441694913e-09
+  Block 0 mlp error 2   = -1.6431576099762424e-09
+ts=2:
+  L_embed (L1) = -1.500857749192619e-08
+  L_out   (L4) = -7.33213746570982e-05
+  Block 0 attention error = -4.148048901697621e-06
+  Block 0 mlp error 1   = -3.8617043173871934e-05
+  Block 0 mlp error 2   = -1.1980068492789542e-08
+ts=3:
+  L_embed (L1) = -1.984684594447117e-08
+  L_out   (L4) = -3.6291428841650486e-05
+  Block 0 attention error = -5.030163568661705e-13
+  Block 0 mlp error 1   = -5.728739438382036e-07
+  Block 0 mlp error 2   = -7.45470458696218e-08
+ts=4:
+  L_embed (L1) = -3.730148446525437e-15
+  L_out   (L4) = -7.237108366098255e-05
+  Block 0 attention error = -1.701605707466608e-13
+  Block 0 mlp error 1   = -3.723700501723215e-05
+  Block 0 mlp error 2   = -1.7869209445464662e-09
+ts=5:
+  L_embed (L1) = -1.1223823943412288e-15
+  L_out   (L4) = -3.6385972634889185e-05
+  Block 0 attention error = -1.6475654193860494e-19
+  Block 0 mlp error 1   = -7.610811962877051e-07
+  Block 0 mlp error 2   = -4.1957132879133496e-08
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -7.160489622037858e-05
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -3.6407087463885546e-05
+  Block 0 mlp error 2   = -2.3414852279302067e-09
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -3.642714364104904e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.11164738934167e-07
+  Block 0 mlp error 2   = -4.0958433089599566e-08
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -7.08853331161663e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.566482337191701e-05
+  Block 0 mlp error 2   = -2.4448982838265465e-09
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -3.646604091045447e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.451683015664457e-07
+  Block 0 mlp error 2   = -4.013936205637947e-08
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -7.01915196259506e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.495451164781116e-05
+  Block 0 mlp error 2   = -2.4835316025928478e-09
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -3.650979488156736e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.823163852866855e-07
+  Block 0 mlp error 2   = -3.936409598281898e-08
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -6.95198104949668e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.4267584851477295e-05
+  Block 0 mlp error 2   = -2.5188486851845937e-09
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -3.6559085856424645e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -9.250726407117327e-07
+  Block 0 mlp error 2   = -3.861537933858017e-08
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -6.88689760863781e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.360230039106682e-05
+  Block 0 mlp error 2   = -2.5594650843174804e-09
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -3.661367736640386e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -9.734462764754426e-07
+  Block 0 mlp error 2   = -3.789031666201481e-08
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -6.823828880442306e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.2957643270492554e-05
+  Block 0 mlp error 2   = -2.6062496605305796e-09
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -3.667321288958192e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.0271006658513215e-06
+  Block 0 mlp error 2   = -3.718782437545087e-08
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -6.762701377738267e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.2332929549738765e-05
+  Block 0 mlp error 2   = -2.658957054535449e-09
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -3.673733226605691e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.085667236111476e-06
+  Block 0 mlp error 2   = -3.6507131540020055e-08
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.6390441656112671
+  L_out   (L4) = -0.00027420607511885464
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.395103693852434e-07
+  Block 0 mlp error 2   = -2.3371965198748512e-06
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -2.8399937946232967e-05
+  Block 0 attention error = -2.798271452775225e-06
+  Block 0 mlp error 1   = -7.557583447947991e-10
+  Block 0 mlp error 2   = -1.2760859036120564e-09
+ts=2:
+  L_embed (L1) = -1.5824239696371478e-08
+  L_out   (L4) = -0.00028873400879092515
+  Block 0 attention error = -4.148052539676428e-06
+  Block 0 mlp error 1   = -0.00025261606788262725
+  Block 0 mlp error 2   = -1.2381316416565369e-08
+ts=3:
+  L_embed (L1) = -1.9846776666554433e-08
+  L_out   (L4) = -3.060692688450217e-05
+  Block 0 attention error = -4.676899601104012e-13
+  Block 0 mlp error 1   = -1.7519263337817392e-06
+  Block 0 mlp error 2   = -2.9965914905005775e-07
+ts=4:
+  L_embed (L1) = -3.4285894707098558e-15
+  L_out   (L4) = -0.00030934385722503066
+  Block 0 attention error = -1.701543094791147e-13
+  Block 0 mlp error 1   = -0.00027069321367889643
+  Block 0 mlp error 2   = -4.741040449118827e-09
+ts=5:
+  L_embed (L1) = -1.1228133223531445e-15
+  L_out   (L4) = -3.2788193493615836e-05
+  Block 0 attention error = -1.421122529501156e-19
+  Block 0 mlp error 1   = -3.3038465971912956e-06
+  Block 0 mlp error 2   = -2.7191714480068185e-07
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00033287651604041457
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -0.0002923982683569193
+  Block 0 mlp error 2   = -7.277612290579327e-09
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -3.596237729652785e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -5.465872163767926e-06
+  Block 0 mlp error 2   = -2.932864902049914e-07
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00035932473838329315
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0003168809344060719
+  Block 0 mlp error 2   = -9.670092282476617e-09
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -4.0500999602954835e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.7594089563936e-06
+  Block 0 mlp error 2   = -3.17591286602692e-07
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0003890230436809361
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0003443533496465534
+  Block 0 mlp error 2   = -1.3074012095160015e-08
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -4.670881389756687e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.3486005627783015e-05
+  Block 0 mlp error 2   = -3.4488260780562996e-07
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00042240446782670915
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00037519558100029826
+  Block 0 mlp error 2   = -1.7895066761752787e-08
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -5.4924610594753176e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.9949964553234167e-05
+  Block 0 mlp error 2   = -3.75527321239133e-07
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00045997221604920924
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00040986304520629346
+  Block 0 mlp error 2   = -2.4453397529100585e-08
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -6.554321589646861e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.850160308298655e-05
+  Block 0 mlp error 2   = -4.099763089016051e-07
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0005023041157983243
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0004488782724365592
+  Block 0 mlp error 2   = -3.310134388812003e-08
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -7.902716606622562e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.955090505769476e-05
+  Block 0 mlp error 2   = -4.4875233129459957e-07
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0005500628612935543
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0004928428679704666
+  Block 0 mlp error 2   = -4.424883570663951e-08
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -9.591810521669686e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -5.357852205634117e-05
+  Block 0 mlp error 2   = -4.924527274852153e-07
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.6870757341384888
+  L_out   (L4) = -0.0007953416788950562
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.836295036308002e-06
+  Block 0 mlp error 2   = -3.2381927894675755e-07
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -3.298109004390426e-05
+  Block 0 attention error = -2.548007614677772e-06
+  Block 0 mlp error 1   = -9.735226513818418e-11
+  Block 0 mlp error 2   = -4.864538105664451e-09
+ts=2:
+  L_embed (L1) = -1.4564232486691253e-08
+  L_out   (L4) = -0.0009012098889797926
+  Block 0 attention error = -4.148118932789657e-06
+  Block 0 mlp error 1   = -0.0008132836665026844
+  Block 0 mlp error 2   = -1.2141134320131641e-08
+ts=3:
+  L_embed (L1) = -1.9847254506544232e-08
+  L_out   (L4) = -4.546402851701714e-05
+  Block 0 attention error = -4.506361104585077e-13
+  Block 0 mlp error 1   = -4.64845516034984e-06
+  Block 0 mlp error 2   = -8.102516630970058e-07
+ts=4:
+  L_embed (L1) = -3.2693616761861506e-15
+  L_out   (L4) = -0.0010345499031245708
+  Block 0 attention error = -1.7017474669006605e-13
+  Block 0 mlp error 1   = -0.0009292718605138361
+  Block 0 mlp error 2   = -6.808265951008252e-09
+ts=5:
+  L_embed (L1) = -1.122783252683517e-15
+  L_out   (L4) = -6.894551188452169e-05
+  Block 0 attention error = -1.582839828923482e-19
+  Block 0 mlp error 1   = -1.740142579365056e-05
+  Block 0 mlp error 2   = -8.591052846895764e-07
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0011978803668171167
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -0.0010717414552345872
+  Block 0 mlp error 2   = -1.9496122050099984e-08
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00010861722694244236
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -4.242975410306826e-05
+  Block 0 mlp error 2   = -9.904546232064604e-07
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0013983070384711027
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0012460083235055208
+  Block 0 mlp error 2   = -4.293010746891923e-08
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0001705904141999781
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.482582052238286e-05
+  Block 0 mlp error 2   = -1.1512103128552553e-06
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0016451227711513638
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0014598197303712368
+  Block 0 mlp error 2   = -8.232649406636483e-08
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00026280235033482313
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00015104265185073018
+  Block 0 mlp error 2   = -1.348452542515588e-06
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0019501667702570558
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0017231146339327097
+  Block 0 mlp error 2   = -1.4373584633631253e-07
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00039566701161675155
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0002495420922059566
+  Block 0 mlp error 2   = -1.5913644801912596e-06
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.002328493632376194
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0020485403947532177
+  Block 0 mlp error 2   = -2.3499153201100853e-07
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0005828327848576009
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00039143674075603485
+  Block 0 mlp error 2   = -1.8916175577032845e-06
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0027992718387395144
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0024521530140191317
+  Block 0 mlp error 2   = -3.6636507161347254e-07
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0008421503589488566
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0005912938504479825
+  Block 0 mlp error 2   = -2.264042450406123e-06
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.003386938711628318
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0029544057324528694
+  Block 0 mlp error 2   = -5.513145424629329e-07
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0011969223851338029
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0008681631879881024
+  Block 0 mlp error 2   = -2.727520950429607e-06
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.6848479509353638
+  L_out   (L4) = -0.002485142555087805
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.3910583220422268e-05
+  Block 0 mlp error 2   = -3.3350347621308174e-06
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -2.880431384255644e-05
+  Block 0 attention error = -3.033131633856101e-06
+  Block 0 mlp error 1   = -1.4963587036120884e-09
+  Block 0 mlp error 2   = -1.6367067701139604e-08
+ts=2:
+  L_embed (L1) = -1.6907534927668166e-08
+  L_out   (L4) = -0.002634601201862097
+  Block 0 attention error = -4.148031166550936e-06
+  Block 0 mlp error 1   = -0.002530001802369952
+  Block 0 mlp error 2   = -1.3187983149975935e-08
+ts=3:
+  L_embed (L1) = -1.9846620347152566e-08
+  L_out   (L4) = -3.61999191227369e-05
+  Block 0 attention error = -4.860626874950147e-13
+  Block 0 mlp error 1   = -2.7461785521154525e-06
+  Block 0 mlp error 2   = -2.250826355520985e-06
+ts=4:
+  L_embed (L1) = -3.588509291151468e-15
+  L_out   (L4) = -0.0028016488067805767
+  Block 0 attention error = -1.7015327948705083e-13
+  Block 0 mlp error 1   = -0.0026871811132878065
+  Block 0 mlp error 2   = -3.33262217822039e-09
+ts=5:
+  L_embed (L1) = -1.1227845232329378e-15
+  L_out   (L4) = -4.9099868192570284e-05
+  Block 0 attention error = -1.4168107213112526e-19
+  Block 0 mlp error 1   = -1.023925233312184e-05
+  Block 0 mlp error 2   = -2.3127927306632046e-06
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.002984558930620551
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -0.0028594303876161575
+  Block 0 mlp error 2   = -1.0159845409418722e-08
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -6.874987593619153e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.3591515855514444e-05
+  Block 0 mlp error 2   = -2.461268195474986e-06
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0031849227380007505
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0030479992274194956
+  Block 0 mlp error 2   = -2.1817225359654913e-08
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -9.634606976760551e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -4.393749259179458e-05
+  Block 0 mlp error 2   = -2.6236568828608142e-06
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0034045742359012365
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.003254540264606476
+  Block 0 mlp error 2   = -3.946678717170471e-08
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00013321700680535287
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.24873534636572e-05
+  Block 0 mlp error 2   = -2.8014908366458258e-06
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0036455714143812656
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0034809759818017483
+  Block 0 mlp error 2   = -6.418444797873235e-08
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00018087161879520863
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00011060835095122457
+  Block 0 mlp error 2   = -2.9964473924337653e-06
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.003910208120942116
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0037294081412255764
+  Block 0 mlp error 2   = -9.715395066223209e-08
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00024102747556753457
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0001598561357241124
+  Block 0 mlp error 2   = -3.2103514513437403e-06
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.004201043862849474
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0040022265166044235
+  Block 0 mlp error 2   = -1.397173008399477e-07
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00031563840457238257
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0002220027381554246
+  Block 0 mlp error 2   = -3.4452446016075555e-06
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.004520933609455824
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0043020471930503845
+  Block 0 mlp error 2   = -1.934016182758569e-07
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.000406925828428939
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0002990629291161895
+  Block 0 mlp error 2   = -3.703401034726994e-06
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.6604483127593994
+  L_out   (L4) = -0.005739341955631971
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.321686381241307e-05
+  Block 0 mlp error 2   = -8.477196388412267e-06
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -3.292177279945463e-05
+  Block 0 attention error = -2.807763394230278e-06
+  Block 0 mlp error 1   = -3.653274127657369e-09
+  Block 0 mlp error 2   = -3.6563108096743235e-08
+ts=2:
+  L_embed (L1) = -1.5894244143055403e-08
+  L_out   (L4) = -0.005495910067111254
+  Block 0 attention error = -4.148095285927411e-06
+  Block 0 mlp error 1   = -0.005583456717431545
+  Block 0 mlp error 2   = -1.2409024030546334e-08
+ts=3:
+  L_embed (L1) = -1.984719588676853e-08
+  L_out   (L4) = -4.0574403101345524e-05
+  Block 0 attention error = -4.940067452330332e-13
+  Block 0 mlp error 1   = -2.6746006369648967e-06
+  Block 0 mlp error 2   = -4.513414296525298e-06
+ts=4:
+  L_embed (L1) = -3.5265342197414755e-15
+  L_out   (L4) = -0.005272995680570602
+  Block 0 attention error = -1.701642705865744e-13
+  Block 0 mlp error 1   = -0.005350411869585514
+  Block 0 mlp error 2   = -2.303226276367809e-09
+ts=5:
+  L_embed (L1) = -1.1223809120335711e-15
+  L_out   (L4) = -5.2301773393992335e-05
+  Block 0 attention error = -1.636979575496902e-19
+  Block 0 mlp error 1   = -9.958218470274005e-06
+  Block 0 mlp error 2   = -4.249543053447269e-06
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.005063953343778849
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -0.005132102407515049
+  Block 0 mlp error 2   = -7.90124499161493e-09
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -6.766676960978657e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.1323936380213127e-05
+  Block 0 mlp error 2   = -4.07658899348462e-06
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.004867810755968094
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.004927385598421097
+  Block 0 mlp error 2   = -1.666171911551828e-08
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -8.618812717031687e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.6273566365707666e-05
+  Block 0 mlp error 2   = -3.913805812771898e-06
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.004683676175773144
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.004735277500003576
+  Block 0 mlp error 2   = -2.8279579566969915e-08
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00010741678124759346
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -5.432288162410259e-05
+  Block 0 mlp error 2   = -3.7609756873280276e-06
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.004510730970650911
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.004554949700832367
+  Block 0 mlp error 2   = -4.238000528289376e-08
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00013094650057610124
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.502971857320517e-05
+  Block 0 mlp error 2   = -3.617502898123348e-06
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.004348221700638533
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.004385578446090221
+  Block 0 mlp error 2   = -5.8611249187379144e-08
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00015641216305084527
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -9.799550753086805e-05
+  Block 0 mlp error 2   = -3.482748979877215e-06
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.004195446614176035
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.004226422868669033
+  Block 0 mlp error 2   = -7.665502010922864e-08
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0001834863651311025
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00012286202399991453
+  Block 0 mlp error 2   = -3.3561238979018526e-06
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.004051756579428911
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.004076802171766758
+  Block 0 mlp error 2   = -9.622562657796152e-08
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00021187604579608887
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0001493084419053048
+  Block 0 mlp error 2   = -3.2370992357755313e-06
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.688788890838623
+  L_out   (L4) = -0.008796107023954391
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -5.1301401981618255e-05
+  Block 0 mlp error 2   = -1.3235810911282897e-05
+ts=1:
+  L_embed (L1) = -0.5772592425346375
+  L_out   (L4) = -5.6162614782806486e-05
+  Block 0 attention error = -2.611066975077847e-06
+  Block 0 mlp error 1   = -5.790150581219677e-09
+  Block 0 mlp error 2   = -5.641292588620672e-08
+ts=2:
+  L_embed (L1) = -1.4263323855345789e-08
+  L_out   (L4) = -0.007978237234055996
+  Block 0 attention error = -4.1480657273496035e-06
+  Block 0 mlp error 1   = -0.008320897817611694
+  Block 0 mlp error 2   = -1.1297331070636574e-08
+ts=3:
+  L_embed (L1) = -1.984690456424687e-08
+  L_out   (L4) = -0.00011361686483724043
+  Block 0 attention error = -4.65245572102424e-13
+  Block 0 mlp error 1   = -2.1060644940007478e-05
+  Block 0 mlp error 2   = -6.657793164777104e-06
+ts=4:
+  L_embed (L1) = -3.4937648443528115e-15
+  L_out   (L4) = -0.007282589562237263
+  Block 0 attention error = -1.7017057251170198e-13
+  Block 0 mlp error 1   = -0.00755211291834712
+  Block 0 mlp error 2   = -1.7025456600094913e-08
+ts=5:
+  L_embed (L1) = -1.122783252683517e-15
+  L_out   (L4) = -0.00019522561342455447
+  Block 0 attention error = -1.5417622981980401e-19
+  Block 0 mlp error 1   = -7.491547876270488e-05
+  Block 0 mlp error 2   = -5.979109573672758e-06
+ts=6:
+  L_embed (L1) = -6.617444900424222e-24
+  L_out   (L4) = -0.006681988015770912
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -0.006890571676194668
+  Block 0 mlp error 2   = -5.8585772677588466e-08
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00029353785794228315
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00015216163592413068
+  Block 0 mlp error 2   = -5.455325208458817e-06
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.006161969620734453
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0063193319365382195
+  Block 0 mlp error 2   = -1.1855279780093042e-07
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00040245612035505474
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0002453988417983055
+  Block 0 mlp error 2   = -5.0019998525385745e-06
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0057105738669633865
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.005824735388159752
+  Block 0 mlp error 2   = -1.9137212348141475e-07
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0005172467790544033
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00034877104917541146
+  Block 0 mlp error 2   = -4.609405550581869e-06
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.005317781586199999
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.005395410116761923
+  Block 0 mlp error 2   = -2.724017917898891e-07
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0006343101267702878
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00045776061597280204
+  Block 0 mlp error 2   = -4.26865244662622e-06
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.004975173622369766
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.005021834746003151
+  Block 0 mlp error 2   = -3.580340717235231e-07
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0007509537390433252
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0005689399549737573
+  Block 0 mlp error 2   = -3.9721844586892985e-06
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.004675653297454119
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00469598826020956
+  Block 0 mlp error 2   = -4.4552530198416207e-07
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.000865201698616147
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.000679739925544709
+  Block 0 mlp error 2   = -3.7136442188057117e-06
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.004413219168782234
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.004411124624311924
+  Block 0 mlp error 2   = -5.32820536136569e-07
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0009756416548043489
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0007882816717028618
+  Block 0 mlp error 2   = -3.4876438803621568e-06
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.6950308084487915
+  L_out   (L4) = -0.009689848870038986
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -5.620311276288703e-05
+  Block 0 mlp error 2   = -1.7604357708478346e-05
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -4.858814281760715e-05
+  Block 0 attention error = -2.7271071303403005e-06
+  Block 0 mlp error 1   = -8.39009750563946e-09
+  Block 0 mlp error 2   = -6.693129250834318e-08
+ts=2:
+  L_embed (L1) = -1.484739087231901e-08
+  L_out   (L4) = -0.008887011557817459
+  Block 0 attention error = -4.1479938772681635e-06
+  Block 0 mlp error 1   = -0.009230962023139
+  Block 0 mlp error 2   = -1.1769294872010505e-08
+ts=3:
+  L_embed (L1) = -1.9846511989385363e-08
+  L_out   (L4) = -9.882533777272329e-05
+  Block 0 attention error = -4.610655390466234e-13
+  Block 0 mlp error 1   = -1.8629625628818758e-05
+  Block 0 mlp error 2   = -8.197091119654942e-06
+ts=4:
+  L_embed (L1) = -3.398782381295977e-15
+  L_out   (L4) = -0.008194704540073872
+  Block 0 attention error = -1.701716431613473e-13
+  Block 0 mlp error 1   = -0.008474313654005527
+  Block 0 mlp error 2   = -1.8034691962043325e-08
+ts=5:
+  L_embed (L1) = -1.1227828291670433e-15
+  L_out   (L4) = -0.0001707383489701897
+  Block 0 attention error = -1.4848726930757642e-19
+  Block 0 mlp error 1   = -6.560412293765694e-05
+  Block 0 mlp error 2   = -7.474144240404712e-06
+ts=6:
+  L_embed (L1) = -6.617444900424222e-24
+  L_out   (L4) = -0.007586577441543341
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -0.0078118289820849895
+  Block 0 mlp error 2   = -5.885691223284084e-08
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00025887854280881584
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00013398990267887712
+  Block 0 mlp error 2   = -6.889785254315939e-06
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.007051060441881418
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.007229709532111883
+  Block 0 mlp error 2   = -1.1808116084921494e-07
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00035830808337777853
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00021805157302878797
+  Block 0 mlp error 2   = -6.375436896632891e-06
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.006578529719263315
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.006717069540172815
+  Block 0 mlp error 2   = -1.9122816752314975e-07
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00046500161988660693
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00031297316309064627
+  Block 0 mlp error 2   = -5.922423952142708e-06
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.006160779390484095
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.006264725234359503
+  Block 0 mlp error 2   = -2.741031437381025e-07
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0005757640465162694
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00041488304850645363
+  Block 0 mlp error 2   = -5.522728315554559e-06
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.005790770053863525
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0058648474514484406
+  Block 0 mlp error 2   = -3.632761718108668e-07
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0006880922592245042
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0005207154899835587
+  Block 0 mlp error 2   = -5.16941690875683e-06
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.005462452303618193
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0055106645449995995
+  Block 0 mlp error 2   = -4.560244519780099e-07
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0008000493398867548
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0006280710222199559
+  Block 0 mlp error 2   = -4.8565184442850295e-06
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0051706149242818356
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.005196386482566595
+  Block 0 mlp error 2   = -5.502120643541275e-07
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0009101584437303245
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0007350916275754571
+  Block 0 mlp error 2   = -4.578906555252615e-06
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.6375027894973755
+  L_out   (L4) = -0.008656472899019718
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -5.0139402446802706e-05
+  Block 0 mlp error 2   = -2.2045082005206496e-05
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -3.320971518405713e-05
+  Block 0 attention error = -2.303582732565701e-06
+  Block 0 mlp error 1   = -1.1866831961526714e-08
+  Block 0 mlp error 2   = -6.762173399010862e-08
+ts=2:
+  L_embed (L1) = -1.3151085553886332e-08
+  L_out   (L4) = -0.008406182751059532
+  Block 0 attention error = -4.147996605752269e-06
+  Block 0 mlp error 1   = -0.008497148752212524
+  Block 0 mlp error 2   = -1.002914640224617e-08
+ts=3:
+  L_embed (L1) = -1.984646225139386e-08
+  L_out   (L4) = -3.922859104932286e-05
+  Block 0 attention error = -4.4925562293733623e-13
+  Block 0 mlp error 1   = -2.9002931114519015e-06
+  Block 0 mlp error 2   = -8.805933248368092e-06
+ts=4:
+  L_embed (L1) = -3.2201388975553087e-15
+  L_out   (L4) = -0.008179220370948315
+  Block 0 attention error = -1.7015727748256188e-13
+  Block 0 mlp error 1   = -0.008262429386377335
+  Block 0 mlp error 2   = -5.5345177329968465e-09
+ts=5:
+  L_embed (L1) = -1.1228117341663684e-15
+  L_out   (L4) = -4.7173067287076265e-05
+  Block 0 attention error = -1.5914156239241256e-19
+  Block 0 mlp error 1   = -7.983688192325644e-06
+  Block 0 mlp error 2   = -8.523430551576894e-06
+ts=6:
+  L_embed (L1) = -6.617444900424222e-24
+  L_out   (L4) = -0.007961966097354889
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -0.008038660511374474
+  Block 0 mlp error 2   = -1.1458633153438313e-08
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -5.76355705561582e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.5577850717818365e-05
+  Block 0 mlp error 2   = -8.292385246022604e-06
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0077536264434456825
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00782422162592411
+  Block 0 mlp error 2   = -1.925427461912932e-08
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -7.051855209283531e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.575931284809485e-05
+  Block 0 mlp error 2   = -8.071039701462723e-06
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.007553750183433294
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0076185776852071285
+  Block 0 mlp error 2   = -2.9610120577672205e-08
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -8.562445873394608e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.835000825347379e-05
+  Block 0 mlp error 2   = -7.85879365139408e-06
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.007361947558820248
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0074212681502103806
+  Block 0 mlp error 2   = -4.244090590077576e-08
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00010275266686221585
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -5.314243753673509e-05
+  Block 0 mlp error 2   = -7.655186891497578e-06
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.007177854888141155
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.007231902331113815
+  Block 0 mlp error 2   = -5.754760223908306e-08
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00012171334674349055
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -6.993644637987018e-05
+  Block 0 mlp error 2   = -7.459813787136227e-06
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.007001128047704697
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00705020222812891
+  Block 0 mlp error 2   = -7.472585394907583e-08
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00014232897956389934
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.854415500536561e-05
+  Block 0 mlp error 2   = -7.27228689356707e-06
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.006831438280642033
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.006875741761177778
+  Block 0 mlp error 2   = -9.378185694686181e-08
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00016443377535324544
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00010879020555876195
+  Block 0 mlp error 2   = -7.09227333572926e-06
+  Batch 20: EFE = -0.0003, CE = 13.9161, PPL = 1105814.6250
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.6362738609313965
+  L_out   (L4) = -0.0071764132007956505
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -4.09880667575635e-05
+  Block 0 mlp error 2   = -2.669761306606233e-05
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -4.755261761602014e-05
+  Block 0 attention error = -2.382606908213347e-06
+  Block 0 mlp error 1   = -1.6420294457475393e-08
+  Block 0 mlp error 2   = -6.341891634065178e-08
+ts=2:
+  L_embed (L1) = -1.3273449894768419e-08
+  L_out   (L4) = -0.007508093025535345
+  Block 0 attention error = -4.148093466938008e-06
+  Block 0 mlp error 1   = -0.007293103262782097
+  Block 0 mlp error 2   = -1.074984723459238e-08
+ts=3:
+  L_embed (L1) = -1.984717101777278e-08
+  L_out   (L4) = -6.0806934925494716e-05
+  Block 0 attention error = -4.459398345382781e-13
+  Block 0 mlp error 1   = -5.257021257421002e-06
+  Block 0 mlp error 2   = -8.96012716111727e-06
+ts=4:
+  L_embed (L1) = -3.3403129674964335e-15
+  L_out   (L4) = -0.007876403629779816
+  Block 0 attention error = -1.701741774839255e-13
+  Block 0 mlp error 1   = -0.007644332014024258
+  Block 0 mlp error 2   = -7.730515783066494e-09
+ts=5:
+  L_embed (L1) = -1.1228162869684599e-15
+  L_out   (L4) = -8.311479905387387e-05
+  Block 0 attention error = -1.4792267976541777e-19
+  Block 0 mlp error 1   = -1.861044074757956e-05
+  Block 0 mlp error 2   = -9.366514859721065e-06
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.008271893486380577
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -0.008021971210837364
+  Block 0 mlp error 2   = -2.4131006526317833e-08
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0001163420092780143
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -4.1666051401989534e-05
+  Block 0 mlp error 2   = -9.827091162151191e-06
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.008696512319147587
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.008427281863987446
+  Block 0 mlp error 2   = -5.196690366915391e-08
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00016205549763981253
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.599509262945503e-05
+  Block 0 mlp error 2   = -1.0322759408154525e-05
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.009152604267001152
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.008862437680363655
+  Block 0 mlp error 2   = -9.351327889817185e-08
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0002219127636635676
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0001231502537848428
+  Block 0 mlp error 2   = -1.0855162145162467e-05
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.009642759338021278
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.009329861029982567
+  Block 0 mlp error 2   = -1.5071599079874431e-07
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0002977399853989482
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00018482361338101327
+  Block 0 mlp error 2   = -1.1427062418079004e-05
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.010169792920351028
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.009832181967794895
+  Block 0 mlp error 2   = -2.2564773871636135e-07
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00039155941340141
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0002628873335197568
+  Block 0 mlp error 2   = -1.2041697118547745e-05
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.010736768133938313
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.010372313670814037
+  Block 0 mlp error 2   = -3.205969676400855e-07
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0005056108930148184
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0003594153677113354
+  Block 0 mlp error 2   = -1.2702539606834762e-05
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.011347034946084023
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.010953388176858425
+  Block 0 mlp error 2   = -4.3809811245409946e-07
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0006423741579055786
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.000476706336485222
+  Block 0 mlp error 2   = -1.341349707217887e-05
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.658115565776825
+  L_out   (L4) = -0.007214090786874294
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.885808837367222e-05
+  Block 0 mlp error 2   = -3.111943806288764e-05
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -3.812405338976532e-05
+  Block 0 attention error = -2.5187594019371318e-06
+  Block 0 mlp error 1   = -1.9350547830754294e-08
+  Block 0 mlp error 2   = -6.066474611543526e-08
+ts=2:
+  L_embed (L1) = -1.3813202137669123e-08
+  L_out   (L4) = -0.007537221070379019
+  Block 0 attention error = -4.1480857362330426e-06
+  Block 0 mlp error 1   = -0.0073361946269869804
+  Block 0 mlp error 2   = -1.1139494660028504e-08
+ts=3:
+  L_embed (L1) = -1.984684416811433e-08
+  L_out   (L4) = -5.011681787436828e-05
+  Block 0 attention error = -4.441709315888137e-13
+  Block 0 mlp error 1   = -4.429322871146724e-06
+  Block 0 mlp error 2   = -9.159419278148562e-06
+ts=4:
+  L_embed (L1) = -3.3546170246349536e-15
+  L_out   (L4) = -0.007894104346632957
+  Block 0 attention error = -1.7016043522138924e-13
+  Block 0 mlp error 1   = -0.007677530869841576
+  Block 0 mlp error 2   = -5.7284346155483945e-09
+ts=5:
+  L_embed (L1) = -1.1227862172988323e-15
+  L_out   (L4) = -7.091760926414281e-05
+  Block 0 attention error = -1.5440197257884856e-19
+  Block 0 mlp error 1   = -1.6797137504909188e-05
+  Block 0 mlp error 2   = -9.582478924130555e-06
+ts=6:
+  L_embed (L1) = -6.617444900424222e-24
+  L_out   (L4) = -0.008276201784610748
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -0.008043068461120129
+  Block 0 mlp error 2   = -2.085694816855721e-08
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0001019041083054617
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.8337366277119145e-05
+  Block 0 mlp error 2   = -1.003692887024954e-05
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.008685393258929253
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.008434338495135307
+  Block 0 mlp error 2   = -4.727065316956214e-08
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00014443368127103895
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.034848385956138e-05
+  Block 0 mlp error 2   = -1.0524508070375305e-05
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.009123802185058594
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.008853351697325706
+  Block 0 mlp error 2   = -8.669494633295471e-08
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00019997957861050963
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00011420279770391062
+  Block 0 mlp error 2   = -1.104680632124655e-05
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.009593740105628967
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.009302310645580292
+  Block 0 mlp error 2   = -1.408503607081002e-07
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00027016588137485087
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00017140744603239
+  Block 0 mlp error 2   = -1.1606445696088485e-05
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.010097719728946686
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.009783552028238773
+  Block 0 mlp error 2   = -2.116134254492863e-07
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0003567858075257391
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00024362755357287824
+  Block 0 mlp error 2   = -1.2206315659568645e-05
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.010638468898832798
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.010299665853381157
+  Block 0 mlp error 2   = -3.010564455507847e-07
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00046181908692233264
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00033270003041252494
+  Block 0 mlp error 2   = -1.2849637641920708e-05
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.011218949221074581
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.010853439569473267
+  Block 0 mlp error 2   = -4.114675107302901e-07
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0005874498747289181
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0004406546358950436
+  Block 0 mlp error 2   = -1.3539910469262395e-05
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.6710165739059448
+  L_out   (L4) = -0.008509893901646137
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -4.2510822822805494e-05
+  Block 0 mlp error 2   = -3.553245187504217e-05
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -2.409945045656059e-05
+  Block 0 attention error = -2.563480393291684e-06
+  Block 0 mlp error 1   = -2.0822790602892383e-08
+  Block 0 mlp error 2   = -6.168710342535633e-08
+ts=2:
+  L_embed (L1) = -1.4113878066268626e-08
+  L_out   (L4) = -0.008461850695312023
+  Block 0 attention error = -4.148037533013849e-06
+  Block 0 mlp error 1   = -0.008461996912956238
+  Block 0 mlp error 2   = -1.1183986181606542e-08
+ts=3:
+  L_embed (L1) = -1.984663811072096e-08
+  L_out   (L4) = -2.4494163881172426e-05
+  Block 0 attention error = -4.581706108258699e-13
+  Block 0 mlp error 1   = -3.6411614701137296e-07
+  Block 0 mlp error 2   = -9.851854883891065e-06
+ts=4:
+  L_embed (L1) = -3.4037159246972596e-15
+  L_out   (L4) = -0.008425874635577202
+  Block 0 attention error = -1.7016534123621974e-13
+  Block 0 mlp error 1   = -0.008425567299127579
+  Block 0 mlp error 2   = -1.0329757049731825e-09
+ts=5:
+  L_embed (L1) = -1.1228117341663684e-15
+  L_out   (L4) = -2.4721000954741612e-05
+  Block 0 attention error = -1.5656307240202285e-19
+  Block 0 mlp error 1   = -5.577136334977695e-07
+  Block 0 mlp error 2   = -9.829562259255908e-06
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.008390265516936779
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -0.008389737457036972
+  Block 0 mlp error 2   = -1.467236221408541e-09
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -2.4978668079711497e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.287488301699341e-07
+  Block 0 mlp error 2   = -9.787668204808142e-06
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00835490319877863
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.008354147896170616
+  Block 0 mlp error 2   = -1.708523100774073e-09
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -2.5302655558334664e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -9.56656322159688e-07
+  Block 0 mlp error 2   = -9.746196155901998e-06
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.008319768123328686
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.008318817242980003
+  Block 0 mlp error 2   = -1.985072772825447e-09
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -2.569813295849599e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.25531380490429e-06
+  Block 0 mlp error 2   = -9.704990588943474e-06
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0082848547026515
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.008283711038529873
+  Block 0 mlp error 2   = -2.338846005756068e-09
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -2.6165182134718634e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.6262824829027522e-06
+  Block 0 mlp error 2   = -9.664044227974955e-06
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.008250165730714798
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.008248819969594479
+  Block 0 mlp error 2   = -2.7760489462735904e-09
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -2.670304456842132e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.0690417841251474e-06
+  Block 0 mlp error 2   = -9.623352525522932e-06
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.008215697482228279
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.008214157074689865
+  Block 0 mlp error 2   = -3.296808825936637e-09
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -2.7310823497828096e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.5827264380495762e-06
+  Block 0 mlp error 2   = -9.582925486029126e-06
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00818144716322422
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.008179688826203346
+  Block 0 mlp error 2   = -3.9002530094478516e-09
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -2.7987609428237192e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.1664349080529064e-06
+  Block 0 mlp error 2   = -9.542754924041219e-06
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.6484566926956177
+  L_out   (L4) = -0.00968069676309824
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -4.5826534915249795e-05
+  Block 0 mlp error 2   = -3.8645801396341994e-05
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -3.212812225683592e-05
+  Block 0 attention error = -2.609705461509293e-06
+  Block 0 mlp error 1   = -2.1569707797652882e-08
+  Block 0 mlp error 2   = -6.246676775845117e-08
+ts=2:
+  L_embed (L1) = -1.4403671144691543e-08
+  L_out   (L4) = -0.009248731657862663
+  Block 0 attention error = -4.148059815634042e-06
+  Block 0 mlp error 1   = -0.009430155158042908
+  Block 0 mlp error 2   = -1.1536425148506169e-08
+ts=3:
+  L_embed (L1) = -1.984690101153319e-08
+  L_out   (L4) = -4.6258959628175944e-05
+  Block 0 attention error = -4.715049422947259e-13
+  Block 0 mlp error 1   = -5.068223345006118e-06
+  Block 0 mlp error 2   = -1.0379559171269648e-05
+ts=4:
+  L_embed (L1) = -3.64887012952223e-15
+  L_out   (L4) = -0.008857840672135353
+  Block 0 attention error = -1.701655038665456e-13
+  Block 0 mlp error 1   = -0.009020388126373291
+  Block 0 mlp error 2   = -6.764128812619674e-09
+ts=5:
+  L_embed (L1) = -1.122816075210223e-15
+  L_out   (L4) = -6.754697096766904e-05
+  Block 0 attention error = -1.49543462627533e-19
+  Block 0 mlp error 1   = -1.8278877178090625e-05
+  Block 0 mlp error 2   = -9.970428436645307e-06
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.008492428809404373
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -0.008637940511107445
+  Block 0 mlp error 2   = -2.150540723278027e-08
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -9.535641584079713e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.8807716919109225e-05
+  Block 0 mlp error 2   = -9.548371053824667e-06
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.008150455541908741
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.008280271664261818
+  Block 0 mlp error 2   = -4.401523767683102e-08
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00012881477596238256
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -6.578762258868665e-05
+  Block 0 mlp error 2   = -9.15301643544808e-06
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00783023051917553
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.007945531979203224
+  Block 0 mlp error 2   = -7.362550036305038e-08
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00016708589100744575
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -9.832048090174794e-05
+  Block 0 mlp error 2   = -8.78287846717285e-06
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.007530213333666325
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00763209443539381
+  Block 0 mlp error 2   = -1.0938612859945351e-07
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00020941261027473956
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00013557961210608482
+  Block 0 mlp error 2   = -8.43625093693845e-06
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.007248985581099987
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.007338453084230423
+  Block 0 mlp error 2   = -1.5038762057884014e-07
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0002551172219682485
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00017682198085822165
+  Block 0 mlp error 2   = -8.111509487207513e-06
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.006985240150243044
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.007063177414238453
+  Block 0 mlp error 2   = -1.9580711807520856e-07
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00030359491938725114
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0002213830011896789
+  Block 0 mlp error 2   = -7.80710433900822e-06
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.006737764924764633
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.006805025041103363
+  Block 0 mlp error 2   = -2.449093017276027e-07
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0003543070924934
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00026866962434723973
+  Block 0 mlp error 2   = -7.5216335062577855e-06
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.6876115798950195
+  L_out   (L4) = -0.00966800656169653
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -4.429699765751138e-05
+  Block 0 mlp error 2   = -4.04180318582803e-05
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -3.199079219484702e-05
+  Block 0 attention error = -2.773202595562907e-06
+  Block 0 mlp error 1   = -2.3076477617678393e-08
+  Block 0 mlp error 2   = -6.133069518909906e-08
+ts=2:
+  L_embed (L1) = -1.5435354328019457e-08
+  L_out   (L4) = -0.009155829437077045
+  Block 0 attention error = -4.147992967773462e-06
+  Block 0 mlp error 1   = -0.009376434609293938
+  Block 0 mlp error 2   = -1.1725877158141884e-08
+ts=3:
+  L_embed (L1) = -1.984640185526132e-08
+  L_out   (L4) = -5.184265683055855e-05
+  Block 0 attention error = -4.62461232503264e-13
+  Block 0 mlp error 1   = -7.025811555649852e-06
+  Block 0 mlp error 2   = -1.0633007150318008e-05
+ts=4:
+  L_embed (L1) = -3.4450488031826645e-15
+  L_out   (L4) = -0.00869658961892128
+  Block 0 attention error = -1.701661543878491e-13
+  Block 0 mlp error 1   = -0.008890804834663868
+  Block 0 mlp error 2   = -8.966766884555e-09
+ts=5:
+  L_embed (L1) = -1.122783252683517e-15
+  L_out   (L4) = -8.168524800566956e-05
+  Block 0 attention error = -1.3554536946463368e-19
+  Block 0 mlp error 1   = -2.5691118935355917e-05
+  Block 0 mlp error 2   = -1.0152944014407694e-05
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.008272893726825714
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -0.008443514816462994
+  Block 0 mlp error 2   = -3.005796145316708e-08
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00012019347923342139
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -5.441167013486847e-05
+  Block 0 mlp error 2   = -9.643087651056703e-06
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.007881494238972664
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.008030691184103489
+  Block 0 mlp error 2   = -6.23731821747242e-08
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00016590801533311605
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -9.164871880784631e-05
+  Block 0 mlp error 2   = -9.17141733225435e-06
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.007519640028476715
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.007649321109056473
+  Block 0 mlp error 2   = -1.0443292097761514e-07
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00021750024461653084
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00013593723997473717
+  Block 0 mlp error 2   = -8.735481060284656e-06
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.007184851914644241
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.007296744268387556
+  Block 0 mlp error 2   = -1.545920440548798e-07
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0002738018811214715
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00018597373855300248
+  Block 0 mlp error 2   = -8.332433935720474e-06
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.006874881684780121
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.006970543414354324
+  Block 0 mlp error 2   = -2.1135976169261994e-07
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00033379404339939356
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00024061748990789056
+  Block 0 mlp error 2   = -7.959548383951187e-06
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.006587683223187923
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.006668534129858017
+  Block 0 mlp error 2   = -2.7342869657331903e-07
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00039659100002609193
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0002988734922837466
+  Block 0 mlp error 2   = -7.614311471115798e-06
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.006321393419057131
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.006388705689460039
+  Block 0 mlp error 2   = -3.396576744307822e-07
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0004614252829924226
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00035987788578495383
+  Block 0 mlp error 2   = -7.294452188943978e-06
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.6404504776000977
+  L_out   (L4) = -0.008450767025351524
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.811137503362261e-05
+  Block 0 mlp error 2   = -4.200031253276393e-05
+ts=1:
+  L_embed (L1) = -0.5772592425346375
+  L_out   (L4) = -2.0228779249009676e-05
+  Block 0 attention error = -2.886104084609542e-06
+  Block 0 mlp error 1   = -2.586084235645103e-08
+  Block 0 mlp error 2   = -5.714993278616021e-08
+ts=2:
+  L_embed (L1) = -1.6520932177854775e-08
+  L_out   (L4) = -0.008165102452039719
+  Block 0 attention error = -4.148150765104219e-06
+  Block 0 mlp error 1   = -0.00828658975660801
+  Block 0 mlp error 2   = -1.2407982197260026e-08
+ts=3:
+  L_embed (L1) = -1.984746589300812e-08
+  L_out   (L4) = -2.7108613721793517e-05
+  Block 0 attention error = -4.613538826143959e-13
+  Block 0 mlp error 1   = -2.456225502101006e-06
+  Block 0 mlp error 2   = -1.0353461220802274e-05
+ts=4:
+  L_embed (L1) = -3.479046376344847e-15
+  L_out   (L4) = -0.007905807346105576
+  Block 0 attention error = -1.701672928001302e-13
+  Block 0 mlp error 1   = -0.008017854765057564
+  Block 0 mlp error 2   = -3.6167466799241765e-09
+ts=5:
+  L_embed (L1) = -1.1228162869684599e-15
+  L_out   (L4) = -3.756644218810834e-05
+  Block 0 attention error = -1.464070263892792e-19
+  Block 0 mlp error 1   = -8.80198240338359e-06
+  Block 0 mlp error 2   = -1.012420398183167e-05
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.007659232709556818
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -0.007762649096548557
+  Block 0 mlp error 2   = -1.1304058133987382e-08
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -5.148031050339341e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.8874961824622005e-05
+  Block 0 mlp error 2   = -9.803306966205128e-06
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.007424501236528158
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.007519811857491732
+  Block 0 mlp error 2   = -2.35383232904951e-08
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -6.853089143987745e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.2392283173976466e-05
+  Block 0 mlp error 2   = -9.496462553215679e-06
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.007200971245765686
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.007288640830665827
+  Block 0 mlp error 2   = -4.013577381556388e-08
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -8.838890062179416e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -4.9012429371941835e-05
+  Block 0 mlp error 2   = -9.204106390825473e-06
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.006988046690821648
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.007068494334816933
+  Block 0 mlp error 2   = -6.06821188853246e-08
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00011074526264565066
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -6.840664718765765e-05
+  Block 0 mlp error 2   = -8.925661859393585e-06
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00678516598418355
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.006858794018626213
+  Block 0 mlp error 2   = -8.476089874420722e-08
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00013531434524338692
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -9.02694373507984e-05
+  Block 0 mlp error 2   = -8.660421372042038e-06
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.006591804791241884
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0066590020433068275
+  Block 0 mlp error 2   = -1.1198441285387162e-07
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00016183292609639466
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00011431901657488197
+  Block 0 mlp error 2   = -8.407712812186219e-06
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.006407463923096657
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.006468574516475201
+  Block 0 mlp error 2   = -1.419947466274607e-07
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00019005872309207916
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00014029550948180258
+  Block 0 mlp error 2   = -8.166864063241519e-06
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.7056247591972351
+  L_out   (L4) = -0.0067599015310406685
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.0419527320191264e-05
+  Block 0 mlp error 2   = -4.421845733304508e-05
+ts=1:
+  L_embed (L1) = -0.5772592425346375
+  L_out   (L4) = -1.9684723156387918e-05
+  Block 0 attention error = -2.689668235689169e-06
+  Block 0 mlp error 1   = -3.0018526331332396e-08
+  Block 0 mlp error 2   = -5.0779664917399714e-08
+ts=2:
+  L_embed (L1) = -1.4887799437701688e-08
+  L_out   (L4) = -0.006773047614842653
+  Block 0 attention error = -4.148033440287691e-06
+  Block 0 mlp error 1   = -0.006747069768607616
+  Block 0 mlp error 2   = -1.2173816621441347e-08
+ts=3:
+  L_embed (L1) = -1.9846673637857748e-08
+  L_out   (L4) = -2.007678267545998e-05
+  Block 0 attention error = -4.940877351353179e-13
+  Block 0 mlp error 1   = -4.786791691913095e-07
+  Block 0 mlp error 2   = -9.578290701028891e-06
+ts=4:
+  L_embed (L1) = -3.6557518487021975e-15
+  L_out   (L4) = -0.006797960959374905
+  Block 0 attention error = -1.7015368606286552e-13
+  Block 0 mlp error 1   = -0.006771665997803211
+  Block 0 mlp error 2   = -1.4533656500503866e-09
+ts=5:
+  L_embed (L1) = -1.1227849467494114e-15
+  L_out   (L4) = -2.026431138801854e-05
+  Block 0 attention error = -1.625265405553444e-19
+  Block 0 mlp error 1   = -7.114669529073581e-07
+  Block 0 mlp error 2   = -9.756829967955127e-06
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.006823225412517786
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -0.006796850822865963
+  Block 0 mlp error 2   = -2.0727595195779713e-09
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -2.0456644051591866e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -8.90754563442897e-07
+  Block 0 mlp error 2   = -9.795186088012997e-06
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.006848650518804789
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0068222275003790855
+  Block 0 mlp error 2   = -2.4452804225916225e-09
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -2.0690378732979298e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.1006020486092893e-06
+  Block 0 mlp error 2   = -9.832156138145365e-06
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.006874220911413431
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.006847738288342953
+  Block 0 mlp error 2   = -2.831803680436451e-09
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -2.097176002280321e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.3561556215790915e-06
+  Block 0 mlp error 2   = -9.869054338196293e-06
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00689993379637599
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.006873392034322023
+  Block 0 mlp error 2   = -3.2796099169729587e-09
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -2.130224311258644e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.6602914456598228e-06
+  Block 0 mlp error 2   = -9.906123523251154e-06
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.006925791501998901
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.006899201311171055
+  Block 0 mlp error 2   = -3.797137715366716e-09
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -2.1682506485376507e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.013922767218901e-06
+  Block 0 mlp error 2   = -9.943384611688089e-06
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.006951791699975729
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0069251516833901405
+  Block 0 mlp error 2   = -4.386432550518293e-09
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -2.211312676081434e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.417657469777623e-06
+  Block 0 mlp error 2   = -9.980861250369344e-06
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.006977940443903208
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.006951236166059971
+  Block 0 mlp error 2   = -5.048492290882223e-09
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -2.2594656911678612e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.872053300961852e-06
+  Block 0 mlp error 2   = -1.0018536158895586e-05
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.6479285955429077
+  L_out   (L4) = -0.005460918415337801
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.4549401132389903e-05
+  Block 0 mlp error 2   = -4.672007344197482e-05
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -2.4862320060492493e-05
+  Block 0 attention error = -2.5882986847136635e-06
+  Block 0 mlp error 1   = -3.424803907137175e-08
+  Block 0 mlp error 2   = -4.4670585452877276e-08
+ts=2:
+  L_embed (L1) = -1.5024326671664312e-08
+  L_out   (L4) = -0.005642494186758995
+  Block 0 attention error = -4.1480539039184805e-06
+  Block 0 mlp error 1   = -0.0055264877155423164
+  Block 0 mlp error 2   = -1.1502928387585598e-08
+ts=3:
+  L_embed (L1) = -1.9846867260753243e-08
+  L_out   (L4) = -3.0426310331677087e-05
+  Block 0 attention error = -4.5283313774083234e-13
+  Block 0 mlp error 1   = -2.3920019884826615e-06
+  Block 0 mlp error 2   = -8.712726412340999e-06
+ts=4:
+  L_embed (L1) = -3.381101203796754e-15
+  L_out   (L4) = -0.005844605155289173
+  Block 0 attention error = -1.7015334724968662e-13
+  Block 0 mlp error 1   = -0.005721817258745432
+  Block 0 mlp error 2   = -4.843209833182982e-09
+ts=5:
+  L_embed (L1) = -1.1227864290570691e-15
+  L_out   (L4) = -3.958314482588321e-05
+  Block 0 attention error = -1.385026952508756e-19
+  Block 0 mlp error 1   = -8.07629112387076e-06
+  Block 0 mlp error 2   = -9.193368896376342e-06
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.006057742517441511
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -0.0059280069544911385
+  Block 0 mlp error 2   = -1.4802761683085919e-08
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -5.291413253871724e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.7573809600435197e-05
+  Block 0 mlp error 2   = -9.52671962295426e-06
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.006282343994826078
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.006145246792584658
+  Block 0 mlp error 2   = -3.077777677162885e-08
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -7.087660924298689e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.136110171908513e-05
+  Block 0 mlp error 2   = -9.87667135632364e-06
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.006519076880067587
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.006374148651957512
+  Block 0 mlp error 2   = -5.3656460607953704e-08
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -9.393302752869204e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -4.988379077985883e-05
+  Block 0 mlp error 2   = -1.0245245903206524e-05
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.006768668536096811
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.006615438498556614
+  Block 0 mlp error 2   = -8.41873273316196e-08
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00012257779599167407
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.361042662523687e-05
+  Block 0 mlp error 2   = -1.063373110810062e-05
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.007031889166682959
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.006869831122457981
+  Block 0 mlp error 2   = -1.2313249442286178e-07
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00015734399494249374
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00010304464376531541
+  Block 0 mlp error 2   = -1.1043301128665917e-05
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0073095643892884254
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.007138115353882313
+  Block 0 mlp error 2   = -1.7130662399722496e-07
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00019880713080056012
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.0001387309457641095
+  Block 0 mlp error 2   = -1.1475275641714688e-05
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.007602574769407511
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.007421135902404785
+  Block 0 mlp error 2   = -2.29588252409485e-07
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00024758814834058285
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00018125612405128777
+  Block 0 mlp error 2   = -1.1930994332942646e-05
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.6192917227745056
+  L_out   (L4) = -0.005035885609686375
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.1959294826956466e-05
+  Block 0 mlp error 2   = -4.986711064702831e-05
+ts=1:
+  L_embed (L1) = -0.5772592425346375
+  L_out   (L4) = -1.883215009002015e-05
+  Block 0 attention error = -2.287996494487743e-06
+  Block 0 mlp error 1   = -3.66356616154917e-08
+  Block 0 mlp error 2   = -4.087650395945275e-08
+ts=2:
+  L_embed (L1) = -1.2470477095405386e-08
+  L_out   (L4) = -0.005217582453042269
+  Block 0 attention error = -4.148006155446637e-06
+  Block 0 mlp error 1   = -0.005107476841658354
+  Block 0 mlp error 2   = -1.0229340041689738e-08
+ts=3:
+  L_embed (L1) = -1.984637520990873e-08
+  L_out   (L4) = -2.464950011926703e-05
+  Block 0 attention error = -4.288718902581423e-13
+  Block 0 mlp error 1   = -2.3534466890851036e-06
+  Block 0 mlp error 2   = -8.215052730520256e-06
+ts=4:
+  L_embed (L1) = -3.136673541482291e-15
+  L_out   (L4) = -0.005419635213911533
+  Block 0 attention error = -1.7017760627329598e-13
+  Block 0 mlp error 1   = -0.005302383564412594
+  Block 0 mlp error 2   = -4.325240166025424e-09
+ts=5:
+  L_embed (L1) = -1.1228145929025653e-15
+  L_out   (L4) = -3.449508221819997e-05
+  Block 0 attention error = -1.4829099485785408e-19
+  Block 0 mlp error 1   = -8.394070391659625e-06
+  Block 0 mlp error 2   = -8.716819138498977e-06
+ts=6:
+  L_embed (L1) = -6.617444900424222e-24
+  L_out   (L4) = -0.0056335111148655415
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -0.005508740432560444
+  Block 0 mlp error 2   = -1.4633677380970767e-08
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -4.891733260592446e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.8626120436238125e-05
+  Block 0 mlp error 2   = -9.056799171958119e-06
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.005859793163836002
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.005727015435695648
+  Block 0 mlp error 2   = -3.1789703314188955e-08
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -6.842834409326315e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.3552722015883774e-05
+  Block 0 mlp error 2   = -9.415997737960424e-06
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00609927112236619
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.005957948975265026
+  Block 0 mlp error 2   = -5.6673080450764246e-08
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -9.356900409329683e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -5.368680285755545e-05
+  Block 0 mlp error 2   = -9.795989171834663e-06
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.006352799013257027
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.006202343851327896
+  Block 0 mlp error 2   = -9.014077306801482e-08
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00012492436508182436
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -7.957920024637133e-05
+  Block 0 mlp error 2   = -1.0198143172601704e-05
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00662129046395421
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.006461098790168762
+  Block 0 mlp error 2   = -1.3310241797626077e-07
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0001631294726394117
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00011182761227246374
+  Block 0 mlp error 2   = -1.0623902198858559e-05
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0069057228974998
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.006735130213201046
+  Block 0 mlp error 2   = -1.8654306188636838e-07
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.00020887376740574837
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00015108092338778079
+  Block 0 mlp error 2   = -1.1074818758061156e-05
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.007207142189145088
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.007025411352515221
+  Block 0 mlp error 2   = -2.515318726636906e-07
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0002629055525176227
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.00019804350449703634
+  Block 0 mlp error 2   = -1.1552498108358122e-05
+Block 0 errors: attn=0.0, mlp=0.0
+ts=0:
+  L_embed (L1) = -0.6946979761123657
+  L_out   (L4) = -0.005346718244254589
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.1802832634421065e-05
+  Block 0 mlp error 2   = -5.232679541222751e-05
+ts=1:
+  L_embed (L1) = -0.5772591829299927
+  L_out   (L4) = -1.2976362086192239e-05
+  Block 0 attention error = -2.816329242705251e-06
+  Block 0 mlp error 1   = -3.655272706737378e-08
+  Block 0 mlp error 2   = -3.9410490870750436e-08
+ts=2:
+  L_embed (L1) = -1.6147405190736208e-08
+  L_out   (L4) = -0.005418139509856701
+  Block 0 attention error = -4.148110747337341e-06
+  Block 0 mlp error 1   = -0.005369608756154776
+  Block 0 mlp error 2   = -1.3001232090914527e-08
+ts=3:
+  L_embed (L1) = -1.9847163912345422e-08
+  L_out   (L4) = -1.4043103874428198e-05
+  Block 0 attention error = -4.899484680812027e-13
+  Block 0 mlp error 1   = -5.450788762573211e-07
+  Block 0 mlp error 2   = -8.249277925642673e-06
+ts=4:
+  L_embed (L1) = -3.5223083723676238e-15
+  L_out   (L4) = -0.005500853061676025
+  Block 0 attention error = -1.7017027435610454e-13
+  Block 0 mlp error 1   = -0.0054511758498847485
+  Block 0 mlp error 2   = -9.272378420632776e-10
+ts=5:
+  L_embed (L1) = -1.1228117341663684e-15
+  L_out   (L4) = -1.5717056157882325e-05
+  Block 0 attention error = -1.5367727188937261e-19
+  Block 0 mlp error 1   = -1.6648589280521264e-06
+  Block 0 mlp error 2   = -8.574933417548891e-06
+ts=6:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.005585609935224056
+  Block 0 attention error = -6.131508602291995e-20
+  Block 0 mlp error 1   = -0.005534798838198185
+  Block 0 mlp error 2   = -2.6966628929869785e-09
+ts=7:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -1.8063703464576975e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -3.426711600695853e-06
+  Block 0 mlp error 2   = -8.706126209290233e-06
+ts=8:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.005672311410307884
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.005620364099740982
+  Block 0 mlp error 2   = -5.456023632888218e-09
+ts=9:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -2.111898902512621e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -5.87365002502338e-06
+  Block 0 mlp error 2   = -8.840618647809606e-06
+ts=10:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.005761005915701389
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.005707885138690472
+  Block 0 mlp error 2   = -9.290150870810976e-09
+ts=11:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -2.4914994355640374e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -9.038329153554514e-06
+  Block 0 mlp error 2   = -8.9782506620395e-06
+ts=12:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.0058517432771623135
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.005797417834401131
+  Block 0 mlp error 2   = -1.4252695912375657e-08
+ts=13:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -2.948414476122707e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.2952632459928282e-05
+  Block 0 mlp error 2   = -9.119047717831563e-06
+ts=14:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.005944577045738697
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.005888997111469507
+  Block 0 mlp error 2   = -2.039392832386966e-08
+ts=15:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -3.485990600893274e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -1.764924127201084e-05
+  Block 0 mlp error 2   = -9.263103493140079e-06
+ts=16:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.006039559841156006
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.005982695613056421
+  Block 0 mlp error 2   = -2.7765260313117324e-08
+ts=17:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -4.107684799237177e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.3161977878771722e-05
+  Block 0 mlp error 2   = -9.410482562088873e-06
+ts=18:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -0.006136748008430004
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -0.006078594364225864
+  Block 0 mlp error 2   = -3.6419816495936175e-08
+ts=19:
+  L_embed (L1) = -0.0
+  L_out   (L4) = -4.817077569896355e-05
+  Block 0 attention error = -0.0
+  Block 0 mlp error 1   = -2.9525766876759008e-05
+  Block 0 mlp error 2   = -9.561268598190509e-06
+Traceback (most recent call last):
+  File "/content/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/train.py", line 79, in <module>
     main()
-  File "/content/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/train.py", line 55, in main
-    yMu_inf, _, _EFE = model.process(obs=inputs, lab=targets, adapt_synapses=True)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/content/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/model.py", line 497, in process
-    print("block.mlp.e_mlp1.target:", block.mlp.e_mlp1.target)
-  File "/usr/local/lib/python3.11/dist-packages/ngcsimlib/compartment.py", line 103, in __str__
-    return str(self.value)
-           ^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/dist-packages/jax/_src/array.py", line 336, in __str__
-    return str(self._value)
-               ^^^^^^^^^^^
+  File "/content/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/debug_ngc/train.py", line 67, in main
+    print(f"  Batch {batch_idx}: EFE = {_EFE:.4f}, CE = {batch_ce_loss:.4f}, PPL = {batch_ppl:.4f}")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/jax/_src/array.py", line 381, in __format__
+    return format(self._value[()], format_spec)
+                  ^^^^^^^^^^^
   File "/usr/local/lib/python3.11/dist-packages/jax/_src/profiler.py", line 334, in wrapper
     return func(*args, **kwargs)
            ^^^^^^^^^^^^^^^^^^^^^

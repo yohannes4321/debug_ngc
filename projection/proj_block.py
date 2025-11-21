@@ -10,15 +10,23 @@ from utils.model_util import ReshapeComponent
 
 class ProjBlock:
     def __init__(self, dkey, block_id, n_embed, seq_len, vocab_size,
-                 batch_size, n_heads, dropout_rate, eta, optim_type, wub, wlb, **kwargs):
+                 batch_size, n_heads, dropout_rate, eta, optim_type, wub, wlb,act_fx, **kwargs):
         
         dkey, *subkeys = random.split(dkey, 20)
         prefix = f"proj_block{block_id}_"
     
-        self.q_qkv = RateCell(f"{prefix}q_qkv", n_units=n_embed, tau_m=0., act_fx="identity",
+
+        self.q_score = RateCell(f"{prefix}q_score", n_units=n_embed, tau_m=0., act_fx=act_fx,
                           batch_size=batch_size * seq_len)
-        self.q_mlp = RateCell(f"{prefix}q_mlp", n_units= n_embed, tau_m=0., act_fx="identity",
+        self.Q_attn_score = StaticSynapse(f"{prefix}Q_attn_score", shape=(n_embed, n_embed), eta=eta,
+                          weight_init=dist.uniform(amin=-0.3, amax=0.3), bias_init=dist.constant(value=0.),
+                          w_bound=0., optim_type=optim_type, sign_value=-1., key=subkeys[12])
+        
+        self.q_qkv = RateCell(f"{prefix}q_qkv", n_units=n_embed, tau_m=0., act_fx=act_fx,
+                          batch_size=batch_size * seq_len)
+        self.q_mlp = RateCell(f"{prefix}q_mlp", n_units= n_embed, tau_m=0., act_fx=act_fx,
                            batch_size= batch_size * seq_len)
+
         self.q_mlp2 = RateCell(f"{prefix}q_mlp2", n_units=4 * n_embed, tau_m=0., act_fx="gelu",
                            batch_size= batch_size * seq_len)
         self.Q_q = StaticSynapse(f"{prefix}Q_q", shape=(n_embed, n_embed), eta=eta,

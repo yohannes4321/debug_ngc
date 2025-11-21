@@ -14,11 +14,11 @@ class MLP:
     `target` and `td_error` to match how the model wires layers.
     """
 
-    def __init__(self, dkey,n_embed, seq_len, batch_size, eta, optim_type, wub , wlb, prefix, **kwargs):
+    def __init__(self, dkey,n_embed, seq_len, batch_size, eta, optim_type, wub , wlb, prefix,act_fx, **kwargs):
         dkey, *subkeys = random.split(dkey, 10)
        
 
-        self.z_mlp = RateCell(f"{prefix}z_mlp", n_units=n_embed, tau_m=1., act_fx="identity", batch_size=batch_size * seq_len)
+        self.z_mlp = RateCell(f"{prefix}z_mlp", n_units=n_embed, tau_m=1., act_fx=act_fx, batch_size=batch_size * seq_len)
         self.z_mlp2 = RateCell(f"{prefix}z_mlp2", n_units= 4* n_embed, tau_m=1., act_fx="gelu", batch_size=batch_size * seq_len)
         
         self.W_mlp1 = HebbianSynapse(f"{prefix}W_mlp1", shape=(n_embed, 4*n_embed), batch_size = batch_size * seq_len, eta=eta, weight_init=dist.uniform(amin=wlb, amax=wub),

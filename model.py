@@ -51,6 +51,7 @@ class NGCTransformer:
         self.nodes = None
         self.n_layers = n_layers
         self.T = T
+        self.act_fx=act_fx
         makedir(exp_dir)
         makedir(exp_dir + "/filters")
 
@@ -67,7 +68,7 @@ class NGCTransformer:
                 for i in range(n_layers):
                     key, subkey = random.split(subkeys[1 + i])
                     block=Block(dkey=subkey, block_id= i, n_embed=n_embed, seq_len=seq_len,
-                                batch_size=batch_size, vocab_size=vocab_size, n_heads=n_heads, dropout_rate=dropout_rate, eta=eta, optim_type=optim_type, wub=wub, wlb=wlb)
+                                batch_size=batch_size, vocab_size=vocab_size, n_heads=n_heads, dropout_rate=dropout_rate, eta=eta, optim_type=optim_type, wub=wub, wlb=wlb,act_fx=self.act_fx)
                     self.blocks.append(block)
                     
                 self.output = Output(dkey=subkeys[3], n_embed=n_embed, seq_len=seq_len, batch_size=batch_size, vocab_size=vocab_size, eta=eta, optim_type=optim_type, wlb=wlb, wub=wub)
@@ -108,7 +109,12 @@ class NGCTransformer:
                     block.attention.attn_block.inputs_v << block.reshape_2d_to_3d_v.outputs
                     
                     block.reshape_3d_to_2d.inputs << block.attention.attn_block.outputs
-                    block.attention.W_attn_out.inputs << block.reshape_3d_to_2d.outputs
+                    block.attention.W_attn_score.inputs << block.reshape_3d_to_2d.outputs
+                    block.attention.e_score.mu <<  block.attention.W_attn_score.outputs
+                    block.attention.e_score.target << block.attention.z_score.z
+
+
+                    block.attention.W_attn_out.inputs << block.attention.z_score.zF
                     block.attention.e_attn.mu << block.attention.W_attn_out.outputs
                     block.attention.e_attn.target << block.mlp.z_mlp.z
 
@@ -134,22 +140,36 @@ class NGCTransformer:
                         block.attention.z_qkv.j_td << self.embedding.e_embed.dtarget
                     else:
                         block.attention.z_qkv.j_td << block.mlp.e_mlp.dtarget
+
+
+                    # feedback 
+
                     block.mlp.z_mlp2.j << block.mlp.E_mlp.outputs
                     block.mlp.z_mlp.j << block.mlp.E_mlp1.outputs
                     block.mlp.z_mlp.j_td << block.attention.e_attn.dtarget
+                    
                     block.mlp.z_mlp2.j_td << block.mlp.e_mlp1.dtarget
                     block.attention.W_q.pre << block.attention.z_qkv.zF
-                    block.attention.W_q.post << block.attention.e_attn.dmu
+                    block.attention.W_q.post << block.attention.e_score.dmu
                     
                     block.attention.W_k.pre << block.attention.z_qkv.zF
-                    block.attention.W_k.post << block.attention.e_attn.dmu
+                    block.attention.W_k.post << block.attention.e_score.dmu
                     
                     block.attention.W_v.pre << block.attention.z_qkv.zF
-                    block.attention.W_v.post << block.attention.e_attn.dmu
+                    block.attention.W_v.post << block.attention.e_score.dmu
+
                     block.reshape_3d_to_2d_attnout.inputs << block.attention.attn_block.outputs
-                    block.attention.W_attn_out.pre << block.reshape_3d_to_2d_attnout.outputs
-                    block.attention.W_attn_out.post << block.attention.e_attn.dmu
+                    block.attention.W_attn_score.pre << block.reshape_3d_to_2d_attnout.outputs
+                    block.attention.W_attn_score.post << block.attention.e_score.dmu
                                 
+
+                    block.attention.W_attn_out.pre   << block.attention.z_score.zF
+                    block.attention.W_attn_out.post  << block.attention.e_attn.dmu
+
+                    block.attention.E_score.inputs << block.attention.e_attn.dmu
+                    block.attention.z_score.j << block.attention.E_score.outputs
+
+ 
                     block.mlp.W_mlp1.pre << block.mlp.z_mlp.zF
                     block.mlp.W_mlp1.post << block.mlp.e_mlp1.dmu
                     block.mlp.W_mlp2.pre << block.mlp.z_mlp2.zF
@@ -183,7 +203,7 @@ class NGCTransformer:
                 ## PROJECTION PHASE ##
                 
                 self.projection = Projection(dkey=subkeys[29], n_embed=n_embed, seq_len=seq_len, batch_size=batch_size,
-                                             vocab_size=vocab_size, eta=eta, optim_type=optim_type, pos_learnable=pos_learnable, wub=wub, wlb=wlb, n_blocks=n_layers, n_heads=n_heads, dropout_rate=dropout_rate)
+                                             vocab_size=vocab_size, eta=eta, optim_type=optim_type, pos_learnable=pos_learnable, wub=wub, wlb=wlb, n_blocks=n_layers, n_heads=n_heads, dropout_rate=dropout_rate,act_fx=act_fx)
                 
                 
                 self.projection.Q_embed.inputs << self.projection.q_embed.zF
@@ -203,7 +223,10 @@ class NGCTransformer:
                     block_proj.q_attn_block.inputs_v << block_proj.Q_v.outputs
                     
                     block_proj.reshape_3d_to_2d_proj1.inputs << block_proj.q_attn_block.outputs
-                    block_proj.Q_attn_out.inputs << block_proj.reshape_3d_to_2d_proj1.outputs
+                    block_proj.Q_attn_score.inputs << block_proj.reshape_3d_to_2d_proj1.outputs
+                    block_proj.q_score.j << block_proj.Q_attn_score.outputs
+                    block_proj.Q_attn_out.inputs << block_proj.q_score.zF
+                    
                     block_proj.q_mlp.j << block_proj.Q_attn_out.outputs
                     
                     block_proj.Q_mlp1.inputs << block_proj.q_mlp.zF
@@ -224,7 +247,11 @@ class NGCTransformer:
                 project_process = JaxProcess(name="project_process")
                 for i in range(n_layers):
                     block = self.blocks[i]
-                    
+                    advance_process >> block.attention.z_score.advance_state
+                    advance_process >> block.attention.W_attn_score.advance_state
+                    advance_process >> block.attention.e_score.advance_state
+                    advance_process >> block.attention.E_score.advance_state
+
                     advance_process >> block.attention.E_attn.advance_state
                     advance_process >> block.mlp.E_mlp.advance_state
                     advance_process >> block.attention.z_qkv.advance_state
@@ -246,6 +273,12 @@ class NGCTransformer:
                     advance_process >> block.mlp.e_mlp.advance_state
                     advance_process >> block.mlp.e_mlp1.advance_state
 
+
+
+                    reset_process >> block.attention.z_score.reset
+                    reset_process >> block.attention.W_attn_score.reset
+                    reset_process >> block.attention.e_score.reset
+                    reset_process >> block.attention.E_score.reset
                     reset_process >> block.attention.z_qkv.reset
                     reset_process >> block.mlp.z_mlp.reset
                     reset_process >> block.mlp.z_mlp2.reset
@@ -264,6 +297,7 @@ class NGCTransformer:
                     evolve_process >> block.attention.W_attn_out.evolve
                     evolve_process >> block.mlp.W_mlp1.evolve
                     evolve_process >> block.mlp.W_mlp2.evolve
+                    evolve_process >> block.attention.W_attn_score.evolve
 
                 # Add non-block components to advance_process, reset_process, evolve_process
                 advance_process >> self.output.E_out.advance_state
@@ -293,6 +327,8 @@ class NGCTransformer:
                 project_process >> self.projection.reshape_3d_to_2d_proj.advance_state
                 for b in range(n_layers):
                     block_proj= self.projection.blocks[b]
+                    project_process >> block_proj.q_score.advance_state
+                    project_process >> block_proj.Q_attn_score.advance_state
                     project_process >> block_proj.q_qkv.advance_state
                     project_process >> block_proj.Q_q.advance_state
                     project_process >> block_proj.Q_k.advance_state
@@ -308,6 +344,9 @@ class NGCTransformer:
                     reset_process >> block_proj.q_attn_block.reset
                     reset_process >> block_proj.q_mlp.reset
                     reset_process >> block_proj.q_mlp2.reset 
+                    reset_process >> block_proj.q_score.reset
+                    reset_process >> block_proj.Q_attn_score.reset
+
                 project_process >> self.projection.q_out.advance_state
                 project_process >> self.projection.Q_out.advance_state
                 project_process >> self.projection.q_target.advance_state
@@ -330,6 +369,7 @@ class NGCTransformer:
     
         for i in range(self.n_layers):
             var2 = self.circuit.get_components(
+                f"block{i}_z_score",f"block{i}_W_attn_score",f"block{i}_e_score",f"block{i}_E_score",
                 f"block{i}_z_qkv", f"block{i}_e_attn", f"block{i}_W_q", f"block{i}_W_k", f"block{i}_W_v",
                 f"block{i}_W_attn_out", f"block{i}_E_attn", f"block{i}_z_mlp", f"block{i}_e_mlp",
                 f"block{i}_W_mlp1", f"block{i}_W_mlp2", f"block{i}_E_mlp", f"block{i}_e_mlp1", f"block{i}_E_mlp1",
@@ -337,7 +377,7 @@ class NGCTransformer:
                 f"block{i}_reshape_2d_to_3d_q", f"block{i}_reshape_2d_to_3d_k", f"block{i}_reshape_2d_to_3d_v",
                 f"block{i}_reshape_3d_to_2d", f"block{i}_reshape_3d_to_2d_attnout",
                 f"proj_block{i}_q_qkv", f"proj_block{i}_Q_q", f"proj_block{i}_Q_k", f"proj_block{i}_Q_v",
-                f"proj_block{i}_Q_attn_out", f"proj_block{i}_q_attn_block",
+                f"proj_block{i}_Q_attn_out", f"proj_block{i}_q_attn_block",f"proj_block{i}_q_score",f"proj_block{i}_Q_attn_score"
                 f"proj_block{i}_reshape_3d_to_2d_proj1", f"proj_block{i}_q_mlp", f"proj_block{i}_Q_mlp1",
                 f"proj_block{i}_q_mlp2", f"proj_block{i}_Q_mlp2"    
             )
@@ -389,6 +429,8 @@ class NGCTransformer:
                 block.save(model_dir)
                 block = self.circuit.get_component(f"block{j}_W_v")
                 block.save(model_dir)
+                block = self.circuit.get_component(f"block{j}_W_attn_score")
+                block.save(model_dir)
                 block = self.circuit.get_component(f"block{j}_W_attn_out")
                 block.save(model_dir)
                 block = self.circuit.get_component(f"block{j}_W_mlp1")
@@ -428,18 +470,25 @@ class NGCTransformer:
             
             block_proj= self.projection.blocks[i]
             block= self.blocks[i]
-            print(f"Block {i} errors: attn={block.attention.e_attn.L.value}, mlp={block.mlp.e_mlp.L.value}")
+            # print(f"Block {i} errors: attn={block.attention.e_attn.L.value}, mlp={block.mlp.e_mlp.L.value}")
             block_proj.Q_q.weights.set(block.attention.W_q.weights.value)
             block_proj.Q_q.biases.set(block.attention.W_q.biases.value)
             block_proj.Q_k.weights.set(block.attention.W_k.weights.value)
             block_proj.Q_k.biases.set(block.attention.W_k.biases.value)
             block_proj.Q_v.weights.set(block.attention.W_v.weights.value)
             block_proj.Q_v.biases.set(block.attention.W_v.biases.value)
-            block_proj.Q_attn_out.weights.set(block.attention.W_attn_out.weights.value)
+            
             block_proj.q_attn_block.inputs_q.set(block.attention.attn_block.inputs_q.value)
             block_proj.q_attn_block.inputs_k.set(block.attention.attn_block.inputs_k.value)
             block_proj.q_attn_block.inputs_v.set(block.attention.attn_block.inputs_v.value)
+
+            block_proj.Q_attn_out.weights.set(block.attention.W_attn_out.weights.value)
             block_proj.Q_attn_out.biases.set(block.attention.W_attn_out.biases.value)
+            block_proj.Q_attn_score.weights.set(block.attention.W_attn_score.weights.value)
+            block_proj.Q_attn_score.biases.set(block.attention.W_attn_score.biases.value)
+
+
+
             block_proj.Q_mlp1.weights.set(block.mlp.W_mlp1.weights.value)
             block_proj.Q_mlp1.biases.set(block.mlp.W_mlp1.biases.value)
             block_proj.Q_mlp2.weights.set(block.mlp.W_mlp2.weights.value)
@@ -450,6 +499,8 @@ class NGCTransformer:
             block.attention.E_attn.weights.set(jnp.transpose(block.attention.W_attn_out.weights.value))
             block.mlp.E_mlp.weights.set(jnp.transpose(block.mlp.W_mlp2.weights.value))  
             block.mlp.E_mlp1.weights.set(jnp.transpose(block.mlp.W_mlp1.weights.value))
+            block.attention.E_score.weights.set(jnp.transpose(block.attention.W_attn_score.weights.value))
+            
   
         self.projection.Q_out.weights.set(self.output.W_out.weights.value)
         self.projection.Q_out.biases.set(self.output.W_out.biases.value)
@@ -488,8 +539,9 @@ class NGCTransformer:
                 print(f"  L_out   (L4) = {self.output.e_out.L.value}")
                 for i, block in enumerate(self.blocks):
                     print(f"  Block {i} attention error = {block.attention.e_attn.L.value}")
-                    print(f"  Block {i} mlp error 1   = {block.mlp.e_mlp.L.value}")
-                    print(f"  Block {i} mlp error 2   = {block.mlp.e_mlp1.L.value}")
+                    print(f"  Block {i} mlp error 1   = {block.mlp.e_mlp1.L.value}")
+                    print(f"  Block {i} mlp error 2   = {block.mlp.e_mlp.L.value}")
+                    print(f"  Block {i} escore error 2   = {block.attention.e_score.L.value}")
                     
                    
                     
@@ -504,6 +556,7 @@ class NGCTransformer:
             L4 = self.output.e_out.L.value
             block_errors = sum(
                 block.attention.e_attn.L.value +
+                block.attention.e_score.L.value +
                 block.mlp.e_mlp.L.value +
                 block.mlp.e_mlp1.L.value
                 for block in self.blocks

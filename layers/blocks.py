@@ -14,16 +14,16 @@ def rms_normalize(x, eps=1e-6):
 
 class Block:
     def __init__(self, dkey, block_id, n_embed, seq_len, vocab_size,
-                 batch_size, n_heads, dropout_rate, eta, optim_type, wub, wlb, **kwargs):
+                 batch_size, n_heads, dropout_rate, eta, optim_type, wub, wlb,act_fx, **kwargs):
         
         dkey, attn_key, mlp_key = random.split(dkey, 3)
         prefix = f"block{block_id}_"
     
         self.attention = Attention(dkey=attn_key, n_embed=n_embed, seq_len=seq_len,
                                  batch_size=batch_size, n_heads=n_heads,
-                                 dropout_rate=dropout_rate, eta=eta, optim_type= optim_type, wub=wub, wlb=wlb, prefix=prefix)
+                                 dropout_rate=dropout_rate, eta=eta, optim_type= optim_type, wub=wub, wlb=wlb, prefix=prefix,act_fx=act_fx)
         self.mlp = MLP(dkey=mlp_key, n_embed=n_embed, seq_len=seq_len,
-                      batch_size=batch_size, eta=eta, optim_type=optim_type, wub=wub, wlb=wlb, prefix=prefix)
+                      batch_size=batch_size, eta=eta, optim_type=optim_type, wub=wub, wlb=wlb, prefix=prefix,act_fx=act_fx)
         self.rms_norm = rms_normalize 
         
         self.reshape_2d_to_3d_q = ReshapeComponent(f"{prefix}reshape_2d_to_3d_q",
