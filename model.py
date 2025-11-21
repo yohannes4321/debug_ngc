@@ -130,16 +130,18 @@ class NGCTransformer:
                         block.mlp.e_mlp.target << self.output.z_out.z
                     else:
                         block.mlp.e_mlp.target << self.blocks[blocks + 1].attention.z_qkv.z 
-                    block.attention.E_attn.inputs << block.attention.e_attn.dmu
+
+
+                    block.attention.E_attn.inputs << block.attention.e_score.dmu ###################3 error 
                 
                     block.mlp.E_mlp1.inputs << block.mlp.e_mlp1.dmu
                     block.mlp.E_mlp.inputs << block.mlp.e_mlp.dmu
-                    block.attention.z_qkv.j << block.attention.E_attn.outputs
+                    block.attention.z_qkv.j << block.attention.E_attn.outputs  ################# error 
                     
                     if blocks == 0:
                         block.attention.z_qkv.j_td << self.embedding.e_embed.dtarget
                     else:
-                        block.attention.z_qkv.j_td << block.mlp.e_mlp.dtarget
+                        block.attention.z_qkv.j_td << self.blocks[blocks -1 ].e_mlp.dtarget  # i have corrected it 
 
 
                     # feedback 
@@ -182,9 +184,7 @@ class NGCTransformer:
                 self.output.E_out.inputs << self.output.e_out.dmu
                 
                 
-                # self.embedding.z_embed.j << self.embedding.E_embed.outputs
-                # self.embedding.z_embed.j_td << td_error.e_attn.dtarget
-                
+            
                 
                 self.output.z_out.j << self.output.E_out.outputs
                 self.output.z_out.j_td << self.blocks[n_layers - 1].mlp.e_mlp.dtarget
