@@ -1,4 +1,6 @@
 
+
+initializer = jax.nn.initializers.he_normal()
 from jax import random, numpy as jnp, jit
 import jax
 from functools import partial
@@ -91,7 +93,7 @@ class EmbeddingSynapse(JaxComponent):
             **kwargs
     ):
         super().__init__(name, **kwargs)
-
+        initializer = jax.nn.initializers.he_normal()
         self.vocab_size = vocab_size
         self.seq_len = seq_len
         self.embed_dim = embed_dim
@@ -103,11 +105,11 @@ class EmbeddingSynapse(JaxComponent):
 
         key = self.key.value
         word_key, pos_key = random.split(key, 2)
-        
-        word_weights = random.normal(word_key, (vocab_size, embed_dim)) * weight_scale
+         
+        word_weights = initializer(word_key, (vocab_size, embed_dim),jnp.float32) * weight_scale
         
         if pos_learnable:
-            pos_weights = random.normal(pos_key, (seq_len, embed_dim)) * weight_scale
+            pos_weights = initializer(pos_key, (seq_len, embed_dim),jnp.float32) * weight_scale
         else:
             pos_weights = _create_sinusoidal_embeddings(seq_len, embed_dim)
 

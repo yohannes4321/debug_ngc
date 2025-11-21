@@ -26,20 +26,20 @@ def _compute_attention(Q, K, V, mask, n_heads, d_head, dropout_rate, key):
         B, S, D = Q.shape
         Q_3d, K_3d, V_3d = Q, K, V
     # Reshape for multi-head attention
-    q = Q.reshape((B, S, n_heads, d_head)).transpose([0, 2, 1, 3])
-    k = K.reshape((B, S, n_heads, d_head)).transpose([0, 2, 1, 3]) 
-    v = V.reshape((B, S, n_heads, d_head)).transpose([0, 2, 1, 3])
+    Q_3d = Q.reshape((B, S, n_heads, d_head)).transpose([0, 2, 1, 3])
+    K_3d = K.reshape((B, S, n_heads, d_head)).transpose([0, 2, 1, 3]) 
+    V_3d = V.reshape((B, S, n_heads, d_head)).transpose([0, 2, 1, 3])
     
     # Scaled dot-product attention
-    score = jnp.einsum("BHTE,BHSE->BHTS", q, k) / jnp.sqrt(d_head)
+    score = jnp.einsum("BHTE,BHSE->BHTS", Q_3d, K_3d) / jnp.sqrt(d_head)
     
     if mask is not None:
-        Tq, Tk = q.shape[2], k.shape[2]
+        Tq, Tk = Q_3d.shape[2], K_3d.shape[2]
         _mask = mask.reshape((B, 1, Tq, Tk))
         score = jnp.where(_mask, score, -1e6)
         
     score = jax.nn.softmax(score, axis=-1)
-    score = score.astype(q.dtype)
+    score = score.astype(Q_3d.dtype)
     
     if dropout_rate > 0.0:
         # dkey = random.fold_in(key, 0)
@@ -84,7 +84,7 @@ class AttentionBlock(JaxComponent):
         self.batch_size = batch_size
         self.seq_len = seq_len
         self.d_head = n_embed // n_heads
-
+        
         # Input compartments
         self.inputs_q = Compartment(jnp.zeros((batch_size, seq_len, n_embed)))
         self.inputs_k = Compartment(jnp.zeros((batch_size, seq_len, n_embed)))

@@ -15,4 +15,4 @@ class Config:
     wub = 0.01
     wlb = -0.01
     tau_m = 10.
-    act_fx = "tanh"
+    act_fx = "lrelu"
