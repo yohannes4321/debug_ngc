@@ -491,8 +491,7 @@ class NGCTransformer:
                     print(f"  Block {i} mlp error 1   = {block.mlp.e_mlp.L.value}")
                     print(f"  Block {i} mlp error 2   = {block.mlp.e_mlp1.L.value}")
                     
-                    block.mlp.e_mlp1.mu << block.mlp.W_mlp1.outputs
-                    block.mlp.e_mlp1.target << block.mlp.z_mlp2.z
+                   
                     print("block.mlp.e_mlp1.mu:", block.mlp.e_mlp1.mu)
                     print("wmlpq outputs value ",block.mlp.W_mlp1.outputs)
                     print("block.mlp.e_mlp1.target:", block.mlp.e_mlp1.target)
