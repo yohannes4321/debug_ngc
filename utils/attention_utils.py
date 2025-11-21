@@ -46,7 +46,7 @@ def _compute_attention(Q, K, V, mask, n_heads, d_head, dropout_rate, key):
         dkey = random.PRNGKey(0)
         score = jax.random.bernoulli(dkey, 1 - dropout_rate, score.shape) * score / (1 - dropout_rate)
         
-    attention = jnp.einsum("BHTS,BHSE->BHTE", score, v)
+    attention = jnp.einsum("BHTS,BHSE->BHTE", score, V_3d)
     attention = attention.transpose([0, 2, 1, 3]).reshape((B, S, -1))
     
     return attention
@@ -84,7 +84,7 @@ class AttentionBlock(JaxComponent):
         self.batch_size = batch_size
         self.seq_len = seq_len
         self.d_head = n_embed // n_heads
-        
+
         # Input compartments
         self.inputs_q = Compartment(jnp.zeros((batch_size, seq_len, n_embed)))
         self.inputs_k = Compartment(jnp.zeros((batch_size, seq_len, n_embed)))
