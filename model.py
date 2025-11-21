@@ -496,8 +496,17 @@ class NGCTransformer:
                     print("wmlpq outputs value ",block.mlp.W_mlp1.outputs)
                     print("block.mlp.e_mlp1.target:", block.mlp.e_mlp1.target)
                     print("zmplp2 value ",block.mlp.z_mlp2.z)
-                    block.mlp.W_mlp2.inputs
                     
+
+                    print("check the surrounding ")
+                    print("z_mlp2",block.mlp.z_mlp2.zF)
+                    print("cheack w_mlp2",block.mlp.W_mlp2.inputs)
+                    print("block.mlp.e_mlp.mu",block.mlp.e_mlp.mu)
+                    print("block.mlp.W_mlp2.outputs",block.mlp.W_mlp2.outputs)
+
+                    # block.mlp.W_mlp2.inputs << block.mlp.z_mlp2.zF
+                    # block.mlp.e_mlp.mu << block.mlp.W_mlp2.outputs
+
 
             y_mu = self.output.e_out.mu.value  # settled prediction
 
