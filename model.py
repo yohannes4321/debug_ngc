@@ -548,7 +548,7 @@ class NGCTransformer:
                     # block.mlp.W_mlp2.inputs << block.mlp.z_mlp2.zF
                     # block.mlp.e_mlp.mu << block.mlp.W_mlp2.outputs
 
-
+the order is embed then after passing attention system escore  then eatten then emlp1 the emlp then eout
             y_mu = self.output.e_out.mu.value  # settled prediction
 
             # Sum errors for expected free energy
