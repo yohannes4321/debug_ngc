@@ -7,7 +7,7 @@ from ngclearn.components.jaxComponent import JaxComponent
 from ngclearn import resolver, Compartment
 from ngcsimlib.compilers.process import transition
 from ngclearn.utils import tensorstats
-
+from ngclearn.utils.model_utils import drop_out, softmax, gelu, layer_normalize
 @partial(jit, static_argnums=[0, 1])
 def _create_sinusoidal_embeddings(seq_len, embed_dim):
     """Create fixed sinusoidal position embeddings"""
@@ -26,6 +26,9 @@ def _compute_embedding_updates(inputs, post, word_weights, pos_weights,
     """
     Compute updates for word and position embeddings
     """
+    # normailize the inputs
+
+    inputs= (inputs,ln_in_mu, ln_in_scale)
     
     # Flatten for processing
     flat_tokens = inputs.reshape(-1)

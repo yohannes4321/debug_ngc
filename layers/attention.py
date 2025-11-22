@@ -31,7 +31,7 @@ class Attention:
         
     def __init__(self, dkey, n_embed, seq_len, batch_size, n_heads, dropout_rate, eta, optim_type, wub, wlb, prefix,act_fx ,**kwargs):
     
-        # dkey, *subkeys = random.split(dkey, 10)
+        dkey, *subkeys = random.split(dkey, 10)
         # fan_in = n_embed  # or shape[0]
         # he_std = jnp.sqrt(2.0 / fan_in)
 
