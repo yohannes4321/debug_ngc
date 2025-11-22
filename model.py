@@ -88,7 +88,8 @@ class NGCTransformer:
                                             input_shape=(batch_size * seq_len, n_embed),
                                             output_shape=(batch_size, seq_len, n_embed))
                 
-                self.normalize=NormalizeComponent("NormalizeComponent")
+                self.normalize=NormalizeComponent("normalize",input_shape=(batch_size * seq_len, n_embed),
+                                            output_shape=(batch_size * seq_len, n_embed))
                 self.embedding.W_embed.inputs << self.embedding.z_embed.zF  
                 self.reshape_3d_to_2d_embed.inputs << self.embedding.W_embed.outputs   
                 self.embedding.e_embed.mu << self.reshape_3d_to_2d_embed.outputs
@@ -317,6 +318,7 @@ class NGCTransformer:
                 advance_process >> self.output.z_out.advance_state
                 advance_process >> self.embedding.W_embed.advance_state
                 advance_process >> self.reshape_3d_to_2d_embed.advance_state
+                advance_process >> self.normalize.advance_state
                 advance_process >> self.reshape_2d_to_3d_embed.advance_state
                 advance_process >> self.output.W_out.advance_state
                 advance_process >> self.embedding.e_embed.advance_state
@@ -331,6 +333,7 @@ class NGCTransformer:
                 reset_process >> self.embedding.e_embed.reset
                 reset_process >> self.output.e_out.reset
                 reset_process >> self.reshape_3d_to_2d_embed.reset
+                reset_process >> self.normalize.reset
                 reset_process >> self.reshape_2d_to_3d_embed.reset
 
                 evolve_process >> self.output.W_out.evolve
@@ -369,10 +372,10 @@ class NGCTransformer:
                 self._dynamic(processes)
     
     def _dynamic(self, processes):
-        vars = self.circuit.get_components( "reshape_3d_to_2d_embed", "reshape_2d_to_3d_embed",
+        vars = self.circuit.get_components( "normalize","reshape_3d_to_2d_embed", "reshape_2d_to_3d_embed",
             "q_embed", "q_out", "reshape_3d_to_2d_proj", "q_target", "eq_target","Q_embed", "Q_out",
                                            "z_embed", "z_out", "e_embed", "e_out", "W_embed", "W_out", "E_out")
-        (self.reshape_3d_to_2d_embed,  self.reshape_2d_to_3d_embed, self.q_embed, self.q_out, self.reshape_3d_to_2d_proj, 
+        (self.normalize,self.reshape_3d_to_2d_embed,  self.reshape_2d_to_3d_embed, self.q_embed, self.q_out, self.reshape_3d_to_2d_proj, 
         self.q_target, self.eq_target, self.Q_embed, self.Q_out,
         self.embedding.z_embed, self.output.z_out, self.embedding.e_embed, self.output.e_out, self.embedding.W_embed,
         self.output.W_out, self.output.E_out) = vars
