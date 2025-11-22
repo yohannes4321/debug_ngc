@@ -460,119 +460,122 @@ class NGCTransformer:
     def process(self, obs, lab, adapt_synapses=True):
         eps = 0.001
         _lab = jnp.clip(lab, eps, 1. - eps)
+        print("shape",self.embedding.W_embed.inputs.shape)
+        print("input value",self.embedding.W_embed.inputs)
         self.circuit.reset()
 
-        ## pin/tie inference synapses to be exactly equal to the forward ones
-        self.Q_embed.word_weights.set(self.embedding.W_embed.word_weights.value)
-        if self.embedding.W_embed.pos_learnable:
-           self.Q_embed.pos_weights.set(self.embedding.W_embed.pos_weights.value)
-        for i in range(self.n_layers):
+#         ## pin/tie inference synapses to be exactly equal to the forward ones
+#         self.Q_embed.word_weights.set(self.embedding.W_embed.word_weights.value)
+#         if self.embedding.W_embed.pos_learnable:
+#            self.Q_embed.pos_weights.set(self.embedding.W_embed.pos_weights.value)
+#         for i in range(self.n_layers):
             
-            block_proj= self.projection.blocks[i]
-            block= self.blocks[i]
-            # print(f"Block {i} errors: attn={block.attention.e_attn.L.value}, mlp={block.mlp.e_mlp.L.value}")
-            block_proj.Q_q.weights.set(block.attention.W_q.weights.value)
-            block_proj.Q_q.biases.set(block.attention.W_q.biases.value)
-            block_proj.Q_k.weights.set(block.attention.W_k.weights.value)
-            block_proj.Q_k.biases.set(block.attention.W_k.biases.value)
-            block_proj.Q_v.weights.set(block.attention.W_v.weights.value)
-            block_proj.Q_v.biases.set(block.attention.W_v.biases.value)
+#             block_proj= self.projection.blocks[i]
+#             block= self.blocks[i]
+#             # print(f"Block {i} errors: attn={block.attention.e_attn.L.value}, mlp={block.mlp.e_mlp.L.value}")
+#             block_proj.Q_q.weights.set(block.attention.W_q.weights.value)
+#             block_proj.Q_q.biases.set(block.attention.W_q.biases.value)
+#             block_proj.Q_k.weights.set(block.attention.W_k.weights.value)
+#             block_proj.Q_k.biases.set(block.attention.W_k.biases.value)
+#             block_proj.Q_v.weights.set(block.attention.W_v.weights.value)
+#             block_proj.Q_v.biases.set(block.attention.W_v.biases.value)
             
-            block_proj.q_attn_block.inputs_q.set(block.attention.attn_block.inputs_q.value)
-            block_proj.q_attn_block.inputs_k.set(block.attention.attn_block.inputs_k.value)
-            block_proj.q_attn_block.inputs_v.set(block.attention.attn_block.inputs_v.value)
+#             block_proj.q_attn_block.inputs_q.set(block.attention.attn_block.inputs_q.value)
+#             block_proj.q_attn_block.inputs_k.set(block.attention.attn_block.inputs_k.value)
+#             block_proj.q_attn_block.inputs_v.set(block.attention.attn_block.inputs_v.value)
 
-            block_proj.Q_attn_out.weights.set(block.attention.W_attn_out.weights.value)
-            block_proj.Q_attn_out.biases.set(block.attention.W_attn_out.biases.value)
-            block_proj.Q_attn_score.weights.set(block.attention.W_attn_score.weights.value)
-            block_proj.Q_attn_score.biases.set(block.attention.W_attn_score.biases.value)
+#             block_proj.Q_attn_out.weights.set(block.attention.W_attn_out.weights.value)
+#             block_proj.Q_attn_out.biases.set(block.attention.W_attn_out.biases.value)
+#             block_proj.Q_attn_score.weights.set(block.attention.W_attn_score.weights.value)
+#             block_proj.Q_attn_score.biases.set(block.attention.W_attn_score.biases.value)
 
 
 
-            block_proj.Q_mlp1.weights.set(block.mlp.W_mlp1.weights.value)
-            block_proj.Q_mlp1.biases.set(block.mlp.W_mlp1.biases.value)
-            block_proj.Q_mlp2.weights.set(block.mlp.W_mlp2.weights.value)
-            block_proj.Q_mlp2.biases.set(block.mlp.W_mlp2.biases.value)
+#             block_proj.Q_mlp1.weights.set(block.mlp.W_mlp1.weights.value)
+#             block_proj.Q_mlp1.biases.set(block.mlp.W_mlp1.biases.value)
+#             block_proj.Q_mlp2.weights.set(block.mlp.W_mlp2.weights.value)
+#             block_proj.Q_mlp2.biases.set(block.mlp.W_mlp2.biases.value)
             
-            ## pin/tie feedback synapses to transpose of forward ones
+#             ## pin/tie feedback synapses to transpose of forward ones
 
-            block.attention.E_attn.weights.set(jnp.transpose(block.attention.W_attn_out.weights.value))
-            block.mlp.E_mlp.weights.set(jnp.transpose(block.mlp.W_mlp2.weights.value))  
-            block.mlp.E_mlp1.weights.set(jnp.transpose(block.mlp.W_mlp1.weights.value))
-            block.attention.E_score.weights.set(jnp.transpose(block.attention.W_attn_score.weights.value))
+#             block.attention.E_attn.weights.set(jnp.transpose(block.attention.W_attn_out.weights.value))
+#             block.mlp.E_mlp.weights.set(jnp.transpose(block.mlp.W_mlp2.weights.value))  
+#             block.mlp.E_mlp1.weights.set(jnp.transpose(block.mlp.W_mlp1.weights.value))
+#             block.attention.E_score.weights.set(jnp.transpose(block.attention.W_attn_score.weights.value))
             
   
-        self.projection.Q_out.weights.set(self.output.W_out.weights.value)
-        self.projection.Q_out.biases.set(self.output.W_out.biases.value)
-        self.projection.q_target.j_td.set(jnp.zeros((config.batch_size * config.seq_len, config.vocab_size)))
+#         self.projection.Q_out.weights.set(self.output.W_out.weights.value)
+#         self.projection.Q_out.biases.set(self.output.W_out.biases.value)
+#         self.projection.q_target.j_td.set(jnp.zeros((config.batch_size * config.seq_len, config.vocab_size)))
         
-        ## pin/tie feedback synapses to transpose of forward ones
+#         ## pin/tie feedback synapses to transpose of forward ones
        
-        self.output.E_out.weights.set(jnp.transpose(self.output.W_out.weights.value))
+#         self.output.E_out.weights.set(jnp.transpose(self.output.W_out.weights.value))
         
-        ## Perform P-step (projection step)
-        self.circuit.clamp_input(obs)
-        self.circuit.clamp_infer_target(_lab)
-        self.circuit.project(t=0., dt=1.) 
-        ## initialize dynamics of generative model latents to projected states for the errors it's 0
-        self.blocks[0].attention.z_qkv.z.set(self.projection.blocks[0].q_qkv.z.value)
-        self.blocks[0].mlp.z_mlp.z.set(self.projection.blocks[0].q_mlp.z.value)
-        self.blocks[0].mlp.z_mlp2.z.set(self.projection.blocks[0].q_mlp2.z.value)
-        self.output.e_out.dmu.set(self.projection.eq_target.dmu.value)
-        self.output.e_out.dtarget.set(self.projection.eq_target.dtarget.value)
+#         ## Perform P-step (projection step)
+#         self.circuit.clamp_input(obs)
+#         self.circuit.clamp_infer_target(_lab)
+#         self.circuit.project(t=0., dt=1.) 
+#         ## initialize dynamics of generative model latents to projected states for the errors it's 0
+#         self.blocks[0].attention.z_qkv.z.set(self.projection.blocks[0].q_qkv.z.value)
+#         self.blocks[0].mlp.z_mlp.z.set(self.projection.blocks[0].q_mlp.z.value)
+#         self.blocks[0].mlp.z_mlp2.z.set(self.projection.blocks[0].q_mlp2.z.value)
+#         self.output.e_out.dmu.set(self.projection.eq_target.dmu.value)
+#         self.output.e_out.dtarget.set(self.projection.eq_target.dtarget.value)
         
         
-        ## get projected prediction (from the P-step)
-        y_mu_inf = self.q_target.z.value
+#         ## get projected prediction (from the P-step)
+#         y_mu_inf = self.q_target.z.value
 
-        EFE = 0. ## expected free energy
-        y_mu = 0.
-        if bool(adapt_synapses):
-            for ts in range(self.T):
-                self.circuit.clamp_input(obs)   # clamp input data
-                self.circuit.clamp_target(_lab)  # clamp target data
-                self.circuit.advance(t=ts, dt=1.)
+#         EFE = 0. ## expected free energy
+#         y_mu = 0.
+#         if bool(adapt_synapses):
+#             for ts in range(self.T):
+#                 self.circuit.clamp_input(obs)   # clamp input data
+#                 self.circuit.clamp_target(_lab)  # clamp target data
+#                 self.circuit.advance(t=ts, dt=1.)
 
-                # Print all relevant L-values at this timestep
-                print(f"ts={ts}:")
-                print(f"  L_embed (L1) = {self.embedding.e_embed.L.value}")
-                print(f"  L_out   (L4) = {self.output.e_out.L.value}")
-                for i, block in enumerate(self.blocks):
-                    print(f"  Block {i} attention error = {block.attention.e_attn.L.value}")
-                    print(f"  Block {i} mlp error 1   = {block.mlp.e_mlp1.L.value}")
-                    print(f"  Block {i} mlp error 2   = {block.mlp.e_mlp.L.value}")
-                    print(f"  Block {i} escore error 2   = {block.attention.e_score.L.value}")
+#                 # Print all relevant L-values at this timestep
+#                 print(f"ts={ts}:")
+#                 print(f"  L_embed (L1) = {self.embedding.e_embed.L.value}")
+#                 print(f"  L_out   (L4) = {self.output.e_out.L.value}")
+#                 for i, block in enumerate(self.blocks):
+#                     print(f"  Block {i} attention error = {block.attention.e_attn.L.value}")
+#                     print(f"  Block {i} mlp error 1   = {block.mlp.e_mlp1.L.value}")
+#                     print(f"  Block {i} mlp error 2   = {block.mlp.e_mlp.L.value}")
+#                     print(f"  Block {i} escore error 2   = {block.attention.e_score.L.value}")
                     
                    
                     
-                    # block.mlp.W_mlp2.inputs << block.mlp.z_mlp2.zF
-                    # block.mlp.e_mlp.mu << block.mlp.W_mlp2.outputs
+#                     # block.mlp.W_mlp2.inputs << block.mlp.z_mlp2.zF
+#                     # block.mlp.e_mlp.mu << block.mlp.W_mlp2.outputs
 
-the order is embed then after passing attention system escore  then eatten then emlp1 the emlp then eout
-            y_mu = self.output.e_out.mu.value  # settled prediction
+# # the order is embed then after passing attention system escore  then eatten then emlp1 the emlp then eout
+# #             y_mu = self.output.e_out.mu.value  # settled prediction
 
-            # Sum errors for expected free energy
-            L1 = self.embedding.e_embed.L.value
-            L4 = self.output.e_out.L.value
-            block_errors = sum(
-                block.attention.e_attn.L.value +
-                block.attention.e_score.L.value +
-                block.mlp.e_mlp.L.value +
-                block.mlp.e_mlp1.L.value
-                for block in self.blocks
-            )
-            EFE = L1 + L4 + block_errors
+#             # Sum errors for expected free energy
+#             L1 = self.embedding.e_embed.L.value
+#             L4 = self.output.e_out.L.value
+#             block_errors = sum(
+#                 block.attention.e_attn.L.value +
+#                 block.attention.e_score.L.value +
+#                 block.mlp.e_mlp.L.value +
+#                 block.mlp.e_mlp1.L.value
+#                 for block in self.blocks
+#             )
+#             EFE = L1 + L4 + block_errors
 
-            # print("\nBefore evolve():")
-            # print(f"  Output weights = {self.output.W_out.weights.value}")
+#             # print("\nBefore evolve():")
+#             # print(f"  Output weights = {self.output.W_out.weights.value}")
 
-            if bool(adapt_synapses):
-                self.circuit.evolve()
-                self.circuit.evolve_embedding()
-                # print("\nAfter evolv/e():")
-                # print(f"  Output weights = {self.output.W_out.weights.value}")
-                # print("  Weights updated ✅")
-                ## skip E/M steps if just doing test-time inference
+#             if bool(adapt_synapses):
+#                 self.circuit.evolve()
+#                 self.circuit.evolve_embedding()
+#                 # print("\nAfter evolv/e():")
+#                 # print(f"  Output weights = {self.output.W_out.weights.value}")
+#                 # print("  Weights updated ✅")
+#                 ## skip E/M steps if just doing test-time inference
+        return 1 ,1,1
         return y_mu_inf, y_mu, EFE
 
     def get_latents(self):
