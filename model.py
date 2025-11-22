@@ -16,8 +16,9 @@ from utils.embed_utils import EmbeddingSynapse
 from layers.mlp import MLP
 from layers.output import Output
 from utils.model_util import ReshapeComponent
+from utils.normalize_utils import NormalizeComponent
 from projection.projection import Projection
-
+from ngclearn.operations import summation as summ, overwrite
 class NGCTransformer:
     """
     Predictive Coding Transformer following PCN architecture from:
@@ -87,7 +88,7 @@ class NGCTransformer:
                                             input_shape=(batch_size * seq_len, n_embed),
                                             output_shape=(batch_size, seq_len, n_embed))
                 
-                
+                self.normalize=NormalizeComponent("NormalizeComponent")
                 self.embedding.W_embed.inputs << self.embedding.z_embed.zF  
                 self.reshape_3d_to_2d_embed.inputs << self.embedding.W_embed.outputs   
                 self.embedding.e_embed.mu << self.reshape_3d_to_2d_embed.outputs
@@ -96,9 +97,12 @@ class NGCTransformer:
                 # self.reshape_4d_to_2d.inputs << self.attention.z_qkv.zF
                 for blocks in range(n_layers):
                     block= self.blocks[blocks]
-                    block.attention.W_q.inputs << block.attention.z_qkv.zF
-                    block.attention.W_k.inputs << block.attention.z_qkv.zF
-                    block.attention.W_v.inputs << block.attention.z_qkv.zF
+                    # normalize
+                    self.normalize.inputs << block.attention.z_qkv.zF
+                    
+                    block.attention.W_q.inputs << self.normalize.outputs
+                    block.attention.W_k.inputs << self.normalize.outputs
+                    block.attention.W_v.inputs << self.normalize.outputs
                     
                     block.reshape_2d_to_3d_q.inputs << block.attention.W_q.outputs
                     block.reshape_2d_to_3d_k.inputs << block.attention.W_k.outputs
@@ -109,7 +113,11 @@ class NGCTransformer:
                     block.attention.attn_block.inputs_v << block.reshape_2d_to_3d_v.outputs
                     
                     block.reshape_3d_to_2d.inputs << block.attention.attn_block.outputs
-                    block.attention.W_attn_score.inputs << block.reshape_3d_to_2d.outputs
+                    # resdual connection
+                    block.attention.W_attn_score.inputs << summ(block.reshape_3d_to_2d.outputs,block.attention.z_qkv.zF )
+
+
+
                     block.attention.e_score.mu <<  block.attention.W_attn_score.outputs
                     block.attention.e_score.target << block.attention.z_score.z
 
@@ -118,12 +126,16 @@ class NGCTransformer:
                     block.attention.e_attn.mu << block.attention.W_attn_out.outputs
                     block.attention.e_attn.target << block.mlp.z_mlp.z
 
-                    block.mlp.W_mlp1.inputs << block.mlp.z_mlp.zF
+                    self.normalize.inputs << block.mlp.z_mlp.zF
+                    block.mlp.W_mlp1.inputs << self.normalize.outputs
+
+      
                     block.mlp.e_mlp1.mu << block.mlp.W_mlp1.outputs
                     block.mlp.e_mlp1.target << block.mlp.z_mlp2.z
                     
+                     
+                    block.mlp.W_mlp2.inputs << block.mlp.z_mlp2.zF 
                     
-                    block.mlp.W_mlp2.inputs << block.mlp.z_mlp2.zF
                     block.mlp.e_mlp.mu << block.mlp.W_mlp2.outputs
                     
                     if blocks == n_layers -1:
@@ -178,7 +190,7 @@ class NGCTransformer:
                     block.mlp.W_mlp2.post << block.mlp.e_mlp.dmu
                         
                 self.output.W_out.inputs << self.output.z_out.zF
-                self.output.e_out.mu << self.output.W_out.outputs
+                self.output.e_out.mu << summ(self.output.W_out.outputs ,block.mlp.z_mlp.zF)
                 self.output.e_out.target << self.z_target.z
             
                 self.output.E_out.inputs << self.output.e_out.dmu

@@ -7,7 +7,7 @@ from ngclearn.components.jaxComponent import JaxComponent
 from ngclearn import resolver, Compartment
 from ngcsimlib.compilers.process import transition
 from ngclearn.utils import tensorstats
-from ngclearn.utils.model_utils import drop_out, softmax, gelu, layer_normalize
+
 @partial(jit, static_argnums=[0, 1])
 def _create_sinusoidal_embeddings(seq_len, embed_dim):
     """Create fixed sinusoidal position embeddings"""
@@ -26,8 +26,6 @@ def _compute_embedding_updates(inputs, post, word_weights, pos_weights,
     """
     Compute updates for word and position embeddings
     """
-    
-
     
     # Flatten for processing
     flat_tokens = inputs.reshape(-1)
@@ -114,8 +112,6 @@ class EmbeddingSynapse(JaxComponent):
             pos_weights = _create_sinusoidal_embeddings(seq_len, embed_dim)
 
         ## Compartments
-        self.ln_in_mu = jnp.zeros((1, seq_len))
-        self.ln_in_scale = jnp.ones((1, seq_len))
         self.inputs = Compartment(jnp.zeros((batch_size, seq_len), dtype=jnp.int32))
         self.outputs = Compartment(jnp.zeros((batch_size, seq_len, embed_dim)))
         self.word_weights = Compartment(word_weights)
@@ -139,11 +135,10 @@ class EmbeddingSynapse(JaxComponent):
 
     @transition(output_compartments=["outputs"])
     @staticmethod
-    def advance_state(inputs,ln_in_mu,ln_in_scale, word_weights, pos_weights, seq_len, embed_dim):
+    def advance_state(inputs, word_weights, pos_weights, seq_len, embed_dim):
         """
         Forward pass: output = word_embedding[inputs] + position_embedding[positions]
         """
-        inputs = layer_normalize(inputs, ln_in_mu, ln_in_scale)
         batch_size = inputs.shape[0]
         
         flat_tokens = inputs.reshape(-1).astype(jnp.int32)
