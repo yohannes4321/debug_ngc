@@ -535,7 +535,7 @@ class NGCTransformer:
                 self.circuit.clamp_target(_lab)  # clamp target data
                 self.circuit.advance(t=ts, dt=1.)
                 # print("shape",self.embedding.W_embed.inputs.shape)
-                print("input value",self.embedding.W_embed.inputs)
+                # print("input value",self.embedding.W_embed.inputs)
                 # Print all relevant L-values at this timestep
                 print(f"ts={ts}:")
                 print(f"  L_embed (L1) = {self.embedding.e_embed.L.value}")
