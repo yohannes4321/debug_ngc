@@ -100,14 +100,25 @@ class EmbeddingSynapse(JaxComponent):
         self.eta = eta
         self.weight_scale = weight_scale
         self.optim_type = optim_type
+        fan_in = self.embed_dim
+
+        # Kaiming (He) based initialization (matching Attention)
+        he_std = jnp.sqrt(2.0 / fan_in)        # base He std
+        scaled_std = 0.5 * he_std              # scaled to avoid softmax saturation
+        wlb = -2.0 * scaled_std                # lower bound
+        wub =  2.0 * scaled_std 
 
         key = self.key.value
         word_key, pos_key = random.split(key, 2)
         
-        word_weights = random.normal(word_key, (vocab_size, embed_dim)) * weight_scale
+        word_weights = random.uniform(
+    word_key, (vocab_size, embed_dim), minval=wlb, maxval=wub
+)
         
         if pos_learnable:
-            pos_weights = random.normal(pos_key, (seq_len, embed_dim)) * weight_scale
+            pos_weights = random.uniform(
+        pos_key, (seq_len, embed_dim), minval=wlb, maxval=wub
+    )
         else:
             pos_weights = _create_sinusoidal_embeddings(seq_len, embed_dim)
 
