@@ -559,6 +559,13 @@ class NGCTransformer:
                 # print("shape",self.embedding.W_embed.inputs.shape)
                 # print("input value",self.embedding.W_embed.inputs)
                 # Print all relevant L-values at this timestep
+                print (" error prediction ",block.attention.W_attn_score.outputs)
+
+                print("error target ",block.attention.z_score.z)
+
+
+
+               
                 print(f"ts={ts}:")
                 print(f"  L_embed (L1) = {self.embedding.e_embed.L.value}")
                 print(f"  L_out   (L4) = {self.output.e_out.L.value}")
