@@ -393,7 +393,7 @@ class NGCTransformer:
                 f"block{i}_reshape_3d_to_2d", f"block{i}_reshape_3d_to_2d_attnout",
                 f"proj_block{i}_q_qkv", f"proj_block{i}_Q_q", f"proj_block{i}_Q_k", f"proj_block{i}_Q_v",
                 f"proj_block{i}_Q_attn_out", f"proj_block{i}_q_attn_block",f"proj_block{i}_q_score",f"proj_block{i}_Q_attn_score",
-                f"proj_block{i}_reshape_3d_to_2d_proj", f"proj_block{i}_q_mlp", f"proj_block{i}_Q_mlp1",
+                f"proj_block{i}_reshape_3d_to_2d_proj1", f"proj_block{i}_q_mlp", f"proj_block{i}_Q_mlp1",
                 f"proj_block{i}_q_mlp2", f"proj_block{i}_Q_mlp2"    
             )
             
