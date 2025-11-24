@@ -18,7 +18,7 @@ from layers.output import Output
 from utils.model_util import ReshapeComponent
 from utils.normalize_utils import NormalizeComponent
 from projection.projection import Projection
-from ngclearn.operations import summation as summ, overwrite
+
 class NGCTransformer:
     """
     Predictive Coding Transformer following PCN architecture from:
@@ -115,7 +115,7 @@ class NGCTransformer:
                     
                     block.reshape_3d_to_2d.inputs << block.attention.attn_block.outputs
                     # resdual connection
-                    block.attention.W_attn_score.inputs << summ(block.reshape_3d_to_2d.outputs,block.attention.z_qkv.zF )
+                    block.attention.W_attn_score.inputs << block.reshape_3d_to_2d.outputs
 
 
 
@@ -191,7 +191,7 @@ class NGCTransformer:
                     block.mlp.W_mlp2.post << block.mlp.e_mlp.dmu
                         
                 self.output.W_out.inputs << self.output.z_out.zF
-                self.output.e_out.mu << summ(self.output.W_out.outputs ,block.mlp.z_mlp.zF)
+                self.output.e_out.mu << self.output.W_out.outputs 
                 self.output.e_out.target << self.z_target.z
             
                 self.output.E_out.inputs << self.output.e_out.dmu
@@ -392,8 +392,8 @@ class NGCTransformer:
                 f"block{i}_reshape_2d_to_3d_q", f"block{i}_reshape_2d_to_3d_k", f"block{i}_reshape_2d_to_3d_v",
                 f"block{i}_reshape_3d_to_2d", f"block{i}_reshape_3d_to_2d_attnout",
                 f"proj_block{i}_q_qkv", f"proj_block{i}_Q_q", f"proj_block{i}_Q_k", f"proj_block{i}_Q_v",
-                f"proj_block{i}_Q_attn_out", f"proj_block{i}_q_attn_block",f"proj_block{i}_q_score",f"proj_block{i}_Q_attn_score"
-                f"proj_block{i}_reshape_3d_to_2d_proj1", f"proj_block{i}_q_mlp", f"proj_block{i}_Q_mlp1",
+                f"proj_block{i}_Q_attn_out", f"proj_block{i}_q_attn_block",f"proj_block{i}_q_score",f"proj_block{i}_Q_attn_score",
+                f"proj_block{i}_reshape_3d_to_2d_proj", f"proj_block{i}_q_mlp", f"proj_block{i}_Q_mlp1",
                 f"proj_block{i}_q_mlp2", f"proj_block{i}_Q_mlp2"    
             )
             
