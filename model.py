@@ -18,7 +18,7 @@ from layers.output import Output
 from utils.model_util import ReshapeComponent
 from utils.normalize_utils import NormalizeComponent
 from projection.projection import Projection
-
+from utils.resdual_connection import ResidualConnectionComponent
 class NGCTransformer:
     """
     Predictive Coding Transformer following PCN architecture from:
@@ -90,6 +90,8 @@ class NGCTransformer:
                 
                 self.normalize=NormalizeComponent("normalize",input_shape=(batch_size * seq_len, n_embed),
                                             output_shape=(batch_size * seq_len, n_embed))
+                self.residual=ResidualConnectionComponent("residual",input_shape=(batch_size * seq_len, n_embed),
+                                            output_shape=(batch_size * seq_len, n_embed))
                 self.embedding.W_embed.inputs << self.embedding.z_embed.zF  
                 self.reshape_3d_to_2d_embed.inputs << self.embedding.W_embed.outputs   
                 self.embedding.e_embed.mu << self.reshape_3d_to_2d_embed.outputs
@@ -115,10 +117,13 @@ class NGCTransformer:
                     
                     block.reshape_3d_to_2d.inputs << block.attention.attn_block.outputs
                     # resdual connection
-                    block.attention.W_attn_score.inputs << block.reshape_3d_to_2d.outputs
+
+                    self.residual.inputs_1 << block.reshape_3d_to_2d.outputs
+                    self.residual.inputs_2 << self.normalize.inputs
+                    block.attention.W_attn_score.inputs << self.residual.outputs
 
 
-
+                    # i have to do some work 
                     block.attention.e_score.mu <<  block.attention.W_attn_score.outputs
                     block.attention.e_score.target << block.attention.z_score.z
 
@@ -137,8 +142,10 @@ class NGCTransformer:
                      
                     block.mlp.W_mlp2.inputs << block.mlp.z_mlp2.zF 
                     
-                    block.mlp.e_mlp.mu << block.mlp.W_mlp2.outputs
-                    
+                    self.residual.inputs_1 << block.mlp.W_mlp2.outputs
+                    self.residual.inputs_2 << self.normalize.inputs
+
+                    block.mlp.e_mlp.mu  << self.residual.outputs 
                     if blocks == n_layers -1:
                         block.mlp.e_mlp.target << self.output.z_out.z
                     else:
